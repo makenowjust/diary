@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "dependencies": {
+    "cpx": "^1.5.0",
+    "fancy-log": "^1.2.0",
+    "fs-promise": "^1.0.0",
+    "glob": "^7.1.1",
+    "glob-promise": "^2.0.0",
+    "js-beautify": "^1.6.4",
+    "js-yaml": "^3.7.0",
+    "markdown-it": "^8.2.0",
+    "markdown-it-front-matter": "^0.1.2",
+    "mkdirp-promise": "^4.0.1",
+    "moment": "^2.17.0",
+    "pug": "^2.0.0-beta6",
+    "rimraf-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "build": "node --harmony ./bin/build.js",
+    "dev": "http-server output -p 13871",
+    "watch": "chokidar 'src/**/*' 'article/**/*' -c 'npm run build'"
+  }
+}

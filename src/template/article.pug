@@ -1,0 +1,13 @@
+extends /layout/default
+
+prepend main
+  article
+    .article-header
+      .time
+        time(pubdate=true, datetime=locals.date.format())= locals.date.format('YYYY/MM/DD')
+      h1= locals.title
+    .article-content
+      != locals.content
+    .article-footer
+      .author
+        | written by #[a(href=locals.author.url)= locals.author.name]
