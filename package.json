@@ -17,11 +17,13 @@
   },
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
+    "gh-pages": "^0.12.0",
     "http-server": "^0.9.0"
   },
   "scripts": {
     "build": "node --harmony ./bin/build.js",
     "dev": "http-server output -p 13871",
-    "watch": "chokidar 'src/**/*' 'article/**/*' -c 'npm run build'"
+    "watch": "chokidar 'src/**/*' 'article/**/*' -c 'npm run build'",
+    "deploy": "gh-pages -d output/"
   }
 }
