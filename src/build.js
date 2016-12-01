@@ -13,6 +13,7 @@ const markdownIt = require('markdown-it')
 const mkdirpp = require('mkdirp-promise')
 const moment = require('moment')
 const pug = require('pug')
+const pygments = require('pygments')
 const rimrafp = require('rimraf-promise')
 const yaml = require('js-yaml')
 
@@ -33,7 +34,7 @@ const outputRoot = path.join(projectRoot, 'output')
 const templateRoot = path.join(projectRoot, 'src', 'template')
 
 const baseUrl = process.env.NODE_ENV === 'production' ?
-  'https://makenowjust.github.io/diary/' :
+  'https://makenowjust.github.io/diary' :
   'http://localhost:13871'
 
 const defaultAuthor = {
@@ -49,6 +50,13 @@ const convertMarkdown = markdown => {
       html: true,
       linkify: true,
       breaks: true,
+      highlight: (code, lang) => {
+        if (lang) {
+          const spans = pygments.colorizeSync(code, lang === 'crystal' ? 'ruby' : lang, 'html', {O: 'nowrap=True'})
+          return spans === '' ? '' : `<pre><code>${spans}</code></pre>`
+        }
+        return ''
+      },
     })
     .use(require('markdown-it-front-matter'), fm => {
       data = yaml.safeLoad(fm)
