@@ -299,3 +299,9 @@ img {
   max-width: 100%;
   height; auto;
 }
+
+/* == list == */
+
+ul > li, ol > li {
+  margin: 0.3em 0;
+}
