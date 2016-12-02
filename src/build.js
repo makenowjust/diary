@@ -98,7 +98,9 @@ const getArticles = async () => {
     articles.push(article)
   }
 
-  return articles
+  return articles.sort((a, b) =>
+    a.date > b.date ? -1 : a.date - b.date ? 1 :
+    a.path > b.path ? 1 : a.path < b.path ? -1 : 0)
 }
 
 // == build ==
