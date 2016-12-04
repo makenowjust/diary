@@ -164,7 +164,7 @@ html, body {
 
 header, footer,
 .article-list, .article-header, .article-footer, .article-content > * {
-  margin: 0 auto;
+  margin: 1em auto;
   width: 640px;
 }
 
@@ -207,44 +207,6 @@ footer {
   margin: 2rem 0;
 }
 
-/* == content == */
-
-/* p */
-
-p {
-  padding: 1rem 0;
-}
-
-/* == h1, h2, h3 ... == */
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 1rem 0;
-}
-
-h1 {
-  font-size: 1.8rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-size: 1.4rem;
-}
-
-h4 {
-  font-size: 1.3rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-}
-
-h6 {
-  font-size: 1.1rem;
-}
-
 /* == time == */
 
 time {
@@ -255,6 +217,49 @@ time {
   text-decoration: none;
   margin: 0 1em 0 0;
   padding: 0 0.5em;
+}
+
+/* == content == */
+
+/* p */
+
+.article-content p {
+  margin: 1.2rem auto;
+}
+
+/* == h1, h2, h3 ... == */
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  margin: 1.2rem auto;
+}
+
+.article-content h1 {
+  font-size: 1.8rem;
+}
+
+.article-content h2 {
+  font-size: 1.5rem;
+}
+
+.article-content h3 {
+  font-size: 1.4rem;
+}
+
+.article-content h4 {
+  font-size: 1.3rem;
+}
+
+.article-content h5 {
+  font-size: 1.2rem;
+}
+
+.article-content h6 {
+  font-size: 1.1rem;
 }
 
 /* == a == */
@@ -271,14 +276,14 @@ a:hover {
 
 /* == pre, code == */
 
-.article-content > pre {
+.article-content pre {
   background: #4a4a4a;
   width: 100%;
   padding: 0.5em 0;
   margin: 0.5em 0;
 }
 
-.article-content > pre > code {
+.article-content pre > code {
   background: #4a4a4a;
   color: #fefefe;
   display: block;
@@ -301,6 +306,10 @@ img {
 }
 
 /* == list == */
+
+ul {
+  list-style-position: inside;
+}
 
 ul > li, ol > li {
   margin: 0.3em 0;
