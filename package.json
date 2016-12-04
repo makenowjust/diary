@@ -8,6 +8,7 @@
     "glob-promise": "^2.0.0",
     "js-beautify": "^1.6.4",
     "js-yaml": "^3.7.0",
+    "jstransformer-cdata-js": "^1.0.0",
     "markdown-it": "^8.2.0",
     "markdown-it-front-matter": "^0.1.2",
     "mkdirp-promise": "^4.0.1",

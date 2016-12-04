@@ -163,7 +163,8 @@ html, body {
 }
 
 header, footer,
-.article-list, .article-header, .article-footer, .article-content > * {
+.article-list, .article-header, .article-footer, .article-content > *,
+#disqus_thread {
   margin: 1em auto;
   width: 640px;
 }

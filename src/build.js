@@ -85,12 +85,13 @@ const getArticles = async () => {
   const articles = []
 
   for (const filename of await globp('*.md', {cwd: articleRoot})) {
-    const [_, year, month, day, base] = filename.match(/^(\d{4})-(\d{2})-(\d{2})-(.*).md$/)
+    const [_, key, year, month, day, base] = filename.match(/^((\d{4})-(\d{2})-(\d{2})-(.*)).md$/)
 
     const article = await convertMarkdown(await fsp.readFile(path.join(articleRoot, filename), 'utf-8'))
 
     article.author = article.author || defaultAuthor
     article.date = moment(`${year}/${month}/${day}`, 'YYYY/MM/DD')
+    article.key = key
     article.path = `article/${year}/${month}/${day}/${base}.html`
     article.output = path.join(outputRoot, article.path)
     article.url = `${baseUrl}/${article.path}`
