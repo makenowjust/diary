@@ -308,10 +308,10 @@ img {
 
 /* == list == */
 
-ul {
+ul, ol {
   list-style-position: inside;
 }
 
 ul > li, ol > li {
-  margin: 0.3em 0;
+  margin: 0.3rem 0 0.3rem 2rem;
 }
