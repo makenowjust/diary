@@ -2,7 +2,7 @@
 title: bashcachedのv5.0.0とか、--statsフラグとか
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 気が付いたら日付けが変わってた‥‥。今日のは普通に色々やってただけなので許して。
 

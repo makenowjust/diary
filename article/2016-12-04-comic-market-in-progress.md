@@ -2,7 +2,7 @@
 title: コミケの進捗とか
 ---
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="//platform.twitter.com/widgets.js"></script>
 
 # 今日やったこと
 

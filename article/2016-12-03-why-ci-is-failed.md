@@ -2,7 +2,7 @@
 title: なぜCIは落ちたのか
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 気が付いたら眠っていて日付けが変わっていました。ごめんなさい。
 

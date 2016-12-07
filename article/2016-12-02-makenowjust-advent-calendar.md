@@ -2,7 +2,7 @@
 title: MakeNowJustとMakeNowJust Advent Calendar 2016について
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 昨日雑に1日目を終えてしまったので2日目はちゃんと書きたい。
 というわけでまずは、MakeNowJust Advent Calendar 2016について。
