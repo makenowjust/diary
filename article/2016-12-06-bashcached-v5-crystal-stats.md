@@ -26,7 +26,7 @@ title: bashcachedのv5.0.0とか、--statsフラグとか
 
 （自分の場合はコンパイル時にヤバいことをしたがるので`--stats`フラグは`--stats`フラグで便利なのですが）
 
-それと面白い話として、このPull Requestは`spec`に影響を与える部分が無いにも関わらず数回連続でCIに失敗している。というのも、どうも`Thread::ConditionVariable`のテストに不備があるようで、32bitのLinuxのテストで実行が終了しなくなる**ことがある（100%ではない）**みたい。そのためTravis CIでタイムアウトしていた。
+それと面白い話として、このPull Requestは`spec`に影響を与える部分が無いにも関わらず数回連続でCIに失敗している。というのも、どうも`Thread::ConditionVariable`のテストに不備があるようで、32bitのLinuxのテストで実行が終了しなくなる **ことがある（100%ではない）** みたい。そのためTravis CIでタイムアウトしていた。
 数回で失敗したところでRX14が`spec`の`-v`フラグ（`--verbose`）を立てた方が良くない？　と提言して、Aryが`master`ブランチでそれを適用してCIを回したところで原因は発覚した。その後ボクはその`master`に`rebase`したのだけど、三度目の正直なのか今度は普通にCIが通ってしまった。何だったんだ‥‥。
 ちなみに件の`Thread::ConditionVariable`のテストは[ペンディングされることになった](https://github.com/crystal-lang/crystal/commit/2e9c9b50c95b0f906d179aeebd14f2319f527730)。
 この問題が起きてるときのAryの書き込みがやけに楽しそうだったのが印象的だった。こういうときに楽しめるのは尊敬できるなぁ、と。
