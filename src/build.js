@@ -35,7 +35,7 @@ const templateRoot = path.join(projectRoot, 'src', 'template')
 
 const baseUrl = process.env.NODE_ENV === 'production' ?
   'https://makenowjust.github.io/diary' :
-  'http://localhost:13871'
+  ''
 
 const defaultAuthor = {
   name: 'TSUYUSATO Kitsune',
