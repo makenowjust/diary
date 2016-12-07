@@ -3,6 +3,7 @@ doctype html
 html(lang='ja')
   head
     meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width,initial-scale=1')
     block title
       title= `${typeof title === 'undefined' ? '' : `${title} - `}$ make now just`
     link(rel='stylesheet', href=`${baseUrl}/css/index.css`)

@@ -166,7 +166,8 @@ header, footer,
 .article-list, .article-header, .article-footer, .article-content > *,
 #disqus_thread {
   margin: 1em auto;
-  width: 640px;
+  max-width: 640px;
+  width: 95%;
 }
 
 header, footer {
@@ -280,6 +281,7 @@ a:hover {
 .article-content pre {
   background: #4a4a4a;
   width: 100%;
+  max-width: 100%;
   padding: 0.5em 0;
   margin: 0.5em 0;
 }
@@ -290,6 +292,7 @@ a:hover {
   display: block;
   margin: 0 auto;
   padding: auto auto;
+  max-width: 95%;
   width: 640px;
 }
 
@@ -312,6 +315,13 @@ ul, ol {
   list-style-position: inside;
 }
 
-ul > li, ol > li {
+.article-content ul > li, .article-content ol > li {
   margin: 0.3rem 0 0.3rem 2rem;
+}
+
+/* == embed.ly == */
+
+.embedly-card {
+  width: 80%;
+  margin: 0 auto;
 }
