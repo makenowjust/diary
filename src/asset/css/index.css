@@ -157,7 +157,7 @@ input, select {
 html, body {
   width: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 18px;
   font-feature-settings: "pwid" 1;
   color: #4a4a4a;
   background: #fefefe;
@@ -167,7 +167,7 @@ header, footer,
 .article-list, .article-header, .article-footer, .article-content > *,
 #disqus_thread {
   margin: 1em auto;
-  max-width: 640px;
+  max-width: 720px;
   width: 95%;
 }
 
@@ -294,7 +294,7 @@ a:hover {
   margin: 0 auto;
   padding: auto auto;
   max-width: 95%;
-  width: 640px;
+  width: 720px;
 }
 
 code {
