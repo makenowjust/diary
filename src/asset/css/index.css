@@ -158,6 +158,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-size: 14px;
+  font-feature-settings: "pwid" 1;
   color: #4a4a4a;
   background: #fefefe;
 }
