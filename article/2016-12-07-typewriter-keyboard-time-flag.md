@@ -25,7 +25,7 @@ title: タイプライター風のキーボードを買ったり、--timeフラ�
 
 ## `crystal`に`--time`フラグを実装した
 
-<a class="embedly-card" href="https://github.com/crystal-lang/crystal/pull/3651">Add --time flag to show real execution time of crystal run by MakeNowJust · Pull Request #3651 · crystal-lang/crystal</a>
+<a class="embedly-card" data-card-width="100%" data-card-controls="0" href="https://github.com/crystal-lang/crystal/pull/3651">Add --time flag to show real execution time of crystal run by MakeNowJust · Pull Request #3651 · crystal-lang/crystal</a>
 
 昨日言ってた`--time`フラグを一応実装してみた。ほっとけばAryが実装するような気もするけれど、自分も欲しいと思ったので。
 

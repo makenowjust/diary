@@ -20,7 +20,7 @@ BLE分かんねー、という感じ。どうやってやるのが正解なの�
 
 # よく分からないこと
 
-<a class="embedly-card" href="https://github.com/crystal-lang/crystal/pull/3621">Add missing --no-color option to spec and eval command by MakeNowJust · Pull Request #3621 · crystal-lang/crystal</a>
+<a class="embedly-card" data-card-width="100%" data-card-controls="0" href="https://github.com/crystal-lang/crystal/pull/3621">Add missing --no-color option to spec and eval command by MakeNowJust · Pull Request #3621 · crystal-lang/crystal</a>
 
 なぜかCIが落ちている。Travis CIのページを見てみても原因が不明だった。なんなんだこれ‥‥。
 

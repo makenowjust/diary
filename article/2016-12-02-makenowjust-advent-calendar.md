@@ -7,7 +7,7 @@ title: MakeNowJustとMakeNowJust Advent Calendar 2016について
 昨日雑に1日目を終えてしまったので2日目はちゃんと書きたい。
 というわけでまずは、MakeNowJust Advent Calendar 2016について。
 
-# <a class="embedly-card" href="http://www.adventar.org/calendars/1906">MakeNowJust Advent Calendar 2016</a>
+# <a class="embedly-card" data-card-width="100%" data-card-controls="0" href="http://www.adventar.org/calendars/1906">MakeNowJust Advent Calendar 2016</a>
 
 完全に悪ノリで作ったAdvent Calendarです。
 

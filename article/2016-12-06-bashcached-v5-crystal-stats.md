@@ -16,7 +16,7 @@ title: bashcachedのv5.0.0とか、--statsフラグとか
 
 ## `crystal run --stats`でコンパイル時間除いた実行時間まで表示するようにした
 
-<a class="embedly-card" href="https://github.com/crystal-lang/crystal/pull/3643">Enhance --stats option by MakeNowJust · Pull Request #3643 · crystal-lang/crystal</a>
+<a class="embedly-card" data-card-width="100%" data-card-controls="0" href="https://github.com/crystal-lang/crystal/pull/3643">Enhance --stats option by MakeNowJust · Pull Request #3643 · crystal-lang/crystal</a>
 
 他にも色んな`crystal`のサブコマンドで最後に行う処理の実行時間が表示されるようになってる。これがさくっとマージされたのは恐らく、Ary自身が世界で一番`--stats`フラグを使っているからではないかと思う。ボクが`--stats`を教わったのもAryからだったし。
 
