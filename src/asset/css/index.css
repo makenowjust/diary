@@ -319,10 +319,3 @@ ul, ol {
 .article-content ul > li, .article-content ol > li {
   margin: 0.3rem 0 0.3rem 2rem;
 }
-
-/* == embed.ly == */
-
-.embedly-card {
-  width: 80%;
-  margin: 0 auto;
-}
