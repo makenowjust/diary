@@ -26,6 +26,7 @@
     "build": "node --harmony ./bin/build.js",
     "dev": "http-server output -p 13871",
     "watch": "chokidar 'src/**/*' 'article/**/*' -c 'npm run build'",
-    "deploy": "gh-pages -d output/"
+    "deploy": "gh-pages -d output/",
+    "build-deploy": "npm run --production build && npm run deploy"
   }
 }
