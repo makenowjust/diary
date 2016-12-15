@@ -11,7 +11,7 @@ title: タイプライター風のキーボードを買ったり、--timeフラ�
 
 秋葉に行ったのでタイプライター風のキーボードを買ってきた。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日買ってきたキーボードです <a href="https://t.co/ZomdUP2KWc">pic.twitter.com/ZomdUP2KWc</a></p>&mdash; さっき作った@3日目東R-13a (@make\_now\_just) <a href="https://twitter.com/make_now_just/status/806496923314028545">2016年12月7日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日買ってきたキーボードです <a href="https://t.co/ZomdUP2KWc">pic.twitter.com/ZomdUP2KWc</a></p>&mdash; さっき作った@3日目東R-13a (@make_now_just) <a href="https://twitter.com/make_now_just/status/806496923314028545">2016年12月7日</a></blockquote>
 
 恵安のKFK51Nというキーボード。ソフマップで1万円ちょっとだった。恵安なので当然のようにMade in China。保証は1年。
 

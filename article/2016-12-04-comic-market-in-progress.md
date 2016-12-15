@@ -31,7 +31,7 @@ int main() {
 
 # 決意
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">水曜か火曜辺りに一万円ちょっとくらいするキーボード買うぞー</p>&mdash; さっき作った@3日目東R-13a (@make\_now\_just) <a href="https://twitter.com/make_now_just/status/805423732525150208">2016年12月4日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">水曜か火曜辺りに一万円ちょっとくらいするキーボード買うぞー</p>&mdash; さっき作った@3日目東R-13a (@make_now_just) <a href="https://twitter.com/make_now_just/status/805423732525150208">2016年12月4日</a></blockquote>
 
 # 明日の予定
 

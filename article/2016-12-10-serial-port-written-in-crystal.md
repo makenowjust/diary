@@ -170,7 +170,7 @@ end
 
 これです。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">なんなのか‥‥ <a href="https://t.co/n1j8mpsPU7">pic.twitter.com/n1j8mpsPU7</a></p>&mdash; さっき作った@3日目東R-13a (@make\_now\_just) <a href="https://twitter.com/make_now_just/status/807514728931041281">2016年12月10日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">なんなのか‥‥ <a href="https://t.co/n1j8mpsPU7">pic.twitter.com/n1j8mpsPU7</a></p>&mdash; さっき作った@3日目東R-13a (@make_now_just) <a href="https://twitter.com/make_now_just/status/807514728931041281">2016年12月10日</a></blockquote>
 
 なんなのか‥‥。
 
