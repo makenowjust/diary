@@ -2,6 +2,8 @@
 title: Reference#dupがファイルprivateなクラスに対して動かないのを修正した
 ---
 
+<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+
 # やったこと
 
 ## `Reference#dup`がファイルprivateなクラスに対して動かないのを修正した
