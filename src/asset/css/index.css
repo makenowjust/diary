@@ -319,3 +319,9 @@ ul, ol {
 .article-content ul > li, .article-content ol > li {
   margin: 0.3rem 0 0.3rem 2rem;
 }
+
+/* == iframe == */
+
+.article-content iframe {
+  display: block;
+}
