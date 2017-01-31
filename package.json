@@ -11,7 +11,7 @@
     "jstransformer-cdata-js": "^1.0.0",
     "markdown-it": "^8.2.2",
     "markdown-it-front-matter": "^0.1.2",
-    "mkdirp-promise": "^5.0.0",
+    "mkdirp-promise": "^5.0.1",
     "moment": "^2.17.1",
     "pug": "^2.0.0-beta6",
     "pygments": "^0.2.1",
