@@ -2,7 +2,7 @@
 title: 黒執事の劇場版を観た
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 # やったこと
 

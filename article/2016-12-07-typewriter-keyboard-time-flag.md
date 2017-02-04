@@ -2,7 +2,7 @@
 title: タイプライター風のキーボードを買ったり、--timeフラグを実装したり
 ---
 
-<script async src="//platform.twitter.com/widgets.js""></script>
+<script async src="//platform.twitter.com/widgets.js"></script>
 <script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 # やったこと

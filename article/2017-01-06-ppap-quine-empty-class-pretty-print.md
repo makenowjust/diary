@@ -2,7 +2,7 @@
 title: PPAPでQuineを書いた
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 # やったこと
 

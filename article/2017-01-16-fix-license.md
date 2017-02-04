@@ -2,7 +2,7 @@
 title: ライセンスを修正するなどしていた
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 # やったこと
 

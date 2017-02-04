@@ -2,7 +2,7 @@
 title: デフォルト引数に型制約が適用されない問題を修正した
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 プログラミングに対するモチベーションが非常に低下している。
 

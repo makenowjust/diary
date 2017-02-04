@@ -2,7 +2,7 @@
 title: make depsを消してしまったので復活させた
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 
 # やったこと
 

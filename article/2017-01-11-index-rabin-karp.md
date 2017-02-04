@@ -2,7 +2,7 @@
 title: String#indexをラビン-カープ法で実装したものをPull Requestした
 ---
 
-<script async src="//cdn.embedly.com/widgets/platform.js""></script>
+<script async src="//cdn.embedly.com/widgets/platform.js"></script>
 <script async src="//platform.twitter.com/widgets.js"></script>
 
 3日も日記サボってごめんなさい。
