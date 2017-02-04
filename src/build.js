@@ -52,7 +52,7 @@ const convertMarkdown = markdown => {
       breaks: true,
       highlight: (code, lang) => {
         if (lang) {
-          const spans = pygments.colorizeSync(code, lang === 'crystal' ? 'ruby' : lang, 'html', {O: 'nowrap=True'})
+          const spans = pygments.colorizeSync(code, lang, 'html', {O: 'nowrap=True'})
           return spans === '' ? '' : `<pre><code>${spans}</code></pre>`
         }
         return ''
