@@ -7,7 +7,7 @@
     "glob": "^7.1.1",
     "glob-promise": "^3.1.0",
     "js-beautify": "^1.6.8",
-    "js-yaml": "^3.7.0",
+    "js-yaml": "^3.8.1",
     "jstransformer-cdata-js": "^1.0.0",
     "markdown-it": "^8.2.2",
     "markdown-it-front-matter": "^0.1.2",
