@@ -1,0 +1,10 @@
+extends /layout/default
+
+block main
+  div.article-list
+    ul
+      - for (const {date, title, path} of articles)
+        li
+          a(href=`${baseURL}/${path}`)
+            time(datetime=date.format())= date.format('YYYY/MM/DD')
+            = title

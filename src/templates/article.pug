@@ -1,0 +1,28 @@
+extends /layout/default
+
+prepend main
+  article
+    .article-header
+      .time
+        time(pubdate=true, datetime=meta.date.format())= meta.date.format('YYYY/MM/DD')
+      h1= meta.title
+    .article-content
+      != body
+    .article-footer
+      .author
+        | written by #[a(href='https://github.com/MakeNowJust') TSUYUSATO "MakeNowJust" Kitsune]
+    #disqus_thread(data-url=locals.url, data-identifier=locals.key)
+      script
+        :cdata-js
+          (function () {
+            window.disqus_config = function () {
+              var e = document.getElementById('disqus_thread')
+              this.page.url = e.getAttribute('data-url')
+              this.page.identifier = e.getAttribute('data-identifier')
+            }
+
+            var d = document, s = d.createElement('script'), t = d.head || d.body
+            s.src = '//make-now-just.disqus.com/embed.js'
+            s.setAttribute('data-timestamp', Date.now())
+            t.appendChild(s)
+          })()

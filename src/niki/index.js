@@ -4,32 +4,21 @@ import fs from 'fs';
 import path from 'path';
 import type {Readable} from 'stream';
 
-import {Observable} from 'rxjs/Observable';
-import {rxToStream} from 'rxjs-stream';
-
 import copyStream from './utils/copy-stream';
 import mkdirp from './utils/mkdirp';
 import rimraf from './utils/rimraf';
 
 import type Item from './item';
-import type {Items, Output} from './types';
+import type {Items} from './types';
 
-const outputToStream = (output: Output): Readable => {
-  if (typeof output === 'string') {
-    return rxToStream(Observable.from([output]));
-  } else {
-    return output;
-  }
-};
-
-export default async (option: Option, items: Items<Output>): void => {
+export default async (option: Option, items: Items<Readable>): Promise<void> => {
   if (option.cleanup) {
     await rimraf(option.destination);
   }
 
   await items.flatMap(async item => {
     const outputPath = path.join(option.destination, item.path);
-    const outputStream = outputToStream(await item.content());
+    const outputStream = await item.content();
 
     await mkdirp(path.dirname(outputPath));
     await copyStream(outputPath, outputStream);
