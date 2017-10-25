@@ -4,4 +4,10 @@ node_js:
 cache: yarn
 
 after_success:
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$GH_TOKEN" ] && NODE_ENV=production yarn generate && yarn deploy'
+  - |
+    [ "$TRAVIS_BRANCH" == "master" ] &&
+    [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
+    [ "$GH_TOKEN" ] &&
+    yarn build &&
+    NODE_ENV=production yarn generate &&
+    yarn deploy
