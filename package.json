@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "generate": "node scripts/generate",
+    "deploy": "node scripts/deploy"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

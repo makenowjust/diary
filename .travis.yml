@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '8'
+cache: yarn
+
+after_success:
+  - '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$GH_TOKEN" ] && NODE_ENV=production yarn generate && yarn deploy'
