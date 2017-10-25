@@ -1,7 +1,7 @@
 // @flow
 
 import fs from 'fs';
-import type {Readable} from 'stream';
+import type { Readable } from 'stream';
 
 import pEvent from 'p-event';
 

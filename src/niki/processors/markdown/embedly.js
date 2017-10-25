@@ -11,8 +11,8 @@ export default () => (tree: any, file: any) => {
       const link = node.children[0];
       link.data = {
         hProperties: {
-          className: 'embedly-card',
-        },
+          className: 'embedly-card'
+        }
       };
 
       if (!injected) {

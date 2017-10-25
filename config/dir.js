@@ -15,5 +15,5 @@ module.exports = {
   templates,
   public,
   output,
-  articles,
+  articles
 };

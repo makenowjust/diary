@@ -1,10 +1,10 @@
 // @flow
 
 import glob from 'glob';
-import {Observable} from 'rxjs/Observable';
+import { Observable } from 'rxjs/Observable';
 
 import Item from '../item';
-import type {Items} from '../types';
+import type { Items } from '../types';
 
 export default (pattern: string): Items<void> => {
   return Observable.create(observer => {

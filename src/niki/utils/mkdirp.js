@@ -10,4 +10,5 @@ export default (path: string): Promise<void> =>
         return;
       }
       resolve(undefined);
-    }));
+    })
+  );

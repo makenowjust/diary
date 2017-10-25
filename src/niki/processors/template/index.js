@@ -15,20 +15,16 @@ const template = (name: string): ((locals: any) => string) => {
     return cached;
   }
 
-  const renderer = pug.compileFile(
-    path.join(dir.templates, `${name}.pug`),
-    {basedir: dir.templates}
-  );
+  const renderer = pug.compileFile(path.join(dir.templates, `${name}.pug`), {
+    basedir: dir.templates
+  });
   cache.set(name, renderer);
   return renderer;
 };
 
-export default (name: string) =>
-  (item: Item<any>): Item<string> => new Item(
-    item.path,
-    async () => {
-      const renderer = template(name);
-      const locals = await item.content();
-      return renderer(locals);
-    }
-  );
+export default (name: string) => (item: Item<any>): Item<string> =>
+  new Item(item.path, async () => {
+    const renderer = template(name);
+    const locals = await item.content();
+    return renderer(locals);
+  });
