@@ -9,6 +9,7 @@ import {rxToStream} from 'rxjs-stream';
 
 import copyStream from './utils/copy-stream';
 import mkdirp from './utils/mkdirp';
+import rimraf from './utils/rimraf';
 
 import type Item from './item';
 import type {Items, Output} from './types';
@@ -21,17 +22,21 @@ const outputToStream = (output: Output): Readable => {
   }
 };
 
-export default (option: Option, items: Items<Output>): Promise<void> =>
-  items
-    .flatMap(async item => {
-      const outputPath = path.join(option.destination, item.path);
-      const outputStream = outputToStream(await item.content());
+export default async (option: Option, items: Items<Output>): void => {
+  if (option.cleanup) {
+    await rimraf(option.destination);
+  }
 
-      await mkdirp(path.dirname(outputPath));
-      await copyStream(outputPath, outputStream);
-    })
-    .toPromise();
+  await items.flatMap(async item => {
+    const outputPath = path.join(option.destination, item.path);
+    const outputStream = outputToStream(await item.content());
+
+    await mkdirp(path.dirname(outputPath));
+    await copyStream(outputPath, outputStream);
+  }).toPromise();
+}
 
 export interface Option {
+  cleanup: boolean;
   destination: string;
 }
