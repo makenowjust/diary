@@ -3,11 +3,17 @@ node_js:
   - '8'
 cache: yarn
 
-after_success:
-  - |
-    [ "$TRAVIS_BRANCH" == "master" ] &&
-    [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
-    [ "$GH_TOKEN" ] &&
-    yarn build &&
-    NODE_ENV=production yarn generate &&
-    yarn deploy
+env:
+  - NODE_ENV=production
+script:
+  - yarn build
+  - yarn generate
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: output/
+  name: TSUYUSATO "MakeNowJust" Kitsune
+  email: make.just.on@gmail.com
+  on:
+    branch: master
