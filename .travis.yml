@@ -3,11 +3,8 @@ node_js:
   - '8'
 cache: yarn
 
-env:
-  - NODE_ENV=production
 script:
-  - yarn build
-  - yarn generate
+  - yarn build && NODE_ENV=production yarn generate
 deploy:
   provider: pages
   skip_cleanup: true
