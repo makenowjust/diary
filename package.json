@@ -12,7 +12,6 @@
     "prettier": "^1.7.4"
   },
   "dependencies": {
-    "gh-pages": "^1.0.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.1.1",
     "jstransformer-cdata-js": "^1.0.0",
