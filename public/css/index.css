@@ -327,7 +327,7 @@ img {
 /* == list == */
 
 ul, ol {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 .article-content ul > li, .article-content ol > li {
