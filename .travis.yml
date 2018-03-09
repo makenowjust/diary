@@ -9,7 +9,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GH_TOKEN
-  local-dir: output/
+  local-dir: ./output/
   keep-history: true
   name: TSUYUSATO "MakeNowJust" Kitsune
   email: make.just.on@gmail.com
