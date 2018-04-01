@@ -6,6 +6,8 @@ cache: yarn
 script:
   - yarn build && NODE_ENV=production yarn generate
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   skip-cleanup: true
   github-token: $GH_TOKEN
