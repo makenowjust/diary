@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "gatsby": "^2.0.21"
+    "gatsby": "^2.0.21",
+    "maid": "^0.3.0"
   },
   "dependencies": {
     "react": "^16.5.2",
