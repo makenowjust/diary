@@ -1,24 +1,24 @@
 {
-  "name": "diary",
-  "version": "1.0.0",
-  "description": "MakeNowJust's diary system",
-  "repository": "git@github.com:MakeNowJust/diary.git",
-  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
-  "license": "MIT",
   "private": true,
-  "devDependencies": {
-    "gatsby": "^2.0.21",
-    "maid": "^0.3.0",
-    "prettier": "^1.14.3",
-    "prettier-package-json": "^2.0.1"
+  "name": "diary",
+  "description": "MakeNowJust's diary system",
+  "license": "MIT",
+  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
+  "repository": "git@github.com:MakeNowJust/diary.git",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "maid dev",
+    "format": "maid lint --fix",
+    "lint": "maid lint"
   },
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
-  "scripts": {
-    "dev": "maid dev",
-    "lint": "maid lint",
-    "format": "maid lint --fix"
+  "devDependencies": {
+    "gatsby": "^2.0.21",
+    "maid": "^0.3.0",
+    "prettier": "^1.14.3",
+    "prettier-package-json": "^2.0.1"
   }
 }
