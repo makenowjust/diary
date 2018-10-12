@@ -1,0 +1,16 @@
+{
+  "name": "diary",
+  "version": "1.0.0",
+  "description": "MakeNowJust's diary system",
+  "repository": "git@github.com:MakeNowJust/diary.git",
+  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gatsby": "^2.0.21"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
