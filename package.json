@@ -8,13 +8,17 @@
   "private": true,
   "devDependencies": {
     "gatsby": "^2.0.21",
-    "maid": "^0.3.0"
+    "maid": "^0.3.0",
+    "prettier": "^1.14.3",
+    "prettier-package-json": "^2.0.1"
   },
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
   "scripts": {
-    "dev": "maid dev"
+    "dev": "maid dev",
+    "lint": "maid lint",
+    "format": "maid lint --fix"
   }
 }
