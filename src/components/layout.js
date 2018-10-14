@@ -25,7 +25,7 @@ const Layout = ({children}) => (
     render={data => (
       <>
         <Header title={data.site.siteMetadata.title} quote={data.site.siteMetadata.quote}/>
-        {children}
+        <main>{children}</main>
         <Footer
           author={data.site.siteMetadata.copyright.author}
           github={data.site.siteMetadata.copyright.github}

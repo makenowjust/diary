@@ -9,9 +9,7 @@ const Footer = ({author, github, year}) => {
   return (
     <footer>
       <p className={styles.copyright}>
-        <small>
-          © {year} {firstName} "<a href={`https://github.com/${github}`}>{github}</a>" {restNames}
-        </small>
+        © {year} {firstName} "<a href={`https://github.com/${github}`}>{github}</a>" {restNames}
       </p>
     </footer>
   );

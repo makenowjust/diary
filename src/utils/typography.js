@@ -18,11 +18,11 @@ const typography = new Typography({
       styles: ['400'],
     },
     {
-      name: 'Oswald',
-      styles: ['700'],
+      name: 'Nova Square',
+      styles: ['400'],
     },
   ],
-  headerFontFamily: ['Oswald', ...YU_GOTHIC],
+  headerFontFamily: ['Nova Square', ...YU_GOTHIC],
   headerGray: 20,
   headerWeight: 'bold',
   bodyFontFamily: ['Raleway', ...YU_GOTHIC],
@@ -30,7 +30,7 @@ const typography = new Typography({
   bodyWeight: 'normal',
   overrideStyles: ({rhythm}) => ({
     'header h1': {
-      fontFamily: ['NovaMono', ...YU_GOTHIC].join(', '),
+      fontFamily: ['Nova Mono', ...YU_GOTHIC].join(', '),
     },
     blockquote: {
       paddingLeft: rhythm(1 / 2),
