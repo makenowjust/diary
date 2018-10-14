@@ -15,7 +15,9 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -28,6 +30,7 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-unicorn": "^6.0.1",
     "gatsby": "^2.0.21",
+    "gatsby-plugin-typography": "^2.2.0",
     "maid": "^0.3.0",
     "prettier": "^1.14.3",
     "prettier-package-json": "^2.0.1"

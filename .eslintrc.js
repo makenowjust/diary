@@ -15,5 +15,8 @@ module.exports = {
   ],
   rules: {
     'import/order': ['error', {'newlines-between': 'always'}],
+    // Which do you like `"foo"` or `&quot;foo&quot`? -- Of course I like the first!
+    // Actually there is no reason to use the second. It is UTF-8 age now.
+    'react/no-unescaped-entities': 'off',
   },
 };
