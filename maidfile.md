@@ -9,6 +9,15 @@ set -ex
 gatsby develop
 ```
 
+## build
+
+Build with using [Gatsby](https://gatsbyjs.org).
+
+```bash
+set -ex
+gatsby build
+```
+
 ## lint
 
 Run linter for source codes.
