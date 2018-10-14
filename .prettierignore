@@ -1,8 +1,0 @@
-articles/
-
-# Node.js
-node_modules/
-
-# GatsbyJS
-public/
-.cache/

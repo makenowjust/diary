@@ -12,10 +12,20 @@
     "lint": "maid lint"
   },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-xo-react": "^0.17.0",
+    "eslint-config-xo-space": "^0.20.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-unicorn": "^6.0.1",
     "gatsby": "^2.0.21",
     "maid": "^0.3.0",
     "prettier": "^1.14.3",
