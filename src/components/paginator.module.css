@@ -1,0 +1,15 @@
+.paginator {
+  font-size: 1.3rem;
+  margin-bottom: 1.55rem;
+  text-align: right;
+}
+
+.previous-link {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.next-link {
+  display: inline-block;
+  padding-left: 0.5em;
+}

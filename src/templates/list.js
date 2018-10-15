@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Layout from '../layouts';
+import Paginator from '../components/paginator';
 
 import styles from './list.module.css';
 
@@ -24,29 +25,13 @@ const ListTemplate = ({data, pageContext}) => {
   const previous = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
   const next = current === listPages ? null : `/list/${current + 1}/`;
 
-  const Paginator = () => (
-    <div className={styles.paginator}>
-      {previous && (
-        <Link to={previous} className={styles.goPrevious}>
-          previous
-        </Link>
-      )}
-      {previous && next && '|'}
-      {next && (
-        <Link to={next} className={styles.goNext}>
-          next
-        </Link>
-      )}
-    </div>
-  );
-
   return (
     <Layout>
       <div className={styles.container}>
         <h1>{`post list [${current}/${listPages}]:`}</h1>
-        <Paginator />
+        <Paginator previous={previous} next={next} />
         <ul>{posts}</ul>
-        <Paginator />
+        <Paginator previous={previous} next={next} />
       </div>
     </Layout>
   );

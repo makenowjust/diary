@@ -9,19 +9,3 @@
   padding-bottom: 1.55rem;
   border-bottom: 1px solid black;
 }
-
-.paginator {
-  font-size: 1.3rem;
-  margin-bottom: 1.55rem;
-  text-align: right;
-}
-
-.go-previous {
-  display: inline-block;
-  padding-right: 0.5em;
-}
-
-.go-next {
-  display: inline-block;
-  padding-left: 0.5em;
-}
