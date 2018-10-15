@@ -17,5 +17,15 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts',
+        path: 'src/posts',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+    },
   ],
 };

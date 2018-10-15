@@ -2,10 +2,10 @@ import {StaticQuery, graphql} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from './header';
-import Footer from './footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
-const Layout = ({children}) => (
+const DefaultLayout = ({children}) => (
   <StaticQuery
     query={graphql`
       query {
@@ -24,7 +24,7 @@ const Layout = ({children}) => (
     `}
     render={data => (
       <>
-        <Header title={data.site.siteMetadata.title} quote={data.site.siteMetadata.quote}/>
+        <Header title={data.site.siteMetadata.title} quote={data.site.siteMetadata.quote} />
         <main>{children}</main>
         <Footer
           author={data.site.siteMetadata.copyright.author}
@@ -36,8 +36,8 @@ const Layout = ({children}) => (
   />
 );
 
-Layout.propTypes = {
+DefaultLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Layout;
+export default DefaultLayout;

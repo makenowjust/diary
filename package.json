@@ -31,6 +31,8 @@
     "eslint-plugin-unicorn": "^6.0.1",
     "gatsby": "^2.0.21",
     "gatsby-plugin-typography": "^2.2.0",
+    "gatsby-source-filesystem": "^2.0.3",
+    "gatsby-transformer-remark": "^2.1.7",
     "maid": "^0.3.0",
     "prettier": "^1.14.3",
     "prettier-package-json": "^2.0.1"

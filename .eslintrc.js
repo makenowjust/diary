@@ -12,6 +12,8 @@ module.exports = {
     'xo-space/esnext',
     'xo-react/space',
     'prettier',
+    'prettier/react',
+    'prettier/unicorn',
   ],
   rules: {
     'import/order': ['error', {'newlines-between': 'always'}],

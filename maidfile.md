@@ -34,6 +34,6 @@ else
 fi
 set -ex
 prettier-package-json $prettier_opt
-prettier --ignore-path .gitignore '**/*.{js,json,md}' '!articles/**/*.md' $prettier_opt
+prettier --ignore-path .gitignore '**/*.{js,json,md}' '!src/posts/**/*.md' $prettier_opt
 eslint --ignore-path .gitignore '**/*.js' $lint_opt
 ```
