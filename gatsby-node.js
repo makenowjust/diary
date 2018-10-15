@@ -60,11 +60,13 @@ exports.createPages = async ({graphql, actions}) => {
   const listPages = Math.ceil(posts.length / POSTS_PER_LIST_PAGE);
   for (let i = 0; i < listPages; i++) {
     createPage({
-      path: i === 0 ? '/' : `/list/${i}/`,
+      path: i === 0 ? '/' : `/list/${i + 1}/`,
       component: path.join(__dirname, 'src/templates/list.js'),
       context: {
         limit: POSTS_PER_LIST_PAGE,
         skip: i * POSTS_PER_LIST_PAGE,
+        currentListPage: i + 1,
+        listPages,
       },
     });
   }
