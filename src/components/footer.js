@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './footer.module.css';
+import styles from './footer.module.scss';
 
 const Footer = ({author, github, year}) => {
   const [firstName, ...restNames] = author.split(' ');

@@ -2,9 +2,9 @@ import {graphql} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Layout from '../layouts';
+import Layout from '../components/layout';
 
-import styles from './post.module.css';
+import styles from './post.module.scss';
 
 const PostTemplate = ({data}) => {
   console.log(data);

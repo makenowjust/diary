@@ -2,10 +2,10 @@ import {graphql, Link} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Layout from '../layouts';
+import Layout from '../components/layout';
 import Paginator from '../components/paginator';
 
-import styles from './list.module.css';
+import styles from './list.module.scss';
 
 const ListTemplate = ({data, pageContext}) => {
   const posts = data.allMarkdownRemark.edges.map(({node}) => (

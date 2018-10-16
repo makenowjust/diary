@@ -2,7 +2,7 @@ import {Link} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './header.module.css';
+import styles from './header.module.scss';
 
 const Header = ({title, quote}) => (
   <header className={styles.container}>

@@ -2,7 +2,7 @@ import {Link} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './paginator.module.css';
+import styles from './paginator.module.scss';
 
 const Paginator = ({previous, next}) => (
   <div className={styles.paginator}>
@@ -21,13 +21,8 @@ const Paginator = ({previous, next}) => (
 );
 
 Paginator.propTypes = {
-  previous: PropTypes.string,
-  next: PropTypes.string,
-};
-
-Paginator.defaultProps = {
-  previous: null,
-  next: null,
+  previous: PropTypes.oneOf([PropTypes.string, null]).isRequired,
+  next: PropTypes.oneOf([PropTypes.string, null]).isRequired,
 };
 
 export default Paginator;
