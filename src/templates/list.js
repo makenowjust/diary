@@ -30,7 +30,7 @@ const ListTemplate = ({data, pageContext}) => {
       <div className={styles.container}>
         <h1>{`post list [${current}/${listPages}]:`}</h1>
         <Paginator previous={previous} next={next} />
-        <ul>{posts}</ul>
+        <ul className={styles.posts}>{posts}</ul>
         <Paginator previous={previous} next={next} />
       </div>
     </Layout>
@@ -39,7 +39,10 @@ const ListTemplate = ({data, pageContext}) => {
 
 ListTemplate.propTypes = {
   data: PropTypes.object.isRequired,
-  pageContext: PropTypes.object.isRequired,
+  pageContext: PropTypes.shape({
+    previous: PropTypes.string,
+    next: PropTypes.string,
+  }).isRequired,
 };
 
 export default ListTemplate;

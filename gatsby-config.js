@@ -12,12 +12,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
@@ -26,6 +20,22 @@ module.exports = {
     },
     {
       resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-embedly',
+          },
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-embedly',
     },
   ],
 };

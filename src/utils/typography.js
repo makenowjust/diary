@@ -7,7 +7,7 @@ const typography = new Typography({
   title: 'MakeNowJust',
   baseFontSize: '14px',
   baseLineHeight: 1.55,
-  scaleRatio: 2.5,
+  scaleRatio: 2,
   googleFonts: [
     {
       name: 'Raleway',
@@ -35,6 +35,12 @@ const typography = new Typography({
     blockquote: {
       paddingLeft: rhythm(1 / 2),
       borderLeft: `${rhythm(3 / 14)} solid ${gray(40)}`,
+    },
+    code: {
+      padding: `2px ${rhythm(4 / 14)}`,
+      color: '#f73434',
+      background: gray(90),
+      fontFamily: ['Nova Mono', 'Monaco', 'monospace'].join(', '),
     },
   }),
 });
