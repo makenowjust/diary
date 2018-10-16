@@ -5,11 +5,11 @@
 // ====================================
 
 html {
-  font-size: $base-font-size;
-  font-family: $body-font-family;
   color: $body-color;
   background-color: $body-background-color;
-  font-feature-settings: "palt";
+  font-family: $body-font-family;
+  font-size: $base-font-size;
+  font-feature-settings: 'palt';
 }
 
 //
@@ -19,8 +19,8 @@ html {
 $block-level: h1, h2, h3, h4, h5, h6, hr, p, blockquote, table, pre, ul, ol;
 
 #{$block-level} {
-  margin: 0 auto $base-line-height auto;
   max-width: $max-content-width;
+  margin: 0 auto $base-line-height auto;
 }
 
 #{selector-nest("li >", $block-level)} {
@@ -37,8 +37,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $header-font-family;
   color: $header-color;
+  font-family: $header-font-family;
 }
 
 @for $i from 1 through 6 {
@@ -65,10 +65,10 @@ a {
 // ====================================
 
 code {
-  font-family: $code-font-family;
+  padding: 0 0.25em;
   color: $inline-code-color;
   background-color: $inline-code-background-color;
-  padding: 0 0.25em;
+  font-family: $code-font-family;
 }
 
 //
@@ -76,24 +76,24 @@ code {
 // ====================================
 
 pre {
-  max-width: none;
   width: 100%;
+  max-width: none;
   background-color: $code-background-color;
   tab-size: 4;
-  hyphens: none;
-  white-space: pre;
   word-spacing: normal;
+  white-space: pre;
   word-break: normal;
   word-wrap: normal;
+  hyphens: none;
 
   > code {
     display: block;
-    margin: 0 auto;
-    padding: 0.5em;
-    line-height: $base-line-height;
     max-width: $max-content-width;
+    padding: 0.5em;
+    margin: 0 auto;
     color: $code-color;
     background-color: $code-background-color;
+    line-height: $base-line-height;
     overflow-x: auto;
 
     .token.comment,

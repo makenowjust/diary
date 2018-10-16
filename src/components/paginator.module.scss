@@ -2,10 +2,10 @@
 
 .paginator {
   display: block;
+  max-width: $max-content-width;
+  margin: 0 auto $base-line-height auto;
   // It is the same as `<h3>` font size.
   font-size: $base-font-size * ((($scale-ratio - 1) * (7 - 3) / 6) + 1);
-  margin: 0 auto $base-line-height auto;
-  max-width: $max-content-width;
   text-align: right;
 }
 

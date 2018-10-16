@@ -36,4 +36,5 @@ set -ex
 prettier-package-json 'package.json' 'plugins/*/package.json' $prettier_opt
 prettier --ignore-path .gitignore '**/*.{js,json,md,scss}' '!src/posts/**' $prettier_opt
 eslint --ignore-path .gitignore '**/*.js' $lint_opt
+stylelint --ignore-path .gitignore '**/*.{scss}' $lint_opt
 ```
