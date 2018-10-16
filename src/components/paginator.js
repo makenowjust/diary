@@ -21,8 +21,13 @@ const Paginator = ({previous, next}) => (
 );
 
 Paginator.propTypes = {
-  previous: PropTypes.oneOf([PropTypes.string, null]).isRequired,
-  next: PropTypes.oneOf([PropTypes.string, null]).isRequired,
+  previous: PropTypes.string,
+  next: PropTypes.string,
+};
+
+Paginator.defaultProps = {
+  previous: null,
+  next: null,
 };
 
 export default Paginator;

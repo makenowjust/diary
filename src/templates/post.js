@@ -7,7 +7,6 @@ import Layout from '../components/layout';
 import styles from './post.module.scss';
 
 const PostTemplate = ({data}) => {
-  console.log(data);
   const {
     html,
     fields: {date},
@@ -16,8 +15,8 @@ const PostTemplate = ({data}) => {
 
   return (
     <Layout>
-      <article className={styles.container}>
-        <h1>
+      <article>
+        <h1 className={styles.title}>
           <time>{date}</time>: {title}
         </h1>
         {/* eslint-disable-next-line react/no-danger */}

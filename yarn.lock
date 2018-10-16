@@ -2600,6 +2600,15 @@ cli-width@^2.0.0:
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
 
+clipboard@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.1.tgz#a12481e1c13d8a50f5f036b0560fe5d16d74e46a"
+  integrity sha512-7yhQBmtN+uYZmfRjjVjKa0dZdWuabzpSKGtyQZN+9C8xlC788SSJjOHWh7tzurfwTqTD5UDYAhIv5fRJg3sHjQ==
+  dependencies:
+    good-listener "^1.2.2"
+    select "^1.1.2"
+    tiny-emitter "^2.0.0"
+
 cliui@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
@@ -3403,6 +3412,11 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -4833,6 +4847,15 @@ gatsby-react-router-scroll@^2.0.0:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
+gatsby-remark-prismjs@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.0.2.tgz#38a67c4e020ac26102e850ccefbe8b0e696501dc"
+  integrity sha512-tjgGzDVkDX3EtBgKI8uNxArNjLF97M3ipMzh1PLGtIn1naVrixw36xV7s6BkiZigdpybj9rjF7mvBKPtZekh2w==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    parse-numeric-range "^0.0.2"
+    unist-util-visit "^1.3.0"
+
 gatsby-source-filesystem@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.3.tgz#2436e93cd473a4338719f27ab44242b68e3e5fbf"
@@ -5179,6 +5202,13 @@ globule@^1.0.0:
     glob "~7.1.1"
     lodash "~4.17.10"
     minimatch "~3.0.2"
+
+good-listener@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
+  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
+  dependencies:
+    delegate "^3.1.2"
 
 got@^6.7.1:
   version "6.7.1"
@@ -7320,6 +7350,11 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   dependencies:
     minimist "0.0.8"
 
+modern-normalize@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-0.5.0.tgz#7f75bb7319c6ae708d716658dc8d9c9760274887"
+  integrity sha512-U1geaHG9Grp3a60djDV2JvSVKiDFhuZrhUHoQHusfjtGqbgGunI3HHw7hHtQ2ls2y0et3+Lpcf2hOSS1W8JUdg==
+
 moment@^2.21.0:
   version "2.22.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
@@ -8039,6 +8074,11 @@ parse-latin@^4.0.0:
     unist-util-modify-children "^1.0.0"
     unist-util-visit-children "^1.0.0"
 
+parse-numeric-range@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/parse-numeric-range/-/parse-numeric-range-0.0.2.tgz#b4f09d413c7adbcd987f6e9233c7b4b210c938e4"
+  integrity sha1-tPCdQTx6282Yf26SM8e0shDJOOQ=
+
 parse-passwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
@@ -8623,6 +8663,13 @@ pretty-error@^2.1.1:
   dependencies:
     renderkid "^2.0.1"
     utila "~0.4"
+
+prismjs@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.15.0.tgz#8801d332e472091ba8def94976c8877ad60398d9"
+  integrity sha512-Lf2JrFYx8FanHrjoV5oL8YHCclLQgbJcVZR+gikGGMqz6ub5QVWDTM6YIwm3BuPxM/LOV+rKns3LssXNLIf+DA==
+  optionalDependencies:
+    clipboard "^2.0.0"
 
 private@^0.1.6:
   version "0.1.8"
@@ -9555,6 +9602,11 @@ select-hose@^2.0.0:
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
 
+select@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
+  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
+
 selfsigned@^1.9.1:
   version "1.10.4"
   resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.4.tgz#cdd7eccfca4ed7635d47a08bf2d5d3074092e2cd"
@@ -10378,6 +10430,11 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-emitter@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.0.2.tgz#82d27468aca5ade8e5fd1e6d22b57dd43ebdfb7c"
+  integrity sha512-2NM0auVBGft5tee/OxP4PI3d8WItkDM+fPnaRAVo6xTDI2knbz9eC5ArWGqtGlYqiH3RU5yMpdyTTO7MguC4ow==
+
 tmp@^0.0.31:
   version "0.0.31"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.31.tgz#8f38ab9438e17315e5dbd8b3657e8bfb277ae4a7"
@@ -10540,6 +10597,21 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typeface-nova-mono@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-nova-mono/-/typeface-nova-mono-0.0.54.tgz#c6cf36ca906925ac5b02d4e0cb0b36ce0d48ce9e"
+  integrity sha512-BF5fij9EeVnCtMwEVkc/RZjCsDj8Zj/1QIh+beBEK1qtnXlC2cumfnInzBbBvikQBo4xTWXkPFg1GQRl1hmDMQ==
+
+typeface-nova-square@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-nova-square/-/typeface-nova-square-0.0.54.tgz#6717536ea72fe0c9727f03fb8679a982d1b77435"
+  integrity sha512-az8rOLsNUhhO7OHhO+LqzZhbPH0dbGwe/1yNPN5fEnLW7XE1cWjDd78ZwYpPmPOp8mziw5ps2SOml0Nx0PxBAA==
+
+typeface-raleway@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-0.0.54.tgz#f166c517becc81f34d14e72736d28b8923c79c65"
+  integrity sha512-oilrvv0fV+z4eYvfTAl6t9Oq1mE/ZrLDPM71TrcAtqyVb0QzAJ6hQBS+FQcYdHxK2LGQE+gloQUPtwgY2I7WxA==
 
 ua-parser-js@^0.7.18:
   version "0.7.18"

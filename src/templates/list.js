@@ -27,7 +27,7 @@ const ListTemplate = ({data, pageContext}) => {
 
   return (
     <Layout>
-      <div className={styles.container}>
+      <div>
         <h1>{`post list [${current}/${listPages}]:`}</h1>
         <Paginator previous={previous} next={next} />
         <ul className={styles.posts}>{posts}</ul>

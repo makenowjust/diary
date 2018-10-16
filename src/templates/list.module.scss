@@ -1,15 +1,11 @@
-.container {
-  max-width: 860px;
-  margin: 0 auto;
-}
+@import '../styles/variables';
 
 .posts {
-  margin-left: 0;
+  padding: 0;
 }
 
 .post {
   display: block;
-  margin-bottom: 1.55rem;
-  padding: 0 0.5rem 1.55rem;
+  margin-bottom: $base-line-height;
   border-bottom: 1px solid black;
 }

@@ -1,0 +1,44 @@
+// Color palette:
+$black: #434944;
+$red: #da5673;
+$green: #8cc16d;
+$yellow: #eebf35;
+$blue: #5cabdc;
+$magenta: #b595cf;
+$cyan: #44a9ba;
+$white: #fbfbf8;
+$light-black: #6c6d6b;
+$light-red: #dba2b4;
+$light-green: #898e38;
+$light-yellow: #898e38;
+$light-blue: #126b8c;
+$light-magenta: #7457a2;
+$light-cyan: #87c7d4;
+$light-white: #bfc2bc;
+
+// Font settings:
+$japanese-font-family: 游ゴシック, 'Yu Gothic', 游ゴシック体, YuGothic, sans-serif;
+
+$base-font-size: 16px;
+$base-line-height: 1.55rem;
+$scale-ratio: 2;
+
+$header-font-family: 'Nova Square', $japanese-font-family;
+$header-color: $black;
+$header-weight: bold;
+
+$body-font-family: Raleway, $japanese-font-family;
+$body-color: $light-black;
+$body-background-color: $white;
+$body-weight: normal;
+
+$link-color: $blue;
+
+$code-font-family: 'Nova Mono', Monaco, monospace;
+$code-color: $white;
+$code-background-color: $black;
+$inline-code-color: $white;
+$inline-code-background-color: $light-black;
+
+// Width:
+$max-content-width: 860px;

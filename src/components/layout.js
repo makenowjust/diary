@@ -5,6 +5,13 @@ import PropTypes from 'prop-types';
 import Header from './header';
 import Footer from './footer';
 
+import 'modern-normalize';
+import 'typeface-nova-mono';
+import 'typeface-nova-square';
+import 'typeface-raleway';
+
+import '../styles/global.scss';
+
 const Layout = ({children}) => (
   <StaticQuery
     query={graphql`

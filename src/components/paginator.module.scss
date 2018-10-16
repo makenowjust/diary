@@ -1,6 +1,11 @@
+@import '../styles/variables';
+
 .paginator {
-  font-size: 1.4rem;
-  margin-bottom: 1.55rem;
+  display: block;
+  // It is the same as `<h3>` font size.
+  font-size: $base-font-size * ((($scale-ratio - 1) * (7 - 3) / 6) + 1);
+  margin: 0 auto $base-line-height auto;
+  max-width: $max-content-width;
   text-align: right;
 }
 

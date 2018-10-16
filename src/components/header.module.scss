@@ -1,9 +1,16 @@
+@import '../styles/variables';
+
 .container {
   padding: 10em 0;
 }
 
 .title {
   text-align: center;
+  font-family: $code-font-family;
+
+  > a {
+    color: $black;
+  }
 }
 
 .quote {
