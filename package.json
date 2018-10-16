@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
   "repository": "git@github.com:MakeNowJust/diary.git",
-  "version": "1.0.0",
+  "version": "3.0.0-dev",
   "scripts": {
     "build": "maid build",
     "dev": "maid dev",
