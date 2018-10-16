@@ -1,6 +1,7 @@
 import {graphql, Link} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Helmet} from 'react-helmet';
 
 import Layout from '../components/layout';
 import Paginator from '../components/paginator';
@@ -25,8 +26,14 @@ const ListTemplate = ({data, pageContext}) => {
   const previous = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
   const next = current === listPages ? null : `/list/${current + 1}/`;
 
+  const {title: siteTitle} = data.site.siteMetadata;
+  const title = current === 1 ? `top | ${siteTitle}` : `list ${current} | ${siteTitle}`;
+
   return (
     <Layout>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
       <div>
         <h1>{`post list [${current}/${listPages}]:`}</h1>
         <Paginator previous={previous} next={next} />
@@ -49,6 +56,12 @@ export default ListTemplate;
 
 export const query = graphql`
   query($limit: Int!, $skip: Int!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+
     allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}, limit: $limit, skip: $skip) {
       edges {
         node {

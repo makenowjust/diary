@@ -43,5 +43,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-embedly',
     },
+    {
+      resolve: 'gatsby-plugin-react-helmet',
+    },
   ],
 };
