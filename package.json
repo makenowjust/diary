@@ -42,6 +42,7 @@
     "node-sass": "^4.9.4",
     "prettier": "^1.14.3",
     "prettier-package-json": "^2.0.1",
+    "remark-breaks": "^1.0.1",
     "stylelint": "^9.6.0",
     "stylelint-config-css-modules": "^1.3.0",
     "stylelint-config-prettier": "^4.0.0",

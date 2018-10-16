@@ -34,6 +34,9 @@ module.exports = {
               noInlineHighlight: true,
             },
           },
+          {
+            resolve: 'gatsby-remark-breaks',
+          },
         ],
       },
     },

@@ -9556,6 +9556,11 @@ relay-runtime@1.5.0:
     babel-runtime "^6.23.0"
     fbjs "^0.8.14"
 
+remark-breaks@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/remark-breaks/-/remark-breaks-1.0.1.tgz#7f90548f6c4883929f3e33b9933414f95a1014ea"
+  integrity sha512-Z3FuhGrHZ0KLzvI4KHSzBA7vey1PjmseDTaA4Bfe7Fd1XhqlmHr1Br9BiNTtcpNpHBd00KGLuifDE3kF9UW8ig==
+
 remark-parse@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-5.0.0.tgz#4c077f9e499044d1d5c13f80d7a98cf7b9285d95"
