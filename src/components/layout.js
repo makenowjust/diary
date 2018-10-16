@@ -1,7 +1,6 @@
 import {StaticQuery, graphql} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Helmet} from 'react-helmet';
 
 import Header from './header';
 import Footer from './footer';
@@ -32,9 +31,6 @@ const Layout = ({children}) => (
     `}
     render={data => (
       <>
-        <Helmet>
-          <meta charset="utf-8" />
-        </Helmet>
         <Header title={data.site.siteMetadata.title} quote={data.site.siteMetadata.quote} />
         <main>{children}</main>
         <Footer
