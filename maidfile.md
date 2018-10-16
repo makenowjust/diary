@@ -33,7 +33,7 @@ else
   prettier_opt=--list-different
 fi
 set -ex
-prettier-package-json $prettier_opt
+prettier-package-json 'package.json' 'plugins/*/package.json' $prettier_opt
 prettier --ignore-path .gitignore '**/*.{css,js,json,md}' '!src/posts/**/*.md' $prettier_opt
 eslint --ignore-path .gitignore '**/*.js' $lint_opt
 ```
