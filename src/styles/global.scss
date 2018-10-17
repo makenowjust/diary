@@ -96,6 +96,8 @@ pre {
     line-height: $base-line-height;
     overflow-x: auto;
 
+    // Syntax highlight:
+
     .token.comment,
     .token.prolog,
     .token.doctype,
