@@ -23,7 +23,7 @@ const ListTemplate = ({data, pageContext}) => {
   ));
 
   const {currentListPage: current, listPages} = pageContext;
-  const previous = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
+  const prev = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
   const next = current === listPages ? null : `/list/${current + 1}/`;
 
   const {title: siteTitle, description} = data.site.siteMetadata;
@@ -34,14 +34,14 @@ const ListTemplate = ({data, pageContext}) => {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
-        {previous && <link rel="prev" href={previous} />}
+        {prev && <link rel="prev" href={prev} />}
         {next && <link rel="next" href={next} />}
       </Helmet>
       <div>
         <h1>{`post list [${current}/${listPages}]:`}</h1>
-        <Paginator previous={previous} next={next} />
+        <Paginator prev={prev} next={next} />
         <ul className={styles.posts}>{posts}</ul>
-        <Paginator previous={previous} next={next} />
+        <Paginator prev={prev} next={next} />
       </div>
     </Layout>
   );

@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 
 import styles from './paginator.module.scss';
 
-const Paginator = ({previous, next}) => (
+const Paginator = ({prev, next}) => (
   <div className={styles.paginator}>
-    {previous && (
-      <Link to={previous} className={styles.previousLink}>
-        previous
+    {prev && (
+      <Link to={prev} className={styles.prevLink}>
+        prev
       </Link>
     )}
-    {previous && next && '|'}
+    {prev && next && '|'}
     {next && (
       <Link to={next} className={styles.nextLink}>
         next
@@ -21,12 +21,12 @@ const Paginator = ({previous, next}) => (
 );
 
 Paginator.propTypes = {
-  previous: PropTypes.string,
+  prev: PropTypes.string,
   next: PropTypes.string,
 };
 
 Paginator.defaultProps = {
-  previous: null,
+  prev: null,
   next: null,
 };
 

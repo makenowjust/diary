@@ -33,7 +33,7 @@ exports.createPages = async ({graphql, actions}) => {
 
   const {data} = await graphql(`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
         edges {
           node {
             fields {
@@ -48,11 +48,17 @@ exports.createPages = async ({graphql, actions}) => {
   const posts = data.allMarkdownRemark.edges.map(({node}) => ({slug: node.fields.slug}));
 
   // Create post pages.
-  for (const {slug} of posts) {
+  for (const [i, {slug}] of posts.entries()) {
+    const prevSlug = i === 0 ? null : posts[i - 1].slug;
+    const nextSlug = i === posts.length - 1 ? null : posts[i + 1].slug;
     createPage({
       path: slug,
       component: path.join(__dirname, 'src/templates/post.js'),
-      context: {slug},
+      context: {
+        slug,
+        prevSlug,
+        nextSlug,
+      },
     });
   }
 
