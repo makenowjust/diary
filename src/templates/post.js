@@ -15,11 +15,12 @@ const PostTemplate = ({data}) => {
     frontmatter: {title},
   } = data.markdownRemark;
 
-
   return (
     <Layout>
       <Helmet>
-        <title>{date}: {title} | {siteTitle}</title>
+        <title>
+          {date}: {title} | {siteTitle}
+        </title>
       </Helmet>
       <article>
         <h1 className={styles.title}>
