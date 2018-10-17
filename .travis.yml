@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - '10'
+
+script:
+  - yarn lint
+
+before_deploy:
+  - yarn build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  target-branch: release
+  github-token: '$GITHUB_TOKEN'
+  local-dir: public
+  name: TSUYUSATO Kitsune
+  email: make.just.on@gmail.com
+  on:
+    branch: master
