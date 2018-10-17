@@ -1,19 +1,21 @@
 language: node_js
 node_js:
-  - '8'
-cache: yarn
+  - '10'
 
 script:
-  - yarn build && NODE_ENV=production yarn generate
+  - yarn lint
+
+before_deploy:
+  - yarn build
+
 deploy:
-  edge:
-    branch: v1.8.47
   provider: pages
   skip-cleanup: true
-  github-token: $GH_TOKEN
-  local-dir: ./output/
   keep-history: true
-  name: TSUYUSATO "MakeNowJust" Kitsune
+  target-branch: release
+  github-token: '$GITHUB_TOKEN'
+  local-dir: public
+  name: TSUYUSATO Kitsune
   email: make.just.on@gmail.com
   on:
     branch: master

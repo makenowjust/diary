@@ -1,0 +1,11 @@
+@import '../styles/variables';
+
+.posts {
+  padding: 0;
+}
+
+.post {
+  display: block;
+  border-bottom: 1px solid black;
+  margin-bottom: $base-line-height;
+}

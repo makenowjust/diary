@@ -1,0 +1,18 @@
+@import '../styles/variables';
+
+.container {
+  padding: 10em 0;
+}
+
+.title {
+  font-family: $code-font-family;
+  text-align: center;
+
+  > a {
+    color: $black;
+  }
+}
+
+.quote {
+  text-align: center;
+}

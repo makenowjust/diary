@@ -1,0 +1,212 @@
+@import 'variables';
+
+//
+// Root
+// ====================================
+
+html {
+  color: $body-color;
+  background-color: $body-background-color;
+  font-family: $body-font-family;
+  font-size: $base-font-size;
+  font-feature-settings: 'palt';
+}
+
+//
+// Block level:
+// ====================================
+
+$block-level: h1, h2, h3, h4, h5, h6, hr, p, blockquote, table, pre, ul, ol;
+
+#{$block-level} {
+  max-width: $max-content-width;
+  margin: 0 auto $base-line-height auto;
+}
+
+#{selector-nest("li >", $block-level)} {
+  margin: 1rem 0;
+}
+
+//
+// Header:
+// ====================================
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $header-color;
+  font-family: $header-font-family;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $base-font-size * ((($scale-ratio - 1) * (7 - $i) / 6) + 1);
+  }
+}
+
+//
+// Link:
+// ====================================
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+//
+// Inline code:
+// ====================================
+
+code {
+  padding: 0 0.25em;
+  color: $inline-code-color;
+  background-color: $inline-code-background-color;
+  font-family: $code-font-family;
+}
+
+//
+// Code:
+// ====================================
+
+pre {
+  width: 100%;
+  max-width: none;
+  background-color: $code-background-color;
+  tab-size: 4;
+  word-spacing: normal;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+  hyphens: none;
+
+  > code {
+    display: block;
+    max-width: $max-content-width;
+    padding: 0.5em;
+    margin: 0 auto;
+    color: $code-color;
+    background-color: $code-background-color;
+    line-height: $base-line-height;
+    overflow-x: auto;
+
+    // Syntax highlight:
+
+    .token.comment,
+    .token.prolog,
+    .token.doctype,
+    .token.cdata {
+      color: $light-black;
+    }
+
+    .token.punctuation {
+      color: $magenta;
+    }
+
+    .token.property,
+    .token.tag,
+    .token.boolean,
+    .token.number,
+    .token.constant,
+    .token.symbol,
+    .token.deleted {
+      color: $blue;
+    }
+
+    .token.selector,
+    .token.attr-name,
+    .token.string,
+    .token.char,
+    .token.builtin,
+    .token.url,
+    .token.inserted {
+      color: $cyan;
+    }
+
+    .token.atrule,
+    .token.attr-value,
+    .token.keyword {
+      color: $green;
+    }
+
+    .token.function,
+    .token.class-name {
+      color: $yellow;
+    }
+
+    .token.regex,
+    .token.important,
+    .token.variable {
+      color: $red;
+    }
+
+    .token.important,
+    .token.bold {
+      font-weight: bold;
+    }
+
+    .token.entity {
+      color: $light-white;
+      background: $light-black;
+      cursor: help;
+    }
+
+    .token.italic {
+      font-style: italic;
+    }
+  }
+}
+
+//
+// Table:
+// ====================================
+
+table {
+  display: block;
+  border-collapse: collapse;
+  overflow-x: auto;
+
+  th {
+    color: $white;
+    background-color: $black;
+    font-weight: normal;
+  }
+
+  th,
+  td {
+    padding: 0.25rem;
+    border: 1px solid $light-black;
+  }
+}
+
+//
+// Image:
+// ====================================
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+//
+// Block quote:
+// ====================================
+
+blockquote {
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-left: 0.25rem solid $black;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}

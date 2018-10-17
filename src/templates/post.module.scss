@@ -1,0 +1,23 @@
+@import '../styles/variables';
+
+.title {
+  text-decoration: underline;
+}
+
+.around-links {
+  margin-bottom: $base-line-height;
+}
+
+.prev-link {
+  margin-bottom: 0;
+}
+
+.current-title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.next-link {
+  text-align: right;
+  margin-bottom: 0;
+}
