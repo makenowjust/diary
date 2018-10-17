@@ -25,7 +25,9 @@ const PostTemplate = ({data}) => {
         <meta name="description" content={excerpt} />
       </Helmet>
       <article>
-        <h1 className={styles.title}>{date}: {postTitle}</h1>
+        <h1 className={styles.title}>
+          {date}: {postTitle}
+        </h1>
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{__html: html}} />
       </article>
