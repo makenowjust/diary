@@ -12,20 +12,20 @@ const PostTemplate = ({data}) => {
   const {
     html,
     fields: {date},
-    frontmatter: {title},
+    frontmatter: {title: postTitle},
+    excerpt,
   } = data.markdownRemark;
+
+  const title = `${date}: ${postTitle} | ${siteTitle}`;
 
   return (
     <Layout>
       <Helmet>
-        <title>
-          {date}: {title} | {siteTitle}
-        </title>
+        <title>{title}</title>
+        <meta name="description" content={excerpt} />
       </Helmet>
       <article>
-        <h1 className={styles.title}>
-          <time>{date}</time>: {title}
-        </h1>
+        <h1 className={styles.title}>{date}: {postTitle}</h1>
         {/* eslint-disable-next-line react/no-danger */}
         <div dangerouslySetInnerHTML={{__html: html}} />
       </article>
@@ -55,6 +55,7 @@ export const query = graphql`
       frontmatter {
         title
       }
+      excerpt(truncate: true)
     }
   }
 `;

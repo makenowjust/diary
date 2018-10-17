@@ -26,13 +26,16 @@ const ListTemplate = ({data, pageContext}) => {
   const previous = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
   const next = current === listPages ? null : `/list/${current + 1}/`;
 
-  const {title: siteTitle} = data.site.siteMetadata;
-  const title = current === 1 ? `top | ${siteTitle}` : `list ${current} | ${siteTitle}`;
+  const {title: siteTitle, description} = data.site.siteMetadata;
+  const title = current === 1 ? siteTitle : `list ${current} | ${siteTitle}`;
 
   return (
     <Layout>
       <Helmet>
         <title>{title}</title>
+        <meta name="description" content={description} />
+        {previous && <link rel="prev" href={previous} />}
+        {next && <link rel="next" href={next} />}
       </Helmet>
       <div>
         <h1>{`post list [${current}/${listPages}]:`}</h1>
@@ -59,6 +62,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
 
