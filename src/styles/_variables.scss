@@ -20,7 +20,7 @@ $light-white: #bfc2bc;
 $japanese-font-family: 游ゴシック, 'Yu Gothic', 游ゴシック体, YuGothic, sans-serif;
 
 $base-font-size: 16px;
-$base-line-height: 1.55rem;
+$base-line-height: 1.8;
 $scale-ratio: 2;
 
 $header-font-family: 'Nova Square', $japanese-font-family;
@@ -37,6 +37,7 @@ $link-color: $blue;
 $code-font-family: 'Nova Mono', Monaco, monospace;
 $code-color: $white;
 $code-background-color: $black;
+$code-line-height: 1.55;
 $inline-code-color: $white;
 $inline-code-background-color: $light-black;
 

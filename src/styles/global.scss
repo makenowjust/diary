@@ -21,7 +21,8 @@ $block-level: h1, h2, h3, h4, h5, h6, hr, p, blockquote, table, pre, ul, ol;
 
 #{$block-level} {
   max-width: $max-content-width;
-  margin: 0 auto $base-line-height auto;
+  margin: 0 auto $base-line-height*1rem auto;
+  padding: 0 0.5rem;
 }
 
 #{selector-nest("li >", $block-level)} {
@@ -94,7 +95,7 @@ pre {
     margin: 0 auto;
     color: $code-color;
     background-color: $code-background-color;
-    line-height: $base-line-height;
+    line-height: $code-line-height;
     overflow-x: auto;
 
     // Syntax highlight:
