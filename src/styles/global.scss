@@ -21,8 +21,8 @@ $block-level: h1, h2, h3, h4, h5, h6, hr, p, blockquote, table, pre, ul, ol;
 
 #{$block-level} {
   max-width: $max-content-width;
-  margin: 0 auto $base-line-height * 1rem auto;
   padding: 0 0.5rem;
+  margin: 0 auto $base-line-height * 1rem auto;
 }
 
 #{selector-nest("li >", $block-level)} {

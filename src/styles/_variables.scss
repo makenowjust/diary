@@ -17,7 +17,7 @@ $light-cyan: #87c7d4;
 $light-white: #bfc2bc;
 
 // Font settings:
-$japanese-font-family: 游ゴシック, 'Yu Gothic', 游ゴシック体, YuGothic, sans-serif;
+$japanese-font-family: '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', sans-serif;
 
 $base-font-size: 16px;
 $base-line-height: 1.8;
@@ -27,14 +27,14 @@ $header-font-family: 'Nova Square', $japanese-font-family;
 $header-color: $black;
 $header-weight: bold;
 
-$body-font-family: Raleway, $japanese-font-family;
+$body-font-family: 'Raleway', $japanese-font-family;
 $body-color: $light-black;
 $body-background-color: $white;
 $body-weight: normal;
 
 $link-color: $blue;
 
-$code-font-family: 'Nova Mono', Monaco, monospace;
+$code-font-family: 'Nova Mono', 'Monaco', monospace;
 $code-color: $white;
 $code-background-color: $black;
 $code-line-height: 1.55;
