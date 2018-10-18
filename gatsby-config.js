@@ -9,6 +9,7 @@ module.exports = {
     quote: 'if you wanna break free you better listen to me', // From "Scatman's World" by Scatman John
     siteUrl: 'https://diary.quine.codes/',
     description: "MakeNowJust's diary",
+    language: 'ja',
   },
   plugins: [
     {
