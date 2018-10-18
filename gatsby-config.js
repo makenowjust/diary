@@ -29,10 +29,7 @@ module.exports = {
             resolve: 'gatsby-remark-embedly',
           },
           {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              noInlineHighlight: true,
-            },
+            resolve: 'gatsby-remark-highlight',
           },
           {
             resolve: 'gatsby-remark-breaks',

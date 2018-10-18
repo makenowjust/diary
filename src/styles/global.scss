@@ -100,67 +100,62 @@ pre {
 
     // Syntax highlight:
 
-    .token.comment,
-    .token.prolog,
-    .token.doctype,
-    .token.cdata {
-      color: $light-black;
+    .hljs,
+    .hljs-subst {
+      color: $code-color;
     }
 
-    .token.punctuation {
-      color: $magenta;
-    }
-
-    .token.property,
-    .token.tag,
-    .token.boolean,
-    .token.number,
-    .token.constant,
-    .token.symbol,
-    .token.deleted {
-      color: $blue;
-    }
-
-    .token.selector,
-    .token.attr-name,
-    .token.string,
-    .token.char,
-    .token.builtin,
-    .token.url,
-    .token.inserted {
-      color: $cyan;
-    }
-
-    .token.atrule,
-    .token.attr-value,
-    .token.keyword {
-      color: $green;
-    }
-
-    .token.function,
-    .token.class-name {
-      color: $yellow;
-    }
-
-    .token.regex,
-    .token.important,
-    .token.variable {
-      color: $red;
-    }
-
-    .token.important,
-    .token.bold {
+    .hljs-strong,
+    .hljs-emphasis {
       font-weight: bold;
     }
 
-    .token.entity {
-      color: $light-white;
-      background: $light-black;
-      cursor: help;
+    .hljs-bullet,
+    .hljs-quote,
+    .hljs-link,
+    .hljs-number,
+    .hljs-regexp,
+    .hljs-literal {
+      color: $magenta;
     }
 
-    .token.italic {
-      font-style: italic;
+    .hljs-code,
+    .hljs-selector-class {
+      color: $light-blue;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag,
+    .hljs-section,
+    .hljs-attribute,
+    .hljs-name,
+    .hljs-variable {
+      color: $green;
+    }
+
+    .language-console .bash,
+    .hljs-string {
+      color: $yellow;
+    }
+
+    // stylelint-disable-next-line selector-class-pattern
+    .hljs-built_in,
+    .hljs-type,
+    .hljs-builtin-name,
+    .hljs-symbol,
+    .hljs-selector-id,
+    .hljs-selector-attr,
+    .hljs-selector-pseudo,
+    .hljs-template-tag,
+    .hljs-template-variable,
+    .hljs-addition {
+      color: $light-red;
+    }
+
+    .hljs-comment,
+    .hljs-deletion,
+    .hljs-meta {
+      color: $light-white;
     }
   }
 }
