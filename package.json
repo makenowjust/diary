@@ -18,6 +18,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
+    "react-instantsearch-dom": "^5.3.1",
     "typeface-nova-mono": "^0.0.54",
     "typeface-nova-square": "^0.0.54",
     "typeface-raleway": "^0.0.54"
@@ -33,6 +34,7 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-unicorn": "^6.0.1",
     "gatsby": "^2.0.25",
+    "gatsby-plugin-algolia": "^0.2.0",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.4",

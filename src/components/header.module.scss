@@ -1,7 +1,49 @@
 @import '../styles/variables';
 
 .container {
-  padding: 10em 0;
+  padding: 10rem 0;
+}
+
+.nav-bar {
+  width: 100%;
+  padding-bottom: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  background-color: $white;
+}
+
+.nav-bar-title {
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: $code-font-family;
+  font-size: 1.2rem;
+
+  > a {
+    color: $black;
+  }
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+
+  ul {
+    max-width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+
+    li {
+      display: inline-block;
+      padding-right: 1rem;
+    }
+  }
 }
 
 .title {

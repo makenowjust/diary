@@ -6,6 +6,21 @@ import styles from './header.module.scss';
 
 const Header = ({title, quote}) => (
   <header className={styles.container}>
+    <div className={styles.navBar}>
+      <h1 className={styles.navBarTitle}>
+        <Link to="/">{title}</Link>
+      </h1>
+      <nav className={styles.nav}>
+        <ul>
+          <li>
+            <Link to="/">Top</Link>
+          </li>
+          <li>
+            <Link to="/search/">Search</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <h1 className={styles.title}>
       <Link to="/">{title}</Link>
     </h1>

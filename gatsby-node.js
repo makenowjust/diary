@@ -77,3 +77,17 @@ exports.createPages = async ({graphql, actions}) => {
     });
   }
 };
+
+exports.onCreateWebpackConfig = ({actions, plugins}) => {
+  // Define environment variable for Algolia searching.
+  actions.setWebpackConfig({
+    plugins: [
+      plugins.define({
+        'process.env': {
+          ALGOLIA_APP_ID: JSON.stringify(process.env.ALGOLIA_APP_ID),
+          ALGOLIA_SEARCH_API_KEY: JSON.stringify(process.env.ALGOLIA_SEARCH_API_KEY),
+        },
+      }),
+    ],
+  });
+};

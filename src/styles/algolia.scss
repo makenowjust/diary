@@ -1,0 +1,110 @@
+// stylelint-disable selector-class-pattern
+
+@import './variables';
+
+.ais-SearchBox {
+  display: block;
+  height: 3rem;
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ais-SearchBox-input {
+  width: 100%;
+  padding: 0.3em 1.7em;
+  border: none;
+  border-bottom: 1px solid $black;
+  position: relative;
+  right: 0;
+  left: 0;
+  background: transparent;
+  outline: none;
+  font-size: 1.4rem;
+  appearance: none;
+
+  &::-ms-clear,
+  &::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+.ais-SearchBox-submit {
+  width: 1.6rem;
+  height: 1.7rem;
+  padding: 0.6rem 0.5rem;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: transparent;
+  outline: none;
+}
+
+.ais-SearchBox-reset {
+  width: 1.6rem;
+  height: 1.7rem;
+  padding: 0.6rem 0.5rem;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background-color: transparent;
+  outline: none;
+}
+
+.ais-PoweredBy {
+  display: block;
+  max-width: $max-content-width;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.ais-InfiniteHits {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.ais-InfiniteHits-list {
+  text-align: left;
+}
+
+.ais-InfiniteHits-item {
+  display: block;
+  border-bottom: 1px solid $black;
+  margin-bottom: $base-line-height * 1rem;
+}
+
+.ais-InfiniteHits-loadMore {
+  padding: $base-line-height * 1rem 1rem;
+  border: none;
+  color: $blue;
+  background-color: transparent;
+  outline: none;
+  text-align: right;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.ais-Highlight-highlighted,
+.ais-Snippet-highlighted {
+  color: $green;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}

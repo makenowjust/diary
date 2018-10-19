@@ -1,3 +1,36 @@
+const queries = [
+  {
+    query: `
+      query {
+        allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
+          edges {
+            node {
+              objectID: id
+              html
+              fields {
+                date
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+    }
+    `,
+    transformer: ({data}) =>
+      data.allMarkdownRemark.edges.map(({node}) => ({
+        id: node.id,
+        path: node.fields.slug,
+        body: node.html,
+        date: node.fields.date,
+        title: node.frontmatter.title,
+      })),
+    indexName: 'posts',
+  },
+];
+
 module.exports = {
   siteMetadata: {
     title: '℘ make now just',
@@ -43,6 +76,16 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-react-helmet',
+    },
+    {
+      resolve: 'gatsby-plugin-algolia',
+      options: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: 'posts',
+        queries,
+        chunkSize: 10000,
+      },
     },
   ],
 };
