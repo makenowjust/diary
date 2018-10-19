@@ -11,6 +11,7 @@ html {
   font-size: $base-font-size;
   font-feature-settings: 'palt';
   line-height: $base-line-height;
+  word-break: break-all;
 }
 
 //
