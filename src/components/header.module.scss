@@ -6,7 +6,7 @@
 
 .nav-bar {
   width: 100%;
-  padding-bottom: 5rem;
+  height: 3rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -42,6 +42,10 @@
     li {
       display: inline-block;
       padding-right: 1rem;
+
+      a:hover {
+        border-bottom: 1px solid;
+      }
     }
   }
 }
@@ -50,6 +54,7 @@
   font-family: $code-font-family;
   text-align: center;
 
+  // stylelint-disable-next-line no-descending-specificity
   > a {
     color: $black;
   }

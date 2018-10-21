@@ -1,6 +1,8 @@
 import {Link} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faSearch} from '@fortawesome/free-solid-svg-icons';
 
 import styles from './header.module.scss';
 
@@ -13,10 +15,9 @@ const Header = ({title, quote}) => (
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link to="/">Top</Link>
-          </li>
-          <li>
-            <Link to="/search/">Search</Link>
+            <Link to="/search/">
+              <FontAwesomeIcon icon={faSearch} />
+            </Link>
           </li>
         </ul>
       </nav>
