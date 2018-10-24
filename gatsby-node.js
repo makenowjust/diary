@@ -2,7 +2,7 @@ const path = require('path');
 
 const {createFilePath} = require(`gatsby-source-filesystem`);
 
-const POSTS_PER_LIST_PAGE = 30;
+const POSTS_PER_LIST_PAGE = 20;
 
 exports.onCreateNode = ({node, getNode, actions}) => {
   const {createNodeField} = actions;
