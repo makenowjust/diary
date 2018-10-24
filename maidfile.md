@@ -6,7 +6,7 @@ Start development server.
 
 ```bash
 set -ex
-gatsby develop
+gatsby develop --open "$@"
 ```
 
 ## build
@@ -15,7 +15,7 @@ Build with using [Gatsby](https://gatsbyjs.org).
 
 ```bash
 set -ex
-gatsby build
+gatsby build "$@"
 ```
 
 ## lint
