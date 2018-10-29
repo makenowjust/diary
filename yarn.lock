@@ -1088,22 +1088,25 @@ acorn-jsx@^3.0.0:
   dependencies:
     acorn "^3.0.4"
 
-acorn-jsx@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-4.1.1.tgz#e8e41e48ea2fe0c896740610ab6a4ffd8add225e"
-  integrity sha512-JY+iV6r+cO21KtntVvFkD+iqjtdpRUpGqKWgfkCdZq1R+kbreEl8EcdcJR4SmiIgsIQT33s6QzheQ9a275Q8xw==
-  dependencies:
-    acorn "^5.0.3"
+acorn-jsx@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.0.tgz#958584ddb60990c02c97c1bd9d521fce433bb101"
+  integrity sha512-XkB50fn0MURDyww9+UYL3c1yLbOBz0ZFvrdYlGB8l+Ije1oSC75qAqrzSPjYQbdnQUzhlUGNKuesryAv0gxZOg==
 
 acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
   integrity sha1-ReN/s56No/JbruP/U2niu18iAXo=
 
-acorn@^5.0.0, acorn@^5.0.3, acorn@^5.5.0, acorn@^5.6.0, acorn@^5.6.2:
+acorn@^5.0.0, acorn@^5.5.0, acorn@^5.6.2:
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
   integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+
+acorn@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.0.2.tgz#6a459041c320ab17592c6317abbfdf4bbaa98ca4"
+  integrity sha512-GXmKIvbrN3TV7aVqAzVFaMW8F8wzVX7voEBRO3bDA64+EX37YSayggRJP5Xig6HYHBkWKpFg9W5gg6orklubhg==
 
 address@1.0.3, address@^1.0.1:
   version "1.0.3"
@@ -4224,9 +4227,9 @@ eslint@^4.19.1:
     text-table "~0.2.0"
 
 eslint@^5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.7.0.tgz#55c326d6fb2ad45fcbd0ce17c3846f025d1d819c"
-  integrity sha512-zYCeFQahsxffGl87U2aJ7DPyH8CbWgxBC213Y8+TCanhUTf2gEvfq3EKpHmEcozTLyPmGe9LZdMAwC/CpJBM5A==
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.8.0.tgz#91fbf24f6e0471e8fdf681a4d9dd1b2c9f28309b"
+  integrity sha512-Zok6Bru3y2JprqTNm14mgQ15YQu/SMDkWdnmHfFg770DIUlmMFd/gqqzCHekxzjHZJxXv3tmTpH0C1icaYJsRQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
@@ -4276,12 +4279,13 @@ espree@^3.5.4:
     acorn-jsx "^3.0.0"
 
 espree@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/espree/-/espree-4.0.0.tgz#253998f20a0f82db5d866385799d912a83a36634"
-  integrity sha512-kapdTCt1bjmspxStVKX6huolXVV5ZfyZguY1lcfhVVZstce3bqxH9mcLzNn3/mlgW6wQ732+0fuG9v7h0ZQoKg==
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/espree/-/espree-4.1.0.tgz#728d5451e0fd156c04384a7ad89ed51ff54eb25f"
+  integrity sha512-I5BycZW6FCVIub93TeVY1s7vjhP9CY6cXCznIRfiig7nRviKZYdRnj/sHEWC6A7WE9RDWOFq9+7OsWSYz8qv2w==
   dependencies:
-    acorn "^5.6.0"
-    acorn-jsx "^4.1.1"
+    acorn "^6.0.2"
+    acorn-jsx "^5.0.0"
+    eslint-visitor-keys "^1.0.0"
 
 esprima@^4.0.0:
   version "4.0.1"
