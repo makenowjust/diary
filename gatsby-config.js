@@ -92,12 +92,12 @@ module.exports = {
       options: {
         name: '℘ make now just',
         /* eslint-disable camelcase */
-        short_name: '℘ make now just',
+        short_name: 'diary',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#434944',
         /* eslint-enable camelcase */
-        display: 'browser',
+        display: 'minimal-ui',
         icon: 'src/assets/icon.png',
       },
     },
