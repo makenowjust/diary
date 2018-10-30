@@ -91,16 +91,18 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: '℘ make now just',
+        /* eslint-disable camelcase */
         short_name: '℘ make now just',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#434944',
+        /* eslint-enable camelcase */
         display: 'browser',
         icon: 'src/assets/icon.png',
       },
     },
     {
       resolve: 'gatsby-plugin-offline',
-    }
+    },
   ],
 };
