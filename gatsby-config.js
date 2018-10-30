@@ -87,5 +87,20 @@ module.exports = {
         chunkSize: 10000,
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: '℘ make now just',
+        short_name: '℘ make now just',
+        start_url: '/',
+        background_color: '#fff',
+        theme_color: '#434944',
+        display: 'browser',
+        icon: 'src/assets/icon.png',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-offline',
+    }
   ],
 };
