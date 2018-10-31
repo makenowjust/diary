@@ -97,6 +97,7 @@ module.exports = {
         background_color: '#fff',
         theme_color: '#434944',
         /* eslint-enable camelcase */
+        display: 'minimal-ui',
         icon: 'src/assets/icon.png',
       },
     },
