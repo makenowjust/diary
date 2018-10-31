@@ -15,7 +15,7 @@ const Header = ({title, quote}) => (
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link to="/search/">
+            <Link to="/search/" title="検索">
               <FontAwesomeIcon icon={faSearch} />
             </Link>
           </li>
