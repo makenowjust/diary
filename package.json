@@ -42,6 +42,7 @@
     "gatsby-plugin-offline": "^2.0.10",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.1",
+    "gatsby-plugin-sitemap": "^2.0.2",
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-remark": "^2.1.7",
     "lowlight": "^1.10.0",

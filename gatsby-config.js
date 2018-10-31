@@ -1,3 +1,5 @@
+/* eslint-disable camelcase */
+
 const queries = [
   {
     query: `
@@ -88,15 +90,16 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-sitemap',
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: '℘ make now just',
-        /* eslint-disable camelcase */
         short_name: 'diary',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#434944',
-        /* eslint-enable camelcase */
         display: 'minimal-ui',
         icon: 'src/assets/icon.png',
       },
