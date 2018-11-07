@@ -36,7 +36,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "bed13c7bfd0384480b74f1357cd0577a"
+    "revision": "b769bb27496fa1615bade6afe5a62be2"
   },
   {
     "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -51,12 +51,12 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
-  whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
+  whitelist: [/^([^.?]*|[^?]*\.([^.?]{5,}|html))(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
 
 workbox.routing.registerRoute(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https:/, workbox.strategies.networkFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:/, workbox.strategies.networkFirst(), 'GET');
 "use strict";
 
 /* global workbox */
@@ -68,10 +68,19 @@ self.addEventListener("message", function (event) {
     var cacheName = workbox.core.cacheNames.runtime;
     event.waitUntil(caches.open(cacheName).then(function (cache) {
       return Promise.all(resources.map(function (resource) {
-        return cache.add(resource).catch(function (e) {
-          // ignore TypeErrors - these are usually due to
-          // external resources which don't allow CORS
-          if (!(e instanceof TypeError)) throw e;
+        var request; // Some external resources don't allow
+        // CORS so get an opaque response
+
+        if (resource.match(/^https?:/)) {
+          request = fetch(resource, {
+            mode: "no-cors"
+          });
+        } else {
+          request = fetch(resource);
+        }
+
+        return request.then(function (response) {
+          return cache.put(resource, response);
         });
       }));
     }));
