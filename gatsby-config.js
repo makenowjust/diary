@@ -8,7 +8,7 @@ const queries = [
           edges {
             node {
               objectID: id
-              html
+              rawMarkdownBody
               fields {
                 date
                 slug
@@ -19,13 +19,13 @@ const queries = [
             }
           }
         }
-    }
+      }
     `,
     transformer: ({data}) =>
       data.allMarkdownRemark.edges.map(({node}) => ({
         id: node.id,
         path: node.fields.slug,
-        body: node.html,
+        body: node.rawMarkdownBody,
         date: node.fields.date,
         title: node.frontmatter.title,
       })),
