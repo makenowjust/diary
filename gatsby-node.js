@@ -2,6 +2,8 @@ const path = require('path');
 
 const {createFilePath} = require(`gatsby-source-filesystem`);
 
+const markdown2text = require('./src/utils/markdown-to-text');
+
 const POSTS_PER_LIST_PAGE = 20;
 
 exports.onCreateNode = ({node, getNode, actions}) => {
@@ -24,6 +26,13 @@ exports.onCreateNode = ({node, getNode, actions}) => {
       node,
       name: 'date',
       value: date,
+    });
+
+    const text = markdown2text(node.rawMarkdownBody);
+    createNodeField({
+      node,
+      name: 'text',
+      value: text,
     });
   }
 };

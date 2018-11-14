@@ -8,10 +8,10 @@ const queries = [
           edges {
             node {
               objectID: id
-              rawMarkdownBody
               fields {
                 date
                 slug
+                text
               }
               frontmatter {
                 title
@@ -25,7 +25,7 @@ const queries = [
       data.allMarkdownRemark.edges.map(({node}) => ({
         id: node.id,
         path: node.fields.slug,
-        body: node.rawMarkdownBody,
+        body: node.fields.text,
         date: node.fields.date,
         title: node.frontmatter.title,
       })),
