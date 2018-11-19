@@ -2877,7 +2877,7 @@ command-exists@^1.2.2:
   resolved "https://registry.yarnpkg.com/command-exists/-/command-exists-1.2.8.tgz#715acefdd1223b9c9b37110a149c6392c2852291"
   integrity sha512-PM54PkseWbiiD/mMsbvW351/u+dafwTJ0ye2qB60G1aGQP9j3xK2gmMDc+R34L3nDtx4qMCitXT75mkbkGJDLw==
 
-commander@^2.11.0, commander@^2.18.0:
+commander@^2.11.0, commander@^2.16.0, commander@^2.18.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
@@ -5153,6 +5153,15 @@ gatsby-react-router-scroll@^2.0.1:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
+gatsby-remark-katex@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-3.0.0.tgz#7ad2d48625847b6a5b7cd14b3f809664b43c93f9"
+  integrity sha512-o7h+uieHco/RNzzwMlu77S6xeS4fJdt3XlBngUZjUIpDOkuM/FxlalAE989Z/GC9DXQqpTz96y/dXjm6WwPdkA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    remark-math "^1.0.3"
+    unist-util-visit "^1.3.0"
+
 gatsby-source-filesystem@^2.0.4:
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.8.tgz#0b84e2321673d3f68c43b4a3948a3819761fde84"
@@ -6940,6 +6949,13 @@ jsx-ast-utils@^2.0.1:
   integrity sha1-6AGxs5mF4g//yHtA43SAgOLcrH8=
   dependencies:
     array-includes "^3.0.3"
+
+katex@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.10.0.tgz#da562e5d0d5cc3aa602e27af8a9b8710bfbce765"
+  integrity sha512-/WRvx+L1eVBrLwX7QzKU1dQuaGnE7E8hDvx3VWfZh9HbMiCfsKWJNnYZ0S8ZMDAfAyDSofdyXIrH/hujF1fYXg==
+  dependencies:
+    commander "^2.16.0"
 
 kebab-hash@^0.1.2:
   version "0.1.2"
@@ -9888,6 +9904,13 @@ remark-breaks@^1.0.1:
   resolved "https://registry.yarnpkg.com/remark-breaks/-/remark-breaks-1.0.1.tgz#7f90548f6c4883929f3e33b9933414f95a1014ea"
   integrity sha512-Z3FuhGrHZ0KLzvI4KHSzBA7vey1PjmseDTaA4Bfe7Fd1XhqlmHr1Br9BiNTtcpNpHBd00KGLuifDE3kF9UW8ig==
 
+remark-math@^1.0.3:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/remark-math/-/remark-math-1.0.5.tgz#110a6e7f7cd35d24795646defa18d2d98f25139b"
+  integrity sha512-VJSh9lJsnkj6SXzvCqe9RYc8lq3Edh/bAvjmkWIXrZGLdZhXQ26Z99q67WuLjdh+N9yurfi/g164qN5KNhu7AQ==
+  dependencies:
+    trim-trailing-lines "^1.1.0"
+
 remark-parse@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-5.0.0.tgz#4c077f9e499044d1d5c13f80d7a98cf7b9285d95"
@@ -11449,7 +11472,7 @@ trim-right@^1.0.1:
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-trim-trailing-lines@^1.0.0:
+trim-trailing-lines@^1.0.0, trim-trailing-lines@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/trim-trailing-lines/-/trim-trailing-lines-1.1.1.tgz#e0ec0810fd3c3f1730516b45f49083caaf2774d9"
   integrity sha512-bWLv9BbWbbd7mlqqs2oQYnLD/U/ZqeJeJwbO0FG2zA1aTq+HTvxfHNKFa/HGCVyJpDiioUYaBhfiT6rgk+l4mg==

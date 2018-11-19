@@ -61,15 +61,10 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          {
-            resolve: 'gatsby-remark-embedly',
-          },
-          {
-            resolve: 'gatsby-remark-highlight',
-          },
-          {
-            resolve: 'gatsby-remark-breaks',
-          },
+          'gatsby-remark-katex',
+          'gatsby-remark-embedly',
+          'gatsby-remark-highlight',
+          'gatsby-remark-breaks',
         ],
       },
     },

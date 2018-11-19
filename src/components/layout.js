@@ -10,6 +10,7 @@ import 'modern-normalize';
 import 'typeface-nova-mono';
 import 'typeface-nova-square';
 import 'typeface-raleway';
+import 'katex/dist/katex.min.css';
 
 import '../styles/global.scss';
 
