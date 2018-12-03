@@ -50,7 +50,7 @@
     "lowlight": "^1.10.0",
     "maid": "^0.3.0",
     "node-sass": "^4.9.4",
-    "prettier": "^1.14.3",
+    "prettier": "^1.15.3",
     "prettier-package-json": "^2.0.1",
     "remark-breaks": "^1.0.1",
     "strip-markdown": "^3.0.2",
