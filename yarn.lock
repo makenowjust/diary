@@ -5138,10 +5138,10 @@ gatsby-plugin-page-creator@^2.0.5:
     parse-filepath "^1.0.1"
     slash "^1.0.0"
 
-gatsby-plugin-react-helmet@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.0.4.tgz#07811c8ccc626ecfea40554ccc5f946db705409d"
-  integrity sha512-v/7PGY3AKNebvnz0CPVqVbpZhyREqQWGmz75Y0Ru+SbgaeZ8jA1s8wa/hPpYa+ZutvWPeZVE5IlkgrK9vqoNwg==
+gatsby-plugin-react-helmet@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.0.5.tgz#eaeca7c83c6c273d31454598949dd0d3b4ff5f31"
+  integrity sha512-Xn8d4EckfUkO3xB8qfjn1AcqeA2fYgd6Mbin3RHc/Zu6YRiOQqdJAVBXz+7PbFpTt+6GCluKklEpFUA4RS4oYw==
   dependencies:
     "@babel/runtime" "^7.0.0"
 
@@ -5224,10 +5224,10 @@ gatsby-transformer-remark@^2.1.17:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.3.0"
 
-gatsby@^2.0.73:
-  version "2.0.73"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.73.tgz#7fd237faa69fdf7ad077f606398337988d4333aa"
-  integrity sha512-TSf0JYhL9/RRb7abMGiPDLq1x4qMaI2Lgyouz5OyMFLqJkfV4tQaJ7d3ltXdpGZPECazEjecXh/NVZEhGEWZzA==
+gatsby@^2.0.76:
+  version "2.0.76"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.76.tgz#a28b975f4e80d80be6501d6ee15e4fae8d766342"
+  integrity sha512-Fja6wmPc4dEq3vBFkwJYiiwhRyJyb4M/REHALjrwTpjh1YVwK0WIZyBDNMNA1Fb5aiX27/TMo3p7Qmo1zKZ1rA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
