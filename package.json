@@ -24,7 +24,7 @@
     "react-helmet": "^5.2.0",
     "react-instantsearch-dom": "^5.3.1",
     "typeface-nova-mono": "^0.0.54",
-    "typeface-nova-square": "^0.0.54",
+    "typeface-nova-square": "^0.0.71",
     "typeface-raleway": "^0.0.54"
   },
   "devDependencies": {

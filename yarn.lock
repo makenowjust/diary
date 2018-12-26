@@ -11625,10 +11625,10 @@ typeface-nova-mono@^0.0.54:
   resolved "https://registry.yarnpkg.com/typeface-nova-mono/-/typeface-nova-mono-0.0.54.tgz#c6cf36ca906925ac5b02d4e0cb0b36ce0d48ce9e"
   integrity sha512-BF5fij9EeVnCtMwEVkc/RZjCsDj8Zj/1QIh+beBEK1qtnXlC2cumfnInzBbBvikQBo4xTWXkPFg1GQRl1hmDMQ==
 
-typeface-nova-square@^0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-nova-square/-/typeface-nova-square-0.0.54.tgz#6717536ea72fe0c9727f03fb8679a982d1b77435"
-  integrity sha512-az8rOLsNUhhO7OHhO+LqzZhbPH0dbGwe/1yNPN5fEnLW7XE1cWjDd78ZwYpPmPOp8mziw5ps2SOml0Nx0PxBAA==
+typeface-nova-square@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-nova-square/-/typeface-nova-square-0.0.71.tgz#3fa7294a455cad07a4a4215380e8946184f9341d"
+  integrity sha512-+WTDIc6kNzPZdaqpBialBnOam7imCGMdNsNVM45f0VNGffXW3osb6+Egje+TBmnbMkoOOaOVAKliQ7Oe+IRODA==
 
 typeface-raleway@^0.0.54:
   version "0.0.54"
