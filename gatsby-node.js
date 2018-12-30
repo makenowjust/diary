@@ -34,6 +34,11 @@ exports.onCreateNode = ({node, getNode, actions}) => {
       name: 'text',
       value: text,
     });
+    createNodeField({
+      node,
+      name: 'textSize',
+      value: text.length,
+    });
   }
 };
 
