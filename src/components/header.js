@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faSearch} from '@fortawesome/free-solid-svg-icons';
 
+import Lawn from './lawn';
 import styles from './header.module.scss';
 
 const Header = ({title, quote}) => (
@@ -26,6 +27,7 @@ const Header = ({title, quote}) => (
       <Link to="/">{title}</Link>
     </h1>
     <p className={styles.quote}>{quote}</p>
+    <Lawn />
   </header>
 );
 
