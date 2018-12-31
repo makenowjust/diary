@@ -56,7 +56,7 @@ const Lawn = () => (
       const latest = new Date();
       const start = new Date(latest - WEEKS_MS);
       let x = MARGIN;
-      for (let i = 0; i < WEEKS * WEEK_DAYS; i++) {
+      for (let i = 0; i <= WEEKS * WEEK_DAYS; i++) {
         const date = new Date(start.getTime() + DAY_MS * i);
         const day = (date.getDay() + WEEK_OFFSET) % WEEK_DAYS;
         const y = MARGIN + (GRASS_SIZE + MARGIN) * (day + 1);
