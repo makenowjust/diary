@@ -18,7 +18,20 @@ const HEIGHT = MARGIN + (GRASS_SIZE + MARGIN) * (7 + 1);
 const INACTIVE = '#ebedf0';
 const ACTIVE = ['#c6e48b', '#7bc96f', '#239a3b', '#196127'];
 
-const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const MONTH_NAMES = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
 
 const Lawn = () => (
   <StaticQuery
