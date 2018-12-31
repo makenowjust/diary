@@ -5,7 +5,7 @@ import styles from './lawn.module.scss';
 
 const WEEK_DAYS = 7;
 const WEEK_OFFSET = 1;
-const WEEKS = 52;
+const WEEKS = 53;
 const DAY_MS = 24 * 3600 * 1000;
 const WEEK_MS = 7 * DAY_MS;
 const WEEKS_MS = WEEKS * WEEK_MS;
@@ -18,7 +18,7 @@ const HEIGHT = MARGIN + (GRASS_SIZE + MARGIN) * (7 + 1);
 const INACTIVE = '#ebedf0';
 const ACTIVE = ['#c6e48b', '#7bc96f', '#239a3b', '#196127'];
 
-const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const Lawn = () => (
   <StaticQuery
@@ -40,10 +40,10 @@ const Lawn = () => (
     `}
     render={data => {
       const lawnData = [];
-      const latest = new Date(data.allMarkdownRemark.edges[0].node.fields.date);
+      const latest = new Date();
       const start = new Date(latest - WEEKS_MS);
       let x = MARGIN;
-      for (let i = 0; i <= WEEKS * WEEK_DAYS; i++) {
+      for (let i = 0; i < WEEKS * WEEK_DAYS; i++) {
         const date = new Date(start.getTime() + DAY_MS * i);
         const day = (date.getDay() + WEEK_OFFSET) % WEEK_DAYS;
         const y = MARGIN + (GRASS_SIZE + MARGIN) * (day + 1);
