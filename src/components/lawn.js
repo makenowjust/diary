@@ -8,7 +8,6 @@ const WEEK_OFFSET = 1;
 const WEEKS = 53;
 const DAY_MS = 24 * 3600 * 1000;
 const WEEK_MS = 7 * DAY_MS;
-const WEEKS_MS = WEEKS * WEEK_MS;
 
 const MARGIN = 2;
 const GRASS_SIZE = 12;
@@ -53,11 +52,12 @@ const Lawn = () => (
     `}
     render={data => {
       const lawnData = [];
-      const latest = new Date();
-      const start = new Date(latest - WEEKS_MS);
+      const start = new Date();
+      start.setDate(start.getDate() - WEEKS * WEEK_DAYS);
       let x = MARGIN;
-      for (let i = 0; i <= WEEKS * WEEK_DAYS; i++) {
-        const date = new Date(start.getTime() + DAY_MS * i);
+      for (let i = 0; i < WEEKS * WEEK_DAYS; i++) {
+        const date = new Date(start.getTime());
+        date.setDate(date.getDate() + i);
         const day = (date.getDay() + WEEK_OFFSET) % WEEK_DAYS;
         const y = MARGIN + (GRASS_SIZE + MARGIN) * (day + 1);
         lawnData.push({x, y, slug: null, size: 0, date});
@@ -67,11 +67,17 @@ const Lawn = () => (
       }
 
       for (const {node} of data.allMarkdownRemark.edges) {
-        const date = new Date(node.fields.date);
+        const [y, m, d] = node.fields.date.split('-').map(s => Number.parseInt(s));
+        const date = new Date(y, m - 1, d);
         const i = Math.floor((date - start) / DAY_MS);
+
+        if (i >= lawnData.length) {
+          continue;
+        }
         if (i < 0) {
           break;
         }
+
         lawnData[i].slug = node.fields.slug;
         lawnData[i].size += node.fields.textSize;
       }
