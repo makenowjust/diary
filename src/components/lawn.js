@@ -3,11 +3,7 @@ import React from 'react';
 
 import styles from './lawn.module.scss';
 
-const WEEK_DAYS = 7;
-const WEEK_OFFSET = 1;
-const WEEKS = 53;
 const DAY_MS = 24 * 3600 * 1000;
-const WEEK_MS = 7 * DAY_MS;
 
 const MARGIN = 2;
 const GRASS_SIZE = 12;
@@ -52,13 +48,21 @@ const Lawn = () => (
     `}
     render={data => {
       const lawnData = [];
-      const start = new Date();
-      start.setDate(start.getDate() - WEEKS * WEEK_DAYS);
+      const end = new Date();
+      end.setHours(0);
+      end.setMinutes(0);
+      end.setSeconds(0);
+      end.setMilliseconds(0);
+      const start = new Date(end.getTime());
+      start.setFullYear(start.getFullYear() - 1);
+      start.setDate(start.getDate() - start.getDay());
+      const totalDays = (end - start) / DAY_MS;
+
       let x = MARGIN;
-      for (let i = 0; i < WEEKS * WEEK_DAYS; i++) {
+      for (let i = 0; i <= totalDays; i++) {
         const date = new Date(start.getTime());
         date.setDate(date.getDate() + i);
-        const day = (date.getDay() + WEEK_OFFSET) % WEEK_DAYS;
+        const day = date.getDay();
         const y = MARGIN + (GRASS_SIZE + MARGIN) * (day + 1);
         lawnData.push({x, y, slug: null, size: 0, date});
         if (day === 6) {
@@ -67,7 +71,7 @@ const Lawn = () => (
       }
 
       for (const {node} of data.allMarkdownRemark.edges) {
-        const [y, m, d] = node.fields.date.split('-').map(s => Number.parseInt(s));
+        const [y, m, d] = node.fields.date.split('-').map(s => Number.parseInt(s, 10));
         const date = new Date(y, m - 1, d);
         const i = Math.floor((date - start) / DAY_MS);
 
