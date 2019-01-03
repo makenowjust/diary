@@ -10,9 +10,6 @@ const GRASS_SIZE = 12;
 const WIDTH = MARGIN + (GRASS_SIZE + MARGIN) * 54;
 const HEIGHT = MARGIN + (GRASS_SIZE + MARGIN) * (7 + 1);
 
-const INACTIVE = '#ebedf0';
-const ACTIVE = ['#c6e48b', '#7bc96f', '#239a3b', '#196127'];
-
 const MONTH_NAMES = [
   'Jan',
   'Feb',
@@ -90,14 +87,14 @@ const Lawn = () => (
       let lastMonth = lawnData[0].date.getMonth();
 
       const grasses = lawnData.map(grass => {
-        const props = {
-          fill: INACTIVE,
-        };
+        const props = {};
+        const classNames = [];
         if (grass.slug) {
           const activeness = Math.min(Math.max(7, Math.floor(Math.log2(grass.size))), 10) - 7;
-          props.fill = ACTIVE[activeness];
-          props.className = styles.grass;
+          classNames.push(styles.active, styles[`active${activeness}`]);
           props.onClick = () => navigate(grass.slug);
+        } else {
+          classNames.push(styles.inactive);
         }
 
         const month = grass.date.getMonth();
@@ -117,6 +114,7 @@ const Lawn = () => (
             width={GRASS_SIZE}
             x={grass.x}
             y={grass.y}
+            className={classNames.join(' ')}
             {...props}
           >
             {grass.slug && <title>{grass.slug}</title>}
