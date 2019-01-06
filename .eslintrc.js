@@ -8,11 +8,12 @@ module.exports = {
       version: '16',
     },
   },
-  plugins: ['import', 'promise', 'react', 'unicorn'],
+  plugins: ['import', 'promise', 'react', 'jsx-a11y', 'unicorn'],
   extends: [
     'plugin:import/recommended',
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
+    'plugin:jsx-a11y/recommended',
     'xo-space/esnext',
     'xo-react/space',
     'prettier',
