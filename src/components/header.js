@@ -36,10 +36,10 @@ Header.propTypes = {
   quote: PropTypes.string.isRequired,
   posts: PropTypes.arrayOf(
     PropTypes.shape({
-      date: PropTypes.string.isRequired,
-      slug: PropTypes.string.isRequired,
-      textSize: PropTypes.number.isRequired,
-    }).isRequired,
+      date: PropTypes.string,
+      slug: PropTypes.string,
+      textSize: PropTypes.number,
+    }),
   ).isRequired,
   today: PropTypes.instanceOf(Date).isRequired,
 };

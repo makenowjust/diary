@@ -116,13 +116,15 @@ const Lawn = ({posts, today}) => {
 };
 
 Lawn.propTypes = {
+  /** Post summaries. They should be sorted descending date order. */
   posts: PropTypes.arrayOf(
     PropTypes.shape({
-      date: PropTypes.string.isRequired,
-      slug: PropTypes.string.isRequired,
-      textSize: PropTypes.number.isRequired,
-    }).isRequired,
+      date: PropTypes.string,
+      slug: PropTypes.string,
+      textSize: PropTypes.number,
+    }),
   ).isRequired,
+  /** A `Date` object which means rightmost of this lawn. */
   today: PropTypes.instanceOf(Date).isRequired,
 };
 

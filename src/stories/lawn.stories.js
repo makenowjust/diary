@@ -1,13 +1,12 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import {date, withKnobs} from '@storybook/addon-knobs';
+import {date} from '@storybook/addon-knobs';
 
 import Lawn from '../components/lawn';
 
 const today = new Date(2019, 0, 7);
 
 storiesOf('Lawn', module)
-  .addDecorator(withKnobs)
   .add('empty', () => <Lawn posts={[]} today={new Date(date('today', today))} />)
   .add('today', () => (
     <Lawn

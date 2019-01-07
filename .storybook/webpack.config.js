@@ -16,6 +16,7 @@ module.exports = (baseConfig, env, defaultConfig) => {
   // Use @babel/plugin-proposal-class-properties for class arrow functions.
   defaultConfig.module.rules[0].use[0].options.plugins = [
     require.resolve('@babel/plugin-proposal-class-properties'),
+    require.resolve('babel-plugin-react-docgen'),
   ];
 
   // Transpile SCSS into CSS.
