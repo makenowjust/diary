@@ -3,8 +3,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Helmet} from 'react-helmet';
 
-import Header from './header';
-import Footer from './footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 import 'modern-normalize';
 import 'typeface-nova-mono';
@@ -30,6 +30,18 @@ const Layout = ({children}) => (
             }
           }
         }
+
+        allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
+          edges {
+            node {
+              fields {
+                date
+                slug
+                textSize
+              }
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -37,7 +49,15 @@ const Layout = ({children}) => (
         <Helmet>
           <html lang={data.site.siteMetadata.language} />
         </Helmet>
-        <Header title={data.site.siteMetadata.title} quote={data.site.siteMetadata.quote} />
+        <Header
+          title={data.site.siteMetadata.title}
+          quote={data.site.siteMetadata.quote}
+          posts={data.allMarkdownRemark.edges.map(({node}) => ({
+            date: node.fields.date,
+            slug: node.fields.slug,
+            textSize: node.fields.textSize,
+          }))}
+        />
         <main>{children}</main>
         <Footer
           author={data.site.siteMetadata.copyright.author}

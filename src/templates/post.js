@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Helmet} from 'react-helmet';
 
-import Layout from '../components/layout';
+import Layout from '../containers/layout';
 
 import styles from './post.module.scss';
 

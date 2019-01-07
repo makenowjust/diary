@@ -1,8 +1,8 @@
 import React from 'react';
 import {InstantSearch, SearchBox, InfiniteHits, PoweredBy} from 'react-instantsearch-dom';
 
-import Layout from '../components/layout';
 import HitPost from '../components/hit-post';
+import Layout from '../containers/layout';
 
 import styles from './search.module.css';
 
