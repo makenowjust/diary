@@ -7,6 +7,6 @@ exports.onServiceWorkerUpdateFound = () => {
     'This application has been updated. Reload to display the latest version?',
   );
   if (answer === true) {
-    window.reload();
+    location.reload();
   }
 };
