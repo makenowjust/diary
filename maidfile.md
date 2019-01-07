@@ -47,3 +47,12 @@ Start `storybook`.
 set -ex
 start-storybook -p 6006 "$@"
 ```
+
+## test
+
+Run `test`.
+
+```bash
+set -ex
+jest "$@"
+```

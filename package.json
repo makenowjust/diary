@@ -11,7 +11,8 @@
     "dev": "maid dev",
     "format": "maid lint --fix",
     "lint": "maid lint",
-    "storybook": "maid storybook"
+    "storybook": "maid storybook",
+    "test": "maid test"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
