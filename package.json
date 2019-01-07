@@ -10,7 +10,9 @@
     "build": "maid build",
     "dev": "maid dev",
     "format": "maid lint --fix",
-    "lint": "maid lint"
+    "lint": "maid lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -64,6 +66,12 @@
     "stylelint-config-xo-space": "^0.11.0",
     "stylelint-scss": "^3.4.4",
     "unist-util-is": "^2.1.2",
-    "unist-util-visit": "^1.4.0"
+    "unist-util-visit": "^1.4.0",
+    "@storybook/react": "^4.1.4",
+    "@storybook/addon-actions": "^4.1.4",
+    "@storybook/addon-links": "^4.1.4",
+    "@storybook/addons": "^4.1.4",
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5"
   }
 }
