@@ -21,7 +21,9 @@ const Paginator = ({prev, next}) => (
 );
 
 Paginator.propTypes = {
+  /** Previous URL. */
   prev: PropTypes.string,
+  /** Next URL. */
   next: PropTypes.string,
 };
 

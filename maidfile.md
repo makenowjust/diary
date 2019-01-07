@@ -38,3 +38,21 @@ prettier --ignore-path .gitignore '**/*.{js,json,md,scss,yml}' '!src/posts/**' $
 eslint --ignore-path .gitignore '**/*.js' $lint_opt
 stylelint --ignore-path .gitignore '**/*.scss' $lint_opt
 ```
+
+## storybook
+
+Start `storybook`.
+
+```bash
+set -ex
+start-storybook -p 6006 "$@"
+```
+
+## test
+
+Run `test`.
+
+```bash
+set -ex
+jest "$@"
+```

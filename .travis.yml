@@ -4,6 +4,7 @@ node_js:
 
 script:
   - yarn lint
+  - yarn test
 
 before_deploy:
   - yarn build
