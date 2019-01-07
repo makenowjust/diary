@@ -11,8 +11,7 @@
     "dev": "maid dev",
     "format": "maid lint --fix",
     "lint": "maid lint",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "maid storybook"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
