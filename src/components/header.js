@@ -32,15 +32,19 @@ const Header = ({title, quote, posts, today}) => (
 );
 
 Header.propTypes = {
+  /** A diary title. */
   title: PropTypes.string.isRequired,
+  /** A quote show under title. */
   quote: PropTypes.string.isRequired,
+  /** Post summaries. It passes to `Lawn`. */
   posts: PropTypes.arrayOf(
     PropTypes.shape({
-      date: PropTypes.string,
-      slug: PropTypes.string,
-      textSize: PropTypes.number,
-    }),
+      date: PropTypes.string.isRequired,
+      slug: PropTypes.string.isRequired,
+      textSize: PropTypes.number.isRequired,
+    }).isRequired,
   ).isRequired,
+  /** A today `Date` object. It passes to `Lawn`. */
   today: PropTypes.instanceOf(Date).isRequired,
 };
 

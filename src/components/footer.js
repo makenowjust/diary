@@ -9,15 +9,19 @@ const Footer = ({author, github, year}) => {
   return (
     <footer>
       <p className={styles.copyright}>
-        © {year} {firstName} "<a href={`https://github.com/${github}`}>{github}</a>" {restNames}
+        © {year} {firstName} "<a href={`https://github.com/${github}`}>{github}</a>"{' '}
+        {restNames.join(' ')}
       </p>
     </footer>
   );
 };
 
 Footer.propTypes = {
+  /** A diary author. */
   author: PropTypes.string.isRequired,
+  /** A diary author's GitHub user name. */
   github: PropTypes.string.isRequired,
+  /** A copyright year. */
   year: PropTypes.string.isRequired,
 };
 

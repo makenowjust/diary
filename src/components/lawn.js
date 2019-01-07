@@ -119,10 +119,10 @@ Lawn.propTypes = {
   /** Post summaries. They should be sorted descending date order. */
   posts: PropTypes.arrayOf(
     PropTypes.shape({
-      date: PropTypes.string,
-      slug: PropTypes.string,
-      textSize: PropTypes.number,
-    }),
+      date: PropTypes.string.isRequired,
+      slug: PropTypes.string.isRequired,
+      textSize: PropTypes.number.isRequired,
+    }).isRequired,
   ).isRequired,
   /** A `Date` object which means rightmost of this lawn. */
   today: PropTypes.instanceOf(Date).isRequired,
