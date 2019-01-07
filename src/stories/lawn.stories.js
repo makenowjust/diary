@@ -4,7 +4,7 @@ import {date} from '@storybook/addon-knobs';
 
 import Lawn from '../components/lawn';
 
-const today = new Date(2019, 0, 7);
+const today = new Date(Date.UTC(2019, 0, 7));
 
 storiesOf('Lawn', module)
   .add('empty', () => <Lawn posts={[]} today={new Date(date('today', today))} />)
