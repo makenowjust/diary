@@ -57,6 +57,7 @@ const Layout = ({children}) => (
             slug: node.fields.slug,
             textSize: node.fields.textSize,
           }))}
+          today={new Date()}
         />
         <main>{children}</main>
         <Footer

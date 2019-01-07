@@ -26,9 +26,9 @@ const MONTH_NAMES = [
   'Dec',
 ];
 
-const Lawn = ({posts}) => {
+const Lawn = ({posts, today}) => {
   const lawnData = [];
-  const end = new Date();
+  const end = new Date(today.getTime());
   end.setHours(0);
   end.setMinutes(0);
   end.setSeconds(0);
@@ -36,7 +36,7 @@ const Lawn = ({posts}) => {
   const start = new Date(end.getTime());
   start.setFullYear(start.getFullYear() - 1);
   start.setDate(start.getDate() - start.getDay());
-  const totalDays = (end - start) / DAY_MS;
+  const totalDays = Math.floor((end.getTime() - start.getTime()) / DAY_MS);
 
   let x = MARGIN;
   for (let i = 0; i <= totalDays; i++) {
@@ -53,7 +53,7 @@ const Lawn = ({posts}) => {
   for (const {date: s, slug, textSize} of posts) {
     const [y, m, d] = s.split('-').map(s => Number.parseInt(s, 10));
     const date = new Date(y, m - 1, d);
-    const i = Math.floor((date - start) / DAY_MS);
+    const i = Math.floor((date.getTime() - start.getTime()) / DAY_MS);
 
     if (i >= lawnData.length) {
       continue;
@@ -123,6 +123,7 @@ Lawn.propTypes = {
       textSize: PropTypes.number.isRequired,
     }).isRequired,
   ).isRequired,
+  today: PropTypes.instanceOf(Date).isRequired,
 };
 
 export default Lawn;

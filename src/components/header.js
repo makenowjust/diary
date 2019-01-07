@@ -7,7 +7,7 @@ import {faSearch} from '@fortawesome/free-solid-svg-icons';
 import Lawn from './lawn';
 import styles from './header.module.scss';
 
-const Header = ({title, quote, posts}) => (
+const Header = ({title, quote, posts, today}) => (
   <header className={styles.container}>
     <div className={styles.navBar}>
       <h1 className={styles.navBarTitle}>
@@ -27,7 +27,7 @@ const Header = ({title, quote, posts}) => (
       <Link to="/">{title}</Link>
     </h1>
     <p className={styles.quote}>{quote}</p>
-    <Lawn posts={posts} />
+    <Lawn posts={posts} today={today} />
   </header>
 );
 
@@ -41,6 +41,7 @@ Header.propTypes = {
       textSize: PropTypes.number.isRequired,
     }).isRequired,
   ).isRequired,
+  today: PropTypes.instanceOf(Date).isRequired,
 };
 
 export default Header;
