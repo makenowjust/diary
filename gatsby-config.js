@@ -102,5 +102,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
     },
+    {
+      resolve: 'gaysby-plugin-netlify',
+    },
   ],
 };
