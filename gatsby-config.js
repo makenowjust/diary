@@ -47,9 +47,7 @@ module.exports = {
     language: 'ja',
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-sass',
-    },
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -68,12 +66,8 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-embedly',
-    },
-    {
-      resolve: 'gatsby-plugin-react-helmet',
-    },
+    'gatsby-plugin-embedly',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-algolia',
       options: {
@@ -84,9 +78,7 @@ module.exports = {
         chunkSize: 10000,
       },
     },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-    },
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -99,11 +91,7 @@ module.exports = {
         icon: 'src/assets/icon.png',
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-    },
-    {
-      resolve: 'gaysby-plugin-netlify',
-    },
+    'gatsby-plugin-offline',
+    'gatsby-plugin-netlify',
   ],
 };
