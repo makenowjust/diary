@@ -157,7 +157,19 @@ exports[`Storyshots Footer full 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -274,25 +286,26 @@ exports[`Storyshots Footer full 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -321,33 +334,56 @@ exports[`Storyshots Footer full 1`] = `
               Footer
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -356,77 +392,152 @@ exports[`Storyshots Footer full 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     author
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     github
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     year
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -3309,7 +3420,19 @@ exports[`Storyshots Header full 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -3544,25 +3667,26 @@ exports[`Storyshots Header full 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -3591,33 +3715,56 @@ exports[`Storyshots Header full 1`] = `
               Header
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -3626,102 +3773,202 @@ exports[`Storyshots Header full 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     title
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     quote
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     posts
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     today
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -6527,7 +6774,19 @@ exports[`Storyshots Lawn empty 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -6617,25 +6876,26 @@ exports[`Storyshots Lawn empty 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -6664,33 +6924,56 @@ exports[`Storyshots Lawn empty 1`] = `
               Lawn
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -6699,52 +6982,102 @@ exports[`Storyshots Lawn empty 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     posts
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     today
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -10515,7 +10848,19 @@ exports[`Storyshots Lawn random 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -10872,25 +11217,26 @@ exports[`Storyshots Lawn random 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -10919,33 +11265,56 @@ exports[`Storyshots Lawn random 1`] = `
               Lawn
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -10954,52 +11323,102 @@ exports[`Storyshots Lawn random 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     posts
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     today
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -13810,7 +14229,19 @@ exports[`Storyshots Lawn today 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -13979,25 +14410,26 @@ exports[`Storyshots Lawn today 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -14026,33 +14458,56 @@ exports[`Storyshots Lawn today 1`] = `
               Lawn
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -14061,52 +14516,102 @@ exports[`Storyshots Lawn today 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     posts
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     today
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     yes
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -14269,7 +14774,19 @@ exports[`Storyshots Paginator next only 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -14332,25 +14849,26 @@ exports[`Storyshots Paginator next only 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -14379,33 +14897,56 @@ exports[`Storyshots Paginator next only 1`] = `
               Paginator
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -14414,22 +14955,42 @@ exports[`Storyshots Paginator next only 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     prev
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span
                       style={
@@ -14442,27 +15003,52 @@ exports[`Storyshots Paginator next only 1`] = `
                     </span>
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     next
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span
                       style={
@@ -14475,7 +15061,12 @@ exports[`Storyshots Paginator next only 1`] = `
                     </span>
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -14647,7 +15238,19 @@ exports[`Storyshots Paginator prev & next 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -14737,25 +15340,26 @@ exports[`Storyshots Paginator prev & next 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -14784,33 +15388,56 @@ exports[`Storyshots Paginator prev & next 1`] = `
               Paginator
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -14819,22 +15446,42 @@ exports[`Storyshots Paginator prev & next 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     prev
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span
                       style={
@@ -14847,27 +15494,52 @@ exports[`Storyshots Paginator prev & next 1`] = `
                     </span>
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     next
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span
                       style={
@@ -14880,7 +15552,12 @@ exports[`Storyshots Paginator prev & next 1`] = `
                     </span>
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
@@ -15043,7 +15720,19 @@ exports[`Storyshots Paginator prev only 1`] = `
             Story Source
           </h1>
           <pre
-            className="css-r8d96o eyvlbql0"
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fafafa",
+                "display": "flex",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "justifyContent": "space-between",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
           >
             <div>
               <div
@@ -15106,25 +15795,26 @@ exports[`Storyshots Paginator prev only 1`] = `
               </div>
             </div>
             <button
-              className="css-1naocv3 eva467m0"
               onClick={[Function]}
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "rgb(238, 238, 238)",
+                  "borderImage": "initial",
+                  "borderRadius": "3px",
+                  "borderStyle": "solid",
+                  "borderWidth": "1px",
+                  "cursor": "pointer",
+                  "flexShrink": "0",
+                  "fontSize": "13px",
+                  "overflow": "hidden",
+                  "padding": "3px 10px",
+                }
+              }
+              type="button"
             >
-              <div
-                className="css-lvl6aa eva467m1"
-              >
-                <div
-                  style={
-                    Object {
-                      "marginBottom": 6,
-                    }
-                  }
-                >
-                  Copied!
-                </div>
-                <div>
-                  Copy
-                </div>
-              </div>
+              Copy
             </button>
           </pre>
         </div>
@@ -15153,33 +15843,56 @@ exports[`Storyshots Paginator prev only 1`] = `
               Paginator
               " Component
             </h2>
-            <table
-              className="css-1uhv8nx e1vdo5380"
-            >
+            <table>
               <thead>
                 <tr>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     property
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     propType
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     required
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     default
                   </th>
                   <th
-                    className="css-11b5gui e6fp4ir1"
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     description
                   </th>
@@ -15188,22 +15901,42 @@ exports[`Storyshots Paginator prev only 1`] = `
               <tbody>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     prev
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span
                       style={
@@ -15216,27 +15949,52 @@ exports[`Storyshots Paginator prev only 1`] = `
                     </span>
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
                 <tr>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     next
                   </td>
                   <td
-                    className="css-1qcb1f7 e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span />
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     -
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   >
                     <span
                       style={
@@ -15249,7 +16007,12 @@ exports[`Storyshots Paginator prev only 1`] = `
                     </span>
                   </td>
                   <td
-                    className="css-11b5gui e6fp4ir0"
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
                   />
                 </tr>
               </tbody>
