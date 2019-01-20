@@ -9,10 +9,11 @@ exports.onRouteUpdate = () => {
   if (injected) {
     return;
   }
+
   injected = true;
 
   const script = document.createElement('script');
   script.async = true;
   script.src = 'https://cdn.embedly.com/widgets/platform.js';
-  document.getElementsByTagName('head')[0].appendChild(script);
+  document.querySelectorAll('head')[0].append(script);
 };

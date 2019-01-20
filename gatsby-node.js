@@ -22,6 +22,7 @@ exports.onCreateNode = ({node, getNode, actions}) => {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
       throw new Error(`unexpected post filename: ${path.basename(node.fileAbsolutePath)}`);
     }
+
     createNodeField({
       node,
       name: 'date',

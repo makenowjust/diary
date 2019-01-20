@@ -5,7 +5,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: '16',
+      version: '16.7.0',
     },
   },
   plugins: ['import', 'promise', 'react', 'jsx-a11y', 'unicorn'],

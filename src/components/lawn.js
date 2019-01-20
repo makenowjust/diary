@@ -58,6 +58,7 @@ const Lawn = ({posts, today}) => {
     if (i >= lawnData.length) {
       continue;
     }
+
     if (i < 0) {
       break;
     }
