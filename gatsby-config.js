@@ -78,7 +78,6 @@ module.exports = {
         chunkSize: 10000,
       },
     },
-    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -91,7 +90,26 @@ module.exports = {
         icon: 'src/assets/icon.png',
       },
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        runtimeCaching: [
+          {
+            urlPattern: /(\.html|\/)$/,
+            handler: 'networkFirst',
+          },
+          {
+            urlPattern: /\.js$|\.css$|static\//,
+            handler: `cacheFirst`,
+          },
+          {
+            urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+            handler: `staleWhileRevalidate`,
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
   ],
 };
