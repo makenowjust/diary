@@ -1,5 +1,6 @@
 import {addDecorator, configure} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
+import centered from '@storybook/addon-centered';
 import {withInfo} from '@storybook/addon-info';
 import {withKnobs} from '@storybook/addon-knobs';
 
@@ -12,6 +13,8 @@ global.__PATH_PREFIX__ = '';
 window.___navigate = pathname => {
   action('navigate')(pathname);
 };
+
+addDecorator(centered);
 
 addDecorator(withInfo);
 addDecorator(withKnobs);
