@@ -34,14 +34,15 @@ $active-colors: #c6e48b, #7bc96f, #239a3b, #196127;
   display: block;
   font-size: 12px;
   text-align: right;
+  user-select: none;
 
   li {
     display: inline-block;
+    margin: 0 1px;
   }
 
   .box {
     width: 1em;
     height: 1em;
-    margin: 0 1px;
   }
 }
