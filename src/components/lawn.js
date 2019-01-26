@@ -107,12 +107,23 @@ const Lawn = ({posts, today}) => {
   });
 
   return (
-    <div className={styles.container}>
-      <svg width={`${WIDTH}px`} height={`${HEIGHT}px`}>
-        {months}
-        {grasses}
-      </svg>
-    </div>
+    <>
+      <div className={styles.container}>
+        <svg width={`${WIDTH}px`} height={`${HEIGHT}px`}>
+          {months}
+          {grasses}
+        </svg>
+      </div>
+      <ul className={styles.legend}>
+        <li>Less</li>
+        <li className={`${styles.inactive} ${styles.box}`} />
+        <li className={`${styles.active0} ${styles.box}`} />
+        <li className={`${styles.active1} ${styles.box}`} />
+        <li className={`${styles.active2} ${styles.box}`} />
+        <li className={`${styles.active3} ${styles.box}`} />
+        <li>More</li>
+      </ul>
+    </>
   );
 };
 

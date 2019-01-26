@@ -3291,6 +3291,31 @@ exports[`Storyshots Header full 1`] = `
           </rect>
         </svg>
       </div>
+      <ul
+        className="legend"
+      >
+        <li>
+          Less
+        </li>
+        <li
+          className="inactive box"
+        />
+        <li
+          className="active0 box"
+        />
+        <li
+          className="active1 box"
+        />
+        <li
+          className="active2 box"
+        />
+        <li
+          className="active3 box"
+        />
+        <li>
+          More
+        </li>
+      </ul>
     </header>
   </div>
   <button
@@ -6646,6 +6671,31 @@ exports[`Storyshots Lawn empty 1`] = `
         />
       </svg>
     </div>
+    <ul
+      className="legend"
+    >
+      <li>
+        Less
+      </li>
+      <li
+        className="inactive box"
+      />
+      <li
+        className="active0 box"
+      />
+      <li
+        className="active1 box"
+      />
+      <li
+        className="active2 box"
+      />
+      <li
+        className="active3 box"
+      />
+      <li>
+        More
+      </li>
+    </ul>
   </div>
   <button
     onClick={[Function]}
@@ -10720,6 +10770,31 @@ exports[`Storyshots Lawn random 1`] = `
         </rect>
       </svg>
     </div>
+    <ul
+      className="legend"
+    >
+      <li>
+        Less
+      </li>
+      <li
+        className="inactive box"
+      />
+      <li
+        className="active0 box"
+      />
+      <li
+        className="active1 box"
+      />
+      <li
+        className="active2 box"
+      />
+      <li
+        className="active3 box"
+      />
+      <li>
+        More
+      </li>
+    </ul>
   </div>
   <button
     onClick={[Function]}
@@ -14101,6 +14176,31 @@ exports[`Storyshots Lawn today 1`] = `
         </rect>
       </svg>
     </div>
+    <ul
+      className="legend"
+    >
+      <li>
+        Less
+      </li>
+      <li
+        className="inactive box"
+      />
+      <li
+        className="active0 box"
+      />
+      <li
+        className="active1 box"
+      />
+      <li
+        className="active2 box"
+      />
+      <li
+        className="active3 box"
+      />
+      <li>
+        More
+      </li>
+    </ul>
   </div>
   <button
     onClick={[Function]}
