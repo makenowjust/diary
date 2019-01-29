@@ -941,6 +941,7 @@ exports[`Storyshots Header full 1`] = `
                       className="svg-inline--fa fa-search fa-w-16 "
                       data-icon="search"
                       data-prefix="fas"
+                      focusable="false"
                       role="img"
                       style={Object {}}
                       viewBox="0 0 512 512"
