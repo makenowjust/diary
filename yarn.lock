@@ -6712,10 +6712,10 @@ gatsby-source-filesystem@2.0.18:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-remark@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.2.1.tgz#3b5ff55054b828c7b861b1e619ab5b5af974c992"
-  integrity sha512-cydRK/7LvNAR9220Gt8M13Rb4eZyKsp1n+kowKjV+O+Tm7cyhNTnoY6pr5Q1frrdJUChWOn1njnSuiQIRC7V5g==
+gatsby-transformer-remark@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.2.2.tgz#77895029d479464de16d914d19946eb6fc4a2ad9"
+  integrity sha512-DeA4VCP+YbYTdLVciGuSBsdCbOpoL/R92msHaBGDtMo0NCzmZcpDiKis5rDE5xRHSj6koyVJaVfRBwKgBZVq0Q==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -6737,10 +6737,10 @@ gatsby-transformer-remark@2.2.1:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.3.0"
 
-gatsby@2.0.103:
-  version "2.0.103"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.103.tgz#e8d666c269cf67e30f10e9778d9b52b3ebba9101"
-  integrity sha512-5YMc23dn0k3lV9/cGrP08dS7r6K/KfrFliaBBXBbQsaLF3IdAGkojbqUXue1UaI1Kzdl8kNPopQYQoa0oONxRw==
+gatsby@2.0.104:
+  version "2.0.104"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.104.tgz#17c9a1e220cea1205f26ac46c9f749179b06a371"
+  integrity sha512-T1uoK4nwGfLl1hmJ4tuAAStyRYHADlK2cJN2e+zBAQRmrYdwH1+zzmEv/uL1x+FrpwfThuiAimZB5yz+XyRKEQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
