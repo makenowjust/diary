@@ -72,7 +72,7 @@
     "lowlight": "1.11.0",
     "maid": "0.3.0",
     "node-sass": "4.11.0",
-    "prettier": "1.16.2",
+    "prettier": "1.16.3",
     "prettier-package-json": "2.0.1",
     "react-test-renderer": "16.7.0",
     "remark-breaks": "1.0.2",
