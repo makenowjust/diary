@@ -73,7 +73,7 @@
     "maid": "0.3.0",
     "node-sass": "4.11.0",
     "prettier": "1.16.4",
-    "prettier-package-json": "2.0.1",
+    "prettier-package-json": "2.1.0",
     "react-test-renderer": "16.8.2",
     "remark-breaks": "1.0.2",
     "sass-loader": "7.1.0",
