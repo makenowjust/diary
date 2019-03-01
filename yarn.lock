@@ -14725,10 +14725,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-nova-mono@0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-nova-mono/-/typeface-nova-mono-0.0.54.tgz#c6cf36ca906925ac5b02d4e0cb0b36ce0d48ce9e"
-  integrity sha512-BF5fij9EeVnCtMwEVkc/RZjCsDj8Zj/1QIh+beBEK1qtnXlC2cumfnInzBbBvikQBo4xTWXkPFg1GQRl1hmDMQ==
+typeface-nova-mono@0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-nova-mono/-/typeface-nova-mono-0.0.72.tgz#b98b59eb7cf4138a0d1cb65c6353324416b97acc"
+  integrity sha512-302Qs965yZF11PAHpkScPgVGY+qtu3lbNE6PEWleXduW/nJIJkXuiUAMj4xThminnfksycwcdAw4evUR4y4GEw==
 
 typeface-nova-square@0.0.71:
   version "0.0.71"
