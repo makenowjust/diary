@@ -55,6 +55,7 @@ exports[`Storyshots Footer full 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -77,11 +78,13 @@ exports[`Storyshots Footer full 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -93,6 +96,7 @@ exports[`Storyshots Footer full 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -118,12 +122,9 @@ exports[`Storyshots Footer full 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -646,7 +647,7 @@ exports[`Storyshots Footer full 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -656,7 +657,7 @@ exports[`Storyshots Footer full 1`] = `
               "
               Footer
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -732,7 +733,9 @@ exports[`Storyshots Footer full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -782,7 +785,9 @@ exports[`Storyshots Footer full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -832,7 +837,9 @@ exports[`Storyshots Footer full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -3667,6 +3674,7 @@ exports[`Storyshots Header full 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -3689,11 +3697,13 @@ exports[`Storyshots Header full 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -3705,6 +3715,7 @@ exports[`Storyshots Header full 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -3730,12 +3741,9 @@ exports[`Storyshots Header full 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -4376,7 +4384,7 @@ exports[`Storyshots Header full 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -4386,7 +4394,7 @@ exports[`Storyshots Header full 1`] = `
               "
               Header
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -4462,7 +4470,9 @@ exports[`Storyshots Header full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -4512,7 +4522,9 @@ exports[`Storyshots Header full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -4562,7 +4574,9 @@ exports[`Storyshots Header full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -4612,7 +4626,9 @@ exports[`Storyshots Header full 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -7369,6 +7385,7 @@ exports[`Storyshots Lawn empty 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -7391,11 +7408,13 @@ exports[`Storyshots Lawn empty 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -7407,6 +7426,7 @@ exports[`Storyshots Lawn empty 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -7432,12 +7452,9 @@ exports[`Storyshots Lawn empty 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -7933,7 +7950,7 @@ exports[`Storyshots Lawn empty 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -7943,7 +7960,7 @@ exports[`Storyshots Lawn empty 1`] = `
               "
               Lawn
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -8019,7 +8036,9 @@ exports[`Storyshots Lawn empty 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -8069,7 +8088,9 @@ exports[`Storyshots Lawn empty 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -11791,6 +11812,7 @@ exports[`Storyshots Lawn random 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -11813,11 +11835,13 @@ exports[`Storyshots Lawn random 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -11829,6 +11853,7 @@ exports[`Storyshots Lawn random 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -11854,12 +11879,9 @@ exports[`Storyshots Lawn random 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -12622,7 +12644,7 @@ exports[`Storyshots Lawn random 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -12632,7 +12654,7 @@ exports[`Storyshots Lawn random 1`] = `
               "
               Lawn
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -12708,7 +12730,9 @@ exports[`Storyshots Lawn random 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -12758,7 +12782,9 @@ exports[`Storyshots Lawn random 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -15520,6 +15546,7 @@ exports[`Storyshots Lawn today 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -15542,11 +15569,13 @@ exports[`Storyshots Lawn today 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -15558,6 +15587,7 @@ exports[`Storyshots Lawn today 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -15583,12 +15613,9 @@ exports[`Storyshots Lawn today 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -16163,7 +16190,7 @@ exports[`Storyshots Lawn today 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -16173,7 +16200,7 @@ exports[`Storyshots Lawn today 1`] = `
               "
               Lawn
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -16249,7 +16276,9 @@ exports[`Storyshots Lawn today 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -16299,7 +16328,9 @@ exports[`Storyshots Lawn today 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -16388,6 +16419,7 @@ exports[`Storyshots Paginator next only 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -16410,11 +16442,13 @@ exports[`Storyshots Paginator next only 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -16426,6 +16460,7 @@ exports[`Storyshots Paginator next only 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -16451,12 +16486,9 @@ exports[`Storyshots Paginator next only 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -16925,7 +16957,7 @@ exports[`Storyshots Paginator next only 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -16935,7 +16967,7 @@ exports[`Storyshots Paginator next only 1`] = `
               "
               Paginator
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -17011,7 +17043,9 @@ exports[`Storyshots Paginator next only 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -17031,13 +17065,7 @@ exports[`Storyshots Paginator next only 1`] = `
                       }
                     }
                   >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
+                    <span>
                       null
                     </span>
                   </td>
@@ -17069,7 +17097,9 @@ exports[`Storyshots Paginator next only 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -17089,13 +17119,7 @@ exports[`Storyshots Paginator next only 1`] = `
                       }
                     }
                   >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
+                    <span>
                       null
                     </span>
                   </td>
@@ -17175,6 +17199,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -17197,11 +17222,13 @@ exports[`Storyshots Paginator prev & next 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -17213,6 +17240,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -17238,12 +17266,9 @@ exports[`Storyshots Paginator prev & next 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -17739,7 +17764,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -17749,7 +17774,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
               "
               Paginator
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -17825,7 +17850,9 @@ exports[`Storyshots Paginator prev & next 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -17845,13 +17872,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
                       }
                     }
                   >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
+                    <span>
                       null
                     </span>
                   </td>
@@ -17883,7 +17904,9 @@ exports[`Storyshots Paginator prev & next 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -17903,13 +17926,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
                       }
                     }
                   >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
+                    <span>
                       null
                     </span>
                   </td>
@@ -17980,6 +17997,7 @@ exports[`Storyshots Paginator prev only 1`] = `
     </div>
   </div>
   <button
+    className="info__show-button"
     onClick={[Function]}
     style={
       Object {
@@ -18002,11 +18020,13 @@ exports[`Storyshots Paginator prev only 1`] = `
     Show Info
   </button>
   <div
+    className="info__overlay"
     style={
       Object {
         "background": "white",
         "bottom": 0,
         "display": "none",
+        "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
         "left": 0,
         "overflow": "auto",
         "padding": "0 40px",
@@ -18018,6 +18038,7 @@ exports[`Storyshots Paginator prev only 1`] = `
     }
   >
     <button
+      className="info__close-button"
       onClick={[Function]}
       style={
         Object {
@@ -18043,12 +18064,9 @@ exports[`Storyshots Paginator prev only 1`] = `
       <div
         style={
           Object {
-            "WebkitFontSmoothing": "antialiased",
             "backgroundColor": "#fff",
             "border": "1px solid #eee",
             "borderRadius": "2px",
-            "color": "#444",
-            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -18517,7 +18535,7 @@ exports[`Storyshots Paginator prev only 1`] = `
             Prop Types
           </h1>
           <div>
-            <h2
+            <h3
               style={
                 Object {
                   "margin": "20px 0 0 0",
@@ -18527,7 +18545,7 @@ exports[`Storyshots Paginator prev only 1`] = `
               "
               Paginator
               " Component
-            </h2>
+            </h3>
             <table>
               <thead>
                 <tr>
@@ -18603,7 +18621,9 @@ exports[`Storyshots Paginator prev only 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -18623,13 +18643,7 @@ exports[`Storyshots Paginator prev only 1`] = `
                       }
                     }
                   >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
+                    <span>
                       null
                     </span>
                   </td>
@@ -18661,7 +18675,9 @@ exports[`Storyshots Paginator prev only 1`] = `
                       }
                     }
                   >
-                    <span />
+                    <span>
+                      other
+                    </span>
                   </td>
                   <td
                     style={
@@ -18681,13 +18697,7 @@ exports[`Storyshots Paginator prev only 1`] = `
                       }
                     }
                   >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
+                    <span>
                       null
                     </span>
                   </td>
