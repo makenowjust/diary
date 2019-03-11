@@ -14,9 +14,11 @@ window.___navigate = pathname => {
   action('navigate')(pathname);
 };
 
-addDecorator(centered);
+if (process.env.NODE_ENV !== 'test') {
+  addDecorator(centered);
 
-addDecorator(withInfo);
-addDecorator(withKnobs);
+  addDecorator(withInfo);
+  addDecorator(withKnobs);
+}
 
 configure(loadStories, module);
