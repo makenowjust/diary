@@ -7167,10 +7167,10 @@ gatsby-plugin-sass@2.0.11:
     "@babel/runtime" "^7.0.0"
     sass-loader "^7.0.1"
 
-gatsby-plugin-sitemap@2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.0.7.tgz#f6c49de822d02f196fc24b4b28455d9314a9abc6"
-  integrity sha512-zfmxOxd4xXvHwjHwGIkAY4gCjKwWgOJl1axwyOaHEnaHugtdlrSv1qEdL1ZMY5nU39/tJ4udjqgupQxk2BI5RA==
+gatsby-plugin-sitemap@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.0.8.tgz#117b1170b3c5bc3a14d3fb97083cce64a42078a5"
+  integrity sha512-n/iOV7nSoRdkouMaUKZKbcZPE21yrYh+Cu8p8u7fNSIBr3OpXJGamJs8pCUhe9R/pjwG/aIgyuhqfDXhv5liTA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     minimatch "^3.0.4"
