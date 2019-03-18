@@ -67,7 +67,7 @@
     "gatsby-plugin-sitemap": "2.0.10",
     "gatsby-remark-katex": "3.0.4",
     "gatsby-source-filesystem": "2.0.27",
-    "gatsby-transformer-remark": "2.3.4",
+    "gatsby-transformer-remark": "2.3.5",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.5.0",
     "lowlight": "1.12.0",
