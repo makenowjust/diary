@@ -4,6 +4,7 @@ node_js:
 
 script:
   - yarn lint
+  - yarn mkdo sync-scripts --check
   - yarn test
 
 before_deploy:

@@ -1,21 +1,19 @@
-# maidfile
+# mkdo
 
 ## dev
 
 Start development server.
 
-```bash
-set -ex
-gatsby develop --open "$@"
+```console
+$ gatsby develop --open
 ```
 
 ## build
 
 Build with using [Gatsby](https://gatsbyjs.org).
 
-```bash
-set -ex
-gatsby build "$@"
+```console
+$ gatsby build
 ```
 
 ## lint
@@ -39,20 +37,26 @@ eslint --ignore-path .gitignore '**/*.js' $lint_opt
 stylelint --ignore-path .gitignore '**/*.scss' $lint_opt
 ```
 
+## format
+
+Format source codes.
+
+```console
+$ mkdo lint --fix
+```
+
 ## storybook
 
 Start `storybook`.
 
-```bash
-set -ex
-start-storybook -p 6006 "$@"
+```console
+$ start-storybook -p 6006
 ```
 
 ## test
 
 Run `test`.
 
-```bash
-set -ex
-jest "$@"
+```console
+$ jest
 ```

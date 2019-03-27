@@ -7,12 +7,13 @@
   "repository": "git@github.com:MakeNowJust/diary.git",
   "version": "3.0.0-dev",
   "scripts": {
-    "build": "maid build",
-    "dev": "maid dev",
-    "format": "maid lint --fix",
-    "lint": "maid lint",
-    "storybook": "maid storybook",
-    "test": "maid test"
+    "build": "mkdo build",
+    "dev": "mkdo dev",
+    "format": "mkdo format",
+    "lint": "mkdo lint",
+    "mkdo": "mkdo",
+    "storybook": "mkdo storybook",
+    "test": "mkdo test"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.17",
@@ -71,7 +72,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "24.5.0",
     "lowlight": "1.12.0",
-    "maid": "0.3.0",
+    "mkdo": "0.3.0",
     "node-sass": "4.11.0",
     "prettier": "1.16.4",
     "prettier-package-json": "2.1.0",
