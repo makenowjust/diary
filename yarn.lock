@@ -7383,10 +7383,9 @@ gatsby-link@^2.0.16:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
-gatsby-plugin-algolia@0.3.0:
+"gatsby-plugin-algolia@https://github.com/u12206050/gatsby-plugin-algolia#partial-updates":
   version "0.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.3.0.tgz#5f6b9954003f17bed6d871ccb335ef0b2fec7dea"
-  integrity sha512-ZHBo+SHYUu/f9JpuBrbqS2gvbwCcpy/PIk+ml90Ej7NWYttEtVuHy7o3u8kuidzQDbAE/0DVKDLW831yknbLwQ==
+  resolved "https://github.com/u12206050/gatsby-plugin-algolia#5480ba3d3d54debad6d5702a66941d9c110f6f51"
   dependencies:
     algoliasearch "^3.24.5"
     gatsby-cli "^1.1.58"

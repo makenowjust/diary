@@ -23,7 +23,7 @@ const queries = [
     `,
     transformer: ({data}) =>
       data.allMarkdownRemark.edges.map(({node}) => ({
-        id: node.id,
+        objectID: node.objectID,
         path: node.fields.slug,
         body: node.fields.text,
         date: node.fields.date,
@@ -76,6 +76,8 @@ module.exports = {
         indexName: 'posts',
         queries,
         chunkSize: 10000,
+        enablePartialUpdates: true,
+        matchFields: ['path', 'body', 'date', 'title'],
       },
     },
     {
