@@ -3130,6 +3130,11 @@ ast-types@0.11.6:
   resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.11.6.tgz#4e2266c2658829aef3b40cc33ad599c4e9eb89ef"
   integrity sha512-nHiuV14upVGl7MWwFUYbzJ6YlfwWS084CU9EA8HajfYQjMSli5TQi3UTRygGF58LFWVkXxS1rbgRhROEqlQkXg==
 
+ast-types@0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.12.2.tgz#341656049ee328ac03fc805c156b49ebab1e4462"
+  integrity sha512-8c83xDLJM/dLDyXNLiR6afRRm4dPKN6KAnKqytRK3DBJul9lA+atxdQkNDkSVPdTqea5HiRq3lnnOIZ0MBpvdg==
+
 astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
@@ -3502,7 +3507,16 @@ babel-plugin-named-asset-import@^0.3.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.3.1.tgz#5ec13ec446d0a1e5bb6c57a1f94c9cdedb0c50d6"
   integrity sha512-vzZlo+yEB5YHqI6CRRTDojeT43J3Wf3C/MVkZW5UlbSeIIVUYRKtxaFT2L/VTv9mbIyatCW39+9g/SZolvwRUQ==
 
-babel-plugin-react-docgen@2.0.2, babel-plugin-react-docgen@^2.0.2:
+babel-plugin-react-docgen@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.0.0.tgz#f060ef73da5be8e9af6aeae96d3aa21b184ec654"
+  integrity sha512-5dXIAYTQrPQDb7O+HX2ISGvfoDbxYKIksfrdm4h9RJRTYsKGEep3B9tZPFJJFDkjPbuNoOsPb2sN+jhJGr2SsA==
+  dependencies:
+    lodash "^4.17.11"
+    react-docgen "^4.1.0"
+    recast "^0.14.7"
+
+babel-plugin-react-docgen@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.2.tgz#3307e27414c370365710576b7fadbcaf8984d862"
   integrity sha512-fFendfUUU2KqqE1ki2NyQoZm4uHPoEWPUgBZiPBiowcPZos+4q+chdQh0nlwY5hxs08AMHSH4Pp98RQL0VFS/g==
@@ -12974,7 +12988,7 @@ prismjs@^1.8.4, prismjs@~1.15.0:
   optionalDependencies:
     clipboard "^2.0.0"
 
-private@^0.1.6, private@~0.1.5:
+private@^0.1.6, private@^0.1.8, private@~0.1.5:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
@@ -13361,6 +13375,19 @@ react-docgen@^3.0.0:
     doctrine "^2.0.0"
     node-dir "^0.1.10"
     recast "^0.16.0"
+
+react-docgen@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-docgen/-/react-docgen-4.1.0.tgz#218887feba5b2c36af337879a27e74bda90ed7cb"
+  integrity sha512-yoGY45tD4yPGmnOlJr4mjU6LTYRO1OEny9ZtK8LjnFMqr2M/uRuH88vPba7743oVDFuVNH5bnN2bh6eQX3qXjA==
+  dependencies:
+    "@babel/core" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    async "^2.1.4"
+    commander "^2.19.0"
+    doctrine "^3.0.0"
+    node-dir "^0.1.10"
+    recast "^0.17.3"
 
 react-dom@16.8.5:
   version "16.8.5"
@@ -13819,6 +13846,16 @@ recast@^0.16.0:
     ast-types "0.11.6"
     esprima "~4.0.0"
     private "~0.1.5"
+    source-map "~0.6.1"
+
+recast@^0.17.3:
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/recast/-/recast-0.17.4.tgz#b67f8abbfd4a1d8841485f03f41f2ccf2e051d88"
+  integrity sha512-94mbtFr2e4XoleJVCQQ138gK7xT2IScq25+thwEzNWd/hjOXQd6ejFiztgZZGVSByoV7/k3pLBXO3RK1BvJsIw==
+  dependencies:
+    ast-types "0.12.2"
+    esprima "~4.0.0"
+    private "^0.1.8"
     source-map "~0.6.1"
 
 rechoir@^0.6.2:
