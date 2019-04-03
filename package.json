@@ -58,7 +58,7 @@
     "eslint-plugin-react": "7.12.4",
     "eslint-plugin-react-hooks": "1.6.0",
     "eslint-plugin-unicorn": "8.0.1",
-    "gatsby": "2.3.7",
+    "gatsby": "2.3.8",
     "gatsby-plugin-algolia": "https://github.com/u12206050/gatsby-plugin-algolia#partial-updates",
     "gatsby-plugin-manifest": "2.0.26",
     "gatsby-plugin-netlify": "2.0.13",
