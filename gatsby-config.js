@@ -1,5 +1,7 @@
 /* eslint-disable camelcase */
 
+const isCI = require('is-ci');
+
 const queries = [
   {
     query: `
@@ -68,18 +70,22 @@ module.exports = {
     },
     'gatsby-plugin-embedly',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-algolia',
-      options: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: 'posts',
-        queries,
-        chunkSize: 10000,
-        enablePartialUpdates: true,
-        matchFields: ['path', 'body', 'date', 'title'],
-      },
-    },
+    ...(isCI
+      ? [
+          {
+            resolve: 'gatsby-plugin-algolia',
+            options: {
+              appId: process.env.ALGOLIA_APP_ID,
+              apiKey: process.env.ALGOLIA_API_KEY,
+              indexName: 'posts',
+              queries,
+              chunkSize: 10000,
+              enablePartialUpdates: true,
+              matchFields: ['path', 'body', 'date', 'title'],
+            },
+          },
+        ]
+      : []),
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
