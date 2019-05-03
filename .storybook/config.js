@@ -10,6 +10,7 @@ function loadStories() {
 }
 
 global.__PATH_PREFIX__ = '';
+global.__BASE_PATH__ = '';
 window.___navigate = pathname => {
   action('navigate')(pathname);
 };
