@@ -15095,13 +15095,13 @@ stylelint-config-recommended@2.2.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.2.0.tgz#46ab139db4a0e7151fd5f94af155512886c96d3f"
   integrity sha512-bZ+d4RiNEfmoR74KZtCKmsABdBJr4iXRiCso+6LtMJPw5rd/KnxUWTxht7TbafrTJK1YRjNgnN0iVZaJfc3xJA==
 
-stylelint-config-xo-scss@0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo-scss/-/stylelint-config-xo-scss-0.8.0.tgz#967829b951560fc917211b8f3641e2ded6247292"
-  integrity sha512-cWH5rwGki6OY1wCPrcdvWV8FHf6Z/jqkqPohqn9O28gKgEnRAg2X2sHZtxr98Zp0I7/xPV0aMGccsbXrndGBkw==
+stylelint-config-xo-scss@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo-scss/-/stylelint-config-xo-scss-0.9.0.tgz#8038a3bbf609ad669b0b14457e9bc98fdcf64ce7"
+  integrity sha512-QYZ+Fsg6w4q166urIbTlrIM+GRG+jHDF5yZxYatjAB1wFLBuWu/SyXqhpEGqBNxnW5DUG8jYTMOqjK7ifZqMXQ==
   dependencies:
-    stylelint-config-xo "^0.13.0"
-    stylelint-scss "^3.5.3"
+    stylelint-config-xo "^0.15.0"
+    stylelint-scss "^3.6.1"
 
 stylelint-config-xo-space@0.12.0:
   version "0.12.0"
@@ -15125,6 +15125,14 @@ stylelint-config-xo@^0.13.0:
   dependencies:
     stylelint-declaration-block-no-ignored-properties "^1.1.0"
     stylelint-order "^2.0.0"
+
+stylelint-config-xo@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.15.0.tgz#27fb48d3dd3222cb282f187875c4954b0b611698"
+  integrity sha512-JwgB3jlNYoxQV0WdmKfJysK1Xj9n688DFKdABcDoT4SMMl7yqxYO22bStczMdH3ZR2bgg0pyf4TkYocvfGlc6A==
+  dependencies:
+    stylelint-declaration-block-no-ignored-properties "^2.0.0"
+    stylelint-order "^3.0.0"
 
 stylelint-declaration-block-no-ignored-properties@^1.1.0:
   version "1.1.0"
@@ -15158,7 +15166,7 @@ stylelint-order@^3.0.0:
     postcss "^7.0.14"
     postcss-sorting "^5.0.0"
 
-stylelint-scss@3.6.1, stylelint-scss@^3.5.3:
+stylelint-scss@3.6.1, stylelint-scss@^3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.6.1.tgz#eef14df2b6314cbd20d240b72d5b97c40751fef5"
   integrity sha512-6bB2EHUZsE/bDVKUdzBXqOcfgXmg3zq9Lglgbu16EqMa4PM8Y48XKcB8coOj8CKr07GtlqtOdCNA2E5njoI9Kw==
