@@ -86,7 +86,7 @@
     "stylelint-config-css-modules": "1.4.0",
     "stylelint-config-prettier": "5.2.0",
     "stylelint-config-recommended": "2.2.0",
-    "stylelint-config-xo": "0.14.0",
+    "stylelint-config-xo": "0.15.0",
     "stylelint-config-xo-scss": "0.9.0",
     "stylelint-config-xo-space": "0.12.0",
     "stylelint-scss": "3.6.1",
