@@ -12342,14 +12342,6 @@ postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-sorting@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-4.1.0.tgz#a107f0bf3852977fa64e4442bc340c88d5aacdb3"
-  integrity sha512-r4T2oQd1giURJdHQ/RMb72dKZCuLOdWx2B/XhXN1Y1ZdnwXsKH896Qz6vD4tFy9xSjpKNYhlZoJmWyhH/7JUQw==
-  dependencies:
-    lodash "^4.17.4"
-    postcss "^7.0.0"
-
 postcss-sorting@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-5.0.0.tgz#4e4ce0a554c17d78d4287f08f792db8992bf62b5"
@@ -12387,7 +12379,7 @@ postcss-value-parser@^3.0.0, postcss-value-parser@^3.3.0, postcss-value-parser@^
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.11, postcss@^6.0.23:
+postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.23:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
@@ -15103,12 +15095,12 @@ stylelint-config-xo-scss@0.9.0:
     stylelint-config-xo "^0.15.0"
     stylelint-scss "^3.6.1"
 
-stylelint-config-xo-space@0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo-space/-/stylelint-config-xo-space-0.12.0.tgz#9a5f5f27c0c327a5f3eb753a857b5f893d2f1945"
-  integrity sha512-5qZkYOuytwnpM0u6HSNuu4AgexH2+J4hfyMtKCJkGDLDy0FyfI0dpajZIr/8pjUjO7g390PR0PNZVkgl/VCvdg==
+stylelint-config-xo-space@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo-space/-/stylelint-config-xo-space-0.13.0.tgz#7fb9b02847d8f863c64f6e6716f86d619d4d7d90"
+  integrity sha512-6MaCkBnLtcRZDocWreDf3DOWMma1k6sx8VZSLzLq0W3E19SYgKOmgMpD6tNtSBkb3VPwo4el/LlscCML7qO3DA==
   dependencies:
-    stylelint-config-xo "^0.13.0"
+    stylelint-config-xo "^0.15.0"
 
 stylelint-config-xo@0.15.0, stylelint-config-xo@^0.15.0:
   version "0.15.0"
@@ -15118,36 +15110,12 @@ stylelint-config-xo@0.15.0, stylelint-config-xo@^0.15.0:
     stylelint-declaration-block-no-ignored-properties "^2.0.0"
     stylelint-order "^3.0.0"
 
-stylelint-config-xo@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.13.0.tgz#7a368c3f24c07d39d7f6a653fb9283a9cefa7bc1"
-  integrity sha512-vuRHBf38syeJO1REklfNLzQ6vSJPNDl5WTwVqW1+8WbPsRWNN4mpyPriMiu8j3oVhtQzPfZVM0rPFGgxRKRZpA==
-  dependencies:
-    stylelint-declaration-block-no-ignored-properties "^1.1.0"
-    stylelint-order "^2.0.0"
-
-stylelint-declaration-block-no-ignored-properties@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-1.1.0.tgz#291e27309a53c176a8c8bafc8bc679de05a397e4"
-  integrity sha512-92/SZbSLiO0/lcWFXFSFiJwEaWZlBNfrbbBNw3PLHurjjfk/B8oNtujhcxt+OYZbcnYLW2w5zZdQdvgV4ZTWKg==
-  dependencies:
-    postcss "^6.0.11"
-
 stylelint-declaration-block-no-ignored-properties@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.1.0.tgz#3481ad47783441637165b0b15f0f01cc4fa21211"
   integrity sha512-uz9aPLJc5cLHWmrEgXOxxobjjhuJFFO2a4XKGgVooL4Ip4OagLl9HaDlDJwr8vzbs0ZRhotaUJh+zrZcK19z/g==
   dependencies:
     postcss "^7.0.14"
-
-stylelint-order@^2.0.0:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-2.2.1.tgz#cd2d4a0d81d91c705f1d275a58487e5ad5aa5828"
-  integrity sha512-019KBV9j8qp1MfBjJuotse6MgaZqGVtXMc91GU9MsS9Feb+jYUvUU3Z8XiClqPdqJZQ0ryXQJGg3U3PcEjXwfg==
-  dependencies:
-    lodash "^4.17.10"
-    postcss "^7.0.2"
-    postcss-sorting "^4.1.0"
 
 stylelint-order@^3.0.0:
   version "3.0.0"
