@@ -3,11 +3,11 @@ const propertiesOrder = require('stylelint-config-xo/properties-order');
 module.exports = {
   plugins: ['stylelint-scss'],
   extends: [
-    'stylelint-config-recommended',
+    'stylelint-config-css-modules',
+    'stylelint-config-recommended-scss',
     'stylelint-config-xo-scss',
     'stylelint-config-xo-space',
     'stylelint-config-prettier',
-    'stylelint-config-css-modules',
   ],
   rules: {
     // 'order/properties-order' is disabled in 'stylelint-config-xo' for now.
@@ -17,5 +17,7 @@ module.exports = {
     // See https://github.com/kristerkari/stylelint-scss/blob/HEAD/src/rules/at-rule-no-unknown/README.md.
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
+    // Because it is buggy, it turns off for now.
+    'block-no-empty': null,
   },
 };
