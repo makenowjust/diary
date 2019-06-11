@@ -10,8 +10,8 @@
 <p><code>type.type_vars</code>の型は<code>Hash(String, Crystal::ASTNode)</code>なんだけど、このメソッド（<code>Crystal::Doc::Type#type_vars</code>）は<code>Array(String)?</code>が返ることが期待されてる。それにも関わらずこのメソッドの返り値を使う部分では型にあまり依存しない処理しかされてないから、そのことがコンパイルエラーにならない、という感じ。</p>
 <p>ならその行を直せばいいのかというとそんなに事態は単純でもないのだけど‥‥、説明が面倒になったので次の二つのPull Requestを見てほしい。</p>
 <ul>
-<li><a href="https://github.com/crystal-lang/crystal/pull/3616">Fix doc of the type inherited from generics class or module</a></li>
-<li><a href="https://github.com/crystal-lang/crystal/pull/3617">Fix doc of the type having generic superclass</a></li>
+<li><a href="https://github.com/crystal-lang/crystal/pull/3616" class="embedly-card">Fix doc of the type inherited from generics class or module</a></li>
+<li><a href="https://github.com/crystal-lang/crystal/pull/3617" class="embedly-card">Fix doc of the type having generic superclass</a></li>
 </ul>
 <p>よくもまあ似たような名前のPull Requestを作るものだ。</p>
 <p>他にも<a href="https://github.com/crystal-lang/crystal/pull/3615"><code>ArrayLiteral#[]=</code>のドキュメントを追加するPull Request</a>を出したりした。</p>

@@ -15,11 +15,11 @@
 <p>適当ですがそんな感じ。</p>
 <h1>今日やったこと</h1>
 <h2><code>crystal eval</code>とか<code>crystal spec</code>に<code>--no-color</code>オプションを指定できるようにした</h2>
-<p><a href="https://github.com/crystal-lang/crystal/pull/3621" title="Add missing --no-color option to spec and eval command by MakeNowJust · Pull Request #3621 · crystal-lang/crystal">Add missing --no-color option to spec and eval command by MakeNowJust · Pull Request #3621 · crystal-lang/crystal</a></p>
+<p><a href="https://github.com/crystal-lang/crystal/pull/3621" title="Add missing --no-color option to spec and eval command by MakeNowJust · Pull Request #3621 · crystal-lang/crystal" class="embedly-card">Add missing --no-color option to spec and eval command by MakeNowJust · Pull Request #3621 · crystal-lang/crystal</a></p>
 <p>役に立つのかというとちょっと自信がない。</p>
 <p>しかしこれは次のPull Requestへの伏線なのだ（本当です）。</p>
 <h2><code>crystal docs</code>にコンパイラオプションの一部を指定できるようにした</h2>
-<p><a href="https://github.com/crystal-lang/crystal/pull/3622" title="Accept to pass compiler options to crystal docs by MakeNowJust · Pull Request #3622 · crystal-lang/crystal">Accept to pass compiler options to crystal docs by MakeNowJust · Pull Request #3622 · crystal-lang/crystal</a></p>
+<p><a href="https://github.com/crystal-lang/crystal/pull/3622" title="Accept to pass compiler options to crystal docs by MakeNowJust · Pull Request #3622 · crystal-lang/crystal" class="embedly-card">Accept to pass compiler options to crystal docs by MakeNowJust · Pull Request #3622 · crystal-lang/crystal</a></p>
 <p>上のPull RequestはこのPull Requestを作ってるときに思い付いたもの。基本的にソースを弄ってるといくつか変更点ができてしまって、複数のPull Requestができるのが普通だと思うのですが他の人はそうではないのだろうか。</p>
 <p>実はこのPull Requestもさらに続くものがある予定なのだけど、それはほぼまったく手を着けていないのでまだまだ公開できそうにない。</p>
 <p>それと、このPull Requestに対して「<code>--stats</code>オプションって<code>crystal docs</code>に対しても使えるんじゃない？」って言われたのだけど、これには結構頭を抱えてる。<code>--stats</code>というのはコンパイル時の各フェーズにかかった時間とメモリ消費量を表示するオプションで、それって<code>docs</code>に限らず大体のコマンドに使えるような気がするけど、コンパイラの他のコマンドではバイナリを生成しないものは<code>--stats</code>コマンドが使えなくなっているので。色々模索していくつもり。</p>

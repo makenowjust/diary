@@ -12,7 +12,7 @@
 <h2>CrystalにPull Requestを出したりした</h2>
 <ol>
 <li>
-<p><a href="https://github.com/crystal-lang/crystal/pull/7240">https://github.com/crystal-lang/crystal/pull/7240</a></p>
+<p><a href="https://github.com/crystal-lang/crystal/pull/7240" class="embedly-card">https://github.com/crystal-lang/crystal/pull/7240</a></p>
 <p>呼ばれたので直した。ぶっちゃけこれを直すくらいならば難しくはない。</p>
 <p>ややこしいのは、現状だと、</p>
 <pre><code class="hljs language-crystal">foo(&#x26;.foo
@@ -31,7 +31,7 @@
 <p>タイミングを見て直していきたい。</p>
 </li>
 <li>
-<p><a href="https://github.com/crystal-lang/crystal/pull/7241">https://github.com/crystal-lang/crystal/pull/7241</a></p>
+<p><a href="https://github.com/crystal-lang/crystal/pull/7241" class="embedly-card">https://github.com/crystal-lang/crystal/pull/7241</a></p>
 <p><code>crystal tool format foo.cr</code>とかしたときに出たエラーメッセージが<code>crystal tool format foo.cr</code>を実行しろというやつなんだけど、それをやっても当然同じエラーメッセージになってスタックトレースとか出ないので<code>crystal tool format - &#x3C; foo.cr</code>を表示するように修正した。<br>
 多分問題ないと思う。</p>
 <p>1引数の場合の特殊パターンが消えた時点で気付くべきだった。</p>

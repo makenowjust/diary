@@ -5,18 +5,18 @@
 <p>単体でスクリプトを配布するならバージョン表示が欲しいなぁ、と思ったので。</p>
 <p>ついでにreadme.mdのバージョンをチェックするテストを仕込んだ。</p>
 <h2>Crystalに2つくらいPull Requestを出した</h2>
-<p><a href="https://github.com/crystal-lang/crystal/pull/7207">https://github.com/crystal-lang/crystal/pull/7207</a></p>
+<p><a href="https://github.com/crystal-lang/crystal/pull/7207" class="embedly-card">https://github.com/crystal-lang/crystal/pull/7207</a></p>
 <p><code>spec</code>の<code>it</code>と<code>pending</code>がネストしてるときにエラーになるようにした。</p>
 <p>実装方法は<code>Scope</code>というモジュールに<code>it</code>と<code>pending</code>を呼び出したらエラーになるマクロを定義して<code>with Scope yield</code>した。</p>
 <p>この方法だとコンパイル時にエラーを検知できて便利なんだけど、一方で<code>with ... yield</code>使うのどうなの？　とか、<code>it</code>がスコープから直接呼び出されてない場合検出できないのが問題になる。</p>
 <p>色々あってランタイムのチェックにしようという気持ちになった。コンセプトは悪くないと思うんだけど、現実はかくも難しい‥‥。</p>
-<p><a href="https://github.com/crystal-lang/crystal/pull/7208">https://github.com/crystal-lang/crystal/pull/7208</a></p>
+<p><a href="https://github.com/crystal-lang/crystal/pull/7208" class="embedly-card">https://github.com/crystal-lang/crystal/pull/7208</a></p>
 <p><code>require</code>中の通常の(コンパイラ関連でない)エラーが、なぜかコンパイラのエラーにラップされるので、スタックトレースふぁ出なくて不便だったのを直した。</p>
 <p>これは特に文句もなくマージされると思う。<br>
 と思ったら寝る前にマージされた。早い。</p>
 <p>個人的には、一応Aryに意図を訊ねた方が良かったと思うんだけど‥‥。</p>
 <h2>Crystal Advent Calendarの20日目を書いた</h2>
-<p><a href="https://qiita.com/make_now_just/items/8402282fb5cb420ddf06">https://qiita.com/make<em>now</em>just/items/8402282fb5cb420ddf06</a></p>
+<p><a href="https://qiita.com/make_now_just/items/8402282fb5cb420ddf06" class="embedly-card">https://qiita.com/make<em>now</em>just/items/8402282fb5cb420ddf06</a></p>
 <p>しかし書いた側から意見を変える人の鑑。<br>
 真似するなよ。</p>
 <h2>今週のもぐキチ</h2>
