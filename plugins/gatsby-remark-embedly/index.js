@@ -3,7 +3,7 @@ const is = require('unist-util-is');
 
 module.exports = ({markdownAST}) => {
   visit(markdownAST, 'paragraph', node => {
-    if (node.children.length !== 1 || !is('link', node.children[0])) {
+    if (node.children.length !== 1 || !is(node.children[0], 'link')) {
       return;
     }
 
