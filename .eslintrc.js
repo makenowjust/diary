@@ -8,7 +8,7 @@ module.exports = {
       version: '16.7.0',
     },
   },
-  plugins: ['import', 'promise', 'react', 'jsx-a11y', 'unicorn'],
+  plugins: ['import', 'promise', 'react', 'jsx-a11y', 'unicorn', 'jest'],
   extends: [
     'plugin:import/recommended',
     'plugin:promise/recommended',
@@ -19,6 +19,7 @@ module.exports = {
     'prettier',
     'prettier/react',
     'prettier/unicorn',
+    'plugin:jest/recommended',
   ],
   rules: {
     'import/order': ['error', {'newlines-between': 'always'}],
