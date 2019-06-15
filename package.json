@@ -79,7 +79,7 @@
     "prettier": "1.18.2",
     "prettier-package-json": "2.1.0",
     "react-test-renderer": "16.8.6",
-    "remark-breaks": "1.0.2",
+    "remark-breaks": "1.0.3",
     "sass-loader": "7.1.0",
     "strip-markdown": "3.0.3",
     "style-loader": "0.23.1",
