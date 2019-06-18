@@ -1,5 +1,7 @@
 # mkdo
 
+This file defines tasks for [mkdo](https://github.com/MakeNowJust/mkdo) to execute.
+
 ## dev
 
 Start development server.
