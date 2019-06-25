@@ -50,6 +50,8 @@ const ListTemplate = ({data, pageContext}) => {
 ListTemplate.propTypes = {
   data: PropTypes.object.isRequired,
   pageContext: PropTypes.shape({
+    currentListPage: PropTypes.number,
+    listPages: PropTypes.number,
     previous: PropTypes.string,
     next: PropTypes.string,
   }).isRequired,
