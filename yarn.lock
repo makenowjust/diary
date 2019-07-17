@@ -16088,10 +16088,10 @@ typeface-nova-square@0.0.71:
   resolved "https://registry.yarnpkg.com/typeface-nova-square/-/typeface-nova-square-0.0.71.tgz#3fa7294a455cad07a4a4215380e8946184f9341d"
   integrity sha512-+WTDIc6kNzPZdaqpBialBnOam7imCGMdNsNVM45f0VNGffXW3osb6+Egje+TBmnbMkoOOaOVAKliQ7Oe+IRODA==
 
-typeface-raleway@0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-0.0.54.tgz#f166c517becc81f34d14e72736d28b8923c79c65"
-  integrity sha512-oilrvv0fV+z4eYvfTAl6t9Oq1mE/ZrLDPM71TrcAtqyVb0QzAJ6hQBS+FQcYdHxK2LGQE+gloQUPtwgY2I7WxA==
+typeface-raleway@0.0.75:
+  version "0.0.75"
+  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-0.0.75.tgz#cc79688aa3175452744ecd19540b54dad153e8f3"
+  integrity sha512-mUvT/klCTGA2HporaIMNY3ap45YxBErxFv/1pv82LhbFdNc3m+6ddfoexP6xxwMZ5yZ2VmDhMqk1yikDEoxU/Q==
 
 ua-parser-js@^0.7.18:
   version "0.7.19"

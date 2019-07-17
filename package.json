@@ -28,7 +28,7 @@
     "react-instantsearch-dom": "5.7.0",
     "typeface-nova-mono": "0.0.72",
     "typeface-nova-square": "0.0.71",
-    "typeface-raleway": "0.0.54"
+    "typeface-raleway": "0.0.75"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
