@@ -14658,16 +14658,16 @@ sass-graph@^2.2.4:
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
-sass-loader@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-7.2.0.tgz#e34115239309d15b2527cb62b5dfefb62a96ff7f"
-  integrity sha512-h8yUWaWtsbuIiOCgR9fd9c2lRXZ2uG+h8Dzg/AGNj+Hg/3TO8+BBAW9mEP+mh8ei+qBKqSJ0F1FLlYjNBc61OA==
+sass-loader@7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-7.3.0.tgz#174f45277f85e221d6626338c34214f6f0d3d861"
+  integrity sha512-oPq1yaJLR1+1Us4+c2HfnGeghwbKoYafhigoBn5FF3VXum0cQGV95IBnx6PVEmYxR4miXkO63BOuiSDqO9qPOg==
   dependencies:
     clone-deep "^4.0.1"
     loader-utils "^1.0.1"
     neo-async "^2.5.0"
     pify "^4.0.1"
-    semver "^5.5.0"
+    semver "^6.3.0"
 
 sass-loader@^7.0.1:
   version "7.1.0"
