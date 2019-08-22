@@ -57,7 +57,7 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.14.3",
-    "eslint-plugin-react-hooks": "1.7.0",
+    "eslint-plugin-react-hooks": "2.0.1",
     "eslint-plugin-unicorn": "10.0.0",
     "gatsby": "2.13.70",
     "gatsby-plugin-algolia": "https://github.com/u12206050/gatsby-plugin-algolia#partial-updates",
