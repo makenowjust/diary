@@ -16078,10 +16078,10 @@ strip-json-comments@^3.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.0.1.tgz#85713975a91fb87bf1b305cca77395e40d2a64a7"
   integrity sha512-VTyMAUfdm047mwKl+u79WIdrZxtFtn+nBxHeb844XBQ9uMNTuTHdx2hc5RiAJYqwTj3wc/xe5HLSdJSkJ+WfZw==
 
-strip-markdown@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/strip-markdown/-/strip-markdown-3.1.0.tgz#c721b3568ad4751a4540df7016bd63dc411be728"
-  integrity sha512-yKVGyloosIjDuDi2DHybQ6W8Vk411x8/78k617GuQBwO4O8BnY2Q4zOYhNDL5t5J7z1fLT5Cvlv7vD5Rhhx8JA==
+strip-markdown@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/strip-markdown/-/strip-markdown-3.1.1.tgz#aa50d06c3d61ae70486cb255e4331fc418a91115"
+  integrity sha512-Q83C2WWWxASuJm7XuSqS9PGYQb8yTSxPtxE6bjCj/8kwuk4IY5qi9aEQkfyeqky0E5uCQpl1pDgOvQRh90FyMg==
 
 style-loader@1.0.0:
   version "1.0.0"
