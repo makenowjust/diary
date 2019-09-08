@@ -7,7 +7,7 @@ import styles from './lawn.module.scss';
 const DAY_MS = 24 * 3600 * 1000;
 
 const MARGIN = 2;
-const GRASS_SIZE = 12;
+const GRASS_SIZE = 9.5;
 const WIDTH = MARGIN + (GRASS_SIZE + MARGIN) * 54;
 const HEIGHT = MARGIN + (GRASS_SIZE + MARGIN) * (7 + 1);
 

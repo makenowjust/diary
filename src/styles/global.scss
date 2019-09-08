@@ -209,3 +209,12 @@ blockquote {
     margin-bottom: 0;
   }
 }
+
+//
+// Horizontal line:
+// ====================================
+
+hr {
+  border: none;
+  border-bottom: 1px solid $light-white;
+}
