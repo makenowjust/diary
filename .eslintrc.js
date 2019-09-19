@@ -28,5 +28,7 @@ module.exports = {
     'react/no-unescaped-entities': 'off',
     // This is tooo strict rule. Be quiet!
     'unicorn/prevent-abbreviations': 'off',
+    // This rule conflicts prettier unfortunately.
+    'unicorn/no-nested-ternary': 'off',
   },
 };
