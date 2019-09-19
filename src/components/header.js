@@ -10,18 +10,20 @@ import styles from './header.module.scss';
 const Header = ({title, quote, posts, today}) => (
   <header className={styles.container}>
     <div className={styles.navBar}>
-      <h1 className={styles.navBarTitle}>
-        <Link to="/">{title}</Link>
-      </h1>
-      <nav className={styles.nav}>
-        <ul>
-          <li>
-            <Link to="/search/" title="検索">
-              <FontAwesomeIcon icon={faSearch} />
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <div className={styles.navBarInside}>
+        <h1 className={styles.navBarTitle}>
+          <Link to="/">{title}</Link>
+        </h1>
+        <nav className={styles.nav}>
+          <ul>
+            <li>
+              <Link to="/search/" title="検索">
+                <FontAwesomeIcon icon={faSearch} />
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <h1 className={styles.title}>
       <Link to="/">{title}</Link>
