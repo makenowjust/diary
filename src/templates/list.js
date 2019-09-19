@@ -23,7 +23,7 @@ const ListTemplate = ({data, pageContext}) => {
   ));
 
   const {currentListPage: current, listPages} = pageContext;
-  const prev = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
+  const prev = current === 1 ? null : (current === 2 ? `/` : `/list/${current - 1}/`);
   const next = current === listPages ? null : `/list/${current + 1}/`;
 
   const {title: siteTitle, description} = data.site.siteMetadata;
