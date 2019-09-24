@@ -198,8 +198,8 @@ img {
 // ====================================
 
 blockquote {
-  padding: 0.5rem 0 0.5rem 1rem;
   border-left: 0.25rem solid $black;
+  margin: 0.5rem;
 
   > :first-child {
     margin-top: 0;
@@ -217,4 +217,12 @@ blockquote {
 hr {
   border: none;
   border-bottom: 1px solid $light-white;
+}
+
+//
+// List:
+// ====================================
+
+ul {
+  list-style-position: inside;
 }
