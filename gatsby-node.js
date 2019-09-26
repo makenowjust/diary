@@ -18,7 +18,7 @@ exports.onCreateNode = ({node, getNode, actions}) => {
 
     // `slug` is a string value like `'/2018-10-15-xxx/'`.
     // And it extracts a part `'2018-10-15'` as the above example.
-    const date = slug.substr(1, 10);
+    const date = slug.slice(1, 11);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
       throw new Error(`unexpected post filename: ${path.basename(node.fileAbsolutePath)}`);
     }
