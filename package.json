@@ -62,7 +62,7 @@
     "gatsby": "2.16.3",
     "gatsby-plugin-algolia": "https://github.com/u12206050/gatsby-plugin-algolia#partial-updates",
     "gatsby-plugin-manifest": "2.2.23",
-    "gatsby-plugin-netlify": "2.1.21",
+    "gatsby-plugin-netlify": "2.1.22",
     "gatsby-plugin-offline": "3.0.16",
     "gatsby-plugin-react-helmet": "3.1.13",
     "gatsby-plugin-sass": "2.1.20",
