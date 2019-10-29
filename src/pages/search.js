@@ -14,10 +14,7 @@ const searchClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOL
 const SearchPage = () => (
   <Layout>
     <div className={styles.container}>
-      <InstantSearch
-        indexName="posts"
-        searchClient={searchClient}
-      >
+      <InstantSearch indexName="posts" searchClient={searchClient}>
         <SearchBox />
         <PoweredBy />
         <InfiniteHits hitComponent={HitPost} translations={{loadMore: 'さらに読み込む'}} />
