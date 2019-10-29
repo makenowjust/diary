@@ -5,7 +5,7 @@ import {InstantSearch, SearchBox, InfiniteHits, PoweredBy} from 'react-instantse
 import HitPost from '../components/hit-post';
 import Layout from '../containers/layout';
 
-import styles from './search.module.css';
+import styles from './search.module.scss';
 
 import '../styles/algolia.scss';
 
