@@ -95,8 +95,5 @@
     "stylelint-scss": "3.12.1",
     "unist-util-is": "4.0.1",
     "unist-util-visit": "2.0.1"
-  },
-  "resolutions": {
-    "remark-parse": "6.0.3"
   }
 }
