@@ -12,7 +12,7 @@ module.exports = ({markdownAST}) => {
 
     try {
       data.hChildren = low.highlight(lang, value).value;
-    } catch (error) {
+    } catch {
       return;
     }
 
