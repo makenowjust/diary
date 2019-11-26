@@ -40,7 +40,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "842e3d623b8c6552870ffaaf6556d3a2"
+    "revision": "d82a0b4c8dcdd7a9d9c3806af4e8d14f"
   },
   {
     "url": "manifest.json",
@@ -97,7 +97,7 @@ function handleAPIRequest({ event }) {
   const params = pathname.match(/:(.+)/)[1]
   const data = {}
 
-  if (params.indexOf(`=`) !== -1) {
+  if (params.includes(`=`)) {
     params.split(`&`).forEach(param => {
       const [key, val] = param.split(`=`)
       data[key] = val
