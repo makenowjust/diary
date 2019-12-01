@@ -16022,7 +16022,15 @@ stylelint-config-xo-space@0.13.0:
   dependencies:
     stylelint-config-xo "^0.15.0"
 
-stylelint-config-xo@0.15.0, stylelint-config-xo@^0.15.0:
+stylelint-config-xo@0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.16.0.tgz#0344ca8d4ee86b060fb34c337f63ea6590d8f65a"
+  integrity sha512-3QALJABs/hpazRILiPfb5zOQaGMuYMXKAQsUvcz8smNmWi7LrptGjlpWPVxyeV0fQZk/qH1R7ONgR6etHk47Bg==
+  dependencies:
+    stylelint-declaration-block-no-ignored-properties "^2.2.0"
+    stylelint-order "^3.1.1"
+
+stylelint-config-xo@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.15.0.tgz#27fb48d3dd3222cb282f187875c4954b0b611698"
   integrity sha512-JwgB3jlNYoxQV0WdmKfJysK1Xj9n688DFKdABcDoT4SMMl7yqxYO22bStczMdH3ZR2bgg0pyf4TkYocvfGlc6A==
@@ -16037,7 +16045,14 @@ stylelint-declaration-block-no-ignored-properties@^2.0.0:
   dependencies:
     postcss "^7.0.14"
 
-stylelint-order@^3.0.0:
+stylelint-declaration-block-no-ignored-properties@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.2.0.tgz#fdde13fdd53b2f7e8930e5986e768f41649a576e"
+  integrity sha512-SUq40z02Cu0SHF7tY4TLQG88qSPE55R2AZlczHOt/j6IEN8vk2o1mEr+HIWVqOS31sK2JtdvCQzvGSM7R5nOWw==
+  dependencies:
+    postcss "^7.0.17"
+
+stylelint-order@^3.0.0, stylelint-order@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-3.1.1.tgz#ba9ea6844d1482f97f31204e7c9605c7b792c294"
   integrity sha512-4gP/r8j/6JGZ/LL41b2sYtQqfwZl4VSqTp7WeIwI67v/OXNQ08dnn64BGXNwAUSgb2+YIvIOxQaMzqMyQMzoyQ==
