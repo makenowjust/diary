@@ -16119,13 +16119,13 @@ stylelint-config-recommended@3.0.0, stylelint-config-recommended@^3.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz#e0e547434016c5539fe2650afd58049a2fd1d657"
   integrity sha512-F6yTRuc06xr1h5Qw/ykb2LuFynJ2IxkKfCMf+1xqPffkxh0S09Zc902XCffcsw/XMFq/OzQ1w54fLIDtmRNHnQ==
 
-stylelint-config-xo-scss@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo-scss/-/stylelint-config-xo-scss-0.9.0.tgz#8038a3bbf609ad669b0b14457e9bc98fdcf64ce7"
-  integrity sha512-QYZ+Fsg6w4q166urIbTlrIM+GRG+jHDF5yZxYatjAB1wFLBuWu/SyXqhpEGqBNxnW5DUG8jYTMOqjK7ifZqMXQ==
+stylelint-config-xo-scss@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo-scss/-/stylelint-config-xo-scss-0.10.0.tgz#5babc85c4fa9d4b6d6baa501e2ca98959e21e229"
+  integrity sha512-XXkl7l2GLaFuwZadKXDbC7aP12W6CLOz5yzIqhQLhGQRQbGwhAyZF8mkKaLvr7sqKnLz50N95G+P6AioOQVHxQ==
   dependencies:
-    stylelint-config-xo "^0.15.0"
-    stylelint-scss "^3.6.1"
+    stylelint-config-xo "^0.16.0"
+    stylelint-scss "^3.13.0"
 
 stylelint-config-xo-space@0.14.0:
   version "0.14.0"
@@ -16142,21 +16142,6 @@ stylelint-config-xo@0.16.0, stylelint-config-xo@^0.16.0:
     stylelint-declaration-block-no-ignored-properties "^2.2.0"
     stylelint-order "^3.1.1"
 
-stylelint-config-xo@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.15.0.tgz#27fb48d3dd3222cb282f187875c4954b0b611698"
-  integrity sha512-JwgB3jlNYoxQV0WdmKfJysK1Xj9n688DFKdABcDoT4SMMl7yqxYO22bStczMdH3ZR2bgg0pyf4TkYocvfGlc6A==
-  dependencies:
-    stylelint-declaration-block-no-ignored-properties "^2.0.0"
-    stylelint-order "^3.0.0"
-
-stylelint-declaration-block-no-ignored-properties@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.1.0.tgz#3481ad47783441637165b0b15f0f01cc4fa21211"
-  integrity sha512-uz9aPLJc5cLHWmrEgXOxxobjjhuJFFO2a4XKGgVooL4Ip4OagLl9HaDlDJwr8vzbs0ZRhotaUJh+zrZcK19z/g==
-  dependencies:
-    postcss "^7.0.14"
-
 stylelint-declaration-block-no-ignored-properties@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.2.0.tgz#fdde13fdd53b2f7e8930e5986e768f41649a576e"
@@ -16164,7 +16149,7 @@ stylelint-declaration-block-no-ignored-properties@^2.2.0:
   dependencies:
     postcss "^7.0.17"
 
-stylelint-order@^3.0.0, stylelint-order@^3.1.1:
+stylelint-order@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-3.1.1.tgz#ba9ea6844d1482f97f31204e7c9605c7b792c294"
   integrity sha512-4gP/r8j/6JGZ/LL41b2sYtQqfwZl4VSqTp7WeIwI67v/OXNQ08dnn64BGXNwAUSgb2+YIvIOxQaMzqMyQMzoyQ==
@@ -16173,7 +16158,7 @@ stylelint-order@^3.0.0, stylelint-order@^3.1.1:
     postcss "^7.0.17"
     postcss-sorting "^5.0.1"
 
-stylelint-scss@3.13.0:
+stylelint-scss@3.13.0, stylelint-scss@^3.13.0:
   version "3.13.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.13.0.tgz#875c76e61d95333c4f0ae737a310be6f1d27d780"
   integrity sha512-SaLnvQyndaPcsgVJsMh6zJ1uKVzkRZJx+Wg/stzoB1mTBdEmGketbHrGbMQNymzH/0mJ06zDSpeCDvNxqIJE5A==
@@ -16181,17 +16166,6 @@ stylelint-scss@3.13.0:
     lodash.isboolean "^3.0.3"
     lodash.isregexp "^4.0.1"
     lodash.isstring "^4.0.1"
-    postcss-media-query-parser "^0.2.3"
-    postcss-resolve-nested-selector "^0.1.1"
-    postcss-selector-parser "^6.0.2"
-    postcss-value-parser "^4.0.2"
-
-stylelint-scss@^3.6.1:
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.12.1.tgz#0b06122a33dd2ef368121e920bd3ecfa323bedf2"
-  integrity sha512-k6B78HrqJ6pib5yOtmId7osVGrE2Amcf0VU+tdzk+oqwXe/0+VKtbkogeXrmGKt+z54QhxvjEO++qlE/a7EWlA==
-  dependencies:
-    lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-selector-parser "^6.0.2"

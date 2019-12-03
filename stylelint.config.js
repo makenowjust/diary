@@ -19,5 +19,7 @@ module.exports = {
     'scss/at-rule-no-unknown': true,
     // Because it is buggy, it turns off for now.
     'block-no-empty': null,
+    // Fix stylelint-config-xo-scss bug.
+    'scss/at-import-partial-extension': 'never',
   },
 };
