@@ -2889,7 +2889,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.8.12", "@types/react@^16.8.6":
+"@types/react@*":
   version "16.9.11"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
   integrity sha512-UBT4GZ3PokTXSWmdgC/GeCGEJXE5ofWyibCcecRLUVN2ZBpXQGVgQGtG2foS7CrTKFKlQVVswLvf7Js6XA/CVQ==
@@ -3697,13 +3697,6 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto-bind@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/auto-bind/-/auto-bind-2.1.1.tgz#8ae509671ecdfbd5009fc99b0f19ae9c3a2abf50"
-  integrity sha512-NUwV1i9D3vxxY1KnfZgSZ716d6ovY7o8LfOwLhGIPFBowIb6Ln6DBW64+jCqPzUznel2hRSkQnYQqvh7/ldw8A==
-  dependencies:
-    "@types/react" "^16.8.12"
-
 auto-bind@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/auto-bind/-/auto-bind-3.0.0.tgz#67773e64899b228f6d2a841709e7e086cfed31a3"
@@ -4334,7 +4327,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@^3.3.5, bluebird@^3.5.5, bluebird@^3.7.1:
+bluebird@^3.3.5, bluebird@^3.5.5:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.1.tgz#df70e302b471d7473489acf26a93d63b53f874de"
   integrity sha512-DdmyoGCleJnkbp3nkbxTLJ18rjDsE4yCggEwKNXkeV123sPNfOCYeDoeuOY+F2FrSjO1YXcTU+dsy96KMy+gcg==
@@ -4395,20 +4388,6 @@ boxen@^3.0.0:
     term-size "^1.2.0"
     type-fest "^0.3.0"
     widest-line "^2.0.0"
-
-boxen@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/boxen/-/boxen-4.1.0.tgz#256f6b2eb09ba22ea558e5acc0a5ff637bf8ed03"
-  integrity sha512-Iwq1qOkmEsl0EVABa864Bbj3HCL4186DRZgFW/NrFs5y5GMM3ljsxzMLgOHdWISDRvcM8beh8q4tTNzXz+mSKg==
-  dependencies:
-    ansi-align "^3.0.0"
-    camelcase "^5.3.1"
-    chalk "^2.4.2"
-    cli-boxes "^2.2.0"
-    string-width "^4.1.0"
-    term-size "^2.1.0"
-    type-fest "^0.5.2"
-    widest-line "^3.1.0"
 
 boxen@^4.2.0:
   version "4.2.0"
@@ -5041,14 +5020,6 @@ cli-table3@0.5.1, cli-table3@^0.5.1:
   optionalDependencies:
     colors "^1.1.2"
 
-cli-truncate@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/cli-truncate/-/cli-truncate-1.1.0.tgz#2b2dfd83c53cfd3572b87fc4d430a808afb04086"
-  integrity sha512-bAtZo0u82gCfaAGfSNxUdTI9mNyza7D8w4CVCcaOsy7sgwDzvx6ekr6cuWJqY3UGzgnQ1+4wgENup5eIhgxEYA==
-  dependencies:
-    slice-ansi "^1.0.0"
-    string-width "^2.0.0"
-
 cli-truncate@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-truncate/-/cli-truncate-2.1.0.tgz#c39e28bf05edcde5be3b98992a22deed5a2b93c7"
@@ -5491,7 +5462,7 @@ core-js@^1.0.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
 
-core-js@^2.4.0, core-js@^2.6.10, core-js@^2.6.5:
+core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
   integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
@@ -6608,7 +6579,7 @@ envify@^4.0.0:
     esprima "^4.0.0"
     through "~2.3.4"
 
-envinfo@^7.4.0, envinfo@^7.5.0:
+envinfo@^7.5.0:
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.5.0.tgz#91410bb6db262fb4f1409bd506e9ff57e91023f4"
   integrity sha512-jDgnJaF/Btomk+m3PZDTTCb5XIIIX3zYItnCRfF73zVgvinLoRomuhi75Y4su0PtQxWz4v66XnLLckyvyJTOIQ==
@@ -7091,22 +7062,6 @@ execa@^1.0.0:
     p-finally "^1.0.0"
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
-
-execa@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-3.3.0.tgz#7e348eef129a1937f21ecbbd53390942653522c1"
-  integrity sha512-j5Vit5WZR/cbHlqU97+qcnw9WHRCIL4V1SVe75VcHcD1JRBdt8fv0zw89b7CQHQdUHTt2VjuhcF5ibAgVOxqpg==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    p-finally "^2.0.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
 
 execa@^3.4.0:
   version "3.4.0"
@@ -7790,54 +7745,6 @@ fuse.js@^3.4.4:
   resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-3.4.6.tgz#545c3411fed88bf2e27c457cab6e73e7af697a45"
   integrity sha512-H6aJY4UpLFwxj1+5nAvufom5b2BT2v45P1MkPvdGIK8fWjQx/7o6tTT1+ALV0yawQvbmvCF0ufl2et8eJ7v7Cg==
 
-gatsby-cli@2.8.13, gatsby-cli@^1.1.58:
-  version "2.8.13"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.8.13.tgz#b48c937ed1b72b19c3509c8e6b4f45a4f111caca"
-  integrity sha512-Mv5D9Blzhmq1aH0V1r4kmVmb//x/WDze16rrTpbFQXp/siqpDoVXMyvzuXudCuASGdxSkanSl9NphHZYjJHJbA==
-  dependencies:
-    "@babel/code-frame" "^7.5.5"
-    "@babel/runtime" "^7.7.2"
-    "@hapi/joi" "^15.1.1"
-    better-opn "^1.0.0"
-    bluebird "^3.7.1"
-    chalk "^2.4.2"
-    clipboardy "^2.1.0"
-    common-tags "^1.8.0"
-    configstore "^5.0.0"
-    convert-hrtime "^3.0.0"
-    core-js "^2.6.10"
-    envinfo "^7.4.0"
-    execa "^3.3.0"
-    fs-exists-cached "^1.0.0"
-    fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.20"
-    gatsby-telemetry "^1.1.39"
-    hosted-git-info "^3.0.2"
-    is-valid-path "^0.1.1"
-    lodash "^4.17.15"
-    meant "^1.0.1"
-    node-fetch "^2.6.0"
-    object.entries "^1.1.0"
-    opentracing "^0.14.4"
-    pretty-error "^2.1.1"
-    progress "^2.0.3"
-    prompts "^2.3.0"
-    react "^16.11.0"
-    redux "^4.0.4"
-    resolve-cwd "^2.0.0"
-    semver "^6.3.0"
-    signal-exit "^3.0.2"
-    source-map "0.7.3"
-    stack-trace "^0.0.10"
-    strip-ansi "^5.2.0"
-    update-notifier "^3.0.1"
-    uuid "3.3.3"
-    yargs "^12.0.5"
-    yurnalist "^1.1.1"
-  optionalDependencies:
-    ink "^2.5.0"
-    ink-spinner "^3.0.1"
-
 gatsby-cli@^2.8.18:
   version "2.8.18"
   resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.8.18.tgz#0e517ebb478023b14001b46b4d463892779005d6"
@@ -7886,13 +7793,6 @@ gatsby-cli@^2.8.18:
     ink "^2.6.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.20.tgz#f4788c2591fa7165c87f0ee5e8edf664c91978ea"
-  integrity sha512-vdOy/+8UjY3taUEf85s/P8a5qfw4OUTRfvrmwJ8OOBfWkpcJRLEgW2EYfkYfGp3u9l8KKQv4VsdG3XRVQb36KQ==
-  dependencies:
-    ci-info "2.0.0"
-
 gatsby-core-utils@^1.0.24:
   version "1.0.24"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.24.tgz#b2b39440ad4f717de1b68f02d139130f844bdb32"
@@ -7931,12 +7831,12 @@ gatsby-page-utils@^0.0.35:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-"gatsby-plugin-algolia@https://github.com/u12206050/gatsby-plugin-algolia#partial-updates":
-  version "0.3.0"
-  resolved "https://github.com/u12206050/gatsby-plugin-algolia#d76e9c618912cab5164f085c070a905eab10a02f"
+gatsby-plugin-algolia-search@0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia-search/-/gatsby-plugin-algolia-search-0.5.6.tgz#c181e1823f70aa30735f37fffda745ecb6956cfa"
+  integrity sha512-x+JFF5lUXtWn8PiGw7yBOMbVqYgc/Wg+Yc8dvUynJdLaWO7M7THLIgZoEK+kJyD1PItXysvV5oAw5pK00P9uvw==
   dependencies:
     algoliasearch "^3.24.5"
-    gatsby-cli "^1.1.58"
     lodash.chunk "^4.2.0"
 
 gatsby-plugin-manifest@2.2.33:
@@ -8049,29 +7949,6 @@ gatsby-source-filesystem@2.1.42:
     read-chunk "^3.2.0"
     valid-url "^1.0.9"
     xstate "^4.7.2"
-
-gatsby-telemetry@^1.1.39:
-  version "1.1.39"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.1.39.tgz#ddc9e77305d6c8495dd95ea5731d20314beab061"
-  integrity sha512-BVehM0m26YafYpL618x/7QKlV2pArSiuByShponqme7hNXyprv+iwlyl8j5HFunhDMBooe9JpScHpKJmIMV7fA==
-  dependencies:
-    "@babel/code-frame" "^7.5.5"
-    "@babel/runtime" "^7.7.2"
-    bluebird "^3.7.1"
-    boxen "^4.1.0"
-    configstore "^5.0.0"
-    envinfo "^7.4.0"
-    fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.20"
-    git-up "4.0.1"
-    is-docker "2.0.0"
-    lodash "^4.17.15"
-    node-fetch "2.6.0"
-    resolve-cwd "^2.0.0"
-    source-map "^0.7.3"
-    stack-trace "^0.0.10"
-    stack-utils "1.0.2"
-    uuid "3.3.3"
 
 gatsby-telemetry@^1.1.44:
   version "1.1.44"
@@ -9401,31 +9278,6 @@ ink-spinner@^3.0.1:
   dependencies:
     cli-spinners "^1.0.0"
     prop-types "^15.5.10"
-
-ink@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/ink/-/ink-2.5.0.tgz#66cf988b65ca06d14f00f385eb531fde29f95819"
-  integrity sha512-HUkVglJ11cXK+W1a5cKNoOCxLkDi5hbDMAWSFDcwF2kpNd0eoX+2/cpaTP9BTFaQ8RJk7O59NxKMmyPXkmxo7w==
-  dependencies:
-    "@types/react" "^16.8.6"
-    ansi-escapes "^4.2.1"
-    arrify "^1.0.1"
-    auto-bind "^2.0.0"
-    chalk "^2.4.1"
-    cli-cursor "^2.1.0"
-    cli-truncate "^1.1.0"
-    is-ci "^2.0.0"
-    lodash.throttle "^4.1.1"
-    log-update "^3.0.0"
-    prop-types "^15.6.2"
-    react-reconciler "^0.21.0"
-    scheduler "^0.15.0"
-    signal-exit "^3.0.2"
-    slice-ansi "^1.0.0"
-    string-length "^2.0.0"
-    widest-line "^2.0.0"
-    wrap-ansi "^5.0.0"
-    yoga-layout-prebuilt "^1.9.3"
 
 ink@^2.6.0:
   version "2.6.0"
@@ -14237,16 +14089,6 @@ react-popper@^1.3.4:
     typed-styles "^0.0.7"
     warning "^4.0.2"
 
-react-reconciler@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.21.0.tgz#8180342ab3c8295f860025a86d0a03742a294ea7"
-  integrity sha512-h4Rl3L3O6G9V4Ff+F+tCXX8ElDVn0Psk/odT+NPWeA55Yk5G7+kHT8D+Q3yE+51C72LbrYcX6OfLmCZ/7Nx9cw==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.15.0"
-
 react-reconciler@^0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.24.0.tgz#5a396b2c2f5efe8554134a5935f49f546723f2dd"
@@ -14327,7 +14169,7 @@ react-transition-group@^2.2.1:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@16.12.0, react@^16.11.0, react@^16.12.0, react@^16.8.3:
+react@16.12.0, react@^16.12.0, react@^16.8.3:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
@@ -15224,14 +15066,6 @@ sax@^1.2.4, sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
-  integrity sha512-xAefmSfN6jqAa7Kuq7LIJY0bwAPG3xlCj0HMEBQk1lxYiDKZscY2xJ5U/61ZTrYbmNQbXa+gc7czPkVo11tnCg==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
 scheduler@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
@@ -15615,13 +15449,6 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
-
-slice-ansi@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-1.0.0.tgz#044f1a49d8842ff307aad6b505ed178bd950134d"
-  integrity sha512-POqxBK6Lb3q6s047D/XsDVNPnF9Dl8JSaqe9h9lURl0OdNqy/ujDrOiIHtsqXMGbWWTIomRzAMaTyawAU//Reg==
-  dependencies:
-    is-fullwidth-code-point "^2.0.0"
 
 slice-ansi@^2.1.0:
   version "2.1.0"
@@ -16931,7 +16758,7 @@ type-fest@^0.3.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.3.1.tgz#63d00d204e059474fe5e1b7c011112bbd1dc29e1"
   integrity sha512-cUGJnCdr4STbePCgqNFbpVNCepa+kAVohJs1sLhxzdH+gnEoOd8VhbYa7pD3zZYGiURWM2xzEII3fQcRizDkYQ==
 
-type-fest@^0.5.0, type-fest@^0.5.2:
+type-fest@^0.5.0:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.5.2.tgz#d6ef42a0356c6cd45f49485c3b6281fc148e48a2"
   integrity sha512-DWkS49EQKVX//Tbupb9TFa19c7+MK1XmzkrZUR8TAktmE/DizXoaoJV6TZ/tSIPXipqNiRI6CyAe7x69Jb6RSw==
