@@ -73,7 +73,7 @@ module.exports = {
     ...(isCI
       ? [
           {
-            resolve: 'gatsby-plugin-algolia',
+            resolve: 'gatsby-plugin-algolia-search',
             options: {
               appId: process.env.ALGOLIA_APP_ID,
               apiKey: process.env.ALGOLIA_API_KEY,
