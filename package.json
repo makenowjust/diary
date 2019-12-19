@@ -31,7 +31,7 @@
     "typeface-raleway": "0.0.75"
   },
   "devDependencies": {
-    "@babel/core": "7.7.5",
+    "@babel/core": "7.7.7",
     "@storybook/addon-actions": "5.2.8",
     "@storybook/addon-centered": "5.2.8",
     "@storybook/addon-info": "5.2.8",
