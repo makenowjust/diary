@@ -6748,10 +6748,10 @@ eslint-config-react-app@^5.1.0:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-xo-react@0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-react/-/eslint-config-xo-react-0.21.0.tgz#3e0927c8a69d31b7cf38924abb0c690eaf5324f5"
-  integrity sha512-iElUdsOF1m38uP4C5jBlqy+PXYs5UAvV0HGynZAMdOGkMgxoY2szNZIOqZI4/HdB+fpq02cyCMmg1KwEw0Njpw==
+eslint-config-xo-react@0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-react/-/eslint-config-xo-react-0.22.0.tgz#ea89519dbb223cf520ffba7f47a40099271ec331"
+  integrity sha512-00QU9o4TpvfLEdowiiM9Xc53l3zJu+t0Ip/e+vJerH2k4RmOAXNLT6EG6iTnLNFa8BG7Icy6vn1zcSwfdN6CWQ==
 
 eslint-config-xo-space@0.22.0:
   version "0.22.0"
