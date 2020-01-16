@@ -76,7 +76,7 @@
     "jest": "24.9.0",
     "lowlight": "1.13.0",
     "mkdo": "0.3.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "prettier": "1.19.1",
     "prettier-package-json": "2.1.3",
     "react-test-renderer": "16.12.0",
