@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 
-const isCI = require('is-ci');
+const isMaster = process.env.TRAVIS_BRANCH === 'master';
 
 const queries = [
   {
@@ -70,7 +70,7 @@ module.exports = {
     },
     'gatsby-plugin-embedly',
     'gatsby-plugin-react-helmet',
-    ...(isCI
+    ...(isMaster
       ? [
           {
             resolve: 'gatsby-plugin-algolia-search',
