@@ -72,7 +72,6 @@
     "gatsby-source-filesystem": "2.1.46",
     "gatsby-transformer-remark": "2.6.48",
     "identity-obj-proxy": "3.0.0",
-    "is-ci": "2.0.0",
     "jest": "24.9.0",
     "lowlight": "1.13.0",
     "mkdo": "0.3.0",
