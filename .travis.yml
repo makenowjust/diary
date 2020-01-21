@@ -1,6 +1,12 @@
 language: node_js
 node_js:
-  - '12'
+  - '13'
+
+cache:
+  npm: true
+  yarn: true
+  directories:
+  - .cache
 
 script:
   - yarn lint
