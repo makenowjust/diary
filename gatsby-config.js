@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 
-const isCI = require('is-ci');
+const onGitHubActions = process.env.GITHUB_ACTIONS === 'true';
 
 const queries = [
   {
@@ -70,7 +70,7 @@ module.exports = {
     },
     'gatsby-plugin-embedly',
     'gatsby-plugin-react-helmet',
-    ...(isCI
+    ...(onGitHubActions
       ? [
           {
             resolve: 'gatsby-plugin-algolia-search',
