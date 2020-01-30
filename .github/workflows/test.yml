@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/setup-node@master
       with:
-        version: 13
+        node-version: 13
     - run: yarn install --frozen-lockfile
     - run: |
         yarn lint
