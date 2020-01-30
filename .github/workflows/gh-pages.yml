@@ -27,7 +27,7 @@ jobs:
         env:
           ALGOLIA_APP_ID: N8H0FCYD7M
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          ALGOLIA__SEARCH_API_KEY: bf4822cb6b0577a3dd593af29478fa8f
+          ALGOLIA_SEARCH_API_KEY: bf4822cb6b0577a3dd593af29478fa8f
       - uses: docker://peaceiris/gh-pages:v2
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
