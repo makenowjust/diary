@@ -13,7 +13,16 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 13
+
+      - id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: ${{ runner.os }}-yarn-
       - run: yarn install --frozen-lockfile
+
       - run: yarn build
         env:
           ALGOLIA_APP_ID: N8H0FCYD7M
