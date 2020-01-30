@@ -6,12 +6,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: actions/setup-node@master
-      with:
-        node-version: 13
-    - run: yarn install --frozen-lockfile
-    - run: |
-        yarn lint
-        yarn mkdo sync-scripts --check
-    - run: yarn test
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 13
+      - run: yarn install --frozen-lockfile
+      - run: |
+          yarn lint
+          yarn mkdo sync-scripts --check
+      - run: yarn test
