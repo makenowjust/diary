@@ -3,7 +3,7 @@ name: gh-pages
 on:
   push:
     branch:
-    - master
+      - master
 
 jobs:
   deploy:
@@ -22,4 +22,3 @@ jobs:
           PUBLISH_DIR: ./public
         with:
           emptyCommits: false
-
