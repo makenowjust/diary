@@ -41,7 +41,7 @@ module.exports = {
     copyright: {
       author: 'TSUYUSATO Kitsune',
       github: 'MakeNowJust',
-      year: '2016-2019',
+      year: '2016-2020',
     },
     quote: 'if you wanna break free you better listen to me', // From "Scatman's World" by Scatman John
     siteUrl: 'https://diary.quine.codes/',
