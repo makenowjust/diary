@@ -23,7 +23,9 @@ jobs:
           restore-keys: ${{ runner.os }}-yarn-
       - run: yarn install --frozen-lockfile
 
-      - run: yarn build
+      - run: |
+          yarn build
+          touch public/.nojekyll
         env:
           ALGOLIA_APP_ID: N8H0FCYD7M
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
