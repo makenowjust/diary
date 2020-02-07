@@ -40,7 +40,7 @@
     "@storybook/addon-viewport": "5.3.12",
     "@storybook/addons": "5.3.12",
     "@storybook/react": "5.3.12",
-    "algoliasearch": "4.0.1",
+    "algoliasearch": "4.0.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "25.1.0",
