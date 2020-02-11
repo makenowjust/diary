@@ -8465,10 +8465,10 @@ gatsby-transformer-remark@2.6.50:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby@2.19.15:
-  version "2.19.15"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.15.tgz#fc913f4f295f3c4f31977ea71d76ea4094af446c"
-  integrity sha512-9ndAxvom1Wsc6GgcXOxhV80ZjZb1Rk+aV7zjiHzzXfjjRU86X0/CMEjcEIbzbxqv7mcIoNAULoKyH1q0xXlNfQ==
+gatsby@2.19.16:
+  version "2.19.16"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.16.tgz#9b302f4159b983b603341f1aba8b6d48c4bbb453"
+  integrity sha512-p+hHj68rD5ebyJaxBd9RCCloiEK7WteWLSf1K/Ak7SnrGih4f3UCW0Ue1NaA+gzwi43YQ+IEGFDFwwTuEM4mWg==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.7.5"
@@ -16977,10 +16977,10 @@ stylelint-config-recommended@3.0.0, stylelint-config-recommended@^3.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-3.0.0.tgz#e0e547434016c5539fe2650afd58049a2fd1d657"
   integrity sha512-F6yTRuc06xr1h5Qw/ykb2LuFynJ2IxkKfCMf+1xqPffkxh0S09Zc902XCffcsw/XMFq/OzQ1w54fLIDtmRNHnQ==
 
-stylelint-config-xo-scss@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo-scss/-/stylelint-config-xo-scss-0.11.0.tgz#b0fc7257de385794132ca64f41b068a14a45078d"
-  integrity sha512-vE/1kGIRmAEexUthz3eXc3XPEnwB5HWu45R0oC52pZmBA9beK+kZSswU5AqCU/Bm6ONnvNqOkYmrVgyt8uYnHg==
+stylelint-config-xo-scss@0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo-scss/-/stylelint-config-xo-scss-0.12.0.tgz#da13574049d63a7c016584a42008393eb6e9ae5c"
+  integrity sha512-jWhKMmY18ga03IIRZnxjHKH9ioKcgvZudNoHtVneDYZ4UxEPs0AVmHujxq9LsbbOhtdfq1z4QklLM9AXvpXwLQ==
   dependencies:
     stylelint-config-xo "^0.16.0"
     stylelint-scss "^3.13.0"
