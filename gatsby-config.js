@@ -101,20 +101,22 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        runtimeCaching: [
-          {
-            urlPattern: /(\.html|\/)$/,
-            handler: 'networkFirst',
-          },
-          {
-            urlPattern: /\.js$|\.css$|static\//,
-            handler: `cacheFirst`,
-          },
-          {
-            urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-            handler: `staleWhileRevalidate`,
-          },
-        ],
+        workboxConfig: {
+          runtimeCaching: [
+            {
+              urlPattern: /(\.html|\/)$/,
+              handler: 'networkFirst',
+            },
+            {
+              urlPattern: /\.js$|\.css$|static\//,
+              handler: `cacheFirst`,
+            },
+            {
+              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+              handler: `staleWhileRevalidate`,
+            },
+          ],
+        },
       },
     },
     'gatsby-plugin-sitemap',
