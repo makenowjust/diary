@@ -50,4 +50,4 @@ Directory structure:
 
 ## Copyright
 
-© 2016-2019 TSUYUSATO "[MakeNowJust](https://github.com/MakeNowJust)" Kitsune
+© 2016-2020 TSUYUSATO "[MakeNowJust](https://github.com/MakeNowJust)" Kitsune
