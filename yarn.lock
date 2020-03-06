@@ -120,18 +120,18 @@
   dependencies:
     "@babel/highlight" "^7.8.3"
 
-"@babel/core@7.8.6":
-  version "7.8.6"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.8.6.tgz#27d7df9258a45c2e686b6f18b6c659e563aa4636"
-  integrity sha512-Sheg7yEJD51YHAvLEV/7Uvw95AeWqYPL3Vk3zGujJKIhJ+8oLw2ALaf3hbucILhKsgSoADOvtKRJuNVdcJkOrg==
+"@babel/core@7.8.7":
+  version "7.8.7"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.8.7.tgz#b69017d221ccdeb203145ae9da269d72cf102f3b"
+  integrity sha512-rBlqF3Yko9cynC5CCFy6+K/w2N+Sq/ff2BPy+Krp7rHlABIr5epbA7OxVeKoMHB39LZOp1UY5SuLjy6uWi35yA==
   dependencies:
     "@babel/code-frame" "^7.8.3"
-    "@babel/generator" "^7.8.6"
+    "@babel/generator" "^7.8.7"
     "@babel/helpers" "^7.8.4"
-    "@babel/parser" "^7.8.6"
+    "@babel/parser" "^7.8.7"
     "@babel/template" "^7.8.6"
     "@babel/traverse" "^7.8.6"
-    "@babel/types" "^7.8.6"
+    "@babel/types" "^7.8.7"
     convert-source-map "^1.7.0"
     debug "^4.1.0"
     gensync "^1.0.0-beta.1"
@@ -217,6 +217,16 @@
   integrity sha512-4bpOR5ZBz+wWcMeVtcf7FbjcFzCp+817z2/gHNncIRcM9MmKzUhtWCYAq27RAfUrAFwb+OCG1s9WEaVxfi6cjg==
   dependencies:
     "@babel/types" "^7.8.6"
+    jsesc "^2.5.1"
+    lodash "^4.17.13"
+    source-map "^0.5.0"
+
+"@babel/generator@^7.8.7":
+  version "7.8.7"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.8.7.tgz#870b3cf7984f5297998152af625c4f3e341400f7"
+  integrity sha512-DQwjiKJqH4C3qGiyQCAExJHoZssn49JTMJgZ8SANGgVFdkupcUhLOdkAeoC6kmHZCPfoDG5M0b6cFlSN5wW7Ew==
+  dependencies:
+    "@babel/types" "^7.8.7"
     jsesc "^2.5.1"
     lodash "^4.17.13"
     source-map "^0.5.0"
@@ -684,6 +694,11 @@
   version "7.8.6"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.8.6.tgz#ba5c9910cddb77685a008e3c587af8d27b67962c"
   integrity sha512-trGNYSfwq5s0SgM1BMEB8hX3NDmO7EP2wsDGDexiaKMB92BaRpS+qZfpkMqUBhcsOTBwNy9B/jieo4ad/t/z2g==
+
+"@babel/parser@^7.8.7":
+  version "7.8.7"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.8.7.tgz#7b8facf95d25fef9534aad51c4ffecde1a61e26a"
+  integrity sha512-9JWls8WilDXFGxs0phaXAZgpxTZhSk/yOYH2hTHC0X1yC7Z78IJfvR1vJ+rmJKq3I35td2XzXzN6ZLYlna+r/A==
 
 "@babel/plugin-proposal-async-generator-functions@^7.7.0":
   version "7.7.0"
@@ -1837,6 +1852,15 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@babel/types@^7.8.7":
+  version "7.8.7"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.8.7.tgz#1fc9729e1acbb2337d5b6977a63979b4819f5d1d"
+  integrity sha512-k2TreEHxFA4CjGkL+GYjRyx35W0Mr7DP5+9q6WMkyKXB+904bYmG40syjMFV0oLlhhFCwWl0vA0DyzTDkwAiJw==
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.17.13"
+    to-fast-properties "^2.0.0"
+
 "@base2/pretty-print-object@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz#860ce718b0b73f4009e153541faff2cb6b85d047"
@@ -2063,12 +2087,12 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.27"
 
-"@fortawesome/react-fontawesome@0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.8.tgz#cb6d4dd3aeec45b6ff2d48c812317a6627618511"
-  integrity sha512-I5h9YQg/ePA3Br9ISS18fcwOYmzQYDSM1ftH03/8nHkiqIVHtUyQBw482+60dnzvlr82gHt3mGm+nDUp159FCw==
+"@fortawesome/react-fontawesome@0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.9.tgz#c865b9286c707407effcec99958043711367cd02"
+  integrity sha512-49V3WNysLZU5fZ3sqSuys4nGRytsrxJktbv3vuaXkEoxv22C6T7TEG0TW6+nqVjMnkfCQd5xOnmJoZHMF78tOw==
   dependencies:
-    prop-types "^15.5.10"
+    prop-types "^15.7.2"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -7240,10 +7264,10 @@ eslint-plugin-import@^2.19.1:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-jest@23.8.1:
-  version "23.8.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.8.1.tgz#247025e8a51b3a25a4cc41166369b0bfb4db83b7"
-  integrity sha512-OycLNqPo/2EfO6kTqnmsu1khz1gTIOxGl3ThIVwL5/oycDF4pm5uNDyvFelNLdpr4COUuM8PVi3963NEG1Efpw==
+eslint-plugin-jest@23.8.2:
+  version "23.8.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.8.2.tgz#6f28b41c67ef635f803ebd9e168f6b73858eb8d4"
+  integrity sha512-xwbnvOsotSV27MtAe7s8uGWOori0nUsrXh2f1EnpmXua8sDfY6VZhHAhHg2sqK7HBNycRQExF074XSZ7DvfoFg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
@@ -8554,10 +8578,10 @@ gatsby-transformer-remark@2.6.53:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby@2.19.27:
-  version "2.19.27"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.27.tgz#767f963acfec06b485d3499b114d47c1e28472e4"
-  integrity sha512-jDN/GjQgX/y5mnMc8GmD+XCG8jissMJ8KpfTCb/HmmSV96gi+DVyskITIfRwq0oI4+Ui3W9FpJmWA3Zj8KVHMA==
+gatsby@2.19.29:
+  version "2.19.29"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.29.tgz#17e7ae7f049aa98edc36084796ca49d4cbd85b28"
+  integrity sha512-O87vYY7MJ6QviJsI8vmP6gODsnz2TKOtfWMYqvPBakIZbRgv11v0fV7ZXxxD4ikGopgzM26GsxyNi7jykGQ0CA==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.7.5"

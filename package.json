@@ -18,7 +18,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.27",
     "@fortawesome/free-solid-svg-icons": "5.12.1",
-    "@fortawesome/react-fontawesome": "0.1.8",
+    "@fortawesome/react-fontawesome": "0.1.9",
     "katex": "0.11.1",
     "modern-normalize": "0.6.0",
     "prop-types": "15.7.2",
@@ -31,7 +31,7 @@
     "typeface-raleway": "0.0.75"
   },
   "devDependencies": {
-    "@babel/core": "7.8.6",
+    "@babel/core": "7.8.7",
     "@storybook/addon-actions": "5.3.14",
     "@storybook/addon-centered": "5.3.14",
     "@storybook/addon-info": "5.3.14",
@@ -54,13 +54,13 @@
     "eslint-config-xo-react": "0.23.0",
     "eslint-config-xo-space": "0.24.0",
     "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jest": "23.8.1",
+    "eslint-plugin-jest": "23.8.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.18.3",
     "eslint-plugin-react-hooks": "2.5.0",
     "eslint-plugin-unicorn": "16.1.1",
-    "gatsby": "2.19.27",
+    "gatsby": "2.19.29",
     "gatsby-plugin-algolia-search": "0.5.6",
     "gatsby-plugin-cname": "1.0.0",
     "gatsby-plugin-manifest": "2.2.42",
