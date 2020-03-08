@@ -7353,10 +7353,10 @@ eslint-plugin-react@^7.17.0:
     prop-types "^15.7.2"
     resolve "^1.13.1"
 
-eslint-plugin-unicorn@17.0.0:
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-17.0.0.tgz#a23e5cd1a5e1139313b81f896001184f24c22ff5"
-  integrity sha512-Cc/Ur3LbFl+887wigVf8DpENmuO2JrsYa/FGk8m6hVkbPqHDiunGP63RtIuxEYLC9qWjPRSc3dVC/83qwyMfbw==
+eslint-plugin-unicorn@17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-17.0.1.tgz#4ac87b39abd5df19e970282c6d01a0406fd1cce8"
+  integrity sha512-50PXADghwZxRUJ3xOTfWFAsrbPkryrslludMABWExICGheRrYiBQMldeeZpFQU6u1d4pB87zY31cQA/Ut8GIRQ==
   dependencies:
     ci-info "^2.0.0"
     clean-regexp "^1.0.0"
