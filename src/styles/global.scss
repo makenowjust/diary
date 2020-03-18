@@ -28,7 +28,7 @@ $block-level: h1, h2, h3, h4, h5, h6, hr, p, blockquote, table, pre, ul, ol, ifr
 }
 
 #{selector-nest("li >", $block-level)} {
-  margin: 1rem 0;
+  margin: $base-line-height * 0.25rem 0;
 }
 
 //
@@ -225,5 +225,5 @@ hr {
 
 ul,
 ol {
-  list-style-position: inside;
+  list-style-position: outside;
 }
