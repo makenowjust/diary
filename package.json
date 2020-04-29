@@ -31,7 +31,7 @@
     "typeface-raleway": "0.0.75"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
+    "@babel/core": "7.9.6",
     "@storybook/addon-actions": "5.3.18",
     "@storybook/addon-centered": "5.3.18",
     "@storybook/addon-info": "5.3.18",
@@ -60,7 +60,7 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "3.0.0",
     "eslint-plugin-unicorn": "18.0.1",
-    "gatsby": "2.21.4",
+    "gatsby": "2.21.5",
     "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-cname": "1.0.0",
     "gatsby-plugin-manifest": "2.4.1",
