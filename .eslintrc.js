@@ -30,5 +30,7 @@ module.exports = {
     'unicorn/prevent-abbreviations': 'off',
     // This rule conflicts prettier unfortunately.
     'unicorn/no-nested-ternary': 'off',
+    // This rule is not useful within framework.
+    'unicorn/no-null': 'off',
   },
 };
