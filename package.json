@@ -60,7 +60,7 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "4.0.0",
     "eslint-plugin-unicorn": "19.0.1",
-    "gatsby": "2.21.12",
+    "gatsby": "2.21.15",
     "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-cname": "1.0.0",
     "gatsby-plugin-manifest": "2.4.2",
@@ -70,7 +70,7 @@
     "gatsby-plugin-sitemap": "2.4.2",
     "gatsby-remark-katex": "3.3.1",
     "gatsby-source-filesystem": "2.3.1",
-    "gatsby-transformer-remark": "2.8.6",
+    "gatsby-transformer-remark": "2.8.7",
     "identity-obj-proxy": "3.0.0",
     "jest": "25.5.4",
     "lowlight": "1.13.1",
@@ -91,7 +91,7 @@
     "stylelint-config-xo": "0.17.0",
     "stylelint-config-xo-scss": "0.12.0",
     "stylelint-config-xo-space": "0.14.0",
-    "stylelint-scss": "3.17.1",
+    "stylelint-scss": "3.17.2",
     "unist-util-is": "4.0.2",
     "unist-util-visit": "2.0.2"
   }
