@@ -19385,10 +19385,10 @@ stylelint-config-xo-space@0.14.0:
   dependencies:
     stylelint-config-xo "^0.16.0"
 
-stylelint-config-xo@0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.17.0.tgz#a621a792965eaafc8fe51cf4060f7395218b4c2b"
-  integrity sha512-RLZ6/EnweT5VUsouIt604U/JPAOWa8p12nJzySixoEZGiLnv/YeLNeSG665ki87iDLrDy5qcn5BS35UlTv7CTg==
+stylelint-config-xo@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.18.0.tgz#86a76611209702d97881ce4c6b5ad9a24f6a6b8c"
+  integrity sha512-nTs06To+QBpAlT6LPVkUmueJLb0cxCyum+Y0bu0UWy35OnF66ybRjJexYXnvMY42kWeloNbnNZXt2+jqUw28gA==
   dependencies:
     stylelint-declaration-block-no-ignored-properties "^2.2.0"
     stylelint-order "^4.0.0"
