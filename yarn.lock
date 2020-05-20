@@ -9774,7 +9774,7 @@ gatsby-cli@^2.12.28:
     ink "^2.7.1"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.3.1:
+gatsby-core-utils@^1.3.1, gatsby-core-utils@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.2.tgz#b76489df19a5a0952701db073235827df627244a"
   integrity sha512-aNecB7D9KFGITArBoEu7Y4g2ZN2zVY+BB2uF9Ql8mp1fcRZFXZdkNvyXqiKsyDFRl/UdBT4u6Zrym1bXk0SWig==
@@ -9865,25 +9865,25 @@ gatsby-plugin-page-creator@^2.3.5:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-react-helmet@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.3.1.tgz#e1600bdcf575250707281a85024d10b1ee64048a"
-  integrity sha512-DZ/IWs+zlGL8N3JAcewPJJUPkl1st6/hIWQ3YphKoTK64DUIoMd2wWSJCrC6LiurS7knGHa4pdGyc5clwV1EKA==
+gatsby-plugin-react-helmet@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.3.2.tgz#5619a1808d9607eb89c19d3f04854f497c6fb890"
+  integrity sha512-uRZlX4ejy0Txlw+9qbIVkULsuc6iniSwDgD+Ed6BOryKmF42qaqmdbcc78ZwPVN2SZJCDhcZKXoJf6QftTwwDg==
   dependencies:
     "@babel/runtime" "^7.9.6"
 
-gatsby-plugin-sass@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.1.tgz#71a8003e41dbd663f6ab1dbb5401afb1b20a2984"
-  integrity sha512-Duk8wAn5AmFmXYrlsoXBWKp3HcuZcREq7wP4yR62Eci9PcJbrxOAfpJv8lcXJEImqdH+85WSOX2hC2GREOedaw==
+gatsby-plugin-sass@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.2.tgz#3623fc5881ae4b323f90bf58c80dffefe736ddf0"
+  integrity sha512-gY/+6A2vERluDuAhpUdLtrJfpGGmg3W7SwIvelCxowZpwF8DO7R5scARAY8yY7rJtTDB5BQhpSSHLapXnwuAqw==
   dependencies:
     "@babel/runtime" "^7.9.6"
     sass-loader "^7.3.1"
 
-gatsby-plugin-sitemap@2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.4.2.tgz#23a41a8253b9b13722856fe5c6fc41896d8bda85"
-  integrity sha512-xh9+ZSQ3WWqsieNyQqcaJPjlGj63Vx51KNpO18sukUKcrHUnvGbZ20uqgRqBv72bD2uGn19AzS39qme84MOHew==
+gatsby-plugin-sitemap@2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.4.3.tgz#c07bed981133186b9ed0e7255ff3983615e12acd"
+  integrity sha512-XwtXRkUo1tFnr5PzwLlQqAD/Dbnrv0G9HjuUL24UhhCy0e5vqByohcewARUtySK0vSY1dr3msTO+UEKKuGWrFQ==
   dependencies:
     "@babel/runtime" "^7.9.6"
     minimatch "^3.0.4"
@@ -9981,19 +9981,19 @@ gatsby-recipes@^0.1.23:
     ws "^7.3.0"
     xstate "^4.9.1"
 
-gatsby-remark-katex@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-3.3.1.tgz#29b0fe4129bfddb8a984766f17ec4969addd0068"
-  integrity sha512-eKLCL6VBvRFAW9qw4Ubh0MnmUQLw9JZ0he4kFmXQaWlHzPReCfpy21xBxLSVE+wELaX16Ms+otVlNyn8PZBSKg==
+gatsby-remark-katex@3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-katex/-/gatsby-remark-katex-3.3.2.tgz#b66a2ca5c09babcfc9ecef0b1b05d94ffaacf63c"
+  integrity sha512-+B8AX7UlW6TCMdsyCfr5+qAX7loqSytJRuzE/FNc9BuejiQDJluRFeKT1T1hWCRfCHpdJpF+huNi2aOmVH9NIw==
   dependencies:
     "@babel/runtime" "^7.9.6"
     remark-math "^1.0.6"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@2.3.6:
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.6.tgz#7513c3e7b9b6c4a000c94dbb4c259558333e1f08"
-  integrity sha512-PwqskpF/4iU+pv3ymI8Oa8BMNumf+pVYf5590/XxJVzNAExq0MHkMvvPCe93OLNjY8aK2siguYovLsi6hSlVtw==
+gatsby-source-filesystem@2.3.7:
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.7.tgz#f5417ad748dac585680a1a92ddd37ca0111d4966"
+  integrity sha512-mXlSwxLd7yP2SS4V15QZyWA7Nq4aUXKrIRgRs+mUe1YxEDluHBuQTSbmJlchw7Vy75rxfKi2mdjKtpETixXgWg==
   dependencies:
     "@babel/runtime" "^7.9.6"
     better-queue "^3.8.10"
@@ -10001,7 +10001,7 @@ gatsby-source-filesystem@2.3.6:
     chokidar "3.4.0"
     file-type "^12.4.2"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.3.1"
+    gatsby-core-utils "^1.3.2"
     got "^9.6.0"
     md5-file "^3.2.3"
     mime "^2.4.5"
