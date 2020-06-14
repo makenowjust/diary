@@ -12,8 +12,8 @@
 foo</code></pre>
 <p><code>x : String</code>になってるのに<code>x = 1</code>がデフォルト値になっている、見るからに変なコードなんだけど、現状のコンパイラはこれを通してしまう。というのも、デフォルト値に対する型制約は適用されないから。</p>
 <p>ついでに言うとこういうコードも上手く動かない。</p>
-<pre><code class="hljs language-crystal"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">foo</span></span>(x : T<span class="hljs-class">.<span class="hljs-keyword">class</span> = <span class="hljs-title">String</span>) <span class="hljs-title">forall</span> <span class="hljs-title">T</span></span>
-  p <span class="hljs-template-variable">{{ T }}</span>
+<pre><code class="hljs language-crystal"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">foo</span></span>(x : T.<span class="hljs-keyword">class</span> = String) forall T
+  p {{ T }}
 <span class="hljs-keyword">end</span>
 
 foo</code></pre>

@@ -5,7 +5,7 @@
 <p><a href="https://github.com/MakeNowJust/md.html" class="embedly-card">https://github.com/MakeNowJust/md.html</a></p>
 <p>ここ数日作っていたやつ。</p>
 <p>普通のMarkdownファイルに次の二行を追加して、（実は最初の一行だけでもいいけど‥‥）</p>
-<pre><code class="hljs language-html"><span class="hljs-meta">&#x3C;!doctype html></span><span class="hljs-tag">&#x3C;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"utf-8"</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://makenowjust.github.io/md.html/main.js"</span>></span><span class="hljs-tag">&#x3C;/<span class="hljs-name">script</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">noscript</span>></span>
+<pre><code class="hljs language-html"><span class="hljs-meta">&#x3C;!doctype <span class="hljs-meta-keyword">html</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"utf-8"</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://makenowjust.github.io/md.html/main.js"</span>></span><span class="hljs-tag">&#x3C;/<span class="hljs-name">script</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">noscript</span>></span>
 <span class="hljs-comment">&#x3C;!-- vim: set ft=markdown: --></span></code></pre>
 <p><code>.html</code>ファイルとして保存してブラウザで開くと、MarkdownがHTMLとして描画されるというもの。</p>
 <p>やっていることはそんなに難しいことではなくて、<code>&#x3C;noscript></code>タグを取ってきて<code>remark</code>でHTMLに変換して<code>innerHTML</code>に代入してるだけ。どちらかと言えば、がんばったのはテストとか開発環境とかwebpackの設定とかかもしれない。</p>

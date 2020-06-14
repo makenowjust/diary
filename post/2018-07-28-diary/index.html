@@ -43,7 +43,7 @@ ee.emit(<span class="hljs-string">'event'</span>); <span class="hljs-comment">//
   <span class="hljs-comment">// 'emit'が発火するのを待つ</span>
   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">await</span> ee.once(<span class="hljs-string">'event'</span>);
 
-  <span class="hljs-keyword">for</span> awit (<span class="hljs-keyword">const</span> value of ee.on(<span class="hljs-string">'event'</span>)) {
+  <span class="hljs-keyword">for</span> awit (<span class="hljs-keyword">const</span> value <span class="hljs-keyword">of</span> ee.on(<span class="hljs-string">'event'</span>)) {
     <span class="hljs-built_in">console</span>.log(value);
   }
 })();

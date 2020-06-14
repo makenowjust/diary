@@ -19,17 +19,17 @@
   {<span class="hljs-attr">selector</span>: <span class="hljs-string">'edge'</span>, <span class="hljs-attr">style</span>: { <span class="hljs-string">'width'</span>: <span class="hljs-number">3</span>, <span class="hljs-string">'line-color'</span>: <span class="hljs-string">'#ccc'</span>, <span class="hljs-string">'target-arrow-color'</span>: <span class="hljs-string">'#ccc'</span>, <span class="hljs-string">'target-arrow-shape'</span>: <span class="hljs-string">'triangle'</span>}},
 ];
 
-<span class="hljs-keyword">const</span> Main = <span class="hljs-function"><span class="hljs-params">()</span> =></span> (
-  &#x3C;Cytoscape stylesheet={stylesheet} style={{width: '800px', height: '600px'}}>
-    &#x3C;Node data={{id: 'hello-world'}}>
-      &#x3C;Node data={{id: 'hello'}} />
-      &#x3C;Node data={{id: 'world'}} />
-      &#x3C;Edge data={{source: 'hello', target: 'world'}} />
-    &#x3C;/Node>
-  &#x3C;/Cytoscape>
+<span class="hljs-keyword">const</span> Main = <span class="hljs-function">() =></span> (
+  <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">Cytoscape</span> <span class="hljs-attr">stylesheet</span>=<span class="hljs-string">{stylesheet}</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{width:</span> '<span class="hljs-attr">800px</span>', <span class="hljs-attr">height:</span> '<span class="hljs-attr">600px</span>'}}></span>
+    <span class="hljs-tag">&#x3C;<span class="hljs-name">Node</span> <span class="hljs-attr">data</span>=<span class="hljs-string">{{id:</span> '<span class="hljs-attr">hello-world</span>'}}></span>
+      <span class="hljs-tag">&#x3C;<span class="hljs-name">Node</span> <span class="hljs-attr">data</span>=<span class="hljs-string">{{id:</span> '<span class="hljs-attr">hello</span>'}} /></span>
+      <span class="hljs-tag">&#x3C;<span class="hljs-name">Node</span> <span class="hljs-attr">data</span>=<span class="hljs-string">{{id:</span> '<span class="hljs-attr">world</span>'}} /></span>
+      <span class="hljs-tag">&#x3C;<span class="hljs-name">Edge</span> <span class="hljs-attr">data</span>=<span class="hljs-string">{{source:</span> '<span class="hljs-attr">hello</span>', <span class="hljs-attr">target:</span> '<span class="hljs-attr">world</span>'}} /></span>
+    <span class="hljs-tag">&#x3C;/<span class="hljs-name">Node</span>></span>
+  <span class="hljs-tag">&#x3C;/<span class="hljs-name">Cytoscape</span>></span></span>
 );
 
-ReactDOM.render(&#x3C;Main />, document.querySelector('#main'));</code></pre>
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">Main</span> /></span></span>, <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#main'</span>));</code></pre>
 <p><code>&#x3C;Cytoscape></code>コンポーネントの中にある<code>&#x3C;Node></code>とか<code>&#x3C;Edge></code>は通常のコンポーネントではなくて、<code>&#x3C;Cytoscape></code>コンポーネント内でcytoscape.js用のレンダラで描画される、というのがポイント。<br>
 あとネストした<code>&#x3C;Node></code>はcytoscape.jsのcompoundノードとして解釈される、というイメージ。</p>
 <p>これをTypeScriptで実装してた。</p>

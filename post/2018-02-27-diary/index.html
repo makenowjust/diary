@@ -68,7 +68,7 @@ __END__
 ボクの発表はなんというかいい加減で申し訳なかった。京都将棋とかもうちょいちゃんと説明すべきだったと反省している。<br>
 加えて、昨日寝ている間に小人が書いてくれたらしい下のプログラムも紹介した。この辺の事情言い忘れた気がする。完全にテンパっていた。</p>
 <p>これはJavaScriptのロゴの形をしたJavaScriptのプログラムで、実行するとRubyのロゴの形をしたRubyのプログラムで、それを実行すると元のJavaScriptのコードに、というダブルQuine。</p>
-<pre><code class="hljs language-javascript">(<span class="hljs-function">(<span class="hljs-params">f=s=>x=><span class="hljs-built_in">eval</span>(s=(h=s=>s.replace(<span class="hljs-regexp">/\s/g</span>,e=<span class="hljs-string">''</span></span>))(<span class="hljs-params">s[<span class="hljs-number">0</span>]</span>)))=></span>f)()<span class="hljs-string">`
+<pre><code class="hljs language-javascript">((f=<span class="hljs-function"><span class="hljs-params">s</span>=></span><span class="hljs-function"><span class="hljs-params">x</span>=></span><span class="hljs-built_in">eval</span>(s=<span class="hljs-function">(<span class="hljs-params">h=s=>s.replace(<span class="hljs-regexp">/\s/g</span>,e=<span class="hljs-string">''</span>)</span>)(<span class="hljs-params">s[<span class="hljs-number">0</span>]</span>)))=></span>f)()<span class="hljs-string">`
 c=String.fromCharCode;q=c(96);s=h(x+'(%w[((f='+f+')=>f)()'+q
 +s+q+'])').split(e);g=([n,m,...r])=>n?c(32).repeat(n)+s.spli
 ce(0,m).join(e)+g(r):c(10);console.log("P)(%~E$%((/~A+%$.+~&#x3C;
