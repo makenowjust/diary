@@ -11536,10 +11536,10 @@ gatsby-transformer-remark@2.8.23:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby@2.23.20:
-  version "2.23.20"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.23.20.tgz#c79a566246ae6de8957536afe76a81fbd8e3ce76"
-  integrity sha512-ur5VkBVz3kXkS2lkfufTOuSvOaXdb6qs1WmyafMahwLVm3VlHvZQwhk5AV4yXZ8+zqGphHJcKtRBeCwIe6efsw==
+gatsby@2.23.21:
+  version "2.23.21"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.23.21.tgz#44099dab466b12380c5ae4d6a92ce247119228ca"
+  integrity sha512-oR4E+v3ilih+hQ1KyDI9N9c5OUqpNyiw93vO2YCGnpIY+q2/ldUnjWQc9FLGgMxupNs9nnTtYT/UrpePHFQvzQ==
   dependencies:
     "@babel/code-frame" "^7.10.3"
     "@babel/core" "^7.10.3"
@@ -11679,6 +11679,7 @@ gatsby@2.23.20:
     webpack-hot-middleware "^2.25.0"
     webpack-merge "^4.2.2"
     webpack-stats-plugin "^0.3.1"
+    webpack-virtual-modules "^0.2.2"
     xstate "^4.11.0"
     yaml-loader "^0.6.0"
 
