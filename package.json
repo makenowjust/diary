@@ -93,6 +93,6 @@
     "stylelint-config-xo-space": "0.14.0",
     "stylelint-scss": "3.18.0",
     "unist-util-is": "4.0.2",
-    "unist-util-visit": "2.0.2"
+    "unist-util-visit": "2.0.3"
   }
 }
