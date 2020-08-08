@@ -98,27 +98,7 @@ module.exports = {
         icon: 'src/assets/icon.png',
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        workboxConfig: {
-          runtimeCaching: [
-            {
-              urlPattern: /(\.html|\/)$/,
-              handler: 'networkFirst',
-            },
-            {
-              urlPattern: /\.js$|\.css$|static\//,
-              handler: `cacheFirst`,
-            },
-            {
-              urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-              handler: `staleWhileRevalidate`,
-            },
-          ],
-        },
-      },
-    },
+    'gatsby-plugin-offline',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-cname',
   ],
