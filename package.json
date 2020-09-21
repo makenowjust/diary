@@ -73,7 +73,7 @@
     "gatsby-transformer-remark": "2.8.35",
     "identity-obj-proxy": "3.0.0",
     "jest": "26.4.2",
-    "lowlight": "1.14.0",
+    "lowlight": "1.15.0",
     "mkdo": "0.3.0",
     "node-sass": "4.14.1",
     "prettier": "2.1.2",
