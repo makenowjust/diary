@@ -18521,20 +18521,20 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-nova-mono@0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-nova-mono/-/typeface-nova-mono-0.0.72.tgz#b98b59eb7cf4138a0d1cb65c6353324416b97acc"
-  integrity sha512-302Qs965yZF11PAHpkScPgVGY+qtu3lbNE6PEWleXduW/nJIJkXuiUAMj4xThminnfksycwcdAw4evUR4y4GEw==
+typeface-nova-mono@1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-nova-mono/-/typeface-nova-mono-1.1.13.tgz#1c3f39c10c27e6889f1ff505f92e147d4053732c"
+  integrity sha512-cbEfW9OBJHTr2Y8iDqc5lqw5fBhsB38C8J61nhgPxqtz9YlroaLkdGn70QUkxbFlEfufvApJcBOrfFlsQEOc4A==
 
-typeface-nova-square@0.0.71:
-  version "0.0.71"
-  resolved "https://registry.yarnpkg.com/typeface-nova-square/-/typeface-nova-square-0.0.71.tgz#3fa7294a455cad07a4a4215380e8946184f9341d"
-  integrity sha512-+WTDIc6kNzPZdaqpBialBnOam7imCGMdNsNVM45f0VNGffXW3osb6+Egje+TBmnbMkoOOaOVAKliQ7Oe+IRODA==
+typeface-nova-square@1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-nova-square/-/typeface-nova-square-1.1.13.tgz#dd04612173844a765d1033741a270119d5a7959a"
+  integrity sha512-ZzfyW7t3l1jGtLHS+hMs0hU5dvn8jj4TEeyOE0upoOUQHb78ayqMwqBbh4hQGIBRj3M7meW+OY3Fpp20B72e9A==
 
-typeface-raleway@0.0.75:
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-0.0.75.tgz#cc79688aa3175452744ecd19540b54dad153e8f3"
-  integrity sha512-mUvT/klCTGA2HporaIMNY3ap45YxBErxFv/1pv82LhbFdNc3m+6ddfoexP6xxwMZ5yZ2VmDhMqk1yikDEoxU/Q==
+typeface-raleway@1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-1.1.13.tgz#5dd44c7029c69991f3e8a66f4434ba62bcf0886a"
+  integrity sha512-iouV4D1dv4Ylm++j2PmPW7HKJH7zTKu5xXsta1hqQ2oG8+9fSpocuF40xCSTckaa1DLYbk1TUiU14wr2nCUBqg==
 
 ua-parser-js@^0.7.18:
   version "0.7.21"
