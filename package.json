@@ -66,7 +66,7 @@
     "gatsby-plugin-manifest": "2.4.34",
     "gatsby-plugin-react-helmet": "3.3.13",
     "gatsby-plugin-remove-serviceworker": "1.0.0",
-    "gatsby-plugin-sass": "2.3.15",
+    "gatsby-plugin-sass": "2.3.16",
     "gatsby-plugin-sitemap": "2.4.15",
     "gatsby-remark-katex": "3.3.14",
     "gatsby-source-filesystem": "2.3.33",
