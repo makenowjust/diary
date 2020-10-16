@@ -7668,10 +7668,10 @@ eslint-ast-utils@^1.1.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-prettier@6.12.0:
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.12.0.tgz#9eb2bccff727db1c52104f0b49e87ea46605a0d2"
-  integrity sha512-9jWPlFlgNwRUYVoujvWTQ1aMO8o6648r+K7qU7K5Jmkbyqav1fuEZC0COYpGBxyiAJb65Ra9hrmFx19xRGwXWw==
+eslint-config-prettier@6.13.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.13.0.tgz#207d88796b5624e5bb815bbbdfc5891ceb9ebffa"
+  integrity sha512-LcT0i0LSmnzqK2t764pyIt7kKH2AuuqKRTtJTdddWxOiUja9HdG5GXBVF2gmCTvVYWVsTu8J2MhJLVGRh+pj8w==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -9069,10 +9069,10 @@ gatsby-plugin-cname@1.0.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-cname/-/gatsby-plugin-cname-1.0.0.tgz#5752d006c476a3c7897fca5c307901df5501747a"
   integrity sha512-U0yRgn4cm1zBi+qC5a827acPFnUqKSowoCvAxT3MDmMJVLSWB4vmSyM7m6ThVz35obO4nKr4iP4vZhvA7gEVsA==
 
-gatsby-plugin-manifest@2.4.34:
-  version "2.4.34"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.34.tgz#3628df53ccf59e04e93eca397287484315fea715"
-  integrity sha512-LTyhKVuTvORuDER1yAzdi8V/l82PgAGlLBJfxMDtJrGLg9BG83SghbLo64bSJv+9SrRnokn92/DRQteSwo7SkQ==
+gatsby-plugin-manifest@2.4.35:
+  version "2.4.35"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.35.tgz#bd8a3ad7eb1649247d1a6fe871bc04f7a0ef15f1"
+  integrity sha512-38QBhMWCnvVB7BzLj5LfUZl4FxV2g0QCw1R9DBZT1y+o8nNQSliFlrMcBXWPi9kQpBQXIhhualQ4oECgCDHW+g==
   dependencies:
     "@babel/runtime" "^7.11.2"
     gatsby-core-utils "^1.3.23"
@@ -9105,10 +9105,10 @@ gatsby-plugin-remove-serviceworker@1.0.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
   integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
 
-gatsby-plugin-sass@2.3.16:
-  version "2.3.16"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.16.tgz#aa9f375993b44d03c721e82363dec35fceeb1fce"
-  integrity sha512-gY2Ankprpn0TEIboDqco4bycjveZNYTrpiwJYLPtnFPCgmxoQzld44Uj/9bbZXxsV/tIqubulenr+TymCbe/hg==
+gatsby-plugin-sass@2.3.17:
+  version "2.3.17"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.17.tgz#58c8488013c81f07f44645b6568ceda0506bd36b"
+  integrity sha512-hH73k8k4p9AJV/Zta/G9tks0v7GiXXj6qhldFEdq6ajdbgEqcLW5tsDIIV3kF3AiH77pDYXUmyDLoTS5i1CyMQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
     sass-loader "^7.3.1"
@@ -9250,10 +9250,10 @@ gatsby-remark-katex@3.3.14:
     remark-math "^1.0.6"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@2.3.34:
-  version "2.3.34"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.34.tgz#00ed8bca1c260c8e54cb82d58dbe710bbe9f80dd"
-  integrity sha512-aUABU9eJpo0yorVrBeHUQxkJP1Aif+HOTdsqjh4o9g7NtPlxjNw3HzgJ+txGlEoDLR9Y/SGq/BI2TXlk7JBMKw==
+gatsby-source-filesystem@2.3.35:
+  version "2.3.35"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.35.tgz#a64815f1c0bc1614519ec2dd1eef49629de6c2e5"
+  integrity sha512-OHa7eDW9m/R8uIkAHpOZda517uT0yLPfLhZwEj3vqWgHRKg6bSghvKRDMQGmiD39EPur/Pl7JsotbFxGBRFRTQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
     better-queue "^3.8.10"
@@ -9291,10 +9291,10 @@ gatsby-telemetry@^1.3.38:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-transformer-remark@2.8.41:
-  version "2.8.41"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.8.41.tgz#3c787bbfac7c9a79a72545c8fedf8c9586c74bdd"
-  integrity sha512-hkymz3iJNcA0C90fbN468j7cVgj+trtdGl74kLQVpRIPLgjkH5xC5nCymRhsNLPdzTYheQjH27Dz3pj9ukxw4Q==
+gatsby-transformer-remark@2.8.42:
+  version "2.8.42"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.8.42.tgz#dd9dd01bc606af0d0994c0f0d770e57df5e2e53c"
+  integrity sha512-y45v3mhgPVSe+IydZPAD0gaG6x9oSJzrDuLlTXqb76ecKTrOp1m0Z2lawmtotWJrsCsRVEBYV0YiwdcuxXBh/Q==
   dependencies:
     "@babel/runtime" "^7.11.2"
     bluebird "^3.7.2"
