@@ -81,7 +81,7 @@
     "react-test-renderer": "16.14.0",
     "remark-breaks": "2.0.1",
     "sass-loader": "10.0.3",
-    "strip-markdown": "3.1.2",
+    "strip-markdown": "4.0.0",
     "style-loader": "2.0.0",
     "stylelint": "13.7.2",
     "stylelint-config-css-modules": "2.2.0",
