@@ -18,7 +18,7 @@ storiesOf('Lawn', module)
     const posts = [];
     const localToday = new Date(date('today', today));
 
-    let x = localToday.getTime() | 0;
+    let x = Math.trunc(localToday.getTime());
     for (let i = 0; i <= 356; i++) {
       const date = new Date(localToday.getTime());
       date.setDate(date.getDate() - i);
@@ -27,7 +27,7 @@ storiesOf('Lawn', module)
       const d = `${date.getDate()}`.padStart(2, '0');
       const s = `${y}-${m}-${d}`;
 
-      x = (x * 48271) | 0;
+      x = Math.trunc(x * 48271);
       if (x > 1000) {
         posts.push({
           date: s,
