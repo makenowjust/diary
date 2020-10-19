@@ -18,7 +18,8 @@ storiesOf('Lawn', module)
     const posts = [];
     const localToday = new Date(date('today', today));
 
-    let x = Math.trunc(localToday.getTime());
+    /* eslint-disable-next-line unicorn/prefer-math-trunc */
+    let x = localToday.getTime() | 0;
     for (let i = 0; i <= 356; i++) {
       const date = new Date(localToday.getTime());
       date.setDate(date.getDate() - i);
@@ -27,7 +28,8 @@ storiesOf('Lawn', module)
       const d = `${date.getDate()}`.padStart(2, '0');
       const s = `${y}-${m}-${d}`;
 
-      x = Math.trunc(x * 48271);
+      /* eslint-disable-next-line unicorn/prefer-math-trunc */
+      x = (x * 48271) | 0;
       if (x > 1000) {
         posts.push({
           date: s,
