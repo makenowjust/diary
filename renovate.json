@@ -1,5 +1,6 @@
 {
   "extends": ["config:base"],
+  "automerge": true,
   "minor": {
     "groupName": "all dependencies"
   }
