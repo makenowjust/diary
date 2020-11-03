@@ -8741,10 +8741,10 @@ gatsby-plugin-remove-serviceworker@1.0.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
   integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
 
-gatsby-plugin-sass@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.4.0.tgz#47a622683ab9456b359b7a8b04a3dd948630e3b1"
-  integrity sha512-DnGa1ddsGt/stv4xcuKsgBnukKj+0RGKKJr6EAptEGg7sNFdr8zYWkyPGmjjb81WfrJzpHpYe78Et4DEyg3ujg==
+gatsby-plugin-sass@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.4.1.tgz#f68246a2f7917bd56ae7f6f52eee3c6c3323379b"
+  integrity sha512-Wg1l9WL0P/IvEV1mr7rH0RF8SKOY4AnM4V2L1inZ2ApQlObSnOSwMqaWsK/YqauhjU87vl3n8ank9bZP8t0cxA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     sass-loader "^7.3.1"
