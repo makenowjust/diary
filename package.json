@@ -32,14 +32,14 @@
   },
   "devDependencies": {
     "@babel/core": "7.12.9",
-    "@storybook/addon-actions": "6.1.8",
+    "@storybook/addon-actions": "6.1.9",
     "@storybook/addon-centered": "5.3.21",
     "@storybook/addon-info": "5.3.21",
     "@storybook/addon-knobs": "6.1.9",
-    "@storybook/addon-storyshots": "6.1.8",
+    "@storybook/addon-storyshots": "6.1.9",
     "@storybook/addon-viewport": "6.1.9",
     "@storybook/addons": "6.1.9",
-    "@storybook/react": "6.1.8",
+    "@storybook/react": "6.1.9",
     "algoliasearch": "4.8.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
@@ -92,7 +92,7 @@
     "stylelint-config-xo-scss": "0.14.0",
     "stylelint-config-xo-space": "0.15.1",
     "stylelint-scss": "3.18.0",
-    "unist-util-is": "4.0.3",
+    "unist-util-is": "4.0.4",
     "unist-util-visit": "2.0.3"
   }
 }
