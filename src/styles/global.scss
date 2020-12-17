@@ -199,7 +199,7 @@ img {
 
 blockquote {
   border-left: 0.25rem solid $black;
-  margin: 0.5rem;
+  padding: 0.5rem;
 
   > :first-child {
     margin-top: 0;
@@ -225,5 +225,5 @@ hr {
 
 ul,
 ol {
-  list-style-position: outside;
+  list-style-position: inside;
 }
