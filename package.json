@@ -16,8 +16,8 @@
     "test": "mkdo test"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "1.2.32",
-    "@fortawesome/free-solid-svg-icons": "5.15.1",
+    "@fortawesome/fontawesome-svg-core": "1.2.34",
+    "@fortawesome/free-solid-svg-icons": "5.15.2",
     "@fortawesome/react-fontawesome": "0.1.14",
     "katex": "0.12.0",
     "modern-normalize": "1.0.0",
