@@ -2,7 +2,7 @@ import {Link} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './paginator.module.scss';
+import * as styles from './paginator.module.scss';
 
 const Paginator = ({prev, next}) => (
   <div className={styles.paginator}>

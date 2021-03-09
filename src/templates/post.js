@@ -5,7 +5,7 @@ import {Helmet} from 'react-helmet';
 
 import Layout from '../containers/layout';
 
-import styles from './post.module.scss';
+import * as styles from './post.module.scss';
 
 const PostTemplate = ({data}) => {
   const {title: siteTitle} = data.site.siteMetadata;

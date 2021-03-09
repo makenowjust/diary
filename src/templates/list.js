@@ -6,7 +6,7 @@ import {Helmet} from 'react-helmet';
 import Paginator from '../components/paginator';
 import Layout from '../containers/layout';
 
-import styles from './list.module.scss';
+import * as styles from './list.module.scss';
 
 const ListTemplate = ({data, pageContext}) => {
   const posts = data.allMarkdownRemark.edges.map(({node}) => (

@@ -2,7 +2,7 @@ import {navigate} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './lawn.module.scss';
+import * as styles from './lawn.module.scss';
 
 const DAY_MS = 24 * 3600 * 1000;
 
