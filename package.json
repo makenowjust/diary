@@ -59,7 +59,7 @@
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-unicorn": "28.0.2",
-    "gatsby": "3.0.3",
+    "gatsby": "3.0.4",
     "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-cname": "1.0.0",
     "gatsby-plugin-manifest": "3.0.0",
