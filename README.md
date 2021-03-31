@@ -11,13 +11,13 @@
 ```console
 $ git clone https://github.com/MakeNowJust/diary
 $ cd diary
-$ yarn
+$ npm install
 ```
 
 Then, start development server:
 
 ```console
-$ yarn dev
+$ npm run dev
 ```
 
 See [mkdo.md](./mkdo.md) which defines other tasks.
