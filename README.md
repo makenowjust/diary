@@ -11,7 +11,7 @@
 ```console
 $ git clone https://github.com/MakeNowJust/diary
 $ cd diary
-$ npm install
+$ npm install --legacy-peer-deps
 ```
 
 Then, start development server:
