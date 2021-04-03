@@ -50,7 +50,7 @@
     "css-loader": "5.2.0",
     "eslint": "7.23.0",
     "eslint-config-prettier": "8.1.0",
-    "eslint-config-xo-react": "0.24.0",
+    "eslint-config-xo-react": "0.25.0",
     "eslint-config-xo-space": "0.27.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jest": "24.3.3",
