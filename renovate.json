@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":disablePeerDependencies"],
+  "extends": ["config:base"],
   "automerge": true,
   "minor": {
     "groupName": "all dependencies"
