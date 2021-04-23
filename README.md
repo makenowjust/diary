@@ -11,7 +11,7 @@
 ```console
 $ git clone https://github.com/MakeNowJust/diary
 $ cd diary
-$ npm install --legacy-peer-deps
+$ npm install
 ```
 
 Then, start development server:
@@ -20,15 +20,12 @@ Then, start development server:
 $ npm run dev
 ```
 
-See [mkdo.md](./mkdo.md) which defines other tasks.
-
 ## Architecture
 
 Using tools and libraries:
 
 - [Gatsby](https://www.gatsby.org): a static site generator with React & GraphQL
 - [Storybook](https://storybook.js.org): UI component explorer
-- [mkdo](https://github.com/MakeNowJust/mkdo): a Markdown task runner
 - [Sass](https://sass-lang.com): CSS with superpowers
 - [Remark](https://remark.js.org): Markdown processor powered by plugins
 
