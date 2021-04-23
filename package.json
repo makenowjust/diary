@@ -6,6 +6,13 @@
   "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
   "repository": "git@github.com:MakeNowJust/diary.git",
   "version": "3.0.0-dev",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop --open",
+    "format": "prettier-package-json 'package.json' 'plugins/*/package.json' --write && prettier --ignore-path .gitignore '**/*.{js,json,md,scss,yml}' '!src/posts/**' --write && eslint --ignore-path .gitignore '**/*.js' --fix && stylelint --ignore-path .gitignore '**/*.scss' --fix",
+    "lint": "prettier-package-json 'package.json' 'plugins/*/package.json' --list-different && prettier --ignore-path .gitignore '**/*.{js,json,md,scss,yml}' '!src/posts/**' --list-different && eslint --ignore-path .gitignore '**/*.js' && stylelint --ignore-path .gitignore '**/*.scss'",
+    "test": "jest"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.35",
     "@fortawesome/free-solid-svg-icons": "5.15.3",

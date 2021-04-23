@@ -19,5 +19,4 @@ jobs:
       - run: npm ci
       - run: |
           npm run lint
-          npx mkdo sync-scripts --check
       - run: npm run test
