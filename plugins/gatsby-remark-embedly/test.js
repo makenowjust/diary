@@ -3,7 +3,7 @@ import remark from 'remark';
 import embedly from '.';
 
 test('add embedly-card class to link which is only child of paragraph', () => {
-  const context = {markdownAST: remark.parse('http://example.com/')};
+  const context = {markdownAST: remark.parse('<http://example.com/>')};
   embedly(context);
   expect(context.markdownAST).toMatchSnapshot('link');
 });

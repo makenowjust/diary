@@ -8,17 +8,16 @@ Object {
         Object {
           "children": Array [
             Object {
-              "position": Position {
+              "position": Object {
                 "end": Object {
-                  "column": 20,
+                  "column": 21,
                   "line": 1,
-                  "offset": 19,
+                  "offset": 20,
                 },
-                "indent": Array [],
                 "start": Object {
-                  "column": 1,
+                  "column": 2,
                   "line": 1,
-                  "offset": 0,
+                  "offset": 1,
                 },
               },
               "type": "text",
@@ -30,13 +29,12 @@ Object {
               "className": "embedly-card",
             },
           },
-          "position": Position {
+          "position": Object {
             "end": Object {
-              "column": 20,
+              "column": 22,
               "line": 1,
-              "offset": 19,
+              "offset": 21,
             },
-            "indent": Array [],
             "start": Object {
               "column": 1,
               "line": 1,
@@ -48,13 +46,12 @@ Object {
           "url": "http://example.com/",
         },
       ],
-      "position": Position {
+      "position": Object {
         "end": Object {
-          "column": 20,
+          "column": 22,
           "line": 1,
-          "offset": 19,
+          "offset": 21,
         },
-        "indent": Array [],
         "start": Object {
           "column": 1,
           "line": 1,
@@ -66,9 +63,9 @@ Object {
   ],
   "position": Object {
     "end": Object {
-      "column": 20,
+      "column": 22,
       "line": 1,
-      "offset": 19,
+      "offset": 21,
     },
     "start": Object {
       "column": 1,
@@ -86,13 +83,12 @@ Object {
     Object {
       "children": Array [
         Object {
-          "position": Position {
+          "position": Object {
             "end": Object {
               "column": 9,
               "line": 1,
               "offset": 8,
             },
-            "indent": Array [],
             "start": Object {
               "column": 1,
               "line": 1,
@@ -103,13 +99,12 @@ Object {
           "value": "non link",
         },
       ],
-      "position": Position {
+      "position": Object {
         "end": Object {
           "column": 9,
           "line": 1,
           "offset": 8,
         },
-        "indent": Array [],
         "start": Object {
           "column": 1,
           "line": 1,
