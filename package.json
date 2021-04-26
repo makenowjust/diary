@@ -38,7 +38,7 @@
     "@storybook/addon-viewport": "6.2.9",
     "@storybook/addons": "6.2.9",
     "@storybook/react": "6.2.9",
-    "algoliasearch": "4.9.0",
+    "algoliasearch": "4.9.1",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.6.3",
     "babel-loader": "8.2.2",
