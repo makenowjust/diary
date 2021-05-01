@@ -80,7 +80,7 @@
     "sass-loader": "11.0.1",
     "strip-markdown": "4.0.0",
     "style-loader": "2.0.0",
-    "stylelint": "13.13.0",
+    "stylelint": "13.13.1",
     "stylelint-config-css-modules": "2.2.0",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-recommended": "5.0.0",
