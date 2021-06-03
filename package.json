@@ -1,11 +1,11 @@
 {
   "private": true,
   "name": "diary",
+  "version": "3.0.0-dev",
   "description": "MakeNowJust's diary system",
   "license": "MIT",
   "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
   "repository": "git@github.com:MakeNowJust/diary.git",
-  "version": "3.0.0-dev",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop --open",

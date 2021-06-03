@@ -84,7 +84,7 @@ module.exports = {
               apiKey: process.env.ALGOLIA_API_KEY,
               indexName: 'posts',
               queries,
-              chunkSize: 10000,
+              chunkSize: 10_000,
               enablePartialUpdates: true,
               matchFields: ['path', 'body', 'date', 'title'],
             },

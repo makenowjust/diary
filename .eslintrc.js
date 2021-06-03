@@ -30,5 +30,7 @@ module.exports = {
     'unicorn/no-nested-ternary': 'off',
     // This rule is not useful within framework.
     'unicorn/no-null': 'off',
+    // Because GatsbyJS is legacy for now.
+    'unicorn/prefer-module': 'off',
   },
 };

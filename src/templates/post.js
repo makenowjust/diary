@@ -67,7 +67,7 @@ PostTemplate.propTypes = {
 export default PostTemplate;
 
 export const query = graphql`
-  query($slug: String!, $prevSlug: String, $nextSlug: String) {
+  query ($slug: String!, $prevSlug: String, $nextSlug: String) {
     site {
       siteMetadata {
         title

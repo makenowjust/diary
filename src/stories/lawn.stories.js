@@ -29,7 +29,7 @@ storiesOf('Lawn', module)
       const s = `${y}-${m}-${d}`;
 
       /* eslint-disable-next-line unicorn/prefer-math-trunc */
-      x = (x * 48271) | 0;
+      x = (x * 48_271) | 0;
       if (x > 1000) {
         posts.push({
           date: s,

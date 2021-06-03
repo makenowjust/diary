@@ -60,7 +60,7 @@ ListTemplate.propTypes = {
 export default ListTemplate;
 
 export const query = graphql`
-  query($limit: Int!, $skip: Int!) {
+  query ($limit: Int!, $skip: Int!) {
     site {
       siteMetadata {
         title
