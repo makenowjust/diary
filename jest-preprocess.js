@@ -3,4 +3,4 @@ const babelOptions = {
   plugins: [require.resolve('babel-plugin-require-context-hook')],
 };
 
-module.exports = require('babel-jest').createTransformer(babelOptions);
+module.exports = require('babel-jest').default.createTransformer(babelOptions);
