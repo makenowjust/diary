@@ -6,7 +6,7 @@
 <p>若干微妙な気もするけど、多分大丈夫だと思う。タブンネ‥‥。</p>
 <h2>react-cytoscape-renderer反省会</h2>
 <p>やっぱ無理だという結論になったcytoscape.jsのReactレンダラを作るやつの反省会。</p>
-<p>まず、何をやろうとしていたのか、という話から。
+<p>まず、何をやろうとしていたのか、という話から。<br>
 完成イメージとしてはこんな感じだった。</p>
 <pre><code class="hljs language-javascript"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
@@ -29,12 +29,12 @@
 );
 
 ReactDOM.render(<span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">Main</span> /></span></span>, <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#main'</span>));</code></pre>
-<p><code>&#x3C;Cytoscape></code>コンポーネントの中にある<code>&#x3C;Node></code>とか<code>&#x3C;Edge></code>は通常のコンポーネントではなくて、<code>&#x3C;Cytoscape></code>コンポーネント内でcytoscape.js用のレンダラで描画される、というのがポイント。
+<p><code>&#x3C;Cytoscape></code>コンポーネントの中にある<code>&#x3C;Node></code>とか<code>&#x3C;Edge></code>は通常のコンポーネントではなくて、<code>&#x3C;Cytoscape></code>コンポーネント内でcytoscape.js用のレンダラで描画される、というのがポイント。<br>
 あとネストした<code>&#x3C;Node></code>はcytoscape.jsのcompoundノードとして解釈される、というイメージ。</p>
 <p>これをTypeScriptで実装してた。</p>
 <h3>ダメだったところ</h3>
 <p>はじめに何が失敗だったのまとめていく。</p>
-<p>まずcytoscape.jsはノードとかエッジの生成<strong>だけ</strong>をすることができなくて、必ず同時にグラフに追加しなきゃいけない、という制約があった。
+<p>まずcytoscape.jsはノードとかエッジの生成<strong>だけ</strong>をすることができなくて、必ず同時にグラフに追加しなきゃいけない、という制約があった。<br>
 これが地味に大きな問題点。</p>
 <p>加えて、ノードとエッジの関係が結構厳しい。</p>
 <ul>
@@ -44,7 +44,7 @@ ReactDOM.render(<span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs
 <li>ノードを削除すると、そのノードにつながっているエッジも削除される。</li>
 </ul>
 <p>とまあ、この辺りが面倒くさい。</p>
-<p><code>id</code>の重複は、例えばあるノードを別のノードの子ノードとして移動した場合に、削除→追加の順で行われれば上手くいくのだけど、追加→削除の順になってしまうと同じ<code>id</code>のノードが一時的に複数存在してしまい例外が発生する。
+<p><code>id</code>の重複は、例えばあるノードを別のノードの子ノードとして移動した場合に、削除→追加の順で行われれば上手くいくのだけど、追加→削除の順になってしまうと同じ<code>id</code>のノードが一時的に複数存在してしまい例外が発生する。<br>
 エッジが<code>source</code>と<code>target</code>のノードを要求するのも、エッジの追加処理が先に行われる場合に起こるので、ノードから追加されることを保証しなきゃいけなくて面倒。</p>
 <p>とはいえ、ここまでの問題は追加・削除の操作をキューして、削除→追加の順で一律に行うようにすれば回避できる気がする。</p>
 <p>もっと本質的な問題は<code>id</code>が変更できないことと、ノードを削除するとつながっているエッジも削除されてしまうところだったりする。</p>
@@ -53,7 +53,7 @@ ReactDOM.render(<span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs
 <p>という感じ。特に最後のやつがどうしようもない気がしたので諦めた。</p>
 <p>根本的な問題は、ノードの親子関係はツリー構造だけど、エッジはツリー構造ではない、というところな気がする。難しい。</p>
 <h3>良かったところ・分かったところ</h3>
-<p>とはいえ、コンセプトはそんなに悪くなかったんじゃないかと思っている。
+<p>とはいえ、コンセプトはそんなに悪くなかったんじゃないかと思っている。<br>
 今回やってみて色々分かった部分もあるので、その辺りをまとめていく。</p>
 <p>良かったところ;</p>
 <ul>

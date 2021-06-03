@@ -12,7 +12,7 @@
 <p>で、どうしてシリアルポートなのかというと、ボクのバイトしている<a href="http://nyampass.com/">ニャンパス</a>ではIoTデバイスの開発もいくつか行なっています。その中にはいくつかシリアルポートを介してPCから信号を受け取り動作するデバイスや、その逆にシリアルポートでデータをPCへと送信デバイスがあります。Crystalを使ってそれらを制御できたら面白そうだったので、これをAdvent Calendarのテーマとしようと決めました。</p>
 <p>それで少し調べてみたところ、<a href="https://github.com/marceloboeira/serial.cr">serial.cr</a>というlibserialportのバインディングらしき何かは見つけたのですが、どうもcrystal-libを適用する前のコードしか置かれていなくて全く使いものにならなそうなので、諦めて自作することにしたという次第です。というかこのMacBook Airにはlibserialportはインストールされていません。</p>
 <h2>どんなライブラリを作るか考える</h2>
-<p>Crystalには<a href="https://crystal-lang.org/api/0.20.1/IO/FileDescriptor.html"><code>IO::FileDescriptor</code></a>というクラスがあります。これはファイルデスクリプタをラップして<code>IO</code>クラスを実装したものです。つまり、ファイルデスクリプタがあれば<code>gets</code>メソッドや<code>&#x3C;&#x3C;</code>メソッドを使うことができるようになります。
+<p>Crystalには<a href="https://crystal-lang.org/api/0.20.1/IO/FileDescriptor.html"><code>IO::FileDescriptor</code></a>というクラスがあります。これはファイルデスクリプタをラップして<code>IO</code>クラスを実装したものです。つまり、ファイルデスクリプタがあれば<code>gets</code>メソッドや<code>&#x3C;&#x3C;</code>メソッドを使うことができるようになります。<br>
 （余談ですが、この<code>IO::FileDescriptor</code>クラスは<code>File</code>クラスや<code>Socket</code>クラスのスーパークラスです）</p>
 <p><code>IO</code>クラスを実装しているので、<code>to_s</code>に渡したり<code>to_json</code>に渡したりと様々なことができるようになります。<code>IO</code>クラスは本当にCrystalの骨幹をなしています。<code>IO</code>クラスを制するものはCrystalを制すると言っても過言ではないでしょう。Crystalにおけるリバウンドであるというわけです。</p>
 <p>また、C言語でシリアルポートを扱う際には<code>open</code>関数で<code>/dev</code>以下にあるデバイスファイルをオープンし、シリアルポート独特の設定をしたファイルデスクリプタに対して<code>write</code>や<code>read</code>をするみたいです。ちょうどいいですね。</p>
@@ -57,7 +57,7 @@
 <p>また、途中に<code>self.sync = true</code>という行がありますが、これは<code>IO::Buffered</code>を<code>include</code>しているので、バッファリングしないようにするためです。シリアルポートでバッファリングされるといつデータが送られるのか分からなくなってちょっと困ります。</p>
 <p>最後の方に<code>set_interface_attributes</code>というメソッドの呼び出しがありますが、これが今回の実装のキモです。ここで<code>fd</code>をシリアルポート向けに設定します。</p>
 <h2><code>set_interface_attributes</code>の実装</h2>
-<p><code>set_interface_attributes</code>はC言語でシリアルポートに接続するコードを参考にして、次のようになりました。
+<p><code>set_interface_attributes</code>はC言語でシリアルポートに接続するコードを参考にして、次のようになりました。<br>
 （もちろんこのコードは実際には<code>class SerialPort &#x3C; IO::FileDescriptor</code>の中にあります）</p>
 <pre><code class="hljs language-crystal">  <span class="hljs-keyword">private</span> <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">set_interface_attributes</span></span>(fd, baudrate, blocking)
     <span class="hljs-keyword">if</span> LibC.tcgetattr(fd, <span class="hljs-keyword">out</span> mode) != <span class="hljs-number">0</span>
@@ -98,8 +98,8 @@
     <span class="hljs-keyword">end</span>
   <span class="hljs-keyword">end</span></code></pre>
 <p>特徴的なのは、冒頭で<code>LibC.tcgetattr(fd, out mode)</code>と<code>out</code>パラメーターを使って<code>mode</code>を受け取っていることでしょうか。</p>
-<p>さて、ここで一つ問題が発生しました。Crystalは標準ライブラリに<code>termios.h</code>に対するバインディングをいくつか提供しているのですが、今回利用したい全てに対応しているというわけではありません。
-しかし、幸いにもCrystalにはC言語の関数や定数を簡単に定義できる仕組みがあります。さくっと<code>libc.cr</code>というファイルを作って、足りない関数や定数を補うことにしました。
+<p>さて、ここで一つ問題が発生しました。Crystalは標準ライブラリに<code>termios.h</code>に対するバインディングをいくつか提供しているのですが、今回利用したい全てに対応しているというわけではありません。<br>
+しかし、幸いにもCrystalにはC言語の関数や定数を簡単に定義できる仕組みがあります。さくっと<code>libc.cr</code>というファイルを作って、足りない関数や定数を補うことにしました。<br>
 （定数の値や関数のプロトタイプ宣言などは、実際にヘッダファイルを見たり<code>man</code>ページを参考にして記述しました）</p>
 <pre><code class="hljs language-crystal"><span class="hljs-class"><span class="hljs-keyword">lib</span> <span class="hljs-title">LibC</span></span>
   <span class="hljs-comment"># from fnctl.h</span>

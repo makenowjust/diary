@@ -6,14 +6,14 @@
 <h2>Scala関連</h2>
 <h3>型クラスの制約のエンコード方法について</h3>
 <p>ScalaでHaskellの型クラスの制約(<code>Eq a => Ord a</code>みたいなの)を表現するときに、Scalaでは2つの方法がある。</p>
-<p>1つは継承を用いるもので、<code>trait Ord[A] extends Eq[A]</code>のようにする。
+<p>1つは継承を用いるもので、<code>trait Ord[A] extends Eq[A]</code>のようにする。<br>
 基本的にはこちらが一般的で、ほとんどの場合はこちらを利用する。</p>
-<p>もう1つはメンバに制約の型クラスのインスタンスを持たせるもの。
+<p>もう1つはメンバに制約の型クラスのインスタンスを持たせるもの。<br>
 このようになる。</p>
 <pre><code class="hljs language-scala"><span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">Ord</span>[<span class="hljs-type">A</span>] </span>{
   <span class="hljs-keyword">val</span> eq: <span class="hljs-type">Eq</span>[<span class="hljs-type">A</span>]
 }</code></pre>
-<p>これはcatsの<code>Parallel</code>のように、そもそも継承として表せない場合や、
+<p>これはcatsの<code>Parallel</code>のように、そもそも継承として表せない場合や、<br>
 (これを<code>trait Parallel[F[_], G[_]] extends Applicative[F] with Monad[G]</code>とすると<code>F</code>に対する<code>map</code>と<code>G</code>に対する<code>map</code>が衝突したりしてロクなことにならない)</p>
 <pre><code class="hljs language-scala"><span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">Parallel</span>[<span class="hljs-type">F</span>[_], <span class="hljs-title">G</span>[_]] </span>{
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">applicative</span></span>: <span class="hljs-type">Applicative</span>[<span class="hljs-type">F</span>]
@@ -24,7 +24,7 @@
 }</code></pre>
 <p>或いは継承関係が複数に枝分かれしていて、<code>implicit</code>が曖昧になる場合に使われる。</p>
 <h4><code>implicit</code>が曖昧になる場合</h4>
-<p>例えば<code>Functor</code>であることを制約に持つ型クラスとして<code>Applicative</code>と<code>Traverse</code>がある。
+<p>例えば<code>Functor</code>であることを制約に持つ型クラスとして<code>Applicative</code>と<code>Traverse</code>がある。<br>
 これを単純に継承で表すとどのようなことが起こるだろうか。</p>
 <pre><code class="hljs language-scala"><span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">Functor</span>[<span class="hljs-type">F</span>[_]] </span>{
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">map</span></span>[<span class="hljs-type">A</span>. <span class="hljs-type">B</span>](fa: <span class="hljs-type">F</span>[<span class="hljs-type">A</span>], f: <span class="hljs-type">A</span> => <span class="hljs-type">B</span>): <span class="hljs-type">F</span>[<span class="hljs-type">B</span>]
@@ -45,7 +45,7 @@
 }</code></pre>
 <p>ここで<code>Applicative</code>かつ<code>Traverse</code>な型に対してはたらくようなメソッドで、<code>Functor</code>のメソッドである<code>map</code>を呼ぶようなものを考える。</p>
 <pre><code class="hljs language-scala"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">foo</span></span>[<span class="hljs-type">F</span>[_]: <span class="hljs-type">Applicative</span>: <span class="hljs-type">Traverse</span>, <span class="hljs-type">A</span>, <span class="hljs-type">B</span>](fa: <span class="hljs-type">F</span>[<span class="hljs-type">A</span>]) = implicitly[<span class="hljs-type">Functor</span>[<span class="hljs-type">F</span>]].map(fa)(a => ???)</code></pre>
-<p>これはコンパイルが通らない。
+<p>これはコンパイルが通らない。<br>
 なぜならば<code>Functor</code>の<code>implicit</code>の候補が<code>Applicative</code>のものと<code>Traverse</code>のもので2つあり、曖昧になっているからだ。</p>
 <p>これは、次のように<code>functor</code>をメンバにして、<code>Functor</code>を取り出す用の<code>implicit def</code>を継承を使って優先順位を調整して定義すると良い。</p>
 <pre><code class="hljs language-scala"><span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">Functor</span>[<span class="hljs-type">F</span>[_]] </span>{
@@ -101,7 +101,7 @@
 <p>とはいえこのメンバにする方法(MTL encodingとかinheritance free encodingとかいう)も万能ではなくて、欠点として、</p>
 <ul>
 <li>まず見るからに記述量が増える。正直しんどい。</li>
-<li>取り出す部分が拡張に対して開いていない。
+<li>取り出す部分が拡張に対して開いていない。<br>
 例えば別のライブラリで<code>FunctorFilter</code>が定義されたとして、それから<code>Functor</code>を取り出す<code>implicit def</code>をどうやって衝突しないように定義できるだろうか？</li>
 </ul>
 <p>などの問題が挙げられる。</p>
@@ -111,9 +111,9 @@
 <p>If you’re wondering why <code>ApplicativeAsk</code> has an <code>Applicative</code> field instead of just extending from <code>Applicative</code>, that is to avoid implicit ambiguities that arise from having multiple subclasses of a given type (here <code>Applicative</code>) in scope implicitly. So in this case we favor composition over inheritance as otherwise, we could not e.g. use <code>Monad</code> together with <code>ApplicativeAsk</code>.</p>
 </blockquote>
 <p>なので、基本的には<code>implicit</code>の衝突を回避する目的、ということでいいのだと思う。</p>
-<p>ところでcats-mtlのこのあとの例で、<code>implicit</code>で<code>MonadState</code>と<code>MonadError</code>しか取ってないのに<code>Monad</code>のメソッドが使えてる感じがする例があるのだけど、これはどういうことなんだろう？
+<p>ところでcats-mtlのこのあとの例で、<code>implicit</code>で<code>MonadState</code>と<code>MonadError</code>しか取ってないのに<code>Monad</code>のメソッドが使えてる感じがする例があるのだけど、これはどういうことなんだろう？<br>
 どこから<code>Monad</code>のインスタンスを持って来てるんだ？</p>
-<p>あとDotty (Scala 3)の<code>given</code>と<code>delegate</code>もちょっと関係あるのかな、とか思ってるけど、その辺はよく分からない。
+<p>あとDotty (Scala 3)の<code>given</code>と<code>delegate</code>もちょっと関係あるのかな、とか思ってるけど、その辺はよく分からない。<br>
 誰か詳しい人教えて。</p>
 <h2>その他気になる話</h2>
 <p>Typelevel.scala | A tale on Semirings: <a href="https://typelevel.org/blog/2018/11/02/semirings.html">https://typelevel.org/blog/2018/11/02/semirings.html</a></p>

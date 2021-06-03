@@ -6,7 +6,7 @@
 <p><a href="https://twitter.com/make_now_just/status/1144254512212914176" class="embedly-card">https://twitter.com/make_now_just/status/1144254512212914176</a></p>
 <p>なんでやろなぁ‥‥。負の物欲センサーヤバい。</p>
 <h2>ミリシタ</h2>
-<p>3枚引き2枚抜き。
+<p>3枚引き2枚抜き。<br>
 琴葉以外引いてしまった‥‥。</p>
 <p>こいつはヤベえ。</p>
 <p><a href="https://twitter.com/make_now_just/status/1144262272958849024" class="embedly-card">https://twitter.com/make_now_just/status/1144262272958849024</a></p>
@@ -29,14 +29,14 @@
 </ol>
 <p>全体的に良さそう。ただ、小耳に挟んだ話だとScala 3が出るのにあと5年はかかるとか‥‥。厳しい。</p>
 <h3>再帰:スキーム,代数,finally tagless,データ型. 統合されたビジョン</h3>
-<p>isomorphism: <code>to: A -> B</code>, <code>from: B -> A</code>の組。<code>from(to(a)) = a</code> かつ <code>to(from(b)) = b</code>を満たす。
+<p>isomorphism: <code>to: A -> B</code>, <code>from: B -> A</code>の組。<code>from(to(a)) = a</code> かつ <code>to(from(b)) = b</code>を満たす。<br>
 Scalaの型システムだと制約は表せない‥‥。</p>
 <pre><code class="hljs language-scala"><span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">Iso</span>[<span class="hljs-type">A</span>, <span class="hljs-type">B</span>] </span>{
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">to</span></span>(a: <span class="hljs-type">A</span>): <span class="hljs-type">B</span>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">from</span></span>(b: <span class="hljs-type">B</span>): <span class="hljs-type">A</span>
 }</code></pre>
 <p>Leibnizの引用: <span class="math math-inline">x = y \iff \forall P. P x = P y</span></p>
-<p><code>Iso[A, B]</code>: <code>A</code>と<code>B</code>の個数が同じ。
+<p><code>Iso[A, B]</code>: <code>A</code>と<code>B</code>の個数が同じ。<br>
 個数の数え方:</p>
 <ul>
 <li><code>Either[A, B]</code>: <span class="math math-inline">a + b</span></li>
@@ -65,13 +65,13 @@ Scalaの型システムだと制約は表せない‥‥。</p>
 <li><span class="math math-inline">\mathrm{foldr} : \forall z. \mathrm{Expr} \to (\mathrm{Int} \to z, (z, z) \to z, (z, z) \to z) \to z</span></li>
 <li><span class="math math-inline">\mathrm{foldr} : \forall z. \mathrm{Expr} \to (\mathrm{Int} + (z, z) + (z, z) \to z) \to z</span></li>
 </ul>
-<p><span class="math math-inline">\mathrm{Int} + (z, z) + (z, z)</span>の部分に<code>Expr</code>の構造が反映されている。
+<p><span class="math math-inline">\mathrm{Int} + (z, z) + (z, z)</span>の部分に<code>Expr</code>の構造が反映されている。<br>
 この部分を<code>ExprF[Z]</code>と置く。</p>
 <pre><code class="hljs language-scala"><span class="hljs-keyword">sealed</span> <span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">ExprF</span>[+<span class="hljs-type">Z</span>]</span>
 <span class="hljs-keyword">case</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">LitF</span>[<span class="hljs-type">Z</span>](<span class="hljs-params">v: <span class="hljs-type">Int</span></span>) <span class="hljs-keyword">extends</span> <span class="hljs-title">ExprF</span>[<span class="hljs-type">Nothing</span>]</span>
 <span class="hljs-keyword">case</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Add</span>[<span class="hljs-type">Z</span>](<span class="hljs-params">l: <span class="hljs-type">Z</span>, r: <span class="hljs-type">Z</span></span>) <span class="hljs-keyword">extends</span> <span class="hljs-title">ExprF</span>[<span class="hljs-type">Z</span>]</span>
 <span class="hljs-keyword">case</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Mul</span>[<span class="hljs-type">Z</span>](<span class="hljs-params">l: <span class="hljs-type">Z</span>, r: <span class="hljs-type">Z</span></span>) <span class="hljs-keyword">extends</span> <span class="hljs-title">ExprF</span>[<span class="hljs-type">Z</span>]</span></code></pre>
-<p>このとき<span class="math math-inline">\mathrm{Int} + (z, z) + (z, z) \to z</span>の部分をF-Algebraという。
+<p>このとき<span class="math math-inline">\mathrm{Int} + (z, z) + (z, z) \to z</span>の部分をF-Algebraという。<br>
 一般化して型にすると<code>type Algebra[F[_], C] = F[C] => C</code>。</p>
 <p>つまり、<code>foldr</code>の<code>Algebra[ExprF, ?]</code>を受け取るバージョンは次のように書ける。</p>
 <pre><code class="hljs language-scala"><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">foldAlg</span></span>[<span class="hljs-type">Z</span>](<span class="hljs-keyword">this</span>: <span class="hljs-type">Expr</span>)(alg: <span class="hljs-type">Algebra</span>[<span class="hljs-type">ExprF</span>, <span class="hljs-type">Z</span>]): <span class="hljs-type">Z</span> = <span class="hljs-keyword">this</span> <span class="hljs-keyword">match</span> {
@@ -96,8 +96,8 @@ Scalaの型システムだと制約は表せない‥‥。</p>
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">to</span></span>(a: <span class="hljs-type">Expr</span>): <span class="hljs-type">ExprF</span>[<span class="hljs-type">Expr</span>]   = embed(a)
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">from</span></span>(b: <span class="hljs-type">ExprF</span>[<span class="hljs-type">Expr</span>]): <span class="hljs-type">Expr</span> = project(b)
 }</code></pre>
-<p>少し戻って、今度は<span class="math math-inline">(\mathrm{Int} \to z, (z, z) \to z, (z, z) \to z)</span>の部分に注目する。
-こちらにも<code>Expr</code>の構造が反映されている。
+<p>少し戻って、今度は<span class="math math-inline">(\mathrm{Int} \to z, (z, z) \to z, (z, z) \to z)</span>の部分に注目する。<br>
+こちらにも<code>Expr</code>の構造が反映されている。<br>
 これをRecursion Schemeという。</p>
 <pre><code class="hljs language-scala"><span class="hljs-class"><span class="hljs-keyword">trait</span> <span class="hljs-title">ExprA</span>[<span class="hljs-type">Z</span>] </span>{
   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">lit</span></span>(v: <span class="hljs-type">Int</span>): <span class="hljs-type">Z</span>
@@ -110,9 +110,9 @@ Scalaの型システムだと制約は表せない‥‥。</p>
   <span class="hljs-keyword">case</span> <span class="hljs-type">Add</span>(l, r) => rc.add(foldRC(l)(rc), foldRC(r)(rc))
   <span class="hljs-keyword">case</span> <span class="hljs-type">Mul</span>(l, r) => rc.mul(foldRC(l)(rc), foldRC(r)(rc))
 }</code></pre>
-<p>さらにこれらを型クラスを使って実装することをTagless Finalという。
+<p>さらにこれらを型クラスを使って実装することをTagless Finalという。<br>
 (おそらくRecursion Schme = final encodingでtaglessというのが型クラスを使うこと、みたいな。一番最初の<code>Expr</code>みたいな型をinitial encodingというっぽい)</p>
-<p>で、ここからさらに<code>Free</code>モナドってtagless finalだよねっていうのを確認していたけど、微妙によく分かっていない。
+<p>で、ここからさらに<code>Free</code>モナドってtagless finalだよねっていうのを確認していたけど、微妙によく分かっていない。<br>
 難しい‥‥。</p>
 <h3>DOT計算をやさしく説明する</h3>
 <p>DOT計算: Scala 3.0の核言語(Core Language)。</p>
@@ -146,7 +146,7 @@ Scalaの型システムだと制約は表せない‥‥。</p>
 <li>GCの停止時間を減らす</li>
 </ul>
 <p>IO対策: non-blocking IOの利用。</p>
-<p>GC: 適切なGCを選択。不用意なメモリを減らす。
+<p>GC: 適切なGCを選択。不用意なメモリを減らす。<br>
 メモリ使用料の減らし方:</p>
 <ul>
 <li>適切なコレクションを使う。
@@ -167,11 +167,11 @@ Scalaの型システムだと制約は表せない‥‥。</p>
 <p>"Build System a la carte"いわくビルドシステムとは"automates repeatable tasks"。</p>
 <p>sbt→カジュアルに関数型なビルドツール。(purelyとはちょっと違う)</p>
 <p>sbtでの状態(<code>State</code>): ビルド構造とディスクの状態</p>
-<p>コマンド: <code>State => State</code>。
-コマンドは逐次処理される。
+<p>コマンド: <code>State => State</code>。<br>
+コマンドは逐次処理される。<br>
 コマンドは<em>低レベルな概念</em>。</p>
 <p>コマンドの例: <code>commands</code>, <code>help</code>, <code>tasks</code>, <code>projects</code>, <code>set name := value</code>, <code>&#x3C;command1>; &#x3C;command2></code> (セミコロン), <code>++2.13</code> (<code>++</code>コマンド)</p>
-<p>あー、昔はセミコロンを最初に置かなきゃいけなかったのはセミコロンがコマンド扱いだったからなのか‥‥。
+<p>あー、昔はセミコロンを最初に置かなきゃいけなかったのはセミコロンがコマンド扱いだったからなのか‥‥。<br>
 (<code>1.x</code>からは特殊扱いされるようになったっぽい？)</p>
 <p>コマンドの分類:</p>
 <ul>
@@ -180,13 +180,13 @@ Scalaの型システムだと制約は表せない‥‥。</p>
 <li>ディスクを変更するもの: <code>act</code></li>
 <li>どちらも変更するもの: <code>++</code></li>
 </ul>
-<p>サイドエフェクトが無いフリをしているビルドツール。
+<p>サイドエフェクトが無いフリをしているビルドツール。<br>
 人間に返るのは実行結果のログで、ディスクの変更ではない。</p>
-<p>イベントと時間の関係: メッセージの送信→受信の順序がある
+<p>イベントと時間の関係: メッセージの送信→受信の順序がある<br>
 <span class="math math-inline">a \not\to b</span>かつ<span class="math math-inline">b \not\to a</span>なイベントは互いに並列という</p>
-<p>sbtの<code>.value</code>は、このタスクの前に実行されるタスク or コマンドを宣言。
+<p>sbtの<code>.value</code>は、このタスクの前に実行されるタスク or コマンドを宣言。<br>
 この合成はApplicative。</p>
-<p>プラグイン開発者はタスクを使う。
+<p>プラグイン開発者はタスクを使う。<br>
 タスクは自動合成。コマンド合成はsrareful (Stateの変化を伴う)。</p>
 <p>タスクの前にはsettingsのreloadが行われる。</p>
 <p><code>~</code>コマンド： ファイル監視。<code>~testQuick</code>で変わったテストだけ実行する。</p>
@@ -206,5 +206,5 @@ Scalaの型システムだと制約は表せない‥‥。</p>
 <p>ミリオン6th行くぞ。</p>
 <p><a href="https://twitter.com/make_now_just/status/1144540904503406592" class="embedly-card">https://twitter.com/make_now_just/status/1144540904503406592</a></p>
 <p><a href="https://twitter.com/make_now_just/status/1144568804887822336" class="embedly-card">https://twitter.com/make_now_just/status/1144568804887822336</a></p>
-<p>ちなみに夕飯は一双という店で食べた。
+<p>ちなみに夕飯は一双という店で食べた。<br>
 豚骨スープは美味いがやはり臭いと思う。</p></div></article><hr/><section class="post-module--around-links--cVUvj"><p class="post-module--prev-link--2UcIO"><a href="/post/2019-06-29-diary/">2019-06-29<!-- -->: <!-- -->ミリオン6th福岡1日目現地</a></p><p class="post-module--current-title--2jYvv">2019-06-28<!-- -->: <!-- -->ScalaMatsuri 2019</p><p class="post-module--next-link--TI4d8"><a href="/post/2019-06-27-diary/">2019-06-27<!-- -->: <!-- -->秋葉原に行った</a></p></section></main><footer><p class="footer-module--copyright--3WaIr">© <!-- -->2016-2021<!-- --> <!-- -->TSUYUSATO<!-- --> &quot;<a href="https://github.com/MakeNowJust">MakeNowJust</a>&quot;<!-- --> <!-- -->Kitsune</p></footer></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/post/2019-06-28-diary/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-5407bef5bba184e69add.js"],"app":["/app-cb8072cf5fcf6ce80354.js"],"component---src-pages-search-js":["/component---src-pages-search-js-a965bd027c968914a96a.js"],"component---src-templates-list-js":["/component---src-templates-list-js-ce2925d40be95fc41ccf.js"],"component---src-templates-post-js":["/component---src-templates-post-js-f8e6347812f996c60d3b.js"]};/*]]>*/</script><script src="/polyfill-5407bef5bba184e69add.js" nomodule=""></script><script src="/component---src-templates-post-js-f8e6347812f996c60d3b.js" async=""></script><script src="/commons-ad80d0ed10d1fc2d5823.js" async=""></script><script src="/cb1608f2-44e9b7facf31c29db6ea.js" async=""></script><script src="/app-cb8072cf5fcf6ce80354.js" async=""></script><script src="/framework-99a080aab87046705f4d.js" async=""></script><script src="/webpack-runtime-1670aaf004a215b52d1a.js" async=""></script></body></html>

@@ -11,9 +11,9 @@
 <p>個人的には<a href="https://github.com/crystal-lang/crystal/pull/3622">#3622</a>で<code>crystal docs</code>でも<code>--stats</code>フラグ使えるでしょって言われたから、他のコマンドも同じことが言える気がして実装したんですけど。</p>
 <p>あと、最後にAryがさりげなく出してきた<code>-t</code>フラグのアイディアは良いと思う。ぶっちゃけ普通のCrystalユーザーが求めてるのはそっちだろうな、と。</p>
 <p>（自分の場合はコンパイル時にヤバいことをしたがるので<code>--stats</code>フラグは<code>--stats</code>フラグで便利なのですが）</p>
-<p>それと面白い話として、このPull Requestは<code>spec</code>に影響を与える部分が無いにも関わらず数回連続でCIに失敗している。というのも、どうも<code>Thread::ConditionVariable</code>のテストに不備があるようで、32bitのLinuxのテストで実行が終了しなくなる <strong>ことがある（100%ではない）</strong> みたい。そのためTravis CIでタイムアウトしていた。
-数回で失敗したところでRX14が<code>spec</code>の<code>-v</code>フラグ（<code>--verbose</code>）を立てた方が良くない？　と提言して、Aryが<code>master</code>ブランチでそれを適用してCIを回したところで原因は発覚した。その後ボクはその<code>master</code>に<code>rebase</code>したのだけど、三度目の正直なのか今度は普通にCIが通ってしまった。何だったんだ‥‥。
-ちなみに件の<code>Thread::ConditionVariable</code>のテストは<a href="https://github.com/crystal-lang/crystal/commit/2e9c9b50c95b0f906d179aeebd14f2319f527730">ペンディングされることになった</a>。
+<p>それと面白い話として、このPull Requestは<code>spec</code>に影響を与える部分が無いにも関わらず数回連続でCIに失敗している。というのも、どうも<code>Thread::ConditionVariable</code>のテストに不備があるようで、32bitのLinuxのテストで実行が終了しなくなる <strong>ことがある（100%ではない）</strong> みたい。そのためTravis CIでタイムアウトしていた。<br>
+数回で失敗したところでRX14が<code>spec</code>の<code>-v</code>フラグ（<code>--verbose</code>）を立てた方が良くない？　と提言して、Aryが<code>master</code>ブランチでそれを適用してCIを回したところで原因は発覚した。その後ボクはその<code>master</code>に<code>rebase</code>したのだけど、三度目の正直なのか今度は普通にCIが通ってしまった。何だったんだ‥‥。<br>
+ちなみに件の<code>Thread::ConditionVariable</code>のテストは<a href="https://github.com/crystal-lang/crystal/commit/2e9c9b50c95b0f906d179aeebd14f2319f527730">ペンディングされることになった</a>。<br>
 この問題が起きてるときのAryの書き込みがやけに楽しそうだったのが印象的だった。こういうときに楽しめるのは尊敬できるなぁ、と。</p>
 <h2>bashcachedのv5.0.0をリリースした</h2>
 <p>実装したのは11月20日だと思われる。なんでリリースしていなかったのかというとベンチマークを実装していたからなのだけど、ベンチマークの実装が永遠に終わらなそうなので諦めてリリースすることにした。</p>
