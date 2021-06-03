@@ -47,7 +47,7 @@ h6 {
 
 @for $i from 1 through 6 {
   h#{$i} {
-    font-size: $base-font-size * ((($scale-ratio - 1) * (7 - $i) / 6) + 1);
+    font-size: $base-font-size * (math.div(($scale-ratio - 1) * (7 - $i), 6) + 1);
   }
 }
 
