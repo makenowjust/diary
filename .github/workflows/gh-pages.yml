@@ -21,6 +21,7 @@ jobs:
             ${{ runner.os }}-node-
       - run: npm ci
       - run: |
+          set -eux
           npm run build
           touch public/.nojekyll
         env:
@@ -31,4 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          emptyCommits: false
+          allow_empty_commits: false
