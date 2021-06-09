@@ -23,7 +23,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-helmet": "6.1.0",
-    "react-instantsearch-dom": "6.11.0",
+    "react-instantsearch-dom": "6.11.1",
     "typeface-nova-mono": "1.1.13",
     "typeface-nova-square": "1.1.13",
     "typeface-raleway": "1.1.13"
