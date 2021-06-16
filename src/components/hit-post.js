@@ -3,8 +3,7 @@ import React from 'react';
 import {Highlight, Snippet} from 'react-instantsearch-dom';
 import PropTypes from 'prop-types';
 
-const HitPost = ({hit}) => {
-  return (
+const HitPost = ({hit}) => (
     <article>
       <h2>
         <Link to={hit.path}>
@@ -16,7 +15,6 @@ const HitPost = ({hit}) => {
       </p>
     </article>
   );
-};
 
 HitPost.propTypes = {
   hit: PropTypes.object.isRequired,
