@@ -14,7 +14,7 @@ module.exports = {
     'plugin:promise/recommended',
     'plugin:unicorn/recommended',
     'plugin:jsx-a11y/recommended',
-    'xo-space/esnext',
+    'xo-space',
     'xo-react/space',
     'prettier',
     'plugin:jest/recommended',
