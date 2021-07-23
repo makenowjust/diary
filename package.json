@@ -76,7 +76,7 @@
     "react-test-renderer": "17.0.2",
     "regenerator-runtime": "0.13.9",
     "remark-breaks": "2.0.2",
-    "sass": "1.35.2",
+    "sass": "1.36.0",
     "sass-loader": "12.1.0",
     "strip-markdown": "4.1.0",
     "style-loader": "3.2.1",
