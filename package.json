@@ -46,7 +46,7 @@
     "babel-plugin-require-context-hook": "1.0.0",
     "babel-preset-gatsby": "1.10.0",
     "css-loader": "6.2.0",
-    "esbuild": "^0.12.17",
+    "esbuild": "0.12.17",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-xo-react": "0.25.0",
@@ -71,7 +71,7 @@
     "gatsby-transformer-remark": "4.7.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.0.6",
-    "lowlight": "^2.2.0",
+    "lowlight": "2.2.0",
     "prettier": "2.3.2",
     "prettier-package-json": "2.6.0",
     "react-test-renderer": "17.0.2",
@@ -91,7 +91,7 @@
     "stylelint-config-xo-space": "0.15.1",
     "stylelint-scss": "3.20.1",
     "typescript": "4.3.5",
-    "unist-util-is": "^5.1.1",
+    "unist-util-is": "5.1.1",
     "unist-util-visit": "4.0.0",
     "webpack": "5.48.0"
   }
