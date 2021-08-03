@@ -5,3 +5,6 @@ node_modules/
 # GatsbyJS
 public/
 .cache/
+
+plugins/gatsby-remark-embedly/index.js
+plugins/gatsby-remark-highlight/index.js
