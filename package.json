@@ -14,8 +14,8 @@
     "test": "esbuild plugins/gatsby-remark-embedly/main.js --bundle --platform=node --outfile=plugins/gatsby-remark-embedly/index.js && esbuild plugins/gatsby-remark-highlight/main.js --bundle --platform=node --outfile=plugins/gatsby-remark-highlight/index.js && jest"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "1.2.35",
-    "@fortawesome/free-solid-svg-icons": "5.15.3",
+    "@fortawesome/fontawesome-svg-core": "1.2.36",
+    "@fortawesome/free-solid-svg-icons": "5.15.4",
     "@fortawesome/react-fontawesome": "0.1.15",
     "katex": "0.13.13",
     "modern-normalize": "1.1.0",
