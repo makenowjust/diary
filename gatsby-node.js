@@ -2,7 +2,7 @@ const path = require('path');
 
 const {createFilePath} = require(`gatsby-source-filesystem`);
 
-const markdown2text = require('./src/utils/markdown-to-text');
+const markdown2text = require('./src/utils/markdown-to-text').default;
 
 const POSTS_PER_LIST_PAGE = 20;
 

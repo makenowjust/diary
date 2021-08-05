@@ -7,7 +7,7 @@ module.exports = {
   },
   testPathIgnorePatterns: ['node_modules', '.cache'],
   transformIgnorePatterns: [
-    'node_modules/(?!.*(?:gatsby|react-syntax-highlighter|strip-markdown)/)',
+    'src/utils/markdown-to-text.js$|node_modules/(?!.*(?:gatsby|react-syntax-highlighter)/)',
   ],
   globals: {
     __PATH_PREFIX__: '',

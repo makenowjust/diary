@@ -8,3 +8,4 @@ public/
 
 plugins/gatsby-remark-embedly/index.js
 plugins/gatsby-remark-highlight/index.js
+src/utils/markdown-to-text.js
