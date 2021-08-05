@@ -41674,13 +41674,7 @@ var main_default = ({ markdownAST }) => {
     }
     try {
       data.hChildren = lowlight.highlight(lang, value).children;
-      console.log();
-      console.log([data.hChildren]);
-      console.log();
-    } catch (error) {
-      console.log();
-      console.log(error);
-      console.log();
+    } catch {
       return;
     }
     data.hProperties = data.hProperties || {};
