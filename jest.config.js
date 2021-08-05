@@ -6,7 +6,9 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
   },
   testPathIgnorePatterns: ['node_modules', '.cache'],
-  transformIgnorePatterns: ['node_modules/(?!.*(?:gatsby|react-syntax-highlighter)/)'],
+  transformIgnorePatterns: [
+    'node_modules/(?!.*(?:gatsby|react-syntax-highlighter|strip-markdown)/)',
+  ],
   globals: {
     __PATH_PREFIX__: '',
   },
