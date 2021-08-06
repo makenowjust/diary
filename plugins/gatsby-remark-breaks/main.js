@@ -1,4 +1,4 @@
-const breaks = require('remark-breaks');
+import breaks from 'remark-breaks';
 
 module.exports = ({markdownAST}) => {
   breaks()(markdownAST);

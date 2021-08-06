@@ -6,6 +6,7 @@ node_modules/
 public/
 .cache/
 
+plugins/gatsby-remark-breaks/index.js
 plugins/gatsby-remark-embedly/index.js
 plugins/gatsby-remark-highlight/index.js
 src/utils/markdown-to-text.js
