@@ -5,13 +5,13 @@ specifiers:
   '@fortawesome/fontawesome-svg-core': 1.2.36
   '@fortawesome/free-solid-svg-icons': 5.15.4
   '@fortawesome/react-fontawesome': 0.1.15
-  '@storybook/addon-actions': ^6.3.7
-  '@storybook/addon-essentials': ^6.3.7
-  '@storybook/addon-links': ^6.3.7
-  '@storybook/addon-storyshots': ^6.3.7
-  '@storybook/builder-webpack5': ^6.3.7
-  '@storybook/manager-webpack5': ^6.3.7
-  '@storybook/react': ^6.3.7
+  '@storybook/addon-actions': 6.3.7
+  '@storybook/addon-essentials': 6.3.7
+  '@storybook/addon-links': 6.3.7
+  '@storybook/addon-storyshots': 6.3.7
+  '@storybook/builder-webpack5': 6.3.7
+  '@storybook/manager-webpack5': 6.3.7
+  '@storybook/react': 6.3.7
   algoliasearch: 4.10.3
   babel-eslint: 10.1.0
   babel-jest: 27.0.6
