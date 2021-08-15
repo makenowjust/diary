@@ -7,7 +7,7 @@ module.exports = {
   },
   testPathIgnorePatterns: ['node_modules', '.cache'],
   transformIgnorePatterns: [
-    'src/utils/markdown-to-text.js$|node_modules/(?!.*(?:gatsby|react-syntax-highlighter)/)',
+    'src/utils/markdown-to-text.js$|node_modules/(?!.*(?:bail|character-entities|is-plain-obj|gatsby|longest-streak|mdast.*|micromark.*?|parse-entities|react-syntax-highlighter|trough|remark.*|unified.*|unist.*|vfile.*|zwitch)/)',
   ],
   globals: {
     __PATH_PREFIX__: '',
