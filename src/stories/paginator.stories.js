@@ -1,9 +1,26 @@
 import React from 'react';
-import {storiesOf} from '@storybook/react';
 
 import Paginator from '../components/paginator';
 
-storiesOf('Paginator', module)
-  .add('prev only', () => <Paginator prev="/prev" />)
-  .add('next only', () => <Paginator next="/next" />)
-  .add('prev & next', () => <Paginator prev="/prev" next="/next" />);
+export default {
+  title: 'Paginator',
+  component: Paginator,
+};
+
+const Template = args => <Paginator {...args} />;
+
+export const PrevOnly = Template.bind({});
+PrevOnly.args = {
+  prev: '/prev',
+};
+
+export const NextOnly = Template.bind({});
+NextOnly.args = {
+  next: '/next',
+};
+
+export const PrevAndNext = Template.bind({});
+PrevAndNext.args = {
+  prev: '/prev',
+  next: '/next',
+};
