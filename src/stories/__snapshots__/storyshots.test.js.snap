@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Footer full 1`] = `
+exports[`Storyshots Footer Complete 1`] = `
 <footer>
   <p>
     © 
@@ -20,7 +20,7 @@ exports[`Storyshots Footer full 1`] = `
 </footer>
 `;
 
-exports[`Storyshots Header full 1`] = `
+exports[`Storyshots Header Complete 1`] = `
 <header>
   <div>
     <div>
@@ -2755,7 +2755,7 @@ exports[`Storyshots Header full 1`] = `
 </header>
 `;
 
-exports[`Storyshots Lawn empty 1`] = `
+exports[`Storyshots Lawn Empty 1`] = `
 Array [
   <div>
     <svg
@@ -5424,7 +5424,7 @@ Array [
 ]
 `;
 
-exports[`Storyshots Lawn random 1`] = `
+exports[`Storyshots Lawn Random 1`] = `
 Array [
   <div>
     <svg
@@ -9058,7 +9058,7 @@ Array [
 ]
 `;
 
-exports[`Storyshots Lawn today 1`] = `
+exports[`Storyshots Lawn Today 1`] = `
 Array [
   <div>
     <svg
@@ -11732,7 +11732,7 @@ Array [
 ]
 `;
 
-exports[`Storyshots Paginator next only 1`] = `
+exports[`Storyshots Paginator Next Only 1`] = `
 <div>
   <a
     href="/next"
@@ -11744,7 +11744,7 @@ exports[`Storyshots Paginator next only 1`] = `
 </div>
 `;
 
-exports[`Storyshots Paginator prev & next 1`] = `
+exports[`Storyshots Paginator Prev And Next 1`] = `
 <div>
   <a
     href="/prev"
@@ -11764,7 +11764,7 @@ exports[`Storyshots Paginator prev & next 1`] = `
 </div>
 `;
 
-exports[`Storyshots Paginator prev only 1`] = `
+exports[`Storyshots Paginator Prev Only 1`] = `
 <div>
   <a
     href="/prev"
