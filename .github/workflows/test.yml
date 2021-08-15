@@ -20,5 +20,5 @@ jobs:
         with:
           version: 6.12.1
           run_install: true
-      - run: pnpm run lint
       - run: pnpm run test
+      - run: pnpm run lint
