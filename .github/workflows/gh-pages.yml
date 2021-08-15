@@ -12,17 +12,20 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: 14.7.0
+          node-version: 16.6.2
       - uses: actions/cache@v2
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-node-
-      - run: npm ci
+            ${{ runner.os }}-
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.12.1
+          run_install: true
       - run: |
           set -eux
-          npm run build
+          pnpm run build
           touch public/.nojekyll
         env:
           ALGOLIA_APP_ID: N8H0FCYD7M

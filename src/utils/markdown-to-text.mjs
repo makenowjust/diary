@@ -1,4 +1,4 @@
-import remark from 'remark';
+import {remark} from 'remark';
 import strip from 'strip-markdown';
 
 const processor = remark().use(strip);
