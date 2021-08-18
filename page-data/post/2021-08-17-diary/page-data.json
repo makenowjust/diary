@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-post-js","path":"/post/2021-08-17-diary/","result":{"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>何も分からん</h2>\n<p>何も分からん、と言いながらグラフ理論をやっている。<br>\n普通に難しい。</p>","fields":{"date":"2021-08-17"},"frontmatter":{"title":"何も分からんって言っている"},"excerpt":"やったこと 何も分からん 何も分からん、と言いながらグラフ理論をやっている。 普通に難しい。"},"prev":null,"next":{"fields":{"date":"2021-08-16","slug":"/post/2021-08-16-diary/"},"frontmatter":{"title":"シャニやってた"}}},"pageContext":{"slug":"/post/2021-08-17-diary/","prevSlug":null,"nextSlug":"/post/2021-08-16-diary/"}},"staticQueryHashes":["530032413"]}
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-08-17-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>何も分からん</h2>\n<p>何も分からん、と言いながらグラフ理論をやっている。<br>\n普通に難しい。</p>","fields":{"date":"2021-08-17"},"frontmatter":{"title":"何も分からんって言っている"},"excerpt":"やったこと 何も分からん 何も分からん、と言いながらグラフ理論をやっている。 普通に難しい。"},"prev":null,"next":{"fields":{"date":"2021-08-16","slug":"/post/2021-08-16-diary/"},"frontmatter":{"title":"シャニやってた"}}},"pageContext":{"slug":"/post/2021-08-17-diary/","prevSlug":null,"nextSlug":"/post/2021-08-16-diary/"}},
+    "staticQueryHashes": ["530032413"]}
