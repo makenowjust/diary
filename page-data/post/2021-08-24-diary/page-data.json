@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-08-24-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>kube してる</h2>\n<p>k8s やっている。<br>\n何度やっても、これを管理するのもそれなりに大変だよな、と思う。</p>\n<p>それ以外にも Windows での環境のセットアップをしたり、色々と大変だった。<br>\nWindows なんも分からんが。<br>\nどうなってるんだ。</p>","fields":{"date":"2021-08-24"},"frontmatter":{"title":"kube してる"},"excerpt":"やったこと kube してる k8s やっている。 何度やっても、これを管理するのもそれなりに大変だよな、と思う。 それ以外にも Windows での環境のセットアップをしたり、色々と大変だった。 Windows なんも分からんが。 どうなってるんだ。"},"prev":{"fields":{"date":"2021-08-25","slug":"/post/2021-08-25-diary/"},"frontmatter":{"title":"正則言語を学ぶ"}},"next":{"fields":{"date":"2021-08-23","slug":"/post/2021-08-23-diary/"},"frontmatter":{"title":"インターンはじまり"}}},"pageContext":{"slug":"/post/2021-08-24-diary/","prevSlug":"/post/2021-08-25-diary/","nextSlug":"/post/2021-08-23-diary/"}},
+    "staticQueryHashes": ["530032413"]}

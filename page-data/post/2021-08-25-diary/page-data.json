@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-08-25-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>正則言語</h2>\n<p>ひさしぶりにしっかりと勉強していた。<br>\n色々と面白い言語が正則であることが示せて面白いな。</p>\n<p>それはそうと色々と迫ってきていてまずい。<br>\nやっていかねば。</p>","fields":{"date":"2021-08-25"},"frontmatter":{"title":"正則言語を学ぶ"},"excerpt":"やったこと 正則言語 ひさしぶりにしっかりと勉強していた。 色々と面白い言語が正則であることが示せて面白いな。 それはそうと色々と迫ってきていてまずい。 やっていかねば。"},"prev":{"fields":{"date":"2021-08-26","slug":"/post/2021-08-26-diary/"},"frontmatter":{"title":"面接だった"}},"next":{"fields":{"date":"2021-08-24","slug":"/post/2021-08-24-diary/"},"frontmatter":{"title":"kube してる"}}},"pageContext":{"slug":"/post/2021-08-25-diary/","prevSlug":"/post/2021-08-26-diary/","nextSlug":"/post/2021-08-24-diary/"}},
+    "staticQueryHashes": ["530032413"]}
