@@ -19,7 +19,7 @@
     "@fortawesome/fontawesome-svg-core": "1.2.36",
     "@fortawesome/free-solid-svg-icons": "5.15.4",
     "@fortawesome/react-fontawesome": "0.1.15",
-    "katex": "0.13.13",
+    "katex": "0.13.16",
     "modern-normalize": "1.1.0",
     "prop-types": "15.7.2",
     "react": "17.0.2",
