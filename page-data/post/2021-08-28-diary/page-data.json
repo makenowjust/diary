@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-08-28-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>グラブル</h2>\n<p>なんとなくグラブルをやっていた。<br>\nなぜと聞かれると困る。</p>\n<p>とりあえず島HARDを回して上限解放素材を稼ごう。</p>","fields":{"date":"2021-08-28"},"frontmatter":{"title":"グラブルやってた"},"excerpt":"やったこと グラブル なんとなくグラブルをやっていた。 なぜと聞かれると困る。 とりあえず島HARDを回して上限解放素材を稼ごう。"},"prev":null,"next":{"fields":{"date":"2021-08-27","slug":"/post/2021-08-27-diary/"},"frontmatter":{"title":"おつかれ金曜日"}}},"pageContext":{"slug":"/post/2021-08-28-diary/","prevSlug":null,"nextSlug":"/post/2021-08-27-diary/"}},
+    "staticQueryHashes": ["530032413"]}
