@@ -29,7 +29,7 @@ specifiers:
   eslint-plugin-jest: 24.4.0
   eslint-plugin-jsx-a11y: 6.4.1
   eslint-plugin-promise: 5.1.0
-  eslint-plugin-react: 7.25.0
+  eslint-plugin-react: 7.25.1
   eslint-plugin-react-hooks: 4.2.0
   eslint-plugin-unicorn: 35.0.0
   gatsby: 3.12.1
@@ -116,13 +116,13 @@ devDependencies:
   esbuild: 0.12.24
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
-  eslint-config-xo-react: 0.25.0_34cd3168eeae4de23db8343b5dfd9fdd
+  eslint-config-xo-react: 0.25.0_cf053d4ca6fd1617a5247de768e0eb43
   eslint-config-xo-space: 0.29.0_eslint@7.32.0
   eslint-plugin-import: 2.24.2_eslint@7.32.0
   eslint-plugin-jest: 24.4.0_eslint@7.32.0+typescript@4.4.2
   eslint-plugin-jsx-a11y: 6.4.1_eslint@7.32.0
   eslint-plugin-promise: 5.1.0_eslint@7.32.0
-  eslint-plugin-react: 7.25.0_eslint@7.32.0
+  eslint-plugin-react: 7.25.1_eslint@7.32.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.32.0
   eslint-plugin-unicorn: 35.0.0_eslint@7.32.0
   gatsby: 3.12.1_b81c0ebcf47f616b912092e7c9b10353
@@ -8316,7 +8316,7 @@ packages:
       eslint-plugin-react-hooks: 4.2.0_eslint@7.32.0
     dev: true
 
-  /eslint-config-xo-react/0.25.0_34cd3168eeae4de23db8343b5dfd9fdd:
+  /eslint-config-xo-react/0.25.0_cf053d4ca6fd1617a5247de768e0eb43:
     resolution: {integrity: sha512-YpABFxnoATAYtxsZQChZEbOkWqzCtcQDRdiUqHhLgG7hzbAEzPDmsRUWnTP8oTVLVFWrbgdf913b8kQJaR1cBA==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -8325,7 +8325,7 @@ packages:
       eslint-plugin-react-hooks: '>=4.2.0'
     dependencies:
       eslint: 7.32.0
-      eslint-plugin-react: 7.25.0_eslint@7.32.0
+      eslint-plugin-react: 7.25.1_eslint@7.32.0
       eslint-plugin-react-hooks: 4.2.0_eslint@7.32.0
     dev: true
 
@@ -8493,8 +8493,8 @@ packages:
       string.prototype.matchall: 4.0.5
     dev: true
 
-  /eslint-plugin-react/7.25.0_eslint@7.32.0:
-    resolution: {integrity: sha512-bZL+HeB+Qaimb4ryOc+OYYOX0XnOr6FX30ZXkzL8iSJA3tATTtZ1YgYyjK3jGvVDcZMejfUaeS/5wKDfTgyfVw==}
+  /eslint-plugin-react/7.25.1_eslint@7.32.0:
+    resolution: {integrity: sha512-P4j9K1dHoFXxDNP05AtixcJEvIT6ht8FhYKsrkY0MPCPaUMYijhpWwNiRDZVtA8KFuZOkGSeft6QwH8KuVpJug==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
