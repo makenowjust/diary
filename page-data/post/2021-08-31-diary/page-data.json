@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-08-31-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>プリコネ</h2>\n<p>無料10連最終日で引いた。<br>\n感謝。</p>\n<p><a href=\"https://mobile.twitter.com/make_now_just/status/1432865578335670276\" class=\"embedly-card\">https://mobile.twitter.com/make_now_just/status/1432865578335670276</a></p>\n<p>プリコネに対するやる気は低めだけど許して。</p>\n<h2>疲れ</h2>\n<p>なんでか分からないけど体調がよくない。<br>\n睡眠を取るべきか‥‥。</p>","fields":{"date":"2021-08-31"},"frontmatter":{"title":"体調悪め"},"excerpt":"やったこと プリコネ 無料10連最終日で引いた。 感謝。 https://mobile.twitter.com/make_now_just/status/1432865578335670276 プリコネに対するやる気は低めだけど許して。 疲れ なんでか分からないけど体調がよくな…"},"prev":null,"next":{"fields":{"date":"2021-08-30","slug":"/post/2021-08-30-diary/"},"frontmatter":{"title":"blog の更新をしてた"}}},"pageContext":{"slug":"/post/2021-08-31-diary/","prevSlug":null,"nextSlug":"/post/2021-08-30-diary/"}},
+    "staticQueryHashes": ["530032413"]}

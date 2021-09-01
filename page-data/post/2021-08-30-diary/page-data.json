@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-08-30-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>blog</h2>\n<p>MakeNowJust-Labo/blog の方の依存関係などの更新をやっていた。<br>\nレイアウトが壊れている気がするのでどうにかしたいが時間が無い。</p>\n<p>記事も書かねば‥‥。</p>\n<h2>ゲーム</h2>\n<p>心に多少の余裕があるので太鼓の達人のフルコン埋めをしていた。<br>\n星7は終わったので星8をやっていく。難しい‥‥。</p>\n<h2>ウマ娘</h2>\n<p>フルアーマーフクキタルが実装されたけど全く引けなかったのでモチベが無くなった。<br>\nそれはそうとアオハル杯がはじまったのでやっていく。<br>\nやる気出ないな‥‥。</p>","fields":{"date":"2021-08-30"},"frontmatter":{"title":"blog の更新をしてた"},"excerpt":"やったこと blog MakeNowJust-Labo/blog の方の依存関係などの更新をやっていた。 レイアウトが壊れている気がするのでどうにかしたいが時間が無い。 記事も書かねば‥‥。 ゲーム 心に多少の余裕があるので太鼓の達人のフルコン埋めをしていた。 星7は終わったの…"},"prev":{"fields":{"date":"2021-08-31","slug":"/post/2021-08-31-diary/"},"frontmatter":{"title":"体調悪め"}},"next":{"fields":{"date":"2021-08-29","slug":"/post/2021-08-29-diary/"},"frontmatter":{"title":"寿司を回した"}}},"pageContext":{"slug":"/post/2021-08-30-diary/","prevSlug":"/post/2021-08-31-diary/","nextSlug":"/post/2021-08-29-diary/"}},
+    "staticQueryHashes": ["530032413"]}
