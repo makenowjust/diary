@@ -46,7 +46,7 @@ specifiers:
   gatsby-transformer-remark: 4.10.0
   identity-obj-proxy: 3.0.0
   jest: 27.1.0
-  katex: 0.13.17
+  katex: 0.13.18
   lowlight: 2.2.1
   modern-normalize: 1.1.0
   prettier: 2.3.2
@@ -85,7 +85,7 @@ dependencies:
   '@fortawesome/fontawesome-svg-core': 1.2.36
   '@fortawesome/free-solid-svg-icons': 5.15.4
   '@fortawesome/react-fontawesome': 0.1.15_f515edce028694561ceb456e3dba224c
-  katex: 0.13.17
+  katex: 0.13.18
   modern-normalize: 1.1.0
   prop-types: 15.7.2
   react: 17.0.2
@@ -134,7 +134,7 @@ devDependencies:
   gatsby-plugin-remove-serviceworker: 1.0.0
   gatsby-plugin-sass: 4.13.0_b95c6668e13a9469ac71413956ce2d58
   gatsby-plugin-sitemap: 4.9.0_51a40359d32ce07244710772c602390b
-  gatsby-remark-katex: 5.10.0_gatsby@3.13.0+katex@0.13.17
+  gatsby-remark-katex: 5.10.0_gatsby@3.13.0+katex@0.13.18
   gatsby-source-filesystem: 3.13.0_gatsby@3.13.0
   gatsby-transformer-remark: 4.10.0_gatsby@3.13.0
   identity-obj-proxy: 3.0.0
@@ -11034,7 +11034,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /gatsby-remark-katex/5.10.0_gatsby@3.13.0+katex@0.13.17:
+  /gatsby-remark-katex/5.10.0_gatsby@3.13.0+katex@0.13.18:
     resolution: {integrity: sha512-K/WxPs69NaLsNLp+AgFO2SGgzBlgvWv931zuQyYz0rtEBSctCMva6dCfC0NbKyEXHsnO9tp8eE23YFTl2V+sLA==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -11043,7 +11043,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.3
       gatsby: 3.13.0_b81c0ebcf47f616b912092e7c9b10353
-      katex: 0.13.17
+      katex: 0.13.18
       rehype-parse: 7.0.1
       remark-math: 4.0.0
       unified: 9.2.2
@@ -13852,8 +13852,8 @@ packages:
       commander: 2.20.3
     dev: true
 
-  /katex/0.13.17:
-    resolution: {integrity: sha512-Mkxj7uXs9xBRBIWGhcvf0K2c1DAbPqETjEebjur04fqJ4UXfj1ky9vrgkNJIwJJ4J4owS69vAqgBkKyr4Lh0eQ==}
+  /katex/0.13.18:
+    resolution: {integrity: sha512-a3dC4NSVSDU3O1WZbTnOiA8rVNJ2lSiomOl0kmckCIGObccIHXof7gAseIY0o1gjEspe+34ZeSEX2D1ChFKIvA==}
     hasBin: true
     dependencies:
       commander: 6.2.1
