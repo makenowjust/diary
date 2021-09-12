@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-12-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>recheck</h2>\n<p>後方参照の展開に着手していた。<br>\n思ったよりも考察に穴がある気がする‥‥というか、後読みの向きの切り替えが面倒。<br>\n後読み中の後方参照なんて現実的にはほとんどないんだから、とりあえず実装しなくてもいいような気もする。</p>\n<p>とりあえず駄目っぽいので、一旦仕切り直そう。</p>\n<p>recheck を使っている人もいるみたいだし、積極的に良くしていきたい。</p>\n<h2>ワクチン</h2>\n<p>昨日は結構腕の痛みもあったのだけど、流石に痛みは引いてきた。<br>\nやっていかねば。</p>","fields":{"date":"2021-09-12"},"frontmatter":{"title":"後方参照なんも分からん"},"excerpt":"やったこと recheck 後方参照の展開に着手していた。 思ったよりも考察に穴がある気がする‥‥というか、後読みの向きの切り替えが面倒。 後読み中の後方参照なんて現実的にはほとんどないんだから、とりあえず実装しなくてもいいような気もする。 とりあえず駄目っぽいので、一旦仕切り…"},"prev":null,"next":{"fields":{"date":"2021-09-11","slug":"/post/2021-09-11-diary/"},"frontmatter":{"title":"ポプマスとかシャニとか"}}},"pageContext":{"slug":"/post/2021-09-12-diary/","prevSlug":null,"nextSlug":"/post/2021-09-11-diary/"}},
+    "staticQueryHashes": ["530032413"]}
