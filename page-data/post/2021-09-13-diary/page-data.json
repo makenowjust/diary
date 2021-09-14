@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-13-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>デレステ</h2>\n<p>なんかやたらまゆが出た。<br>\nまあそういうのもアリ。</p>\n<p><a href=\"https://twitter.com/make_now_just/status/1437072016733999109\" class=\"embedly-card\">https://twitter.com/make_now_just/status/1437072016733999109</a></p>\n<h2>大学院</h2>\n<p>合格していた。<br>\nやっていきます。</p>","fields":{"date":"2021-09-13"},"frontmatter":{"title":"やたらまゆを引いた"},"excerpt":"やったこと デレステ なんかやたらまゆが出た。 まあそういうのもアリ。 https://twitter.com/make_now_just/status/1437072016733999109 大学院 合格していた。 やっていきます。"},"prev":null,"next":{"fields":{"date":"2021-09-12","slug":"/post/2021-09-12-diary/"},"frontmatter":{"title":"後方参照なんも分からん"}}},"pageContext":{"slug":"/post/2021-09-13-diary/","prevSlug":null,"nextSlug":"/post/2021-09-12-diary/"}},
+    "staticQueryHashes": ["530032413"]}
