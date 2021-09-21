@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-14-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>シャニ</h2>\n<p>イベントのために True 回収していた。<br>\nTrue 回収できるのは一通りやりたい。</p>\n<h2>風邪気味</h2>\n<p>ワクチンのせいなのかよく分からないけど風邪気味っぽい。<br>\n大人しく休もう。</p>","fields":{"date":"2021-09-14"},"frontmatter":{"title":"風邪気味"},"excerpt":"やったこと シャニ イベントのために True 回収していた。 True 回収できるのは一通りやりたい。 風邪気味 ワクチンのせいなのかよく分からないけど風邪気味っぽい。 大人しく休もう。"},"prev":{"fields":{"date":"2021-09-15","slug":"/post/2021-09-15-diary/"},"frontmatter":{"title":"あいかわらずシャニ"}},"next":{"fields":{"date":"2021-09-13","slug":"/post/2021-09-13-diary/"},"frontmatter":{"title":"やたらまゆを引いた"}}},"pageContext":{"slug":"/post/2021-09-14-diary/","prevSlug":"/post/2021-09-15-diary/","nextSlug":"/post/2021-09-13-diary/"}},
+    "staticQueryHashes": ["530032413"]}

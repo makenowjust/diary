@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-17-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>ミリシタ</h2>\n<p>ダイヤモンドクラリティイベント開始。<br>\n予想以上にしんどいかもしれない。<br>\nとりあえず全員の枠を解放しよう。<br>\nやっていくぞ。</p>\n<h2>ロード・エルメロイII世の事件簿</h2>\n<p>なんとなく全話観た。<br>\nそこそこ面白かったけど、キャラクターが雑に多くて分かりづらいなぁ、とも思う。<br>\nあと面白さの半分くらいが Zero と stay night の話があるからな気もする。</p>\n<p>それはそうとグレイがかわいい。<br>\nそれだけで満足。</p>","fields":{"date":"2021-09-17"},"frontmatter":{"title":"ダイヤモンドクラリティイベント開始"},"excerpt":"やったこと ミリシタ ダイヤモンドクラリティイベント開始。 予想以上にしんどいかもしれない。 とりあえず全員の枠を解放しよう。 やっていくぞ。 ロード・エルメロイII世の事件簿 なんとなく全話観た。 そこそこ面白かったけど、キャラクターが雑に多くて分かりづらいなぁ、とも思う。 …"},"prev":{"fields":{"date":"2021-09-18","slug":"/post/2021-09-18-diary/"},"frontmatter":{"title":"ひたすら露天掘りしてる"}},"next":{"fields":{"date":"2021-09-16","slug":"/post/2021-09-16-diary/"},"frontmatter":{"title":"ミリシタの次イベ‥‥"}}},"pageContext":{"slug":"/post/2021-09-17-diary/","prevSlug":"/post/2021-09-18-diary/","nextSlug":"/post/2021-09-16-diary/"}},
+    "staticQueryHashes": ["530032413"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-16-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>ミリシタ</h2>\n<p>次イベントの詳細が発表された。<br>\nなんか毎日10回以上はライブをやらないといけなさそう。<br>\nヤバい。</p>\n<p>あとミリ女ファイトも追加された。<br>\n暇なときにやろう。</p>\n<h2>マイクラ</h2>\n<p>魔女の家を見つけたのでウィッチトラップを作っていた。<br>\n適当にクロック回路で床を動かしたら、沸いた瞬間に落ちていくウィッチが生じた。<br>\n面白い。</p>\n<p>でも周りの沸き潰しができてないせいで、効率はそんな良くなさそう。<br>\n沸き潰ししなければ。</p>","fields":{"date":"2021-09-16"},"frontmatter":{"title":"ミリシタの次イベ‥‥"},"excerpt":"やったこと ミリシタ 次イベントの詳細が発表された。 なんか毎日10回以上はライブをやらないといけなさそう。 ヤバい。 あとミリ女ファイトも追加された。 暇なときにやろう。 マイクラ 魔女の家を見つけたのでウィッチトラップを作っていた。 適当にクロック回路で床を動かしたら、沸い…"},"prev":{"fields":{"date":"2021-09-17","slug":"/post/2021-09-17-diary/"},"frontmatter":{"title":"ダイヤモンドクラリティイベント開始"}},"next":{"fields":{"date":"2021-09-15","slug":"/post/2021-09-15-diary/"},"frontmatter":{"title":"あいかわらずシャニ"}}},"pageContext":{"slug":"/post/2021-09-16-diary/","prevSlug":"/post/2021-09-17-diary/","nextSlug":"/post/2021-09-15-diary/"}},
+    "staticQueryHashes": ["530032413"]}
