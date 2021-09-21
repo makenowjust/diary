@@ -63,7 +63,7 @@ specifiers:
   sass: 1.42.0
   sass-loader: 12.1.0
   strip-markdown: 5.0.0
-  style-loader: 3.2.1
+  style-loader: 3.3.0
   stylelint: 13.13.1
   stylelint-config-css-modules: 2.2.0
   stylelint-config-prettier: 8.0.2
@@ -149,7 +149,7 @@ devDependencies:
   sass: 1.42.0
   sass-loader: 12.1.0_sass@1.42.0+webpack@5.53.0
   strip-markdown: 5.0.0
-  style-loader: 3.2.1_webpack@5.53.0
+  style-loader: 3.3.0_webpack@5.53.0
   stylelint: 13.13.1
   stylelint-config-css-modules: 2.2.0_stylelint@13.13.1
   stylelint-config-prettier: 8.0.2_stylelint@13.13.1
@@ -19262,8 +19262,8 @@ packages:
       webpack: 5.53.0
     dev: true
 
-  /style-loader/3.2.1_webpack@5.53.0:
-    resolution: {integrity: sha512-1k9ZosJCRFaRbY6hH49JFlRB0fVSbmnyq1iTPjNxUmGVjBNEmwrrHPenhlp+Lgo51BojHSf6pl2FcqYaN3PfVg==}
+  /style-loader/3.3.0_webpack@5.53.0:
+    resolution: {integrity: sha512-szANub7ksJtQioJYtpbWwh1hUl99uK15n5HDlikeCRil/zYMZgSxucHddyF/4A3qJMUiAjPhFowrrQuNMA7jwQ==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0

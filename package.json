@@ -83,7 +83,7 @@
     "sass": "1.42.0",
     "sass-loader": "12.1.0",
     "strip-markdown": "5.0.0",
-    "style-loader": "3.2.1",
+    "style-loader": "3.3.0",
     "stylelint": "13.13.1",
     "stylelint-config-css-modules": "2.2.0",
     "stylelint-config-prettier": "8.0.2",
