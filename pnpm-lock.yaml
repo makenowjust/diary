@@ -78,7 +78,7 @@ specifiers:
   typeface-raleway: 1.1.13
   typescript: 4.4.3
   unist-util-is: 5.1.1
-  unist-util-visit: 4.0.0
+  unist-util-visit: 4.1.0
   webpack: 5.53.0
 
 dependencies:
@@ -161,7 +161,7 @@ devDependencies:
   stylelint-scss: 3.21.0_stylelint@13.13.1
   typescript: 4.4.3
   unist-util-is: 5.1.1
-  unist-util-visit: 4.0.0
+  unist-util-visit: 4.1.0
   webpack: 5.53.0
 
 packages:
@@ -20489,6 +20489,14 @@ packages:
 
   /unist-util-visit/4.0.0:
     resolution: {integrity: sha512-3HWTvrtU10/E7qgPznBfiOyG0TXj9W8c1GSfaI8L9GkaG1pLePiQPZ7E35a0R3ToQ/zcy4Im6aZ9WBgOTnv1MQ==}
+    dependencies:
+      '@types/unist': 2.0.6
+      unist-util-is: 5.1.1
+      unist-util-visit-parents: 5.0.0
+    dev: true
+
+  /unist-util-visit/4.1.0:
+    resolution: {integrity: sha512-n7lyhFKJfVZ9MnKtqbsqkQEk5P1KShj0+//V7mAcoI6bpbUjh3C/OG8HVD+pBihfh6Ovl01m8dkcv9HNqYajmQ==}
     dependencies:
       '@types/unist': 2.0.6
       unist-util-is: 5.1.1
