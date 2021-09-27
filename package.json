@@ -73,7 +73,7 @@
     "gatsby-transformer-remark": "4.11.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.2.2",
-    "lowlight": "2.2.1",
+    "lowlight": "2.3.0",
     "prettier": "2.4.1",
     "prettier-package-json": "2.6.0",
     "react-test-renderer": "17.0.2",
