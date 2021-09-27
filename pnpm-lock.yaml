@@ -47,7 +47,7 @@ specifiers:
   identity-obj-proxy: 3.0.0
   jest: 27.2.2
   katex: 0.13.18
-  lowlight: 2.2.1
+  lowlight: 2.3.0
   modern-normalize: 1.1.0
   prettier: 2.4.1
   prettier-package-json: 2.6.0
@@ -139,7 +139,7 @@ devDependencies:
   gatsby-transformer-remark: 4.11.0_gatsby@3.14.0
   identity-obj-proxy: 3.0.0
   jest: 27.2.2
-  lowlight: 2.2.1
+  lowlight: 2.3.0
   prettier: 2.4.1
   prettier-package-json: 2.6.0
   react-test-renderer: 17.0.2_react@17.0.2
@@ -14624,8 +14624,8 @@ packages:
       highlight.js: 10.7.3
     dev: true
 
-  /lowlight/2.2.1:
-    resolution: {integrity: sha512-KDl2wTuCDk1+aJx/gfi4FPAxRNZ4fDa1zHQ0zpSjEf6qxmBD+1Pk6KriHikaQBshbS9gMIkZ/XCDT6IKAEKDsg==}
+  /lowlight/2.3.0:
+    resolution: {integrity: sha512-jt5hnNR6l1dITmu905cYTrM7YywF38Ae+CoGCHegLPmPL+5mmiwlH6Na3aSTW5Ge11z4M06Pn2aOz2pdG3RFSA==}
     dependencies:
       '@types/hast': 2.3.2
       fault: 2.0.0
