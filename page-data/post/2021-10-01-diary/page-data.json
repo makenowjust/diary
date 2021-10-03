@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-10-01-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>ポプマス</h2>\n<p>ようやくロコが追加されたので早速ガシャを回した。<br>\n200連くらい回した気がするけどちゃんと引けて良かった。<br>\nなんかケイトの衣装はいっぱい引いた気がする。<br>\nまいたるはダメだった。</p>\n<p>ポプマスのガシャもきまぐれだなぁ。</p>\n<p>また無料10連やってほしい。</p>","fields":{"date":"2021-10-01"},"frontmatter":{"title":"ポプマスにロコ追加"},"excerpt":"やったこと ポプマス ようやくロコが追加されたので早速ガシャを回した。 200連くらい回した気がするけどちゃんと引けて良かった。 なんかケイトの衣装はいっぱい引いた気がする。 まいたるはダメだった。 ポプマスのガシャもきまぐれだなぁ。 また無料10連やってほしい。"},"prev":{"fields":{"date":"2021-10-02","slug":"/post/2021-10-02-diary/"},"frontmatter":{"title":"TT をクリーパー用に改造していた"}},"next":{"fields":{"date":"2021-09-30","slug":"/post/2021-09-30-diary/"},"frontmatter":{"title":"灯織の限定追加"}}},"pageContext":{"slug":"/post/2021-10-01-diary/","prevSlug":"/post/2021-10-02-diary/","nextSlug":"/post/2021-09-30-diary/"}},
+    "staticQueryHashes": ["530032413"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-22-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>ミリシタ</h2>\n<p>このままだとどうやっても間に合わない気がしてきた。<br>\nそしてボーダーが馬鹿高い。当然の成行ではあるが‥‥。</p>\n<p>仕方がない。2Mに切り替えていくか。</p>","fields":{"date":"2021-09-22"},"frontmatter":{"title":"ミリシタのイベントしんどいが"},"excerpt":"やったこと ミリシタ このままだとどうやっても間に合わない気がしてきた。 そしてボーダーが馬鹿高い。当然の成行ではあるが‥‥。 仕方がない。2Mに切り替えていくか。"},"prev":{"fields":{"date":"2021-09-23","slug":"/post/2021-09-23-diary/"},"frontmatter":{"title":"牛焼き器を作った"}},"next":{"fields":{"date":"2021-09-21","slug":"/post/2021-09-21-diary/"},"frontmatter":{"title":"忙しくなってきた"}}},"pageContext":{"slug":"/post/2021-09-22-diary/","prevSlug":"/post/2021-09-23-diary/","nextSlug":"/post/2021-09-21-diary/"}},
+    "staticQueryHashes": ["530032413"]}

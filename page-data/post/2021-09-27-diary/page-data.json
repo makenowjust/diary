@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-09-27-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>マイクラ</h2>\n<p>鯖が安定していない。<br>\nなぜなのか‥‥。Microsoft さんよお。</p>\n<p>露天掘りが永遠に終わらない。</p>","fields":{"date":"2021-09-27"},"frontmatter":{"title":"鯖が不安定"},"excerpt":"やったこと マイクラ 鯖が安定していない。 なぜなのか‥‥。Microsoft さんよお。 露天掘りが永遠に終わらない。"},"prev":{"fields":{"date":"2021-09-28","slug":"/post/2021-09-28-diary/"},"frontmatter":{"title":"アイアンゴーレムトラップを作った"}},"next":{"fields":{"date":"2021-09-26","slug":"/post/2021-09-26-diary/"},"frontmatter":{"title":"プリンセス・プリンシパル一挙"}}},"pageContext":{"slug":"/post/2021-09-27-diary/","prevSlug":"/post/2021-09-28-diary/","nextSlug":"/post/2021-09-26-diary/"}},
+    "staticQueryHashes": ["530032413"]}
