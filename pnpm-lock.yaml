@@ -24,7 +24,7 @@ specifiers:
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-config-xo-react: 0.25.0
-  eslint-config-xo-space: 0.29.0
+  eslint-config-xo-space: 0.30.0
   eslint-plugin-import: 2.24.2
   eslint-plugin-jest: 24.5.0
   eslint-plugin-jsx-a11y: 6.4.1
@@ -117,7 +117,7 @@ devDependencies:
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-config-xo-react: 0.25.0_4aa9e94627c6bd4f2bd53b956d3d8631
-  eslint-config-xo-space: 0.29.0_eslint@7.32.0
+  eslint-config-xo-space: 0.30.0_eslint@7.32.0
   eslint-plugin-import: 2.24.2_eslint@7.32.0
   eslint-plugin-jest: 24.5.0_eslint@7.32.0+typescript@4.4.3
   eslint-plugin-jsx-a11y: 6.4.1_eslint@7.32.0
@@ -10065,18 +10065,18 @@ packages:
       eslint-plugin-react-hooks: 4.2.0_eslint@7.32.0
     dev: true
 
-  /eslint-config-xo-space/0.29.0_eslint@7.32.0:
-    resolution: {integrity: sha512-emUZVHjmzl3I1aO2M/2gEpqa/GHXTl7LF/vQeAX4W+mQIU+2kyqY97FkMnSc2J8Osoq+vCSXCY/HjFUmFIF/Ag==}
+  /eslint-config-xo-space/0.30.0_eslint@7.32.0:
+    resolution: {integrity: sha512-gjzwTFQGFum+vY3K/LOebnOUUfLxiuDa3JjphPXQpQRDrHPZhTmDa72r8fVmu9M4nrIs8rGZI/Pxhl3nFjk/Gw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: '>=7.32.0'
     dependencies:
       eslint: 7.32.0
-      eslint-config-xo: 0.38.0_eslint@7.32.0
+      eslint-config-xo: 0.39.0_eslint@7.32.0
     dev: true
 
-  /eslint-config-xo/0.38.0_eslint@7.32.0:
-    resolution: {integrity: sha512-G2jL+VyfkcZW8GoTmqLsExvrWssBedSoaQQ11vyhflDeT3csMdBVp0On+AVijrRuvgmkWeDwwUL5Rj0qDRHK6g==}
+  /eslint-config-xo/0.39.0_eslint@7.32.0:
+    resolution: {integrity: sha512-QX+ZnQgzy/UtgF8dksIiIBzpYoEKmiL0CmZ8O0Gnby7rGXg8Cny1CXirmHp1zKYIpO7BuTmtWj8eUYOsGr0IGQ==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: '>=7.20.0'
