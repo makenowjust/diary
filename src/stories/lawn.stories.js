@@ -28,7 +28,7 @@ Random.args = (() => {
   const posts = [];
   const localToday = new Date(today);
 
-  /* eslint-disable-next-line unicorn/prefer-math-trunc */
+  /* eslint-disable-next-line unicorn/prefer-math-trunc, no-bitwise */
   let x = localToday.getTime() | 0;
   for (let i = 0; i <= 356; i++) {
     const date = new Date(localToday.getTime());
@@ -38,7 +38,7 @@ Random.args = (() => {
     const d = `${date.getDate()}`.padStart(2, '0');
     const s = `${y}-${m}-${d}`;
 
-    /* eslint-disable-next-line unicorn/prefer-math-trunc */
+    /* eslint-disable-next-line unicorn/prefer-math-trunc, no-bitwise */
     x = (x * 48_271) | 0;
     if (x > 1000) {
       posts.push({
