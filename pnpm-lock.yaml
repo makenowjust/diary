@@ -26,7 +26,7 @@ specifiers:
   eslint-config-xo-react: 0.25.0
   eslint-config-xo-space: 0.30.0
   eslint-plugin-import: 2.24.2
-  eslint-plugin-jest: 24.5.0
+  eslint-plugin-jest: 24.5.2
   eslint-plugin-jsx-a11y: 6.4.1
   eslint-plugin-promise: 5.1.0
   eslint-plugin-react: 7.26.1
@@ -119,13 +119,13 @@ devDependencies:
   eslint-config-xo-react: 0.25.0_4aa9e94627c6bd4f2bd53b956d3d8631
   eslint-config-xo-space: 0.30.0_eslint@7.32.0
   eslint-plugin-import: 2.24.2_eslint@7.32.0
-  eslint-plugin-jest: 24.5.0_eslint@7.32.0+typescript@4.4.3
+  eslint-plugin-jest: 24.5.2_eslint@7.32.0+typescript@4.4.3
   eslint-plugin-jsx-a11y: 6.4.1_eslint@7.32.0
   eslint-plugin-promise: 5.1.0_eslint@7.32.0
   eslint-plugin-react: 7.26.1_eslint@7.32.0
   eslint-plugin-react-hooks: 4.2.0_eslint@7.32.0
   eslint-plugin-unicorn: 36.0.0_eslint@7.32.0
-  gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+  gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
   gatsby-plugin-algolia-search: 0.5.7
   gatsby-plugin-cname: 1.0.0_gatsby@3.14.1
   gatsby-plugin-manifest: 3.14.0_gatsby@3.14.1
@@ -7404,7 +7404,7 @@ packages:
     dependencies:
       '@babel/core': 7.15.5
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       gatsby-core-utils: 2.14.0
     dev: true
 
@@ -10018,7 +10018,7 @@ packages:
       eslint: 7.32.0
     dev: true
 
-  /eslint-config-react-app/6.0.0_6acc6312eca6c76f45e6baf01111c4a4:
+  /eslint-config-react-app/6.0.0_381a81fbaf218513a70999bbbaf4705f:
     resolution: {integrity: sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A==}
     engines: {node: ^10.12.0 || >=12.0.0}
     peerDependencies:
@@ -10046,7 +10046,7 @@ packages:
       eslint: 7.32.0
       eslint-plugin-flowtype: 5.10.0_eslint@7.32.0
       eslint-plugin-import: 2.24.2_eslint@7.32.0
-      eslint-plugin-jest: 24.5.0_eslint@7.32.0+typescript@4.4.3
+      eslint-plugin-jest: 24.5.2_eslint@7.32.0+typescript@4.4.3
       eslint-plugin-jsx-a11y: 6.4.1_eslint@7.32.0
       eslint-plugin-react: 7.26.1_eslint@7.32.0
       eslint-plugin-react-hooks: 4.2.0_eslint@7.32.0
@@ -10153,8 +10153,8 @@ packages:
       tsconfig-paths: 3.11.0
     dev: true
 
-  /eslint-plugin-jest/24.5.0_eslint@7.32.0+typescript@4.4.3:
-    resolution: {integrity: sha512-Cm+XdX7Nms2UXGRnivHFVcM3ZmlKheHvc9VD78iZLO1XcqB59WbVjrMSiesCbHDlToxWjMJDiJMgc1CzFE13Vg==}
+  /eslint-plugin-jest/24.5.2_eslint@7.32.0+typescript@4.4.3:
+    resolution: {integrity: sha512-lrI3sGAyZi513RRmP08sIW241Ti/zMnn/6wbE4ZBhb3M2pJ9ztaZMnSKSKKBUfotVdwqU8W1KtD8ao2/FR8DIg==}
     engines: {node: '>=10'}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>= 4'
@@ -11285,7 +11285,7 @@ packages:
     peerDependencies:
       gatsby: '>2.0.0'
     dependencies:
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
     dev: true
 
   /gatsby-plugin-manifest/3.14.0_gatsby@3.14.1:
@@ -11295,7 +11295,7 @@ packages:
       gatsby: ^3.0.0-next.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       gatsby-core-utils: 2.14.0
       gatsby-plugin-utils: 1.14.0_gatsby@3.14.1
       semver: 7.3.5
@@ -11313,7 +11313,7 @@ packages:
       '@sindresorhus/slugify': 1.1.2
       chokidar: 3.5.2
       fs-exists-cached: 1.0.0
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       gatsby-core-utils: 2.14.0
       gatsby-page-utils: 1.14.0
       gatsby-plugin-utils: 1.14.0_gatsby@3.14.1
@@ -11329,7 +11329,7 @@ packages:
     peerDependencies:
       gatsby: ~2.x.x || ~3.x.x
     dependencies:
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       lodash.get: 4.4.2
       lodash.uniq: 4.5.0
     dev: true
@@ -11342,7 +11342,7 @@ packages:
       react-helmet: ^5.1.3 || ^6.0.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       react-helmet: 6.1.0_react@17.0.2
     dev: true
 
@@ -11358,7 +11358,7 @@ packages:
       sass: ^1.30.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       resolve-url-loader: 3.1.4
       sass: 1.42.1
       sass-loader: 10.2.0_sass@1.42.1+webpack@5.56.0
@@ -11378,7 +11378,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       common-tags: 1.8.0
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       minimatch: 3.0.4
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -11398,7 +11398,7 @@ packages:
       '@babel/preset-typescript': 7.15.0_@babel+core@7.15.5
       '@babel/runtime': 7.15.4
       babel-plugin-remove-graphql-queries: 3.14.0_@babel+core@7.15.5+gatsby@3.14.1
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -11410,7 +11410,7 @@ packages:
       gatsby: ^3.0.0-next.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       joi: 17.4.2
     dev: true
 
@@ -11504,7 +11504,7 @@ packages:
       katex: ^0.13.3
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       katex: 0.13.18
       rehype-parse: 7.0.1
       remark-math: 4.0.0
@@ -11525,7 +11525,7 @@ packages:
       fastq: 1.11.1
       file-type: 16.5.3
       fs-extra: 10.0.0
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       gatsby-core-utils: 2.14.0
       got: 9.6.0
       md5-file: 5.0.0
@@ -11564,7 +11564,7 @@ packages:
       gatsby: ^3.0.0-next.0
     dependencies:
       '@babel/runtime': 7.15.4
-      gatsby: 3.14.1_88a8574bc28c51ca890e9c48e427bbb8
+      gatsby: 3.14.1_f57eda599c8a85640ade5053355432f7
       gatsby-core-utils: 2.14.0
       gray-matter: 4.0.3
       hast-util-raw: 6.1.0
@@ -11600,7 +11600,7 @@ packages:
       - supports-color
     dev: true
 
-  /gatsby/3.14.1_88a8574bc28c51ca890e9c48e427bbb8:
+  /gatsby/3.14.1_f57eda599c8a85640ade5053355432f7:
     resolution: {integrity: sha512-6wt1MDMOfm6Zm8yiS8zDwjkth5spX7RorKKnYNNfZFyD0lztdql9jgAXFCxO0FxRDagDKxxfxj3cYyHHzPlalg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -11658,7 +11658,7 @@ packages:
       devcert: 1.2.0
       dotenv: 8.6.0
       eslint: 7.32.0
-      eslint-config-react-app: 6.0.0_6acc6312eca6c76f45e6baf01111c4a4
+      eslint-config-react-app: 6.0.0_381a81fbaf218513a70999bbbaf4705f
       eslint-plugin-flowtype: 5.10.0_eslint@7.32.0
       eslint-plugin-graphql: 4.0.0_graphql@15.5.1+typescript@4.4.3
       eslint-plugin-import: 2.24.2_eslint@7.32.0
