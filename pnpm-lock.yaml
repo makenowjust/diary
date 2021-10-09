@@ -19,7 +19,7 @@ specifiers:
   babel-plugin-react-docgen: 4.2.1
   babel-plugin-require-context-hook: 1.0.0
   babel-preset-gatsby: 1.14.0
-  css-loader: 6.3.0
+  css-loader: 6.4.0
   esbuild: 0.13.4
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
@@ -112,7 +112,7 @@ devDependencies:
   babel-plugin-react-docgen: 4.2.1
   babel-plugin-require-context-hook: 1.0.0
   babel-preset-gatsby: 1.14.0_@babel+core@7.15.8
-  css-loader: 6.3.0_webpack@5.58.1
+  css-loader: 6.4.0_webpack@5.58.1
   esbuild: 0.13.4
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
@@ -8577,8 +8577,8 @@ packages:
       webpack: 5.57.1
     dev: true
 
-  /css-loader/6.3.0_webpack@5.58.1:
-    resolution: {integrity: sha512-9NGvHOR+L6ps13Ilw/b216++Q8q+5RpJcVufCdW9S/9iCzs4KBDNa8qnA/n3FK/sSfWmH35PAIK/cfPi7LOSUg==}
+  /css-loader/6.4.0_webpack@5.58.1:
+    resolution: {integrity: sha512-Dlt6qfsxI/w1vU0r8qDd4BtMPxWqJeY5qQU7SmmZfvbpe6Xl18McO4GhyaMLns24Y2VNPiZwJPQ8JSbg4qvQLw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
