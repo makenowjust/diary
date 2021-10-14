@@ -86,7 +86,7 @@
     "style-loader": "3.3.0",
     "stylelint": "13.13.1",
     "stylelint-config-css-modules": "2.2.0",
-    "stylelint-config-prettier": "9.0.2",
+    "stylelint-config-prettier": "9.0.3",
     "stylelint-config-recommended": "5.0.0",
     "stylelint-config-recommended-scss": "4.3.0",
     "stylelint-config-xo": "0.20.0",

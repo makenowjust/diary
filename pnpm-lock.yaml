@@ -66,7 +66,7 @@ specifiers:
   style-loader: 3.3.0
   stylelint: 13.13.1
   stylelint-config-css-modules: 2.2.0
-  stylelint-config-prettier: 9.0.2
+  stylelint-config-prettier: 9.0.3
   stylelint-config-recommended: 5.0.0
   stylelint-config-recommended-scss: 4.3.0
   stylelint-config-xo: 0.20.0
@@ -152,7 +152,7 @@ devDependencies:
   style-loader: 3.3.0_webpack@5.58.2
   stylelint: 13.13.1
   stylelint-config-css-modules: 2.2.0_stylelint@13.13.1
-  stylelint-config-prettier: 9.0.2_stylelint@13.13.1
+  stylelint-config-prettier: 9.0.3_stylelint@13.13.1
   stylelint-config-recommended: 5.0.0_stylelint@13.13.1
   stylelint-config-recommended-scss: 4.3.0_d55469ff7b1b68c43b61270d19a60ab6
   stylelint-config-xo: 0.20.0_stylelint@13.13.1
@@ -19471,8 +19471,8 @@ packages:
       stylelint: 13.13.1
     dev: true
 
-  /stylelint-config-prettier/9.0.2_stylelint@13.13.1:
-    resolution: {integrity: sha512-M93Q+8+t0Z5LFb7B32cDfuPd3rbvvln2WNRF0n9RQDujXEz7+LANVTpZIG1fb7t2BwiZ+vibuongFIc3fEwrXQ==}
+  /stylelint-config-prettier/9.0.3_stylelint@13.13.1:
+    resolution: {integrity: sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==}
     engines: {node: '>= 12'}
     hasBin: true
     peerDependencies:
