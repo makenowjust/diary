@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-10-13-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>メトロイドドレッド</h2>\n<p>地道に2周目をしている。<br>\n無駄に色々試してみていて、クレイド戦前にボム取ったり、ドロギーガスキップしたり、実験体戦前にスクリュー取ったりしていた。<br>\n令和のスポスポと化したドロギーガ君‥‥。<br>\nさすがにバグっぽい気もするし、どこかで修正されそうだけど。</p>\n<p>ボス戦が全体的に苦手すぎるので練習したい。<br>\nあと攻略の流れとマップを覚えよう。</p>","fields":{"date":"2021-10-13"},"frontmatter":{"title":"地道にメトロイドドレッド"},"excerpt":"やったこと メトロイドドレッド 地道に2周目をしている。 無駄に色々試してみていて、クレイド戦前にボム取ったり、ドロギーガスキップしたり、実験体戦前にスクリュー取ったりしていた。 令和のスポスポと化したドロギーガ君‥‥。 さすがにバグっぽい気もするし、どこかで修正されそうだけど…"},"prev":{"fields":{"date":"2021-10-14","slug":"/post/2021-10-14-diary/"},"frontmatter":{"title":"スタマス発売日"}},"next":{"fields":{"date":"2021-10-12","slug":"/post/2021-10-12-diary/"},"frontmatter":{"title":"ミリシタの配信があった"}}},"pageContext":{"slug":"/post/2021-10-13-diary/","prevSlug":"/post/2021-10-14-diary/","nextSlug":"/post/2021-10-12-diary/"}},
+    "staticQueryHashes": ["530032413"]}
