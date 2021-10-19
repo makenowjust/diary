@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-10-18-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>グラフ</h2>\n<p>なんも分からん。<br>\nまあ前よりは分かるようになったので分かる範囲で努力している。</p>\n<h2>diary</h2>\n<p>なんか死んでいた。<br>\nどうも pnpm が原因っぽいので、諦めて yarn に切り替える。<br>\npnpm 速いのは良いのだけどな。</p>\n<h2>ミリシタ</h2>\n<p>なんか勢いのあるイベントがはじまった。<br>\nサイコロを振っていく。</p>","fields":{"date":"2021-10-18"},"frontmatter":{"title":"ミリシタイベント開始"},"excerpt":"やったこと グラフ なんも分からん。 まあ前よりは分かるようになったので分かる範囲で努力している。 diary なんか死んでいた。 どうも pnpm が原因っぽいので、諦めて yarn に切り替える。 pnpm 速いのは良いのだけどな。 ミリシタ なんか勢いのあるイベントがはじ…"},"prev":null,"next":{"fields":{"date":"2021-10-17","slug":"/post/2021-10-17-diary/"},"frontmatter":{"title":"後方参照やってる"}}},"pageContext":{"slug":"/post/2021-10-18-diary/","prevSlug":null,"nextSlug":"/post/2021-10-17-diary/"}},
+    "staticQueryHashes": ["530032413"]}
