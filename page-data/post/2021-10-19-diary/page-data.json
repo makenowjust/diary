@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-10-19-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>グラフ</h2>\n<p>分かったと思うと何も分からなくなる。<br>\n難しいなぁ。</p>\n<h2>ミリシタ</h2>\n<p>すごろく思ったよりも面倒な気がする。<br>\n最低限取り逃しはないようにしないと‥‥。</p>","fields":{"date":"2021-10-19"},"frontmatter":{"title":"グラフなんも分からん"},"excerpt":"やったこと グラフ 分かったと思うと何も分からなくなる。 難しいなぁ。 ミリシタ すごろく思ったよりも面倒な気がする。 最低限取り逃しはないようにしないと‥‥。"},"prev":{"fields":{"date":"2021-10-20","slug":"/post/2021-10-20-diary/"},"frontmatter":{"title":"後方参照の展開むずい"}},"next":{"fields":{"date":"2021-10-18","slug":"/post/2021-10-18-diary/"},"frontmatter":{"title":"ミリシタイベント開始"}}},"pageContext":{"slug":"/post/2021-10-19-diary/","prevSlug":"/post/2021-10-20-diary/","nextSlug":"/post/2021-10-18-diary/"}},
+    "staticQueryHashes": ["530032413"]}
