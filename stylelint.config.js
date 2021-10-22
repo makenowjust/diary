@@ -1,12 +1,10 @@
 const propertiesOrder = require('stylelint-config-xo/properties-order');
 
 module.exports = {
-  plugins: ['stylelint-scss'],
+  plugins: ['stylelint-order', 'stylelint-scss'],
   extends: [
     'stylelint-config-css-modules',
     'stylelint-config-recommended-scss',
-    'stylelint-config-xo-scss',
-    'stylelint-config-xo-space',
     'stylelint-config-prettier',
   ],
   rules: {
