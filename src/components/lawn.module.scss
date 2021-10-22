@@ -13,7 +13,7 @@ $active-colors: #c6e48b, #7bc96f, #239a3b, #196127;
 }
 
 @each $color in $active-colors {
-  $i: index($active-colors, $color) - 1;
+  $i: list.index($active-colors, $color) - 1;
   .active#{$i} {
     fill: $color;
     background-color: $color;
