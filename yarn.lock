@@ -16633,10 +16633,10 @@ stylelint-config-recommended@6.0.0, stylelint-config-recommended@^6.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-6.0.0.tgz#fd2523a322836005ad9bf473d3e5534719c09f9d"
   integrity sha512-ZorSSdyMcxWpROYUvLEMm0vSZud2uB7tX1hzBZwvVY9SV/uly4AvvJPPhCcymZL3fcQhEQG5AELmrxWqtmzacw==
 
-stylelint-config-xo@0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.20.0.tgz#b13a13bcce7dde4f64275ea8dc3d1a7aa552ff28"
-  integrity sha512-2ra3Od2nReZ9bw2xEd24EG/4jkyhgNj5aM+BV+/jq5ZBH9m1JjAEL+9k1hTDUxa1c8DDm/lTh90f+EaylWjTNg==
+stylelint-config-xo@0.20.1:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-xo/-/stylelint-config-xo-0.20.1.tgz#385bb182fec6f6b6cd05eebb068a3aae7f4b2097"
+  integrity sha512-0GyI476/CMf9xYbz04jAvQcWtTD2jJgrSFXh3i+MQeGWpCdD5sUGUUdvW4GY9PABfh7QhRmzhA8B3qCuPtMx6Q==
   dependencies:
     stylelint-declaration-block-no-ignored-properties "^2.3.0"
     stylelint-order "^4.1.0"
