@@ -11607,10 +11607,10 @@ junk@^3.1.0:
   resolved "https://registry.yarnpkg.com/junk/-/junk-3.1.0.tgz#31499098d902b7e98c5d9b9c80f43457a88abfa1"
   integrity sha512-pBxcB3LFc8QVgdggvZWyeys+hnrNWg4OcZIU/1X59k5jQdLBlCsYGRQaz234SqoRLTCgMH00fY0xRJH+F9METQ==
 
-katex@0.13.23:
-  version "0.13.23"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.13.23.tgz#39376f02274f0ca0f59fff77d39270bfa138dc5f"
-  integrity sha512-Lxki3QN7I/jGSFPcApMYnBVsfqAsG92E/cCB8l8csUOCCEK7i4xo9bxbm0ENW2JdxgZdeA0yYl+A8+m3mdK6JQ==
+katex@0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.14.1.tgz#e7e2f568d19739593ef169f206d19907d51d5f5d"
+  integrity sha512-CweL2N9NLce3SfRonyqRYahz7skD2/VVhGGrh+d3IytKjKEGg1vwFarLrtCOakwVJoqZxldkEr0eUkUwGkAOTw==
   dependencies:
     commander "^8.0.0"
 
