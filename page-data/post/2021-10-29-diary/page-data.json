@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-10-29-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>スタマス</h2>\n<p>9月と10月を一気にやった。<br>\n9月の最初の方のミッションを達成していなくて2週分やりなおしたのが地味にしんどかった。</p>\n<p>10月が難しいという話だったけど別にそこまでのものは感じなかった。<br>\n10月の課題曲のメンバーを絶妙に育てていなくて厳しい予感はしたけど、メンバーを決め打てば普通に育成間に合うと思う。</p>\n<p>ストーリーも盛り上がってきた。<br>\nここから12月に向けてラストスパート、という感じかな。</p>","fields":{"date":"2021-10-29"},"frontmatter":{"title":"スタマス秋終わり"},"excerpt":"やったこと スタマス 9月と10月を一気にやった。 9月の最初の方のミッションを達成していなくて2週分やりなおしたのが地味にしんどかった。 10月が難しいという話だったけど別にそこまでのものは感じなかった。 10月の課題曲のメンバーを絶妙に育てていなくて厳しい予感はしたけど、メ…"},"prev":{"fields":{"date":"2021-10-30","slug":"/post/2021-10-30-diary/"},"frontmatter":{"title":"体調悪め"}},"next":{"fields":{"date":"2021-10-28","slug":"/post/2021-10-28-diary/"},"frontmatter":{"title":"スタマス8月終わり"}}},"pageContext":{"slug":"/post/2021-10-29-diary/","prevSlug":"/post/2021-10-30-diary/","nextSlug":"/post/2021-10-28-diary/"}},
+    "staticQueryHashes": ["530032413"]}

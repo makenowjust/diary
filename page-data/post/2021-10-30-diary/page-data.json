@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-10-30-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>体調</h2>\n<p>体調が悪い感じから戻らない。<br>\n休まねば‥‥、と思うのだけど休めない気持ちなのでどうにかしたい。</p>\n<p>明日は投票して休もう‥‥。</p>\n<h2>スタマス</h2>\n<p>11月をやってる。<br>\nあまり時間が取れていないので、まだ終わっていない。</p>","fields":{"date":"2021-10-30"},"frontmatter":{"title":"体調悪め"},"excerpt":"やったこと 体調 体調が悪い感じから戻らない。 休まねば‥‥、と思うのだけど休めない気持ちなのでどうにかしたい。 明日は投票して休もう‥‥。 スタマス 11月をやってる。 あまり時間が取れていないので、まだ終わっていない。"},"prev":{"fields":{"date":"2021-10-31","slug":"/post/2021-10-31-diary/"},"frontmatter":{"title":"スタマスクリアした"}},"next":{"fields":{"date":"2021-10-29","slug":"/post/2021-10-29-diary/"},"frontmatter":{"title":"スタマス秋終わり"}}},"pageContext":{"slug":"/post/2021-10-30-diary/","prevSlug":"/post/2021-10-31-diary/","nextSlug":"/post/2021-10-29-diary/"}},
+    "staticQueryHashes": ["530032413"]}
