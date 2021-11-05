@@ -94,6 +94,6 @@
     "typescript": "4.4.4",
     "unist-util-is": "5.1.1",
     "unist-util-visit": "4.1.0",
-    "webpack": "5.62.0"
+    "webpack": "5.62.1"
   }
 }
