@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-11-22-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>BDSP</h2>\n<p>昨日はリリイベでやっていなかったので進めていく。<br>\nとりあえずデンジを倒してチャンピオンロードの前まで行った。<br>\nデンジのところのジムの仕掛けはよくできていて好き。</p>\n<p>そしてチャピオンロード面倒だなぁ、と思いながらきのみ回収をしていた。</p>","fields":{"date":"2021-11-22"},"frontmatter":{"title":"チャンピオンロードまで着いた"},"excerpt":"やったこと BDSP 昨日はリリイベでやっていなかったので進めていく。 とりあえずデンジを倒してチャンピオンロードの前まで行った。 デンジのところのジムの仕掛けはよくできていて好き。 そしてチャピオンロード面倒だなぁ、と思いながらきのみ回収をしていた。"},"prev":{"fields":{"date":"2021-11-23","slug":"/post/2021-11-23-diary/"},"frontmatter":{"title":"recheck 4.0.0 リリース"}},"next":{"fields":{"date":"2021-11-21","slug":"/post/2021-11-21-diary/"},"frontmatter":{"title":"MTW 13&14 リリイベ"}}},"pageContext":{"slug":"/post/2021-11-22-diary/","prevSlug":"/post/2021-11-23-diary/","nextSlug":"/post/2021-11-21-diary/"}},
+    "staticQueryHashes": ["530032413"]}
