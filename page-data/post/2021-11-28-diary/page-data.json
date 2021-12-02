@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-11-28-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>デレ</h2>\n<p>千葉公演2日目、だけど見てる余裕が無さげなので諦める。<br>\nなんか色々とすごい感じになっててすごそう。</p>\n<h2>MacBook Air</h2>\n<p>キーボードがどうしようもないのでキートップを外したりしてみていた。<br>\nなんかゴミとかではなく爪が折れている気がする。困った‥‥。<br>\n修理だしてどうにかなるのかなぁ‥‥。</p>","fields":{"date":"2021-11-28"},"frontmatter":{"title":"MacBook Air つらい"},"excerpt":"やったこと デレ 千葉公演2日目、だけど見てる余裕が無さげなので諦める。 なんか色々とすごい感じになっててすごそう。 MacBook Air キーボードがどうしようもないのでキートップを外したりしてみていた。 なんかゴミとかではなく爪が折れている気がする。困った‥‥。 修理だし…"},"prev":null,"next":{"fields":{"date":"2021-11-27","slug":"/post/2021-11-27-diary/"},"frontmatter":{"title":"千葉公演1日目"}}},"pageContext":{"slug":"/post/2021-11-28-diary/","prevSlug":null,"nextSlug":"/post/2021-11-27-diary/"}},
+    "staticQueryHashes": ["530032413"]}
