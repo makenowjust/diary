@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2021-12-01-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>雨</h2>\n<p>夜中ありえないくらい雨がうるさくて眠れなかった。</p>\n<h2>BDSP</h2>\n<p>ちょっとやってたらメニューバグを理解した。<br>\n増殖の原理もなんか理解する。うーん、これはひどい。<br>\nなんだかなぁ。</p>\n<h2>秋葉</h2>\n<p>大学に行った帰りに秋葉に行った。<br>\nyと合流。ヨドバシで MS2 02と EVERLASTING の CD を買った。<br>\nそれから HUB へ。なんかピザとか食べた。<br>\nHUB ではメニューバグを実演したり、これまでにやったゲームの話とかをしていた。</p>\n<p>そのあとは夕飯を食べようとして町を彷徨い、スシローが混んでいたので最終的にサイゼに行った。<br>\nサイゼではデザートでミルクジェラートを食べたりした。おいしかった。</p>\n<p>というわけで家へ。おつかれさまでした。</p>","fields":{"date":"2021-12-01"},"frontmatter":{"title":"秋葉に行った"},"excerpt":"やったこと 雨 夜中ありえないくらい雨がうるさくて眠れなかった。 BDSP ちょっとやってたらメニューバグを理解した。 増殖の原理もなんか理解する。うーん、これはひどい。 なんだかなぁ。 秋葉 大学に行った帰りに秋葉に行った。 yと合流。ヨドバシで MS2 02と EVERLA…"},"prev":null,"next":{"fields":{"date":"2021-11-30","slug":"/post/2021-11-30-diary/"},"frontmatter":{"title":"ミラージュ・ミラーイベント開始"}}},"pageContext":{"slug":"/post/2021-12-01-diary/","prevSlug":null,"nextSlug":"/post/2021-11-30-diary/"}},
+    "staticQueryHashes": ["530032413"]}
