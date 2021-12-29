@@ -8924,10 +8924,10 @@ gatsby-plugin-page-creator@^4.4.0:
     globby "^11.0.4"
     lodash "^4.17.21"
 
-gatsby-plugin-pnpm@1.2.9:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-pnpm/-/gatsby-plugin-pnpm-1.2.9.tgz#50dfb38000bc890f97f9163fd1788757b3ffcd20"
-  integrity sha512-udnYlK07yuprdPKXfrZxKEm+C/2P0DNU59HSPn6WUaCDOwJx7+5hmuOVjGx8lltU+xjRsGghAN5YDndOe/HiGg==
+gatsby-plugin-pnpm@1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-pnpm/-/gatsby-plugin-pnpm-1.2.10.tgz#a613351527589b556be2bc1aa24ba72822b71693"
+  integrity sha512-29xjIakNEUY42OBb3wI9Thmawr5EcUUOB3dB8nE51yr/TfKQFCREk+HAOATQHTNedG3VZhgU4wVjl2V3wgOXJA==
   dependencies:
     lodash.get "^4.4.2"
     lodash.uniq "^4.5.0"
