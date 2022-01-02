@@ -47,4 +47,4 @@ Directory structure:
 
 ## Copyright
 
-© 2016-2021 TSUYUSATO "[MakeNowJust](https://github.com/MakeNowJust)" Kitsune
+© 2016-2022 TSUYUSATO "[MakeNowJust](https://github.com/MakeNowJust)" Kitsune
