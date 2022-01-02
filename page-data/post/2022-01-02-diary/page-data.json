@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-01-02-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>1/2</h2>\n<p>まだまだお正月．<br>\nお休み気分でやっていく．</p>\n<h2>シャニ</h2>\n<p>今日はひたすらシャニやってた．<br>\nイベントを進めるために WING をやりまくる．</p>\n<h2>ミリシタ</h2>\n<p>Clover's Cry 神降ろしの少女イベントがはじまった．<br>\n思ったより難しくてフルコンに手間取った．</p>\n<p>このイベント形式Pt伸びの早いな‥‥．</p>","fields":{"date":"2022-01-02"},"frontmatter":{"title":"シャニやってた"},"excerpt":"やったこと 1/2 まだまだお正月． お休み気分でやっていく． シャニ 今日はひたすらシャニやってた． イベントを進めるために WING をやりまくる． ミリシタ Clover's Cry 神降ろしの少女イベントがはじまった． 思ったより難しくてフルコンに手間取った． このイベ…"},"prev":null,"next":{"fields":{"date":"2022-01-01","slug":"/post/2022-01-01-diary/"},"frontmatter":{"title":"あけおめ"}}},"pageContext":{"slug":"/post/2022-01-02-diary/","prevSlug":null,"nextSlug":"/post/2022-01-01-diary/"}},
+    "staticQueryHashes": ["530032413"]}
