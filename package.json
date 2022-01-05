@@ -72,7 +72,7 @@
     "gatsby-source-filesystem": "4.4.0",
     "gatsby-transformer-remark": "5.4.0",
     "identity-obj-proxy": "3.0.0",
-    "jest": "27.4.6",
+    "jest": "27.4.7",
     "lowlight": "2.4.1",
     "prettier": "2.5.1",
     "prettier-package-json": "2.6.0",
