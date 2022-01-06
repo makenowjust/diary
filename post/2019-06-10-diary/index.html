@@ -9,7 +9,7 @@
 <p>まず、何をやろうとしていたのか、という話から。<br>
 完成イメージとしてはこんな感じだった。</p>
 <pre><code class="hljs language-javascript"><span class="hljs-keyword">import</span> <span class="hljs-title hljs-class">React</span> <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
-<span class="hljs-keyword">import</span> <span class="hljs-title hljs-class">React</span>DOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-title hljs-class">ReactDOM</span> <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
 <span class="hljs-keyword">import</span> {<span class="hljs-title hljs-class">Cytoscape</span>, <span class="hljs-title hljs-class">Node</span>, <span class="hljs-title hljs-class">Edge</span>} <span class="hljs-keyword">from</span> <span class="hljs-string">'react-cytoscape-renderer'</span>;
 
 <span class="hljs-keyword">const</span> stylesheet = [
@@ -28,7 +28,7 @@
   <span class="hljs-tag">&#x3C;/<span class="hljs-name">Cytoscape</span>></span></span>
 );
 
-<span class="hljs-title hljs-class">React</span>DOM.<span class="hljs-title hljs-function">render</span>(<span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">Main</span> /></span></span>, <span class="hljs-variable hljs-language">document</span>.<span class="hljs-title hljs-function">querySelector</span>(<span class="hljs-string">'#main'</span>));</code></pre>
+<span class="hljs-title hljs-class">ReactDOM</span>.<span class="hljs-title hljs-function">render</span>(<span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">Main</span> /></span></span>, <span class="hljs-variable hljs-language">document</span>.<span class="hljs-title hljs-function">querySelector</span>(<span class="hljs-string">'#main'</span>));</code></pre>
 <p><code>&#x3C;Cytoscape></code>コンポーネントの中にある<code>&#x3C;Node></code>とか<code>&#x3C;Edge></code>は通常のコンポーネントではなくて、<code>&#x3C;Cytoscape></code>コンポーネント内でcytoscape.js用のレンダラで描画される、というのがポイント。<br>
 あとネストした<code>&#x3C;Node></code>はcytoscape.jsのcompoundノードとして解釈される、というイメージ。</p>
 <p>これをTypeScriptで実装してた。</p>
