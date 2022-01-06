@@ -10029,10 +10029,10 @@ highlight.js@^10.1.1, highlight.js@^10.4.1, highlight.js@~10.7.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
 
-highlight.js@~11.3.0:
-  version "11.3.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.3.1.tgz#813078ef3aa519c61700f84fe9047231c5dc3291"
-  integrity sha512-PUhCRnPjLtiLHZAQ5A/Dt5F8cWZeMyj9KRsACsWT+OD6OP0x6dp5OmT5jdx0JgEyPxPZZIPQpRN2TciUT7occw==
+highlight.js@~11.4.0:
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.4.0.tgz#34ceadd49e1596ee5aba3d99346cdfd4845ee05a"
+  integrity sha512-nawlpCBCSASs7EdvZOYOYVkJpGmAOKMYZgZtUqSRqodZE0GRVcFKwo1RcpeOemqh9hyttTdd5wDBwHkuSyUfnA==
 
 history@5.0.0:
   version "5.0.0"
@@ -12241,14 +12241,14 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
-lowlight@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-2.4.1.tgz#59ea891967ec83395f2d61de8cbfe3fa9cd401c7"
-  integrity sha512-mQkAG0zGQ9lcYecEft+hl9uV1fD6HpURA83/TYrsxKvb8xX2mfyB+aaV/A/aWmhhEcWVzr9Cc+l/fvUYfEUumw==
+lowlight@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-2.5.0.tgz#723a39fc0d9b911731a395b320519cbb0790ab14"
+  integrity sha512-OXGUch9JZu4q5r4Ir6QlUp5pBXMxS7NHaclhRiUlxNRcOSK0gtXZcVrsGP4eM7bv0/KDHg/TXQagx/X35EULsA==
   dependencies:
     "@types/hast" "^2.0.0"
     fault "^2.0.0"
-    highlight.js "~11.3.0"
+    highlight.js "~11.4.0"
 
 lowlight@^1.14.0:
   version "1.20.0"
