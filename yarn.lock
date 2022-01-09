@@ -7690,15 +7690,15 @@ eslint-config-react-app@^6.0.0:
   dependencies:
     confusing-browser-globals "^1.0.10"
 
-eslint-config-xo-react@0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-react/-/eslint-config-xo-react-0.25.0.tgz#fd9fc77365b5c85de14e287f86ec579a1599aed5"
-  integrity sha512-YpABFxnoATAYtxsZQChZEbOkWqzCtcQDRdiUqHhLgG7hzbAEzPDmsRUWnTP8oTVLVFWrbgdf913b8kQJaR1cBA==
+eslint-config-xo-react@0.26.0:
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-react/-/eslint-config-xo-react-0.26.0.tgz#8e3a50fe95b44ecaf832072d0e2a3ac3fc07fab2"
+  integrity sha512-vOcDWLrJDvkyprTHEalBwbPk01YH1Y9x3GPR+ZMhBWcIRQCP8wzcAUfsRQ6jXD2mal0Ywt+x0DWGMb+9RpvT5A==
 
-eslint-config-xo-space@0.30.0:
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.30.0.tgz#57df0b9e66507dac18f6690bd3ee30d20d08ef05"
-  integrity sha512-gjzwTFQGFum+vY3K/LOebnOUUfLxiuDa3JjphPXQpQRDrHPZhTmDa72r8fVmu9M4nrIs8rGZI/Pxhl3nFjk/Gw==
+eslint-config-xo-space@0.31.0:
+  version "0.31.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.31.0.tgz#cdc344650bd815219cdac3a90f69d6990548fbb6"
+  integrity sha512-6iVaVOHmKDYocVcyW2ChkwKS4/kEw4iPtD/hGNOKw1s6sOrpm1zJWCYZYN92xKxklff1O/o8zo7m1Rz/HWoLYg==
   dependencies:
     eslint-config-xo "^0.39.0"
 
