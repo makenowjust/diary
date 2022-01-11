@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-01-08-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>プロシン2日目</h2>\n<p>マイクラの建物の自動生成を，現実の地形利用情報を使ってやるやつが興味深かった．<br>\nGDMC というコンテストがあるらしい．</p>\n<p><a href=\"https://gendesignmc.engineering.nyu.edu\" class=\"embedly-card\">https://gendesignmc.engineering.nyu.edu</a></p>\n<p>そして発表も完了．<br>\nいくつかミスったところもあったけど，概ね悪くなかったと思う．</p>\n<p>発表資料の公開はどうしよう．<br>\n気が向いたら‥‥．</p>\n<p>おつかれさまでした．</p>\n<h2>ReDoS</h2>\n<p>色々やっている．<br>\n忙しい‥‥．</p>","fields":{"date":"2022-01-08"},"frontmatter":{"title":"プロシン2日目"},"excerpt":"やったこと プロシン2日目 マイクラの建物の自動生成を，現実の地形利用情報を使ってやるやつが興味深かった． GDMC というコンテストがあるらしい． https://gendesignmc.engineering.nyu.edu そして発表も完了． いくつかミスったところもあっ…"},"prev":null,"next":{"fields":{"date":"2022-01-07","slug":"/post/2022-01-07-diary/"},"frontmatter":{"title":"プロシン1日目"}}},"pageContext":{"slug":"/post/2022-01-08-diary/","prevSlug":null,"nextSlug":"/post/2022-01-07-diary/"}},
+    "staticQueryHashes": ["530032413"]}
