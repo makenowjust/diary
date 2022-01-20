@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-01-18-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>シャニ</h2>\n<p>三峰の新しい声優が発表された．<br>\nがんばれ．</p>\n<h2>ミリシタ</h2>\n<p>イベントがはじまったと思ったらメンテになっていた．<br>\nなんか1月になにかしら問題が起こってる気がするな．<br>\nオートライブパス関連らしい．</p>","fields":{"date":"2022-01-18"},"frontmatter":{"title":"ミリシタのイベントがはじまったと思ったらはじまらなかった"},"excerpt":"やったこと シャニ 三峰の新しい声優が発表された． がんばれ． ミリシタ イベントがはじまったと思ったらメンテになっていた． なんか1月になにかしら問題が起こってる気がするな． オートライブパス関連らしい．"},"prev":{"fields":{"date":"2022-01-19","slug":"/post/2022-01-19-diary/"},"frontmatter":{"title":"worker バックエンドを実装した"}},"next":{"fields":{"date":"2022-01-17","slug":"/post/2022-01-17-diary/"},"frontmatter":{"title":"ミシシラだった"}}},"pageContext":{"slug":"/post/2022-01-18-diary/","prevSlug":"/post/2022-01-19-diary/","nextSlug":"/post/2022-01-17-diary/"}},
+    "staticQueryHashes": ["530032413"]}
