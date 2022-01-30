@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-01-28-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>アルセウス</h2>\n<p>祝・発売！</p>\n<p>いきなり異世界転移物みたいなはじまりで驚いた．<br>\nそういう話なのか！</p>\n<p>まだあまり触れてないけど，普通に楽しめそう．</p>\n<h2>Rails</h2>\n<p>なんか色々悩み続けていたら，結構分かってきた．<br>\nやっていくぞ．</p>","fields":{"date":"2022-01-28"},"frontmatter":{"title":"ポケモン LEGENDS アルセウス発売"},"excerpt":"やったこと アルセウス 祝・発売！ いきなり異世界転移物みたいなはじまりで驚いた． そういう話なのか！ まだあまり触れてないけど，普通に楽しめそう． Rails なんか色々悩み続けていたら，結構分かってきた． やっていくぞ．"},"prev":null,"next":{"fields":{"date":"2022-01-27","slug":"/post/2022-01-27-diary/"},"frontmatter":{"title":"Shamrock Vivace 最終日"}}},"pageContext":{"slug":"/post/2022-01-28-diary/","prevSlug":null,"nextSlug":"/post/2022-01-27-diary/"}},
+    "staticQueryHashes": ["530032413"]}
