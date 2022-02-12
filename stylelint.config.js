@@ -8,6 +8,7 @@ module.exports = {
     'stylelint-config-prettier',
   ],
   rules: {
+    'function-no-unknown': null,
     // 'order/properties-order' is disabled in 'stylelint-config-xo' for now.
     // See https://github.com/sindresorhus/stylelint-config-xo/pull/2#issuecomment-363438756.
     'order/properties-order': propertiesOrder,
