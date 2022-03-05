@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-03-01-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>ミリシタ</h2>\n<p>3/1 はロコの誕生日！<br>\n誕生日おめでとう！　今年がロコにとってよき一年でありますように。</p>","fields":{"date":"2022-03-01"},"frontmatter":{"title":"ロコの誕生日"},"excerpt":"やったこと ミリシタ 3/1 はロコの誕生日！ 誕生日おめでとう！　今年がロコにとってよき一年でありますように。"},"prev":{"fields":{"date":"2022-03-02","slug":"/post/2022-03-02-diary/"},"frontmatter":{"title":"発表練習してた"}},"next":{"fields":{"date":"2022-02-28","slug":"/post/2022-02-28-diary/"},"frontmatter":{"title":"2月の終わり"}}},"pageContext":{"slug":"/post/2022-03-01-diary/","prevSlug":"/post/2022-03-02-diary/","nextSlug":"/post/2022-02-28-diary/"}},
+    "staticQueryHashes": ["530032413"]}
