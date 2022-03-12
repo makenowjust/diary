@@ -4,9 +4,9 @@
 <p>Bratという、Luaで書かれたプログラミング言語がある。Rosetta Codeで見つけた。Luaにコンパイルされて実行されるっぽいけど、AltLuaっぽい（MoonScriptとか）わけじゃなくて、どちらかと言えばRubyに近い雰囲気。違うけど。</p>
 <p>そこそこメンテされてるのだけど、ビルドが上手くいかなかった。ちょうど6日前に<code>rex_onig</code>というライブラリのバージョンを上げたらしいのだけど、そこで<code>ln</code>する対象のバージョンを変えていなくて、結果的にビルドスクリプトが壊れていた。恐らく作者の手元では元々のライブラリのバージョンの共有ライブラリが残っているから正しく動いてるように見えるのだろう。CI入れろ。その辺を直すPRは出しておいた。あっさりマージされた。途中でdockerのバグを踏んだり散々だった。散々すぎる。</p>
 <p>ビルドは<code>./build.sh</code>を叩くだけでできるようになるはず。</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">./build.sh</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">./build.sh</span></code></pre>
 <p>実行は<code>./brat</code>で、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">./brat quine.brat | diff quine.brat -</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">./brat quine.brat | diff quine.brat -</span></code></pre>
 <p>Quineは特に工夫してないです。<code>to_char</code>があって良かったとしか言えない。</p>
 <h2>ジョジョ3部の前半を見終わった</h2>
 <p>あと24話あるとかマジかよ‥‥。</p>

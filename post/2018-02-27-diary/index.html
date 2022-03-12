@@ -36,8 +36,8 @@ LK)Fbreak;@s&#x3C;&#x3C;['moZ'U,J9]X(1\`W@hOn|(x-n&#x3C;0||P/x-n/^SLK)Fbreak;@s&
 @hOn|(0\`S=JFP+1/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9+1]X[-1,1]W@hOn|(0\`S=JFP/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9]Xy>0FP-1/x/^!=LK
 F@s&#x3C;&#x3C;['moZ'UU-1];when'桂';y&#x3C;3F[-1,1]W@hOn|(0\`S=JFP+2/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9+2]Xwhen'銀';y&#x3C;4F(-1\1)W@hOn
 |(0\`S=JFP+1/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9+1]Xy>0F[-1,1]W@hOn|(0\`S=JFP-1/J]!=LKF@s&#x3C;&#x3C;['moZ'U,J9-1]Xwhen'角';(1\
-`</span>W<span class="hljs-variable">@hOn</span><span class="hljs-params">|(y+n>4|</span><span class="hljs-params">|J>4|</span><span class="hljs-params">|P+n/J/^SLK)Fbreak;@s&#x3C;&#x3C;['moZ'U,J9+n]X(1\`W@hOn|</span>(y-n&#x3C;<span class="hljs-number">0</span><span class="hljs-params">||</span>J><span class="hljs-number">4</span><span class="hljs-params">||</span>P-n/J/^SLK)Fbreak;<span class="hljs-variable">@s</span>&#x3C;&#x3C;[<span class="hljs-string">'m
-oZ'</span>U,J9-n]X(<span class="hljs-number">1</span>\<span class="hljs-string">`W@hOn|(y+n>4||x-n&#x3C;0||P+n/x-n/^SLK)Fbreak;@s&#x3C;&#x3C;['moZ'UQ-n9+n]X(1\`W@hOn|(y-n&#x3C;0||x-n&#x3C;0||P-n/
+`</span>W<span class="hljs-variable">@hOn</span>|<span class="hljs-params">(y+n>4</span>||<span class="hljs-params">J>4</span>||<span class="hljs-params">P+n/J/^SLK)Fbreak;@s&#x3C;&#x3C;['moZ'U,J9+n]X(1\`W@hOn</span>|(y-n&#x3C;<span class="hljs-number">0</span>|<span class="hljs-params"></span>|J><span class="hljs-number">4</span>|<span class="hljs-params"></span>|P-n/J/^<span class="hljs-variable hljs-constant">SLK</span>)Fbreak;<span class="hljs-variable">@s</span>&#x3C;&#x3C;[<span class="hljs-string">'m
+oZ'</span>U,<span class="hljs-variable hljs-constant">J9</span>-n]X(<span class="hljs-number">1</span>\<span class="hljs-string">`W@hOn|(y+n>4||x-n&#x3C;0||P+n/x-n/^SLK)Fbreak;@s&#x3C;&#x3C;['moZ'UQ-n9+n]X(1\`W@hOn|(y-n&#x3C;0||x-n&#x3C;0||P-n/
 x-n/^SLK)Fbreak;@s&#x3C;&#x3C;['moZ'UQ-n9-n]Xwhen'香';(1\`W@hOn|(y+n>4||P+n/x/^SLK)Fbreak;@s&#x3C;&#x3C;['moZ'UU+n]Xwhen'王'
 ;y&#x3C;4F(-1\1)W@hOn|(0\`S=JFP+1/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9+1]X[-1,1]W@hOn|(0\`S=JFP/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9]Xy!=
 0F(-1\1)W@hOn|(0\`S=JFP-1/J/^!=LKF@s&#x3C;&#x3C;['moZ'U,J9-1]Xend;end}Xr(@s.sample,LK);rs=(0\`.mapOy|"<span class="hljs-subst">#{_=<span class="hljs-number">32</span>.chr}</span>#
@@ -58,10 +58,10 @@ __END__
  4 | ▲と | ▲銀 | ▲王 | ▲金 | ▲歩 |
 ---+-----+-----+-----+-----+-----+</span></span></span></code></pre>
 <p>一応使い方としてはこんな感じ。</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">ruby ks.rb  move 0 4 0 3 > ks2.rb <span class="hljs-comment"># 0×4の位置にある歩兵を0×3に動かす</span></span>
-<span class="hljs-meta">$ </span><span class="bash">ruby ks2.rb move 0 3 0 0 > ks3.rb <span class="hljs-comment"># 0x3の位置にある飛車を0×0に動かす</span></span>
-<span class="hljs-meta">$ </span><span class="bash">ruby ks3.rb put 歩 2 1   > ks4.rb <span class="hljs-comment"># 2×1の位置に持駒の歩兵を置く</span></span>
-<span class="hljs-meta">$ </span><span class="bash">ruby ks4.rb move 2 1 2 0          <span class="hljs-comment"># 2×1の位置にある歩兵を2×0に動かす</span></span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">ruby ks.rb  move 0 4 0 3 > ks2.rb <span class="hljs-comment"># 0×4の位置にある歩兵を0×3に動かす</span></span>
+<span class="hljs-meta hljs-prompt">$ </span><span class="bash">ruby ks2.rb move 0 3 0 0 > ks3.rb <span class="hljs-comment"># 0x3の位置にある飛車を0×0に動かす</span></span>
+<span class="hljs-meta hljs-prompt">$ </span><span class="bash">ruby ks3.rb put 歩 2 1   > ks4.rb <span class="hljs-comment"># 2×1の位置に持駒の歩兵を置く</span></span>
+<span class="hljs-meta hljs-prompt">$ </span><span class="bash">ruby ks4.rb move 2 1 2 0          <span class="hljs-comment"># 2×1の位置にある歩兵を2×0に動かす</span></span></code></pre>
 <p>運が良ければこれで勝てる。が、実際はかなりの確率で王が動くか2×1の位置に金か銀が来るので大体無理。</p>
 <p>このあとは発表。スネークゲームとかテトリスみたいなの作った人すごいな、と思った。ボクにあそこまでの実装力はない。というか<code>require</code>したら負けだと思ってるので作れない。<br>
 ボクの発表はなんというかいい加減で申し訳なかった。京都将棋とかもうちょいちゃんと説明すべきだったと反省している。<br>

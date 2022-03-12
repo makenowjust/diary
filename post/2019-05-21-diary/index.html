@@ -5,12 +5,12 @@
 <p>とりあえずこれを動かしてみる。</p>
 <p><a href="https://github.com/freechipsproject/chisel-template" class="embedly-card">https://github.com/freechipsproject/chisel-template</a></p>
 <p>クローンして<code>sbt</code>して、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">> </span><span class="bash">testOnly gcd.GCDTester</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">> </span><span class="bash">testOnly gcd.GCDTester</span></code></pre>
 <p>したらエラーがVerilogのシミュレータが動かないのかエラーが出たので、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">brew install verilator</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">brew install verilator</span></code></pre>
 <p>でインストール。</p>
 <p>次に、<code>fatal error: 'inttypes.h' file not found</code>が出たので、<a href="https://stackoverflow.com/questions/52509602/cant-compile-c-program-on-a-mac-after-upgrade-to-mojave">ここ</a>を参考に、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg</span></code></pre>
 <p>を実行して、ヘッダーファイル等をインストールしたら、テストが動くようになった。</p>
 <p>ここから実際にコードを弄ったりしていきたい。</p>
 <p>IntelliJ IDEAでプロジェクトを開いたらエラーになったので、JDKのパスを指定してsbtのバージョンを上げたら直った。</p>

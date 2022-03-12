@@ -16,17 +16,17 @@
 <h2><code>make clean_crystal</code>が追加された</h2>
 <p><a class="embedly-card" href="https://github.com/crystal-lang/crystal/pull/4268">Makefile: add 'clean_crystal' target by MakeNowJust · Pull Request #4268 · crystal-lang/crystal</a></p>
 <p>同じく寝てる間に。</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">make clean</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">make clean</span></code></pre>
 <p>するとC++のビルドしたのも消えちゃうけど、それは残しておきたいよね、っていうときのために、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">make clean_crystal</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">make clean_crystal</span></code></pre>
 <p>を追加した。これを使うと、コンパイラを弄ってて途中でコンパイラが壊れたりしたときに役に立つ。</p>
 <h2>EfeneでQuineを書いた</h2>
 <p>EfeneというBEAM VM（ErlangのVM）で動くプログラミング言語がある。構文が人間に優しい感じになった、AltErlangという感じ。Erlangが既に独自の世界観を持っているのに、その上にさらに独自の世界観を作り上げているElixirとは違って、悪魔で読みやすいErlangという感じがして良い。Erlangが分からないと書けないのは同じなんだけど、それはJavaScriptに対するCoffeeScriptだって同じでしょう。そんな感じ。</p>
 <p>Homebrewで提供されてなかったので<code>rebar3</code>でビルドした。</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">rebar3 compile</span>
-<span class="hljs-meta">$ </span><span class="bash">rebar3 escriptize</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">rebar3 compile</span>
+<span class="hljs-meta hljs-prompt">$ </span><span class="bash">rebar3 escriptize</span></code></pre>
 <p>とすると、<code>_build/default/bin/efene</code>が出来て、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">./_build/default/bin/efene beam quine.fn &#x26;&#x26; escript quine.beam | diff quine.fn -</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">./_build/default/bin/efene beam quine.fn &#x26;&#x26; escript quine.beam | diff quine.fn -</span></code></pre>
 <p>みたいな感じでコンパイル・実行できる。</p>
 <p>Quineは敢えてErlangと同じ構成にした。まあ考えたくなかっただけでもある。</p>
 <h1>日記のslugを<code>diary</code>にしていきたい</h1>

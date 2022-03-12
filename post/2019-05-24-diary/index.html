@@ -15,7 +15,7 @@
 <p>コードはこの辺。</p>
 <p><a href="https://github.com/MakeNowJust/quine/blob/9272ab55fec45046aeefcc4de7370489709cf014/quine.wls" class="embedly-card">https://github.com/MakeNowJust/quine/blob/9272ab55fec45046aeefcc4de7370489709cf014/quine.wls</a></p>
 <p>実行方法はWolfram Engineをインストールして認証すると<code>wolframscript</code>というコマンドが使えるようになるので、</p>
-<pre><code class="hljs language-console"><span class="hljs-meta">$ </span><span class="bash">wolframscript -f quine.wls | diff quine.wls -</span></code></pre>
+<pre><code class="hljs language-console"><span class="hljs-meta hljs-prompt">$ </span><span class="bash">wolframscript -f quine.wls | diff quine.wls -</span></code></pre>
 <p>とする。<br>
 <code>-f</code>オプションを付けないと普通にREPLが起動するので注意。</p>
 <p>あと<code>InputForm[e]</code>だと文字列がエスケープされなくて(REPLだとされる)、<code>ToString[e, InputForm]</code>だとエスケープされるのが謎だった。</p>
