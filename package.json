@@ -39,7 +39,7 @@
     "@storybook/builder-webpack5": "6.4.19",
     "@storybook/manager-webpack5": "6.4.19",
     "@storybook/react": "6.4.19",
-    "algoliasearch": "4.12.2",
+    "algoliasearch": "4.13.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "27.5.1",
     "babel-loader": "8.2.3",
