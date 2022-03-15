@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-03-14-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>recheck</h2>\n<p>ようやくクラス部分のパースの実装も終わった。<br>\nこれでようやくパーサの実装が終わったことになる。<br>\n長い戦いだった。</p>\n<p>ここからは共通の内部表現 (IR) へのコンパイルを実装する。<br>\nとはいえこっちは型さえ決まればさくっと実装できる‥‥と思いたいが。<br>\nいや、文字クラスとか Unicode プロパティが面倒だな‥‥。</p>","fields":{"date":"2022-03-14"},"frontmatter":{"title":"パーサの実装が終わった"},"excerpt":"やったこと recheck ようやくクラス部分のパースの実装も終わった。 これでようやくパーサの実装が終わったことになる。 長い戦いだった。 ここからは共通の内部表現 (IR) へのコンパイルを実装する。 とはいえこっちは型さえ決まればさくっと実装できる‥‥と思いたいが。 いや…"},"prev":null,"next":{"fields":{"date":"2022-03-13","slug":"/post/2022-03-13-diary/"},"frontmatter":{"title":"パーサーの実装を進めてる"}}},"pageContext":{"slug":"/post/2022-03-14-diary/","prevSlug":null,"nextSlug":"/post/2022-03-13-diary/"}},
+    "staticQueryHashes": ["530032413"]}
