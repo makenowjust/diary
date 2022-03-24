@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-03-23-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>新潟</h2>\n<p>帰ってきた。</p>\n<p>ありえん疲れていたので帰ってきてからはずっと眠っていた。<br>\n想像の5倍くらい疲れていたので驚いている。</p>\n<p>おつかれさまでした。</p>","fields":{"date":"2022-03-23"},"frontmatter":{"title":"帰ってきた"},"excerpt":"やったこと 新潟 帰ってきた。 ありえん疲れていたので帰ってきてからはずっと眠っていた。 想像の5倍くらい疲れていたので驚いている。 おつかれさまでした。"},"prev":{"fields":{"date":"2022-03-24","slug":"/post/2022-03-24-diary/"},"frontmatter":{"title":"JS の圧縮技術の記事を公開した"}},"next":{"fields":{"date":"2022-03-22","slug":"/post/2022-03-22-diary/"},"frontmatter":{"title":"肘がしんどい"}}},"pageContext":{"slug":"/post/2022-03-23-diary/","prevSlug":"/post/2022-03-24-diary/","nextSlug":"/post/2022-03-22-diary/"}},
+    "staticQueryHashes": ["530032413"]}
