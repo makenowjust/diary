@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import * as styles from './footer.module.scss';
 
-const Footer = ({author, github, year}) => {
+function Footer({author, github, year}) {
   const [firstName, ...restNames] = author.split(' ');
 
   return (
@@ -14,7 +14,7 @@ const Footer = ({author, github, year}) => {
       </p>
     </footer>
   );
-};
+}
 
 Footer.propTypes = {
   /** A diary author. */

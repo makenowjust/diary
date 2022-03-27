@@ -14,61 +14,63 @@ import 'katex/dist/katex.min.css';
 
 import '../styles/global.scss';
 
-const Layout = ({children}) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            quote
-            language
-            copyright {
-              author
-              github
-              year
+function Layout({children}) {
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          site {
+            siteMetadata {
+              title
+              quote
+              language
+              copyright {
+                author
+                github
+                year
+              }
             }
           }
-        }
 
-        allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
-          edges {
-            node {
-              fields {
-                date
-                slug
-                textSize
+          allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
+            edges {
+              node {
+                fields {
+                  date
+                  slug
+                  textSize
+                }
               }
             }
           }
         }
-      }
-    `}
-    render={data => (
-      <>
-        <Helmet>
-          <html lang={data.site.siteMetadata.language} />
-        </Helmet>
-        <Header
-          title={data.site.siteMetadata.title}
-          quote={data.site.siteMetadata.quote}
-          posts={data.allMarkdownRemark.edges.map(({node}) => ({
-            date: node.fields.date,
-            slug: node.fields.slug,
-            textSize: node.fields.textSize,
-          }))}
-          today={new Date()}
-        />
-        <main>{children}</main>
-        <Footer
-          author={data.site.siteMetadata.copyright.author}
-          github={data.site.siteMetadata.copyright.github}
-          year={data.site.siteMetadata.copyright.year}
-        />
-      </>
-    )}
-  />
-);
+      `}
+      render={data => (
+        <>
+          <Helmet>
+            <html lang={data.site.siteMetadata.language} />
+          </Helmet>
+          <Header
+            title={data.site.siteMetadata.title}
+            quote={data.site.siteMetadata.quote}
+            posts={data.allMarkdownRemark.edges.map(({node}) => ({
+              date: node.fields.date,
+              slug: node.fields.slug,
+              textSize: node.fields.textSize,
+            }))}
+            today={new Date()}
+          />
+          <main>{children}</main>
+          <Footer
+            author={data.site.siteMetadata.copyright.author}
+            github={data.site.siteMetadata.copyright.github}
+            year={data.site.siteMetadata.copyright.year}
+          />
+        </>
+      )}
+    />
+  );
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

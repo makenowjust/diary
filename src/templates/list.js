@@ -8,7 +8,7 @@ import Layout from '../containers/layout';
 
 import * as styles from './list.module.scss';
 
-const ListTemplate = ({data, pageContext}) => {
+function ListTemplate({data, pageContext}) {
   const posts = data.allMarkdownRemark.edges.map(({node}) => (
     <li key={node.id} className={styles.post}>
       <article>
@@ -45,7 +45,7 @@ const ListTemplate = ({data, pageContext}) => {
       </div>
     </Layout>
   );
-};
+}
 
 ListTemplate.propTypes = {
   data: PropTypes.object.isRequired,

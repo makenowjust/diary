@@ -9,7 +9,9 @@ export default {
 
 const today = new Date(Date.UTC(2019, 0, 7));
 
-const Template = args => <Lawn {...args} />;
+function Template(args) {
+  return <Lawn {...args} />;
+}
 
 export const Empty = Template.bind({});
 Empty.args = {

@@ -26,7 +26,7 @@ const MONTH_NAMES = [
   'Dec',
 ];
 
-const Lawn = ({posts, today}) => {
+function Lawn({posts, today}) {
   const lawnData = [];
   const end = new Date(today.getTime());
   end.setHours(0);
@@ -125,7 +125,7 @@ const Lawn = ({posts, today}) => {
       </ul>
     </>
   );
-};
+}
 
 Lawn.propTypes = {
   /** Post summaries. They should be sorted descending date order. */

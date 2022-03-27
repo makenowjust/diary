@@ -7,7 +7,7 @@ import Layout from '../containers/layout';
 
 import * as styles from './post.module.scss';
 
-const PostTemplate = ({data}) => {
+function PostTemplate({data}) {
   const {title: siteTitle} = data.site.siteMetadata;
   const {
     html,
@@ -58,7 +58,7 @@ const PostTemplate = ({data}) => {
       </section>
     </Layout>
   );
-};
+}
 
 PostTemplate.propTypes = {
   data: PropTypes.object.isRequired,

@@ -7,7 +7,9 @@ export default {
   component: Paginator,
 };
 
-const Template = args => <Paginator {...args} />;
+function Template(args) {
+  return <Paginator {...args} />;
+}
 
 export const PrevOnly = Template.bind({});
 PrevOnly.args = {
