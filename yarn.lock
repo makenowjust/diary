@@ -12862,10 +12862,10 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
-lowlight@2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-2.6.0.tgz#f5dfd4e9ab2f3bd8dcd75bd8229a7e92fb816237"
-  integrity sha512-Gas6VcSevLDRAtFP/kg3bj1Ozwncgd0jAgpIxIyNcO/Qm0csJnly9LLEdN75qc9t3l/g/JPFXCkFLe1LPxHozA==
+lowlight@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-2.6.1.tgz#d3cbc7ae0530c848e512b8e6528609587520b44f"
+  integrity sha512-t0ueDL6SIn9FKHipm78CNjWcJQv0xi6WCjYAICyO6GyPzoT7E58yom1mNwvI7AMwVe3pLwwFT0Bt2gml7uaUeQ==
   dependencies:
     "@types/hast" "^2.0.0"
     fault "^2.0.0"
