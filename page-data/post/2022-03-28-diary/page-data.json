@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-03-28-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>色々</h2>\n<p>色々と忙しい日だった。<br>\n秋葉行こうと思ったけど行く時間がない。</p>\n<h2>ディスカバリー</h2>\n<p>6面攻略中。<br>\n雰囲気が終盤っぽくなってきた。<br>\nけどクリア率は50%くらいなのでよく分からない。<br>\nどこまで続くのだろう。</p>","fields":{"date":"2022-03-28"},"frontmatter":{"title":"忙しい日だった"},"excerpt":"やったこと 色々 色々と忙しい日だった。 秋葉行こうと思ったけど行く時間がない。 ディスカバリー 6面攻略中。 雰囲気が終盤っぽくなってきた。 けどクリア率は50%くらいなのでよく分からない。 どこまで続くのだろう。"},"prev":{"fields":{"date":"2022-03-29","slug":"/post/2022-03-29-diary/"},"frontmatter":{"title":"秋葉行った"}},"next":{"fields":{"date":"2022-03-27","slug":"/post/2022-03-27-diary/"},"frontmatter":{"title":"色々ゲームやってた"}}},"pageContext":{"slug":"/post/2022-03-28-diary/","prevSlug":"/post/2022-03-29-diary/","nextSlug":"/post/2022-03-27-diary/"}},
+    "staticQueryHashes": ["530032413"]}
