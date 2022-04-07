@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-04-05-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>遊戯王</h2>\n<p>ゴーストリック組んだ。<br>\nが、あんまりつよくない気がする。<br>\n結局できるのが裏守備で除去じゃないのがな‥‥。<br>\nどこかでジリ貧になる気がする。</p>\n<p>大人しくLL鉄獣で駄天使の特殊勝利狙うやつ作るか。</p>","fields":{"date":"2022-04-05"},"frontmatter":{"title":"ゴーストリック組んだ"},"excerpt":"やったこと 遊戯王 ゴーストリック組んだ。 が、あんまりつよくない気がする。 結局できるのが裏守備で除去じゃないのがな‥‥。 どこかでジリ貧になる気がする。 大人しくLL鉄獣で駄天使の特殊勝利狙うやつ作るか。"},"prev":{"fields":{"date":"2022-04-06","slug":"/post/2022-04-06-diary/"},"frontmatter":{"title":"Go言語しんどい"}},"next":{"fields":{"date":"2022-04-04","slug":"/post/2022-04-04-diary/"},"frontmatter":{"title":"色々はじまった"}}},"pageContext":{"slug":"/post/2022-04-05-diary/","prevSlug":"/post/2022-04-06-diary/","nextSlug":"/post/2022-04-04-diary/"}},
+    "staticQueryHashes": ["530032413"]}
