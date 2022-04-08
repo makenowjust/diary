@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-post-js",
     "path": "/post/2022-04-06-diary/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>色々</h2>\n<p>忙しい。</p>\n<p>あとやっぱGo言語しんどい。<br>\n諦めよう。</p>","fields":{"date":"2022-04-06"},"frontmatter":{"title":"Go言語しんどい"},"excerpt":"やったこと 色々 忙しい。 あとやっぱGo言語しんどい。 諦めよう。"},"prev":null,"next":{"fields":{"date":"2022-04-05","slug":"/post/2022-04-05-diary/"},"frontmatter":{"title":"ゴーストリック組んだ"}}},"pageContext":{"slug":"/post/2022-04-06-diary/","prevSlug":null,"nextSlug":"/post/2022-04-05-diary/"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>色々</h2>\n<p>忙しい。</p>\n<p>あとやっぱGo言語しんどい。<br>\n諦めよう。</p>","fields":{"date":"2022-04-06"},"frontmatter":{"title":"Go言語しんどい"},"excerpt":"やったこと 色々 忙しい。 あとやっぱGo言語しんどい。 諦めよう。"},"prev":{"fields":{"date":"2022-04-07","slug":"/post/2022-04-07-diary/"},"frontmatter":{"title":"病院いった"}},"next":{"fields":{"date":"2022-04-05","slug":"/post/2022-04-05-diary/"},"frontmatter":{"title":"ゴーストリック組んだ"}}},"pageContext":{"slug":"/post/2022-04-06-diary/","prevSlug":"/post/2022-04-07-diary/","nextSlug":"/post/2022-04-05-diary/"}},
     "staticQueryHashes": ["530032413"]}
