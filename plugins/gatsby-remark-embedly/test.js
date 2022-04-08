@@ -1,6 +1,6 @@
 import {remark} from 'remark';
 
-import embedly from '.';
+import embedly from './main';
 
 test('add embedly-card class to link which is only child of paragraph', () => {
   const context = {markdownAST: remark.parse('<http://example.com/>')};
