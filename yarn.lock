@@ -9707,10 +9707,10 @@ gatsby-worker@^1.11.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.11.2:
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.11.2.tgz#fba8843316992e2f0eafc5ae3ee6fb37ce7aa953"
-  integrity sha512-kJ2gHQzO3efV1BaynGfxi0divFOorUqxKom/QdIEnaj9VMkNRnrpNxUNsT4ljq+d9BTlq/0AAIpGNQZKC1ZgFg==
+gatsby@4.11.3:
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.11.3.tgz#dec77d6ee5c11e28787b90cb9597b50b905d6e73"
+  integrity sha512-NmdWedBvIgeJqR1klE16QvuJjyshqQBU2FiZBWlt3foJ7syXoF6Ab7Eb5JafWsm89ejZyePiI79aHSDraIuZQA==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -9807,7 +9807,7 @@ gatsby@4.11.2:
     joi "^17.4.2"
     json-loader "^0.5.7"
     latest-version "5.1.0"
-    lmdb "^2.2.3"
+    lmdb "~2.2.3"
     lodash "^4.17.21"
     md5-file "^5.0.0"
     meant "^1.0.3"
@@ -12525,7 +12525,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lmdb@2.2.4, lmdb@^2.2.3:
+lmdb@2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.4.tgz#6494d5a1d1db152e0be759edcfa06893e4cbdb53"
   integrity sha512-gto+BB2uEob8qRiTlOq+R3uX0YNHsX9mjxj9Sbdue/LIKqu6IlZjrsjKeGyOMquc/474GEqFyX2pdytpydp0rQ==
@@ -12562,6 +12562,17 @@ lmdb@^2.2.4:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.5.tgz#37f08b5963a1b81da67f378c7084f59b84c3d443"
   integrity sha512-yx+jtqSgp9uzp+2b3U3VTvS/g5hw4jXqvTAX+QU4Izdueq5O6MUTLwp/94R4F7SYq96zOfaGN/IUgiz6AWo+yg==
+  dependencies:
+    msgpackr "^1.5.4"
+    nan "^2.14.2"
+    node-gyp-build "^4.2.3"
+    ordered-binary "^1.2.4"
+    weak-lru-cache "^1.2.2"
+
+lmdb@~2.2.3:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/lmdb/-/lmdb-2.2.6.tgz#a52ef533812b8abcbe0033fc9d74d215e7dfc0a0"
+  integrity sha512-UmQV0oZZcV3EN6rjcAjIiuWcc3MYZGWQ0GUYz46Ron5fuTa/dUow7WSQa6leFkvZIKVUdECBWVw96tckfEzUFQ==
   dependencies:
     msgpackr "^1.5.4"
     nan "^2.14.2"
