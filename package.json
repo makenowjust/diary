@@ -61,7 +61,7 @@
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.4.0",
-    "eslint-plugin-storybook": "0.5.8",
+    "eslint-plugin-storybook": "0.5.9",
     "eslint-plugin-unicorn": "42.0.0",
     "gatsby": "4.12.1",
     "gatsby-plugin-algolia-search": "0.5.7",
