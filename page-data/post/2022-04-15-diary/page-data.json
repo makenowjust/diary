@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-04-15-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>誕生日</h2>\n<p>25になりました。<br>\nよろしくお願いします。</p>\n<h2>手術後</h2>\n<p>あまり眠れない夜だった。<br>\n一時間に一度くらい目が覚めてしまうので、VCTの状況を確認していたりしていた。<br>\nZETAは残念だけど、少なくとも戦えてはいたので、次に備えてほしい。</p>\n<p>朝になってからは痛み止めの薬を貰ったのでだいぶ楽になった。<br>\nどうにかやっていけそう。</p>\n<p>まだ肘が固定されているので大したことはしていないけど、リハビリもやっていく。<br>\n治さなければ。</p>","fields":{"date":"2022-04-15"},"frontmatter":{"title":"誕生日、手術後"},"excerpt":"やったこと 誕生日 25になりました。 よろしくお願いします。 手術後 あまり眠れない夜だった。 一時間に一度くらい目が覚めてしまうので、VCTの状況を確認していたりしていた。 ZETAは残念だけど、少なくとも戦えてはいたので、次に備えてほしい。 朝になってからは痛み止めの薬を…"},"prev":{"fields":{"date":"2022-04-16","slug":"/post/2022-04-16-diary/"},"frontmatter":{"title":"退院した"}},"next":{"fields":{"date":"2022-04-14","slug":"/post/2022-04-14-diary/"},"frontmatter":{"title":"手術だった"}}},"pageContext":{"slug":"/post/2022-04-15-diary/","prevSlug":"/post/2022-04-16-diary/","nextSlug":"/post/2022-04-14-diary/"}},
+    "staticQueryHashes": ["530032413"]}

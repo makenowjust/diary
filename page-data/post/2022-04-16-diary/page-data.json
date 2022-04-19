@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-04-16-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>退院</h2>\n<p>腕の状態も落ち着いてきたということで退院した。<br>\n退院まで結構はやくて驚くところ。<br>\nとはいえ肘が固定されているのでどうにも苦しい。</p>\n<p>あと ZETA おめでとう!<br>\n一体どこまでやれるんだ‥‥。</p>","fields":{"date":"2022-04-16"},"frontmatter":{"title":"退院した"},"excerpt":"やったこと 退院 腕の状態も落ち着いてきたということで退院した。 退院まで結構はやくて驚くところ。 とはいえ肘が固定されているのでどうにも苦しい。 あと ZETA おめでとう! 一体どこまでやれるんだ‥‥。"},"prev":{"fields":{"date":"2022-04-17","slug":"/post/2022-04-17-diary/"},"frontmatter":{"title":"講義がはじまる"}},"next":{"fields":{"date":"2022-04-15","slug":"/post/2022-04-15-diary/"},"frontmatter":{"title":"誕生日、手術後"}}},"pageContext":{"slug":"/post/2022-04-16-diary/","prevSlug":"/post/2022-04-17-diary/","nextSlug":"/post/2022-04-15-diary/"}},
+    "staticQueryHashes": ["530032413"]}
