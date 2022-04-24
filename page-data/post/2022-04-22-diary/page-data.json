@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-04-22-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>遊戯王</h2>\n<p>ついかっとなってヌメロンを組んだ。<br>\nサイバードラゴンで必死に抵抗してたらヌメロンダイレクト三回やられたのが悔しかったので。<br>\nでもヌメロンそんなに勝てない気がする。<br>\nプラチナ帯しんどい。</p>\n<h2>肘</h2>\n<p>肘の固定を外した。<br>\nこれで色々動きやすくなるはず。<br>\nはたらかねば。</p>","fields":{"date":"2022-04-22"},"frontmatter":{"title":"肘の固定を外した"},"excerpt":"やったこと 遊戯王 ついかっとなってヌメロンを組んだ。 サイバードラゴンで必死に抵抗してたらヌメロンダイレクト三回やられたのが悔しかったので。 でもヌメロンそんなに勝てない気がする。 プラチナ帯しんどい。 肘 肘の固定を外した。 これで色々動きやすくなるはず。 はたらかねば。"},"prev":{"fields":{"date":"2022-04-23","slug":"/post/2022-04-23-diary/"},"frontmatter":{"title":"シャニ4th DAY 1 だった"}},"next":{"fields":{"date":"2022-04-21","slug":"/post/2022-04-21-diary/"},"frontmatter":{"title":"今日も講義"}}},"pageContext":{"slug":"/post/2022-04-22-diary/","prevSlug":"/post/2022-04-23-diary/","nextSlug":"/post/2022-04-21-diary/"}},
+    "staticQueryHashes": ["530032413"]}
