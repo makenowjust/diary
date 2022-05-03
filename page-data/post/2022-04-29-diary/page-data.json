@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-js",
+    "path": "/post/2022-04-29-diary/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"℘ make now just"}},"markdownRemark":{"html":"<h1>やったこと</h1>\n<h2>昨日の反動</h2>\n<p>完全に疲れていた。<br>\n疲れすぎだろう。<br>\n休まなければ‥‥。</p>\n<h2>GW</h2>\n<p>世間的にはゴールデンウィーク1日目。<br>\nもうそんな季節なのか‥‥。</p>","fields":{"date":"2022-04-29"},"frontmatter":{"title":"昨日の反動"},"excerpt":"やったこと 昨日の反動 完全に疲れていた。 疲れすぎだろう。 休まなければ‥‥。 GW 世間的にはゴールデンウィーク1日目。 もうそんな季節なのか‥‥。"},"prev":{"fields":{"date":"2022-04-30","slug":"/post/2022-04-30-diary/"},"frontmatter":{"title":"ミリシタのニコ超の配信があった"}},"next":{"fields":{"date":"2022-04-28","slug":"/post/2022-04-28-diary/"},"frontmatter":{"title":"研究室に行った"}}},"pageContext":{"slug":"/post/2022-04-29-diary/","prevSlug":"/post/2022-04-30-diary/","nextSlug":"/post/2022-04-28-diary/"}},
+    "staticQueryHashes": ["530032413"]}
