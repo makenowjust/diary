@@ -4,7 +4,7 @@ module.exports = {
   },
   moduleNameMapper: {
     '.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
-    '^gatsby-page-utils/(.*)$': `gatsby-page-utils/dist/$1`,
+    '^gatsby-page-utils/(.*)$': `gatsby-page-utils/$1`,
   },
   testPathIgnorePatterns: ['node_modules', '.cache'],
   transformIgnorePatterns: [
@@ -13,6 +13,8 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: '',
   },
-  testURL: 'http://localhost',
+  testEnvironmentOptions: {
+    url: 'http://localhost',
+  },
   setupFiles: ['<rootDir>/.jest/loader-shim.js', '<rootDir>/.jest/register-context.js'],
 };
