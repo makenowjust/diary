@@ -96,7 +96,7 @@
     "stylelint-config-recommended-scss": "6.0.0",
     "stylelint-config-xo": "0.21.0",
     "stylelint-scss": "4.2.0",
-    "typescript": "4.7.2",
+    "typescript": "4.7.3",
     "unist-util-is": "5.1.1",
     "unist-util-visit": "4.1.0",
     "webpack": "5.73.0"
