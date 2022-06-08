@@ -92,7 +92,7 @@
     "stylelint": "14.9.0",
     "stylelint-config-css-modules": "4.1.0",
     "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-recommended": "7.0.0",
+    "stylelint-config-recommended": "8.0.0",
     "stylelint-config-recommended-scss": "6.0.0",
     "stylelint-config-xo": "0.21.0",
     "stylelint-scss": "4.2.0",
