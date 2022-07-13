@@ -78,7 +78,7 @@
     "identity-obj-proxy": "3.0.0",
     "jest": "28.1.3",
     "jest-environment-jsdom": "28.1.3",
-    "lowlight": "2.6.1",
+    "lowlight": "2.7.0",
     "prettier": "2.7.1",
     "prettier-package-json": "2.6.4",
     "react-test-renderer": "18.2.0",
