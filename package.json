@@ -51,7 +51,7 @@
     "babel-preset-gatsby": "2.17.0",
     "css-loader": "6.7.1",
     "esbuild": "0.14.51",
-    "eslint": "8.20.0",
+    "eslint": "8.21.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo-react": "0.27.0",
     "eslint-config-xo-space": "0.33.0",
