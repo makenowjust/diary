@@ -56,7 +56,7 @@
     "eslint-config-xo-react": "0.27.0",
     "eslint-config-xo-space": "0.33.0",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-jest": "26.9.0",
+    "eslint-plugin-jest": "27.0.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-promise": "6.0.1",
     "eslint-plugin-react": "7.31.1",
