@@ -38,5 +38,7 @@ module.exports = {
     'unicorn/no-null': 'off',
     // Because GatsbyJS is legacy for now.
     'unicorn/prefer-module': 'off',
+    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prefer-top-level-await': 'off',
   },
 };
