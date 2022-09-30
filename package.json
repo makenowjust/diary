@@ -19,8 +19,8 @@
     "react-test-renderer": "18.2.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "6.1.2",
-    "@fortawesome/free-solid-svg-icons": "6.1.2",
+    "@fortawesome/fontawesome-svg-core": "6.2.0",
+    "@fortawesome/free-solid-svg-icons": "6.2.0",
     "@fortawesome/react-fontawesome": "0.2.0",
     "katex": "0.16.2",
     "modern-normalize": "1.1.0",
