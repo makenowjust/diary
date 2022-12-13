@@ -50,7 +50,7 @@
     "babel-plugin-require-context-hook": "1.0.0",
     "babel-preset-gatsby": "2.25.0",
     "css-loader": "6.7.2",
-    "esbuild": "0.16.4",
+    "esbuild": "0.16.5",
     "eslint": "8.29.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo-react": "0.27.0",
