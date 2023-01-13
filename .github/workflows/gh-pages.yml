@@ -17,7 +17,7 @@ jobs:
       - run: yarn install
       - run: |
           set -eux
-          yarn build
+          NODE_OPTIONS='--openssl-legacy-provider' yarn build
           touch public/.nojekyll
         env:
           ALGOLIA_APP_ID: N8H0FCYD7M
