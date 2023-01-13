@@ -8,7 +8,7 @@ module.exports = {
   },
   testPathIgnorePatterns: ['node_modules', '.cache'],
   transformIgnorePatterns: [
-    'src/utils/markdown-to-text.js$|node_modules/(?!.*(?:bail|character-entities|is-plain-obj|gatsby|gatsby-script|longest-streak|mdast.*|micromark.*?|parse-entities|react-syntax-highlighter|trough|remark.*|unified.*|unist.*|vfile.*|zwitch)/)',
+    'src/utils/markdown-to-text.js$|node_modules/(?!.*(?:bail|character-entities|decode-named-character-reference|is-plain-obj|gatsby|gatsby-script|longest-streak|mdast.*|micromark.*?|parse-entities|react-syntax-highlighter|trough|remark.*|unified.*|unist.*|vfile.*|zwitch)/)',
   ],
   globals: {
     __PATH_PREFIX__: '',
