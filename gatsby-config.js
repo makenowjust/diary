@@ -6,7 +6,7 @@ const queries = [
   {
     query: `
       query {
-        allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
+        allMarkdownRemark(sort: {fields: {slug: DESC}}) {
           edges {
             node {
               objectID: id
@@ -74,7 +74,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-embedly',
-    'gatsby-plugin-react-helmet',
     ...(onGitHubActions
       ? [
           {
@@ -106,6 +105,5 @@ module.exports = {
     'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-cname',
-    'gatsby-plugin-pnpm',
   ],
 };

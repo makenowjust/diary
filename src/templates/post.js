@@ -1,22 +1,18 @@
 import {Link, graphql} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Helmet} from 'react-helmet';
 
 import Layout from '../containers/layout';
+import LayoutHead from '../containers/layout-head';
 
 import * as styles from './post.module.scss';
 
 function PostTemplate({data}) {
-  const {title: siteTitle} = data.site.siteMetadata;
   const {
     html,
     fields: {date},
     frontmatter: {title: postTitle},
-    excerpt,
   } = data.markdownRemark;
-
-  const title = `${date}: ${postTitle} | ${siteTitle}`;
 
   const {fields: {date: prevDate, slug: prevSlug} = {}, frontmatter: {title: prevTitle} = {}} =
     data.prev || {};
@@ -25,10 +21,6 @@ function PostTemplate({data}) {
 
   return (
     <Layout>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={excerpt} />
-      </Helmet>
       <article>
         <h1 className={styles.title}>
           {date}: {postTitle}
@@ -64,7 +56,24 @@ PostTemplate.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default PostTemplate;
+export function Head({data}) {
+  const {title: siteTitle} = data.site.siteMetadata;
+  const {
+    fields: {date},
+    frontmatter: {title: postTitle},
+    excerpt,
+  } = data.markdownRemark;
+
+  const title = `${date}: ${postTitle} | ${siteTitle}`;
+
+  return (
+    <>
+      <LayoutHead />
+      <title>{title}</title>
+      <meta name="description" content={excerpt} />
+    </>
+  );
+}
 
 export const query = graphql`
   query ($slug: String!, $prevSlug: String, $nextSlug: String) {
@@ -106,3 +115,5 @@ export const query = graphql`
     }
   }
 `;
+
+export default PostTemplate;
