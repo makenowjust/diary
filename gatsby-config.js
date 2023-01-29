@@ -106,6 +106,5 @@ module.exports = {
     'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-cname',
-    'gatsby-plugin-pnpm',
   ],
 };

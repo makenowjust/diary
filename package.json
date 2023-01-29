@@ -67,7 +67,6 @@
     "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-cname": "1.0.0",
     "gatsby-plugin-manifest": "5.5.0",
-    "gatsby-plugin-pnpm": "1.2.10",
     "gatsby-plugin-react-helmet": "6.5.0",
     "gatsby-plugin-remove-serviceworker": "1.0.0",
     "gatsby-plugin-sass": "6.5.0",
