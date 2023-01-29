@@ -40,6 +40,8 @@ module.exports = {
     'unicorn/prefer-module': 'off',
     'unicorn/prefer-node-protocol': 'off',
     'unicorn/prefer-top-level-await': 'off',
+    // 'data' and 'pageContext' is props defined by GatsbyJS,
+    // and it is hard to add `propTypes` to some components required by GatsbyJS (e.g. `Head`).
     'react/prop-types': ['error', {ignore: ['data', 'pageContext']}],
   },
 };
