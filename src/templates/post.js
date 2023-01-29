@@ -56,7 +56,7 @@ PostTemplate.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export const Head = ({data}) => {
+export function Head({data}) {
   const {title: siteTitle} = data.site.siteMetadata;
   const {
     fields: {date},
@@ -73,7 +73,7 @@ export const Head = ({data}) => {
       <meta name="description" content={excerpt} />
     </>
   );
-};
+}
 
 export const query = graphql`
   query ($slug: String!, $prevSlug: String, $nextSlug: String) {

@@ -48,8 +48,7 @@ ListTemplate.propTypes = {
   }).isRequired,
 };
 
-
-export const Head = ({data, pageContext}) => {
+export function Head({data, pageContext}) {
   const {currentListPage: current, listPages} = pageContext;
   const prev = current === 1 ? null : current === 2 ? `/` : `/list/${current - 1}/`;
   const next = current === listPages ? null : `/list/${current + 1}/`;
@@ -66,7 +65,7 @@ export const Head = ({data, pageContext}) => {
       {next && <link rel="next" href={next} />}
     </>
   );
-};
+}
 
 export const query = graphql`
   query ($limit: Int!, $skip: Int!) {

@@ -1,7 +1,6 @@
 import algoliasearch from 'algoliasearch/lite';
 import {graphql} from 'gatsby';
 import React from 'react';
-import PropTypes from 'prop-types';
 import {InstantSearch, SearchBox, InfiniteHits, PoweredBy} from 'react-instantsearch-dom';
 
 import HitPost from '../components/hit-post';
@@ -28,14 +27,14 @@ function SearchPage() {
   );
 }
 
-export const Head = ({data}) => {
+export function Head({data}) {
   return (
     <>
       <LayoutHead />
       <title>Search | {data.site.siteMetadata.title}</title>
     </>
   );
-};
+}
 
 export const query = graphql`
   query {

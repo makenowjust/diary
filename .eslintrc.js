@@ -40,5 +40,6 @@ module.exports = {
     'unicorn/prefer-module': 'off',
     'unicorn/prefer-node-protocol': 'off',
     'unicorn/prefer-top-level-await': 'off',
+    'react/prop-types': ['error', {ignore: ['data', 'pageContext']}],
   },
 };

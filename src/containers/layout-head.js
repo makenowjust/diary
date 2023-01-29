@@ -13,13 +13,9 @@ function LayoutHead() {
           }
         }
       `}
-      render={data => (
-        <>
-          <html lang={data.site.siteMetadata.language} />
-        </>
-      )}
+      render={data => <html lang={data.site.siteMetadata.language} />}
     />
   );
-};
+}
 
 export default LayoutHead;
