@@ -68,7 +68,7 @@ export const query = graphql`
       }
     }
 
-    allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}, limit: $limit, skip: $skip) {
+    allMarkdownRemark(sort: {fields: {slug: DESC}}, limit: $limit, skip: $skip) {
       edges {
         node {
           id

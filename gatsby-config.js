@@ -6,7 +6,7 @@ const queries = [
   {
     query: `
       query {
-        allMarkdownRemark(sort: {fields: [fields___slug], order: DESC}) {
+        allMarkdownRemark(sort: {fields: {slug: DESC}}) {
           edges {
             node {
               objectID: id
