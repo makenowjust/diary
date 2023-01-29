@@ -1,7 +1,6 @@
 import {StaticQuery, graphql} from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Helmet} from 'react-helmet';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -23,7 +22,6 @@ function Layout({children}) {
             siteMetadata {
               title
               quote
-              language
               copyright {
                 author
                 github
@@ -47,9 +45,6 @@ function Layout({children}) {
       `}
       render={data => (
         <>
-          <Helmet>
-            <html lang={data.site.siteMetadata.language} />
-          </Helmet>
           <Header
             title={data.site.siteMetadata.title}
             quote={data.site.siteMetadata.quote}

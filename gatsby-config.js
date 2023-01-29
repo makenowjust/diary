@@ -74,7 +74,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-embedly',
-    'gatsby-plugin-react-helmet',
     ...(onGitHubActions
       ? [
           {
