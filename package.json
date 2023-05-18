@@ -84,7 +84,7 @@
     "remark-breaks": "3.0.3",
     "sass": "1.62.1",
     "sass-loader": "13.2.2",
-    "strip-markdown": "5.0.0",
+    "strip-markdown": "5.0.1",
     "style-loader": "3.3.2",
     "stylelint": "15.6.2",
     "stylelint-config-css-modules": "4.2.0",
