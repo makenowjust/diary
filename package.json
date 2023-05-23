@@ -90,7 +90,7 @@
     "stylelint-config-css-modules": "4.2.0",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-recommended": "12.0.0",
-    "stylelint-config-recommended-scss": "11.0.0",
+    "stylelint-config-recommended-scss": "12.0.0",
     "stylelint-config-xo": "0.21.1",
     "stylelint-scss": "5.0.0",
     "typescript": "5.0.4",
