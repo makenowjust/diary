@@ -42,7 +42,7 @@
     "@storybook/manager-webpack5": "6.5.16",
     "@storybook/react": "7.0.24",
     "algoliasearch": "4.18.0",
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "7.11.0",
     "babel-jest": "29.5.0",
     "babel-loader": "9.1.2",
     "babel-plugin-react-docgen": "4.2.1",
