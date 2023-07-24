@@ -12,12 +12,12 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '19.4.0'
-          cache: yarn
-      - run: yarn install
+          node-version: '20.5.0'
+          cache: npm
+      - run: npm install
       - run: |
           set -eux
-          yarn build
+          npm run build
           touch public/.nojekyll
         env:
           ALGOLIA_APP_ID: N8H0FCYD7M
