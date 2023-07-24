@@ -84,6 +84,8 @@
     "remark-breaks": "3.0.3",
     "sass": "1.64.1",
     "sass-loader": "13.3.2",
+    "string-width": "4.2.0",
+    "strip-ansi": "^6.0.1",
     "strip-markdown": "5.0.1",
     "style-loader": "3.3.3",
     "stylelint": "15.10.2",
