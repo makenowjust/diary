@@ -80,7 +80,7 @@
     "prettier-package-json": "2.8.0",
     "react-test-renderer": "18.2.0",
     "regenerator-runtime": "0.14.0",
-    "remark": "14.0.3",
+    "remark": "15.0.1",
     "remark-breaks": "4.0.0",
     "sass": "1.69.3",
     "sass-loader": "13.3.2",
