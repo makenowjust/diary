@@ -21,7 +21,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "6.5.2",
     "@fortawesome/free-solid-svg-icons": "6.5.2",
-    "@fortawesome/react-fontawesome": "0.2.0",
+    "@fortawesome/react-fontawesome": "0.2.1",
     "katex": "0.16.10",
     "modern-normalize": "2.0.0",
     "prop-types": "15.8.1",
