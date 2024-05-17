@@ -62,7 +62,7 @@
     "eslint-plugin-react-hooks": "4.6.2",
     "eslint-plugin-storybook": "0.6.15",
     "eslint-plugin-unicorn": "51.0.1",
-    "gatsby": "5.13.4",
+    "gatsby": "5.13.5",
     "gatsby-plugin-algolia-search": "0.5.7",
     "gatsby-plugin-cname": "1.0.0",
     "gatsby-plugin-manifest": "5.13.1",
