@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import * as styles from './paginator.module.scss';
 
-function Paginator({prev, next}) {
+function Paginator({prev = null, next = null}) {
   return (
     <div className={styles.paginator}>
       {prev && (
@@ -27,11 +27,6 @@ Paginator.propTypes = {
   prev: PropTypes.string,
   /** Next URL. */
   next: PropTypes.string,
-};
-
-Paginator.defaultProps = {
-  prev: null,
-  next: null,
 };
 
 export default Paginator;
