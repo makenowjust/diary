@@ -3,7 +3,7 @@ import {visit} from 'unist-util-visit';
 
 export default ({markdownAST}) => {
   visit(markdownAST, 'code', node => {
-    node.data = node.data || {};
+    node.data ||= {};
     const {lang, value, data} = node;
 
     if (!lang) {
@@ -16,7 +16,7 @@ export default ({markdownAST}) => {
       return;
     }
 
-    data.hProperties = data.hProperties || {};
+    data.hProperties ||= {};
     data.hProperties.className = [
       'hljs',
       ...(data.hProperties.className || []),
