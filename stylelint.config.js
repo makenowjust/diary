@@ -1,17 +1,8 @@
-const propertiesOrder = require('stylelint-config-xo/properties-order');
-
 module.exports = {
-  plugins: ['stylelint-order', 'stylelint-scss'],
-  extends: [
-    'stylelint-config-css-modules',
-    'stylelint-config-recommended-scss',
-    'stylelint-config-prettier',
-  ],
+  plugins: ['@stylistic/stylelint-plugin', 'stylelint-scss'],
+  extends: ['stylelint-config-css-modules', 'stylelint-config-recommended-scss'],
   rules: {
     'function-no-unknown': null,
-    // 'order/properties-order' is disabled in 'stylelint-config-xo' for now.
-    // See https://github.com/sindresorhus/stylelint-config-xo/pull/2#issuecomment-363438756.
-    'order/properties-order': propertiesOrder,
     // Use `scss/at-rule-no-unknown` instead of `at-rule-no-unknown` for SCSS.
     // See https://github.com/kristerkari/stylelint-scss/blob/HEAD/src/rules/at-rule-no-unknown/README.md.
     'at-rule-no-unknown': null,
