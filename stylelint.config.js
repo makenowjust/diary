@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@stylistic/stylelint-plugin', 'stylelint-scss'],
+  plugins: ['stylelint-scss'],
   extends: ['stylelint-config-css-modules', 'stylelint-config-recommended-scss'],
   rules: {
     'function-no-unknown': null,

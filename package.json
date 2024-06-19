@@ -42,7 +42,6 @@
     "@storybook/builder-webpack5": "7.4.6",
     "@storybook/manager-webpack5": "6.5.16",
     "@storybook/react": "7.4.6",
-    "@stylistic/stylelint-plugin": "^2.1.2",
     "algoliasearch": "4.23.3",
     "babel-jest": "29.7.0",
     "babel-loader": "9.1.3",
