@@ -1,4 +1,4 @@
-import algoliasearch from 'algoliasearch/lite';
+import {liteClient} from 'algoliasearch/lite';
 import {graphql} from 'gatsby';
 import React from 'react';
 import {InstantSearch, SearchBox, InfiniteHits, PoweredBy} from 'react-instantsearch-dom';
@@ -11,7 +11,7 @@ import * as styles from './search.module.scss';
 
 import '../styles/algolia.scss';
 
-const searchClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_SEARCH_API_KEY);
+const searchClient = liteClient(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_SEARCH_API_KEY);
 
 function SearchPage() {
   return (
