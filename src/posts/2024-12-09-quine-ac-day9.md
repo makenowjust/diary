@@ -1,5 +1,5 @@
 ---
-title: 'DAY 8 - Jolie (Quine AC 2024)'
+title: 'DAY 9 - Jolie (Quine AC 2024)'
 ---
 
 # DAY 9
