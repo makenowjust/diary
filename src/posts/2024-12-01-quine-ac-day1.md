@@ -10,7 +10,7 @@ title: 'DAY 1 - Shiika (Quine AC 2024)'
 
 というわけで[Shiika](https://github.com/shiika-lang/shiika)というプログラミング言語をご存じでしょうか？
 
-Rubyコミッタのyharaさんが開発しているプログラミング言語で、型の付いたRubyといった雰囲気の言語です。
+BiwaSchemeの作者のyharaさんが開発しているプログラミング言語で、型の付いたRubyといった雰囲気の言語です。
 全体的にCrystalに似ているような気がしますが、細かいところは色々違うようです。
 
 Rustで書かれているようなので `doc/guide/src/install.md` に従って `cargo build` などをしたら動きました。
