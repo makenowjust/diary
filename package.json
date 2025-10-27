@@ -22,7 +22,7 @@
     "@fortawesome/fontawesome-svg-core": "6.7.2",
     "@fortawesome/free-solid-svg-icons": "6.7.2",
     "@fortawesome/react-fontawesome": "0.2.6",
-    "katex": "0.16.22",
+    "katex": "0.16.25",
     "modern-normalize": "3.0.1",
     "prop-types": "15.8.1",
     "react": "18.3.1",
